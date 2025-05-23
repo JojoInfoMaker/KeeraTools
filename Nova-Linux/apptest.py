@@ -8,13 +8,6 @@ from tkinter import messagebox
 from PIL import Image, ImageTk
 
 try:
-    with open(CONFIG_FILE, encoding="utf-8") as f:
-        data = json.load(f)
-except Exception as e:
-    messagebox.showerror("Erreur", f"Erreur de chargement : {e}")
-    self.destroy()
-
-try:
     import customtkinter as ctk
 except ImportError:
     print("Veuillez installer customtkinter : pip install customtkinter")
@@ -26,7 +19,7 @@ ctk.set_default_color_theme("blue")
 
 # Chemin absolu
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-DATA_DIR = os.path.join(BASE_DIR, "data")
+DATA_DIR = '/home/Nixiews/Documents/GitHub/Nova-Installer/Nova-Linux/data/'
 CONFIG_FILE = os.path.join(DATA_DIR, "apps.json")
 BACKGROUND_IMAGE = os.path.join(DATA_DIR, "background.jpg")
 LOGO_IMAGE = os.path.join(DATA_DIR, "logo.png")
@@ -110,3 +103,9 @@ class App(ctk.CTk):
         resized = self.bg_image.resize((width, height), Image.Resampling.LANCZOS)
         self.tk_bg_image = ImageTk.PhotoImage(resized)
         self.bg_label.configure(image=self.tk_bg_image)
+
+try:
+    with open(CONFIG_FILE, encoding="utf-8") as f:
+        data = json.load(f)
+except Exception as e:
+    messagebox.showerror("Erreur", f"Erreur de chargement : {e}")
