@@ -6,13 +6,22 @@ import ctypes
 import tkinter as tk
 from tkinter import messagebox
 from PIL import Image, ImageTk
+import customtkinter
 
-try:
-    with open(CONFIG_FILE, encoding="utf-8") as f:
-        data = json.load(f)
-except Exception as e:
-    messagebox.showerror("Erreur", f"Erreur de chargement : {e}")
-    self.destroy()
+customtkinter.set_appearance_mode("System")  # Modes: system (default), light, dark
+customtkinter.set_default_color_theme("blue")  # Themes: blue (default), dark-blue, green
+
+app = customtkinter.CTk()  # create CTk window like you do with the Tk window
+app.geometry("1920x1080")
+
+def button_function():
+    print("button pressed")
+
+# Use CTkButton instead of tkinter Button
+button = customtkinter.CTkButton(master=app, text="CTkButton", command=button_function)
+button.place(relx=0.5, rely=0.5, anchor=customtkinter.CENTER)
+
+app.mainloop()
 
 try:
     import customtkinter as ctk
@@ -26,7 +35,7 @@ ctk.set_default_color_theme("blue")
 
 # Chemin absolu
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-DATA_DIR = os.path.join(BASE_DIR, "data")
+DATA_DIR = "./data"
 CONFIG_FILE = os.path.join(DATA_DIR, "apps.json")
 BACKGROUND_IMAGE = os.path.join(DATA_DIR, "background.jpg")
 LOGO_IMAGE = os.path.join(DATA_DIR, "logo.png")
@@ -110,3 +119,9 @@ class App(ctk.CTk):
         resized = self.bg_image.resize((width, height), Image.Resampling.LANCZOS)
         self.tk_bg_image = ImageTk.PhotoImage(resized)
         self.bg_label.configure(image=self.tk_bg_image)
+
+try:
+    with open(CONFIG_FILE, encoding="utf-8") as f:
+        data = json.load(f)
+except Exception as e:
+    messagebox.showerror("Erreur", f"Erreur de chargement : {e}")
