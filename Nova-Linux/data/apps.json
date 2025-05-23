@@ -1,10 +1,14 @@
 {
-  "Navigateurs Web": {
-    "Firefox": "org.mozilla.firefox",
-    "Brave": "com.brave.Browser"
-  },
-  "Éditeurs de texte": {
+  "Development Tools": {
     "VS Code": "com.visualstudio.code",
-    "Gedit": "org.gnome.gedit"
+    "GIMP": "org.gimp.GIMP"
+  },
+  "Media": {
+    "VLC": "org.videolan.VLC",
+    "Spotify": "com.spotify.Client"
+  },
+  "Utilities": {
+    "HTop": "org.hishamhm.htop",
+    "BleachBit": "org.bleachbit.BleachBit"
   }
 }
