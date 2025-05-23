@@ -8,6 +8,13 @@ from tkinter import messagebox
 from PIL import Image, ImageTk
 
 try:
+    with open(CONFIG_FILE, encoding="utf-8") as f:
+        data = json.load(f)
+except Exception as e:
+    messagebox.showerror("Erreur", f"Erreur de chargement : {e}")
+    self.destroy()
+
+try:
     import customtkinter as ctk
 except ImportError:
     print("Veuillez installer customtkinter : pip install customtkinter")
@@ -46,7 +53,7 @@ def install_selected_apps():
         messagebox.showwarning("Aucune application", "Aucune application sélectionnée.")
         return
     for app in selected_apps:
-        subprocess.run(["flatpak", "install", "-y", app])
+        subprocess.run(["flatpak", "install", "-y", app_id], check=True)
 
 # Gère la sélection
 def toggle_app(app_id, display_label):
