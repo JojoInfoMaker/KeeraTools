@@ -2,38 +2,16 @@ import os
 import subprocess
 import json
 import sys
-import ctypes
 import tkinter as tk
 from tkinter import messagebox
 from PIL import Image, ImageTk
-import customtkinter
+import customtkinter as ctk
 
-customtkinter.set_appearance_mode("System")  # Modes: system (default), light, dark
-customtkinter.set_default_color_theme("blue")  # Themes: blue (default), dark-blue, green
-
-app = customtkinter.CTk()  # create CTk window like you do with the Tk window
-app.geometry("1920x1080")
-
-def button_function():
-    print("button pressed")
-
-# Use CTkButton instead of tkinter Button
-button = customtkinter.CTkButton(master=app, text="CTkButton", command=button_function)
-button.place(relx=0.5, rely=0.5, anchor=customtkinter.CENTER)
-
-app.mainloop()
-
-try:
-    import customtkinter as ctk
-except ImportError:
-    print("Veuillez installer customtkinter : pip install customtkinter")
-    sys.exit(1)
-
-# Configuration UI
+# Setup appearance
 ctk.set_appearance_mode("System")
 ctk.set_default_color_theme("blue")
 
-# Chemin absolu
+# Paths
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 DATA_DIR = "./data"
 CONFIG_FILE = os.path.join(DATA_DIR, "apps.json")
@@ -51,32 +29,22 @@ def is_flatpak_installed():
 
 def install_flatpak():
     messagebox.showinfo("Installation", "Flatpak n'est pas installé. Installation en cours...")
-    subprocess.run(["flatpak install"])
+    subprocess.run(["flatpak", "install"])
     messagebox.showinfo("Succès", "Flatpak installé. Vous pouvez maintenant installer des applications.")
 
-# Installe les applications sélectionnées
 def install_selected_apps():
     if not is_flatpak_installed():
         install_flatpak()
     if not selected_apps:
         messagebox.showwarning("Aucune application", "Aucune application sélectionnée.")
         return
-    for app in selected_apps:
+    for app_id in selected_apps:
         subprocess.run(["flatpak", "install", "-y", app_id], check=True)
 
-# Gère la sélection
-def toggle_app(app_id, display_label):
-    if app_id in selected_apps:
-        selected_apps.remove(app_id)
-    else:
-        selected_apps.append(app_id)
-    display_label.configure(text=", ".join(selected_apps))
-
-# UI principale
 class App(ctk.CTk):
     def __init__(self):
         super().__init__()
-        self.title("Installateur - Jojo InfoMaker")
+        self.title("Nova Installer")
         self.geometry("900x600")
         self.resizable(True, True)
 
@@ -91,26 +59,31 @@ class App(ctk.CTk):
         main_frame = ctk.CTkFrame(self, corner_radius=10)
         main_frame.pack(padx=20, pady=20, fill="both", expand=True)
 
-        # Affichage des catégories
-        with open(CONFIG_FILE, encoding="utf-8") as f:
-            data = json.load(f)
+        try:
+            with open(CONFIG_FILE, encoding="utf-8") as f:
+                data = json.load(f)
+        except Exception as e:
+            messagebox.showerror("Erreur", f"Erreur de chargement : {e}")
+            data = {}
 
         self.selected_label = ctk.CTkLabel(main_frame, text="Aucune application sélectionnée", wraplength=800)
         self.selected_label.pack(pady=10)
 
-        for category, apps in data.items():
-            ctk.CTkLabel(main_frame, text=category, font=ctk.CTkFont(size=18, weight="bold")).pack(pady=5)
-            for app in apps:
-                ctk.CTkCheckBox(
-                    main_frame,
-                    text=app,
-                    command=lambda a=apps[app]: toggle_app(a, self.selected_label)
-                ).pack(anchor="w", padx=20)
+        def on_category_click(category_name, apps_dict):
+            for app_id in apps_dict.values():
+                if app_id not in selected_apps:
+                    selected_apps.append(app_id)
+            self.selected_label.configure(text=f"{category_name} sélectionné: " + ", ".join(apps_dict.values()))
 
-        # Boutons
+        for category_name, apps_dict in data.items():
+            ctk.CTkButton(
+                master=main_frame,
+                text=category_name,
+                command=lambda c=category_name, a=apps_dict: on_category_click(c, a)
+            ).pack(pady=5, fill="x", padx=50)
+
         ctk.CTkButton(main_frame, text="Installer les applications", command=install_selected_apps).pack(pady=15)
 
-        # Fond dynamique
         self.bind("<Configure>", lambda event: self.update_background())
 
     def update_background(self):
@@ -120,8 +93,6 @@ class App(ctk.CTk):
         self.tk_bg_image = ImageTk.PhotoImage(resized)
         self.bg_label.configure(image=self.tk_bg_image)
 
-try:
-    with open(CONFIG_FILE, encoding="utf-8") as f:
-        data = json.load(f)
-except Exception as e:
-    messagebox.showerror("Erreur", f"Erreur de chargement : {e}")
+if __name__ == "__main__":
+    app = App()
+    app.mainloop()
