@@ -27,8 +27,8 @@ def is_flatpak_installed():
 
 def install_flatpak():
     messagebox.showinfo("Installation", "Flatpak n'est pas installé. Installation en cours...")
-    # You might want to add your actual installation command here (like apt, yum, pacman, etc.)
-    subprocess.run(["flatpak", "install"])
+    # You may need to elevate privileges for system install, but we do user install here:
+    subprocess.run(["flatpak", "install", "--user", "-y"], stdout=subprocess.PIPE, stderr=subprocess.PIPE)
     messagebox.showinfo("Succès", "Flatpak installé. Vous pouvez maintenant installer des applications.")
 
 def install_selected_apps():
@@ -41,7 +41,12 @@ def install_selected_apps():
 
     for app_id in selected_apps:
         try:
-            subprocess.run(["flatpak", "install", "-y", app_id], check=True)
+            subprocess.run(
+                ["flatpak", "install", "--user", "-y", app_id],
+                check=True,
+                stdout=subprocess.PIPE,
+                stderr=subprocess.PIPE,
+            )
         except subprocess.CalledProcessError as e:
             messagebox.showerror("Erreur", f"Erreur lors de l'installation de {app_id} : {e}")
         else:
@@ -68,11 +73,9 @@ class App(ctk.CTk):
         self.main_frame = ctk.CTkFrame(self, corner_radius=10)
         self.main_frame.pack(padx=20, pady=20, fill="both", expand=True)
 
-        # Selected apps label
         self.selected_label = ctk.CTkLabel(self.main_frame, text="Aucune application sélectionnée", wraplength=800)
         self.selected_label.pack(pady=10)
 
-        # Flatpak output frame (initially hidden)
         self.flatpak_frame = ctk.CTkFrame(self.main_frame, fg_color="transparent")
         self.flatpak_text = tk.Text(self.flatpak_frame, wrap="word", height=15)
         self.flatpak_scrollbar = tk.Scrollbar(self.flatpak_frame, command=self.flatpak_text.yview)
@@ -81,9 +84,8 @@ class App(ctk.CTk):
         self.flatpak_text.pack(side="left", fill="both", expand=True)
         self.flatpak_scrollbar.pack(side="right", fill="y")
 
-        self.flatpak_frame.pack_forget()  # hide initially
+        self.flatpak_frame.pack_forget()
 
-        # Buttons
         ctk.CTkButton(self.main_frame, text="Installer les applications", command=install_selected_apps).pack(pady=15)
         ctk.CTkButton(self.main_frame, text="🔄 Recharger les catégories", command=self.reload_categories).pack(pady=5)
         ctk.CTkButton(self.main_frame, text="📋 Voir les Flatpaks installés", command=self.toggle_flatpak_list).pack(pady=5)
@@ -91,16 +93,13 @@ class App(ctk.CTk):
         self.reload_categories()
 
     def reload_categories(self):
-        # Remove all widgets inside main_frame except selected_label and buttons at bottom
         for widget in self.main_frame.winfo_children():
             if widget == self.selected_label:
                 continue
-            # Keep buttons with these texts
             if isinstance(widget, ctk.CTkButton) and widget.cget("text") in [
                 "Installer les applications", "🔄 Recharger les catégories", "📋 Voir les Flatpaks installés"
             ]:
                 continue
-            # Also keep flatpak_frame but it will be managed separately
             if widget == self.flatpak_frame:
                 continue
             widget.destroy()
@@ -148,7 +147,12 @@ class App(ctk.CTk):
 
     def show_flatpak_list(self):
         try:
-            result = subprocess.run(["flatpak", "list"], capture_output=True, text=True, check=True)
+            result = subprocess.run(
+                ["flatpak", "list", "--user"],
+                capture_output=True,
+                text=True,
+                check=True
+            )
             output = result.stdout if result.stdout else "Aucune sortie disponible."
         except subprocess.CalledProcessError as e:
             output = f"Erreur lors de l'exécution de flatpak list :\n{e}"
@@ -159,7 +163,6 @@ class App(ctk.CTk):
         self.flatpak_text.delete("1.0", tk.END)
         self.flatpak_text.insert("1.0", output)
         self.flatpak_text.configure(state="disabled")
-
 
 if __name__ == "__main__":
     app = App()
