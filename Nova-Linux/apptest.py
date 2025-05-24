@@ -5,6 +5,17 @@ import tkinter as tk
 from tkinter import messagebox
 from PIL import Image, ImageTk
 import customtkinter as ctk
+from PIL import ImageTk, Image
+
+# Inside App.__init__ after super().__init__()
+try:
+    icon_path = "/data/logo.png" # path to your logo.png
+    icon_img = Image.open(icon_path)
+    icon_photo = ImageTk.PhotoImage(icon_img)
+    self.iconphoto(False, icon_photo)
+except Exception as e:
+    print(f"Warning: Could not load icon: {e}")
+
 
 # Appearance settings
 ctk.set_appearance_mode("System")
