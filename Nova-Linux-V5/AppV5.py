@@ -14,8 +14,7 @@ ctk.set_default_color_theme("blue")
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 DATA_DIR = os.path.join(BASE_DIR, "data")
 CONFIG_FILE = os.path.join(DATA_DIR, "apps.json")
-BACKGROUND_IMAGE = os.path.join(DATA_DIR, "background.jpg")
-LOGO_IMAGE = os.path.join(DATA_DIR, "logo.png")
+LOGO_IMAGE = os.path.join(DATA_DIR, "logo.ico")
 
 selected_apps = []
 
@@ -62,7 +61,6 @@ class App(ctk.CTk):
         except Exception as e:
             print(f"Warning: Could not load icon: {e}")
 
-        self.bg_image = Image.open(BACKGROUND_IMAGE)
         self.bg_label = tk.Label(self)
         self.bg_label.place(relwidth=1, relheight=1)
         self.update_background()
@@ -75,8 +73,6 @@ class App(ctk.CTk):
 
         self.selected_label = ctk.CTkLabel(self.main_frame, text="Aucune application sélectionnée", wraplength=800)
         self.selected_label.pack(pady=10)
-
-        self.flatpak_output_box = None  # No embedded box now
 
         self.reload_categories()
 
