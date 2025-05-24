@@ -56,8 +56,7 @@ class App(ctk.CTk):
 
         # Set window icon safely
         try:
-            icon_path = os.path.join(DATA_DIR, "logo.png")
-            icon_img = Image.open(icon_path)
+            icon_img = Image.open(LOGO_IMAGE)
             icon_photo = ImageTk.PhotoImage(icon_img)
             self.iconphoto(False, icon_photo)
         except Exception as e:
@@ -74,17 +73,13 @@ class App(ctk.CTk):
         self.main_frame = ctk.CTkFrame(self, corner_radius=10)
         self.main_frame.pack(padx=20, pady=20, fill="both", expand=True)
 
-        # Create selected_label and flatpak_output_box BEFORE reload_categories
         self.selected_label = ctk.CTkLabel(self.main_frame, text="Aucune application sélectionnée", wraplength=800)
         self.selected_label.pack(pady=10)
 
-        self.flatpak_output_box = ctk.CTkTextbox(self.main_frame, height=200)
-        self.flatpak_output_box.pack(pady=10, fill="both", expand=False)
-        self.flatpak_output_box.configure(state="disabled")
+        self.flatpak_output_box = None  # No embedded box now
 
         self.reload_categories()
 
-        # Buttons after everything is initialized
         ctk.CTkButton(self.main_frame, text="Installer les applications", command=install_selected_apps).pack(pady=15)
         ctk.CTkButton(self.main_frame, text="🔄 Recharger les catégories", command=self.reload_categories).pack(pady=5)
         ctk.CTkButton(self.main_frame, text="📋 Voir les Flatpaks installés", command=self.show_flatpak_list).pack(pady=5)
@@ -92,13 +87,11 @@ class App(ctk.CTk):
         self.bind("<Configure>", lambda event: self.update_background())
 
     def reload_categories(self):
-        # Clear old category buttons except selected_label and flatpak_output_box
-        exclude_widgets = [self.selected_label, self.flatpak_output_box]
+        # Clear old category buttons except the selected_label
         for widget in self.main_frame.winfo_children():
-            if widget not in exclude_widgets:
+            if widget != self.selected_label and not isinstance(widget, ctk.CTkButton):
                 widget.destroy()
 
-        # Update the selected_label text
         self.selected_label.configure(text="Aucune application sélectionnée")
 
         try:
@@ -111,6 +104,7 @@ class App(ctk.CTk):
         def on_category_click(category_name, apps_dict):
             top = tk.Toplevel(self)
             top.title(f"Sélectionner des applications - {category_name}")
+            top.geometry("400x400")
 
             def add_app(app_name, app_id):
                 if app_id not in selected_apps:
@@ -148,11 +142,20 @@ class App(ctk.CTk):
         except FileNotFoundError:
             output = "Flatpak n'est pas installé sur ce système."
 
-        self.flatpak_output_box.configure(state="normal")
-        self.flatpak_output_box.delete("1.0", "end")
-        self.flatpak_output_box.insert("1.0", output)
-        self.flatpak_output_box.configure(state="disabled")
+        # Create new window for flatpak output
+        flatpak_window = tk.Toplevel(self)
+        flatpak_window.title("Liste des Flatpaks installés")
+        flatpak_window.geometry("600x400")
 
+        text_box = tk.Text(flatpak_window, wrap="word")
+        text_box.pack(side="left", fill="both", expand=True)
+
+        scrollbar = tk.Scrollbar(flatpak_window, command=text_box.yview)
+        scrollbar.pack(side="right", fill="y")
+
+        text_box.configure(yscrollcommand=scrollbar.set, state="normal")
+        text_box.insert("1.0", output)
+        text_box.configure(state="disabled")
 
 if __name__ == "__main__":
     app = App()
