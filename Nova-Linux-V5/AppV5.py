@@ -27,6 +27,7 @@ def is_flatpak_installed():
 
 def install_flatpak():
     messagebox.showinfo("Installation", "Flatpak n'est pas installé. Installation en cours...")
+    # You might want to add your actual installation command here (like apt, yum, pacman, etc.)
     subprocess.run(["flatpak", "install"])
     messagebox.showinfo("Succès", "Flatpak installé. Vous pouvez maintenant installer des applications.")
 
@@ -61,36 +62,46 @@ class App(ctk.CTk):
         except Exception as e:
             print(f"Warning: Could not load icon: {e}")
 
-        self.bg_label = tk.Label(self)
-        self.bg_label.place(relwidth=1, relheight=1)
-
         self.grid_columnconfigure(0, weight=1)
         self.grid_rowconfigure(0, weight=1)
 
         self.main_frame = ctk.CTkFrame(self, corner_radius=10)
         self.main_frame.pack(padx=20, pady=20, fill="both", expand=True)
 
+        # Selected apps label
         self.selected_label = ctk.CTkLabel(self.main_frame, text="Aucune application sélectionnée", wraplength=800)
         self.selected_label.pack(pady=10)
 
-        # Buttons saved as instance attributes for easier widget management
-        self.btn_install = ctk.CTkButton(self.main_frame, text="Installer les applications", command=install_selected_apps)
-        self.btn_install.pack(pady=15)
+        # Flatpak output frame (initially hidden)
+        self.flatpak_frame = ctk.CTkFrame(self.main_frame, fg_color="transparent")
+        self.flatpak_text = tk.Text(self.flatpak_frame, wrap="word", height=15)
+        self.flatpak_scrollbar = tk.Scrollbar(self.flatpak_frame, command=self.flatpak_text.yview)
+        self.flatpak_text.configure(yscrollcommand=self.flatpak_scrollbar.set)
 
-        self.btn_reload = ctk.CTkButton(self.main_frame, text="🔄 Recharger les catégories", command=self.reload_categories)
-        self.btn_reload.pack(pady=5)
+        self.flatpak_text.pack(side="left", fill="both", expand=True)
+        self.flatpak_scrollbar.pack(side="right", fill="y")
 
-        self.btn_show_flatpak = ctk.CTkButton(self.main_frame, text="📋 Voir les Flatpaks installés", command=self.show_flatpak_list)
-        self.btn_show_flatpak.pack(pady=5)
+        self.flatpak_frame.pack_forget()  # hide initially
+
+        # Buttons
+        ctk.CTkButton(self.main_frame, text="Installer les applications", command=install_selected_apps).pack(pady=15)
+        ctk.CTkButton(self.main_frame, text="🔄 Recharger les catégories", command=self.reload_categories).pack(pady=5)
+        ctk.CTkButton(self.main_frame, text="📋 Voir les Flatpaks installés", command=self.toggle_flatpak_list).pack(pady=5)
 
         self.reload_categories()
 
-        self.bind("<Configure>", lambda event: self.update_background())
-
     def reload_categories(self):
-        # Remove all widgets inside main_frame except the selected_label and the fixed buttons at the bottom
+        # Remove all widgets inside main_frame except selected_label and buttons at bottom
         for widget in self.main_frame.winfo_children():
-            if widget in [self.selected_label, self.btn_install, self.btn_reload, self.btn_show_flatpak]:
+            if widget == self.selected_label:
+                continue
+            # Keep buttons with these texts
+            if isinstance(widget, ctk.CTkButton) and widget.cget("text") in [
+                "Installer les applications", "🔄 Recharger les catégories", "📋 Voir les Flatpaks installés"
+            ]:
+                continue
+            # Also keep flatpak_frame but it will be managed separately
+            if widget == self.flatpak_frame:
                 continue
             widget.destroy()
 
@@ -121,7 +132,6 @@ class App(ctk.CTk):
                     command=lambda a=app_name, i=app_id: add_app(a, i)
                 ).pack(pady=5, padx=10, fill="x")
 
-        # Add category buttons fresh:
         for category_name, apps_dict in data.items():
             ctk.CTkButton(
                 master=self.main_frame,
@@ -129,9 +139,12 @@ class App(ctk.CTk):
                 command=lambda c=category_name, a=apps_dict: on_category_click(c, a)
             ).pack(pady=5, fill="x", padx=50)
 
-    def update_background(self):
-        # If you want to resize or update background image dynamically, implement here
-        pass  # or implement your background update logic if needed
+    def toggle_flatpak_list(self):
+        if self.flatpak_frame.winfo_ismapped():
+            self.flatpak_frame.pack_forget()
+        else:
+            self.show_flatpak_list()
+            self.flatpak_frame.pack(fill="both", padx=10, pady=10, expand=False)
 
     def show_flatpak_list(self):
         try:
@@ -142,20 +155,10 @@ class App(ctk.CTk):
         except FileNotFoundError:
             output = "Flatpak n'est pas installé sur ce système."
 
-        # Create new window for flatpak output
-        flatpak_window = tk.Toplevel(self)
-        flatpak_window.title("Liste des Flatpaks installés")
-        flatpak_window.geometry("600x400")
-
-        text_box = tk.Text(flatpak_window, wrap="word")
-        text_box.pack(side="left", fill="both", expand=True)
-
-        scrollbar = tk.Scrollbar(flatpak_window, command=text_box.yview)
-        scrollbar.pack(side="right", fill="y")
-
-        text_box.configure(yscrollcommand=scrollbar.set, state="normal")
-        text_box.insert("1.0", output)
-        text_box.configure(state="disabled")
+        self.flatpak_text.configure(state="normal")
+        self.flatpak_text.delete("1.0", tk.END)
+        self.flatpak_text.insert("1.0", output)
+        self.flatpak_text.configure(state="disabled")
 
 
 if __name__ == "__main__":
