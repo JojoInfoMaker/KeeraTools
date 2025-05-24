@@ -6,8 +6,6 @@ import ctypes
 import tkinter as tk
 import webbrowser
 from tkinter import Menu, messagebox
-from PIL import Image, ImageTk
-import ctypes, sys
 
 try:
     import customtkinter as ctk
@@ -19,12 +17,9 @@ except ImportError:
 ctk.set_appearance_mode("System")
 ctk.set_default_color_theme("blue")
 
-# Chemin absolu
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 DATA_DIR = os.path.join(BASE_DIR, "data")
 CONFIG_FILE = os.path.join(DATA_DIR, "apps.json")
-BACKGROUND_IMAGE = os.path.join(DATA_DIR, "background.jpg")
-LOGO_IMAGE = os.path.join(DATA_DIR, "logo.png")
 
 selected_apps = []
 
@@ -34,117 +29,98 @@ def is_admin():
     except:
         return False
 
-# Vérifie si Chocolatey est installé
-def is_choco_installed():
-    try:
-        subprocess.run(["choco", "--version"], stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
-        return True
-    except FileNotFoundError:
-        return False
-
-# Installe Chocolatey
-def install_choco():
-    messagebox.showinfo("Installation", "Chocolatey n'est pas installé, Veuillez cliquez sur Ok pour lancer l'installation")
-    subprocess.run([
-        "powershell", "-NoProfile", "-InputFormat", "None",
-        "-ExecutionPolicy", "Bypass", "-Command",
-        "Set-ExecutionPolicy Bypass -Scope Process -Force; "
-        "[System.Net.ServicePointManager]::SecurityProtocol = "
-        "[System.Net.ServicePointManager]::SecurityProtocol -bor 3072; "
-        "iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))"
-    ])
-    messagebox.showinfo("Succès", "Chocolatey installé. Veuillez redémarrer l'application pour continuer.")
-
-# Installe les applications sélectionnées
 def install_selected_apps():
-    if not is_choco_installed():
-        install_choco()
     if not selected_apps:
-        messagebox.showwarning("Aucune application", "Aucune application sélectionnée. Veuillez sélectionnez des Applications.")
+        messagebox.showwarning("Aucune application", "Aucune application sélectionnée. Veuillez sélectionner des applications.")
         return
     for app in selected_apps:
-        subprocess.run(["choco", "install", app, "-y"])
+        subprocess.run(["winget", "install", "--id", app, "--accept-package-agreements", "--accept-source-agreements"])
     messagebox.showinfo("Terminé", "Toutes les applications ont été installées avec succès.")
 
-# Gère la sélection
 def toggle_app(app_id, display_label):
     if app_id in selected_apps:
         selected_apps.remove(app_id)
     else:
         selected_apps.append(app_id)
-    display_label.configure(text=", ".join(selected_apps))
+    display_label.configure(text="Applications sélectionnées : " + ", ".join(selected_apps) if selected_apps else "Aucune application sélectionnée")
 
-# UI principale
 class App(ctk.CTk):
     def __init__(self):
         super().__init__()
         self.title("Nova Installer")
-        self.geometry("900x600")
-        self.resizable(True, True)
-
-        self.bg_image = Image.open(BACKGROUND_IMAGE)
-        self.bg_label = tk.Label(self)
-        self.bg_label.place(relwidth=1, relheight=1)
-        self.update_background()
+        self.iconbitmap(os.path.join(DATA_DIR, "./logo.ico"))
+        self.geometry("1280x720")
+        self.minsize(960, 540)
 
         self.grid_columnconfigure(0, weight=1)
         self.grid_rowconfigure(0, weight=1)
 
-        main_frame = ctk.CTkFrame(self, corner_radius=10)
-        main_frame.pack(padx=20, pady=20, fill="both", expand=True)
+        scrollable_frame = ctk.CTkScrollableFrame(self, corner_radius=10)
+        scrollable_frame.pack(padx=20, pady=20, fill="both", expand=True)
 
-        # Affichage des catégories
         with open(CONFIG_FILE, encoding="utf-8") as f:
             data = json.load(f)
 
-        self.selected_label = ctk.CTkLabel(main_frame, text="Aucune application sélectionnée", wraplength=800)
+        self.selected_label = ctk.CTkLabel(scrollable_frame, text="Aucune application sélectionnée", wraplength=800)
         self.selected_label.pack(pady=10)
 
         for category, apps in data.items():
-            ctk.CTkLabel(main_frame, text=category, font=ctk.CTkFont(size=18, weight="bold")).pack(pady=5)
+            cat_frame = ctk.CTkFrame(scrollable_frame)
+            cat_frame.pack(fill="x", padx=10, pady=5)
+
+            is_expanded = tk.BooleanVar(value=False)
+            app_frame = ctk.CTkFrame(cat_frame)
+
+            def toggle_visibility(var=is_expanded, frame=app_frame, btn_text=f"► {category}", cat=category, btn_ref=None):
+                if var.get():
+                    frame.pack(fill="x", padx=20, pady=5)
+                    btn_ref.configure(text=f"▼ {cat}")
+                else:
+                    frame.pack_forget()
+                    btn_ref.configure(text=f"► {cat}")
+
+            toggle_button = ctk.CTkButton(
+                cat_frame,
+                text=f"► {category}",
+                width=0,
+                command=None
+            )
+            toggle_button.pack(fill="x")
+
+            def make_toggle(button=toggle_button, var=is_expanded, frame=app_frame, cat=category):
+                def _cmd():
+                    var.set(not var.get())
+                    toggle_visibility(var, frame, cat=cat, btn_ref=button)
+                return _cmd
+
+            toggle_button.configure(command=make_toggle())
+
             for app in apps:
                 ctk.CTkCheckBox(
-                    main_frame,
+                    app_frame,
                     text=app,
                     command=lambda a=apps[app]: toggle_app(a, self.selected_label)
-                ).pack(anchor="w", padx=20)
+                ).pack(anchor="w", padx=10, pady=1)
 
-        # Boutons
-        ctk.CTkButton(main_frame, text="Installer les applications", command=install_selected_apps).pack(pady=15)
+        ctk.CTkButton(scrollable_frame, text="Installer les applications", command=install_selected_apps).pack(pady=15)
 
-        # Menu principal
         menubar = Menu(self)
         self.config(menu=menubar)
-
-        # Menu "Aide"
         help_menu = Menu(menubar, tearoff=0)
         menubar.add_cascade(label="À propos...", menu=help_menu)
 
-        # Fonction appelée quand on clique sur "Infos de l'application"
         def show_about():
             msg = (
                 "Nom de l'application : Nova Installer\n"
-                "Créé par : Jojo - InfoMaker & Nixiews\n"
-                "Date de création : mai 2025\n"
-                "Date de publication : prévue en 2025\n"
-                "Ce projet est pour but d'arrêter au gens de télécharger n'importe quoi sur internet.\n\nCe projet est Open-Source est disponible sur notre Github dans le à propos !"
+                "Créé par : Jojo - InfoMaker & Nixiews\n\n"
+                "Ce projet est pour but d'arrêter au gens de télécharger n'importe quoi sur internet. Car on ne sais jamais ce que l'on télécharge sur internet\nMais grâce à Nova Installer, vous pouvez installer vos appli en toutes tranquillités\n\nCe projet est Open-Source est disponible sur notre Github dans le à propos !"
             )
             messagebox.showinfo("À propos de Rivals Installer", msg)
 
-        # Commandes du menu
         help_menu.add_command(label="Infos de l'application", command=show_about)
         help_menu.add_separator()
-        help_menu.add_command(label="Notre Discord", command=lambda: webbrowser.open("https://discord.gg/tonlien"))
+        help_menu.add_command(label="Notre Discord", command=lambda: webbrowser.open("https://discord.gg/WV2Ms7AqDQ"))
         help_menu.add_command(label="Voir notre projet", command=lambda: webbrowser.open("https://github.com/Nixiews/Nova-Installer"))
-        # Fond dynamique
-        self.bind("<Configure>", lambda event: self.update_background())
-
-    def update_background(self):
-        width = self.winfo_width()
-        height = self.winfo_height()
-        resized = self.bg_image.resize((width, height), Image.Resampling.LANCZOS)
-        self.tk_bg_image = ImageTk.PhotoImage(resized)
-        self.bg_label.configure(image=self.tk_bg_image)
 
 if __name__ == "__main__":
     if not is_admin():
