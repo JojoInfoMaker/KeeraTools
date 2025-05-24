@@ -63,7 +63,6 @@ class App(ctk.CTk):
 
         self.bg_label = tk.Label(self)
         self.bg_label.place(relwidth=1, relheight=1)
-        self.update_background()
 
         self.grid_columnconfigure(0, weight=1)
         self.grid_rowconfigure(0, weight=1)
@@ -74,19 +73,26 @@ class App(ctk.CTk):
         self.selected_label = ctk.CTkLabel(self.main_frame, text="Aucune application sélectionnée", wraplength=800)
         self.selected_label.pack(pady=10)
 
-        self.reload_categories()
+        # Buttons saved as instance attributes for easier widget management
+        self.btn_install = ctk.CTkButton(self.main_frame, text="Installer les applications", command=install_selected_apps)
+        self.btn_install.pack(pady=15)
 
-        ctk.CTkButton(self.main_frame, text="Installer les applications", command=install_selected_apps).pack(pady=15)
-        ctk.CTkButton(self.main_frame, text="🔄 Recharger les catégories", command=self.reload_categories).pack(pady=5)
-        ctk.CTkButton(self.main_frame, text="📋 Voir les Flatpaks installés", command=self.show_flatpak_list).pack(pady=5)
+        self.btn_reload = ctk.CTkButton(self.main_frame, text="🔄 Recharger les catégories", command=self.reload_categories)
+        self.btn_reload.pack(pady=5)
+
+        self.btn_show_flatpak = ctk.CTkButton(self.main_frame, text="📋 Voir les Flatpaks installés", command=self.show_flatpak_list)
+        self.btn_show_flatpak.pack(pady=5)
+
+        self.reload_categories()
 
         self.bind("<Configure>", lambda event: self.update_background())
 
     def reload_categories(self):
-        # Clear old category buttons except the selected_label
+        # Remove all widgets inside main_frame except the selected_label and the fixed buttons at the bottom
         for widget in self.main_frame.winfo_children():
-            if widget != self.selected_label and not isinstance(widget, ctk.CTkButton):
-                widget.destroy()
+            if widget in [self.selected_label, self.btn_install, self.btn_reload, self.btn_show_flatpak]:
+                continue
+            widget.destroy()
 
         self.selected_label.configure(text="Aucune application sélectionnée")
 
@@ -115,6 +121,7 @@ class App(ctk.CTk):
                     command=lambda a=app_name, i=app_id: add_app(a, i)
                 ).pack(pady=5, padx=10, fill="x")
 
+        # Add category buttons fresh:
         for category_name, apps_dict in data.items():
             ctk.CTkButton(
                 master=self.main_frame,
@@ -123,11 +130,8 @@ class App(ctk.CTk):
             ).pack(pady=5, fill="x", padx=50)
 
     def update_background(self):
-        width = self.winfo_width()
-        height = self.winfo_height()
-        resized = self.bg_image.resize((width, height), Image.Resampling.LANCZOS)
-        self.tk_bg_image = ImageTk.PhotoImage(resized)
-        self.bg_label.configure(image=self.tk_bg_image)
+        # If you want to resize or update background image dynamically, implement here
+        pass  # or implement your background update logic if needed
 
     def show_flatpak_list(self):
         try:
@@ -152,6 +156,7 @@ class App(ctk.CTk):
         text_box.configure(yscrollcommand=scrollbar.set, state="normal")
         text_box.insert("1.0", output)
         text_box.configure(state="disabled")
+
 
 if __name__ == "__main__":
     app = App()
