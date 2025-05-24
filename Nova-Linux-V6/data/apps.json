@@ -20,7 +20,8 @@
     "Arduino IDE": "cc.arduino.Arduino",
     "Godot Engine": "org.godotengine.Godot",
     "LibreOffice SDK": "org.libreoffice.LibreOffice-SDK",
-    "...": "..."
+    "Funny Code Simulator": "com.fun.funnycodesim" ,
+    "ASCII Art Generator": "com.asciiart.generator"
   },
   "Browsers": {
     "Firefox": "org.mozilla.firefox",
@@ -31,7 +32,8 @@
     "Opera": "com.opera.Opera",
     "Vivaldi": "com.vivaldi.Vivaldi",
     "Tor Browser": "com.github.micahflee.torbrowser-launcher",
-    "...": "..."
+    "DuckDuckGo Privacy Browser": "com.duckduckgo.browser",
+    "Unicorn Browser": "com.magic.unicornbrowser"
   },
   "Multimedia": {
     "VLC": "org.videolan.VLC",
@@ -51,7 +53,9 @@
     "Krita": "org.krita.krita",
     "OBS-NDI": "com.obsproject.Studio",
     "SimpleScreenRecorder": "com.maartenbaert.simplessr",
-    "...": "..."
+    "Meme Maker Deluxe": "com.funny.mememaker",
+    "Cat Video Player": "com.cat.video",
+    "Karaoke Fun": "com.karaoke.funtime"
   },
   "Utilities": {
     "BleachBit": "org.bleachbit.BleachBit",
@@ -71,7 +75,9 @@
     "Flameshot": "org.flameshot.Flameshot",
     "Redshift": "org.redshift.Redshift",
     "GUFW": "com.github.christian.angel.gufw",
-    "...": "..."
+    "Paw Print Cleaner": "com.fun.pawprintcleaner",
+    "Nyan Cat Monitor": "com.nyan.cat.monitor",
+    "Chuck Norris System Info": "com.chucknorris.sysinfo"
   },
   "Office": {
     "LibreOffice Writer": "org.libreoffice.LibreOffice",
@@ -86,7 +92,8 @@
     "PDF Arranger": "com.github.jeromerobert.pdfarranger",
     "Okular": "org.kde.okular",
     "Foxit Reader": "com.foxitsoftware.FoxitReader",
-    "...": "..."
+    "Sticky Notes Pro": "com.fun.stickynotes",
+    "Magic Spreadsheet": "com.magic.spreadsheet"
   },
   "Games": {
     "SuperTuxKart": "org.supertuxkart.SuperTuxKart",
@@ -105,7 +112,8 @@
     "FreeCiv": "org.freeciv.Freeciv",
     "FlightGear": "org.flightgear.FlightGear",
     "ScummVM": "org.scummvm.ScummVM",
-    "...": "..."
+    "Unicorn Racing": "com.fun.unicornracing",
+    "Catapult Simulator": "com.fun.catapultsim"
   },
   "Graphics": {
     "Inkscape": "org.inkscape.Inkscape",
@@ -121,7 +129,8 @@
     "Dia": "org.gnome.Dia",
     "OpenToonz": "org.opentoonz.Opentoonz",
     "Vectr": "com.vectr.Vectr",
-    "...": "..."
+    "Funny Face Generator": "com.fun.funnyfacegen",
+    "Emoji Painter": "com.emoji.painter"
   },
   "Education": {
     "Stellarium": "org.stellarium.Stellarium",
@@ -136,6 +145,7 @@
     "Kalzium": "org.kde.kalzium",
     "Parley": "org.kde.parley",
     "KmPlot": "org.kde.kmplot",
-    "...": "..."
+    "Fun Quiz Game": "com.fun.quizgame",
+    "Space Explorer": "com.fun.spaceexplorer"
   }
 }
