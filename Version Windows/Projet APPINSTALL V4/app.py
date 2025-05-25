@@ -33,6 +33,7 @@ BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 DATA_DIR = os.path.join(BASE_DIR, "data")
 FONT_PATH = os.path.join(BASE_DIR, "data", "Comfortaa-Regular.ttf")
 CONFIG_FILE = os.path.join(DATA_DIR, "apps.json")
+LOGO_PATH_INFO = os.path.join(DATA_DIR, "icon2.ico")
 
 def load_font(path):
     FR_PRIVATE = 0x10
@@ -160,13 +161,31 @@ class App(ctk.CTk):
         self.show_category(next(iter(self.data)))
 
     def show_about(self):
+        about_win = ctk.CTkToplevel(self)
+        about_win.title("À propos de Nova Installer")
+        about_win.geometry("400x420")
+        about_win.resizable(False, False)
+
+        # Afficher le logo centré
+        if os.path.exists(LOGO_PATH_INFO):
+            try:
+                logo_img = Image.open(LOGO_PATH_INFO).resize((128, 128))
+                logo_photo = ImageTk.PhotoImage(logo_img)
+                logo_label = ctk.CTkLabel(about_win, image=logo_photo, text="")
+                logo_label.image = logo_photo  # garder une référence
+                logo_label.pack(pady=(30, 10))
+            except Exception:
+                pass
+
+        # Texte à propos
         msg = (
-            "Nom de l'application : Nova Installer\n"
-            "Créé par : Jojo - InfoMaker & Nixiews\n\n"
+            "Creator : Jojo - InfoMaker & Nixiews\n\n"
             "Ce projet a pour but d'arrêter les gens de télécharger n'importe quoi sur Internet.\n\n"
-            "Ce projet est Open-Source et disponible sur notre Github dans le menu À propos !"
+            "Ce projet est Open-Source et disponible sur notre Github dans le menu À propos !\n"
         )
-        messagebox.showinfo("À propos de Nova Installer", msg)
+        ctk.CTkLabel(about_win, text=msg, font=default_font, justify="center", wraplength=350).pack(pady=(0, 20), padx=10)
+
+        ctk.CTkButton(about_win, text="Fermer", command=about_win.destroy).pack(pady=10)
 
     def show_category(self, category):
         for widget in self.center_frame.winfo_children():

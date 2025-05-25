@@ -19,7 +19,7 @@ ctk.set_default_color_theme("blue")
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 DATA_DIR = os.path.join(BASE_DIR, "data")
 CONFIG_FILE = os.path.join(DATA_DIR, "apps.json")
-LOGO_PATH = os.path.join(DATA_DIR, "icon2.ico")
+LOGO_PATH = os.path.join(DATA_DIR, "icon.ico")
 FONT_PATH = os.path.join(DATA_DIR, "Comfortaa-Regular.ttf")
 
 selected_apps = []
@@ -146,7 +146,31 @@ class App(ctk.CTk):
             self.show_category(first_category)
 
     def show_about(self):
-        messagebox.showinfo("À propos", "Nova Installer - Version Flatpak\nDéveloppé par Nixiews & Jojo")
+        about_win = ctk.CTkToplevel(self)
+        about_win.title("À propos de Nova Installer")
+        about_win.geometry("400x420")
+        about_win.resizable(False, False)
+
+        # Afficher le logo centré
+        if os.path.exists(LOGO_PATH):
+            try:
+                logo_img = Image.open(LOGO_PATH).resize((128, 128))
+                logo_photo = ImageTk.PhotoImage(logo_img)
+                logo_label = ctk.CTkLabel(about_win, image=logo_photo, text="")
+                logo_label.image = logo_photo  # garder une référence
+                logo_label.pack(pady=(30, 10))
+            except Exception:
+                pass
+
+        # Texte à propos
+        msg = (
+            "Creator : Jojo - InfoMaker & Nixiews\n\n"
+            "Ce projet a pour but d'arrêter les gens de télécharger n'importe quoi sur Internet.\n\n"
+            "Ce projet est Open-Source et disponible sur notre Github dans le menu À propos !\n"
+        )
+        ctk.CTkLabel(about_win, text=msg, font=default_font, justify="center", wraplength=350).pack(pady=(0, 20), padx=10)
+
+        ctk.CTkButton(about_win, text="Fermer", command=about_win.destroy).pack(pady=10)
 
     def show_category(self, category):
         self.current_category = category
