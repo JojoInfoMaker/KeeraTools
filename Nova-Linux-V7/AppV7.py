@@ -1,16 +1,15 @@
 import os
 import sys
 import json
-import ctypes
 import subprocess
 import tkinter as tk
 from tkinter import Menu, messagebox
 from threading import Thread
 from PIL import Image, ImageTk
-
+import platform
 import customtkinter as ctk
 
-# Appearance
+# Set appearance
 ctk.set_appearance_mode("dark")
 ctk.set_default_color_theme("blue")
 
@@ -18,26 +17,15 @@ ctk.set_default_color_theme("blue")
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 DATA_DIR = os.path.join(BASE_DIR, "data")
 CONFIG_FILE = os.path.join(DATA_DIR, "apps.json")
-ICON_PATH = os.path.join(DATA_DIR, "icon.ico")
 LOGO_PATH = os.path.join(DATA_DIR, "icon2.ico")
 FONT_PATH = os.path.join(DATA_DIR, "Comfortaa-Regular.ttf")
 
 selected_apps = []
 
-# Font setup
-def load_font(path):
-    FR_PRIVATE = 0x10
-    path = os.path.abspath(path)
-    return ctypes.windll.gdi32.AddFontResourceExW(path, FR_PRIVATE, 0) > 0 if os.path.exists(path) else False
-
-if load_font(FONT_PATH):
-    default_font = ("Comfortaa", 12)
-    title_font = ("Comfortaa", 20, "bold")
-    big_title_font = ("Comfortaa", 32, "bold")
-else:
-    default_font = ("Arial", 12)
-    title_font = ("Arial", 20, "bold")
-    big_title_font = ("Arial", 32, "bold")
+# Use default fonts to avoid issues on Linux
+default_font = ("Arial", 12)
+title_font = ("Arial", 20, "bold")
+big_title_font = ("Arial", 32, "bold")
 
 # Helpers
 def is_flatpak_installed():
@@ -47,17 +35,19 @@ def is_flatpak_installed():
     except FileNotFoundError:
         return False
 
+# Progress window
 class ProgressWindow(ctk.CTkToplevel):
     def __init__(self, parent, apps):
         super().__init__(parent)
         self.geometry("900x500")
         self.attributes("-topmost", True)
         self.title("Installation en cours")
-        self.iconbitmap(ICON_PATH)
+
         self.textbox = ctk.CTkTextbox(self, wrap="word")
         self.textbox.pack(fill="both", expand=True, padx=10, pady=10)
         self.textbox.insert("end", "Installation des applications sélectionnées...\n\n")
         self.textbox.configure(state="disabled")
+
         Thread(target=self.run_installation, args=(apps,), daemon=True).start()
 
     def append_text(self, text):
@@ -85,14 +75,14 @@ class ProgressWindow(ctk.CTkToplevel):
         self.textbox.after(0, self.append_text, "✅ Toutes les installations sont terminées.")
         self.textbox.after(0, lambda: messagebox.showinfo("Terminé", "Toutes les applications ont été installées avec succès."))
 
-# Main App Class
+# Main App
 class App(ctk.CTk):
     def __init__(self):
         super().__init__()
         self.title("Nova Installer")
         self.geometry("1280x720")
         self.minsize(960, 540)
-        self.iconbitmap(ICON_PATH)
+
         self.grid_rowconfigure(1, weight=1)
         self.grid_columnconfigure(1, weight=1)
 
@@ -109,9 +99,12 @@ class App(ctk.CTk):
         self.sidebar.grid_propagate(False)
 
         if os.path.exists(LOGO_PATH):
-            logo_img = Image.open(LOGO_PATH).resize((200, 200))
-            self.logo = ImageTk.PhotoImage(logo_img)
-            ctk.CTkLabel(self.sidebar, image=self.logo, text="").pack(pady=(10, 10))
+            try:
+                logo_img = Image.open(LOGO_PATH).resize((200, 200))
+                self.logo = ImageTk.PhotoImage(logo_img)
+                ctk.CTkLabel(self.sidebar, image=self.logo, text="").pack(pady=(10, 10))
+            except Exception:
+                ctk.CTkLabel(self.sidebar, text="Nova Installer", font=big_title_font).pack(pady=(10, 10))
         else:
             ctk.CTkLabel(self.sidebar, text="Nova Installer", font=big_title_font).pack(pady=(10, 10))
 
@@ -125,7 +118,7 @@ class App(ctk.CTk):
         self.bottom_frame = ctk.CTkFrame(self, fg_color="transparent")
         self.bottom_frame.grid(row=2, column=0, columnspan=2, sticky="sew", padx=20, pady=10)
 
-        ctk.CTkButton(self.bottom_frame, text="Installer", font=default_font, command=lambda: self.install_apps()).pack(side="left")
+        ctk.CTkButton(self.bottom_frame, text="Installer", font=default_font, command=self.install_apps).pack(side="left")
 
         self.selected_var = tk.StringVar(value="Aucune application sélectionnée")
         self.dropdown_btn = ctk.CTkOptionMenu(self.bottom_frame, variable=self.selected_var, values=["Aucune application sélectionnée"], width=250, font=default_font)
@@ -184,6 +177,7 @@ class App(ctk.CTk):
             return
         ProgressWindow(self, selected_apps)
 
+# Launch app
 if __name__ == "__main__":
     app = App()
     app.mainloop()
