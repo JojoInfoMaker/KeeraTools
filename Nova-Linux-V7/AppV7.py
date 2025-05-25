@@ -64,7 +64,7 @@ class ProgressWindow(ctk.CTkToplevel):
         for app_id in apps:
             self.append_text(f">>> Installation de {app_id}...\n")
             process = subprocess.Popen(
-                ["flatpak", "install", "--user", "-y", app_id],
+                ["flatpak", "install", "--system", "--assumeyes", "flathub", app_id],
                 stdout=subprocess.PIPE, stderr=subprocess.STDOUT, text=True
             )
             for line in process.stdout:
@@ -132,28 +132,63 @@ class App(ctk.CTk):
             messagebox.showerror("Erreur", f"Impossible de charger le fichier apps.json : {e}")
             self.data = {}
 
+        # State for current category and filtered apps
+        self.current_category = None
+        self.filtered_apps = {}
+
         for category in self.data:
             ctk.CTkButton(self.sidebar, text=category, width=200, font=default_font, command=lambda c=category: self.show_category(c)).pack(pady=5, fill="x")
 
         if self.data:
-            self.show_category(next(iter(self.data)))
+            first_category = next(iter(self.data))
+            self.show_category(first_category)
 
     def show_about(self):
         messagebox.showinfo("À propos", "Nova Installer - Version Flatpak\nDéveloppé par Nixiews & Jojo")
 
     def show_category(self, category):
+        self.current_category = category
+        self.filtered_apps = self.data[category]  # No filter at start
+
         for widget in self.center_frame.winfo_children():
             widget.destroy()
 
         ctk.CTkLabel(self.center_frame, text=category, font=title_font).pack(pady=(0, 10))
 
-        for app_name, app_id in self.data[category].items():
+        # Search bar
+        self.search_var = tk.StringVar()
+        search_entry = ctk.CTkEntry(self.center_frame, placeholder_text="Rechercher une application...", textvariable=self.search_var)
+        search_entry.pack(fill="x", padx=20, pady=(0, 10))
+        search_entry.bind("<KeyRelease>", self.update_search_results)
+
+        # Container for app checkboxes
+        self.apps_container = ctk.CTkFrame(self.center_frame)
+        self.apps_container.pack(fill="both", expand=True)
+
+        self.display_apps(self.filtered_apps)
+
+    def display_apps(self, apps):
+        for widget in self.apps_container.winfo_children():
+            widget.destroy()
+
+        for app_name, app_id in apps.items():
             ctk.CTkCheckBox(
-                self.center_frame,
+                self.apps_container,
                 text=f"{app_name} ({app_id})",
                 font=default_font,
                 command=lambda a=app_id: self.toggle_app(a)
             ).pack(anchor="w", padx=20, pady=2)
+
+    def update_search_results(self, event=None):
+        query = self.search_var.get().lower()
+        if not query:
+            self.filtered_apps = self.data[self.current_category]
+        else:
+            self.filtered_apps = {
+                name: appid for name, appid in self.data[self.current_category].items()
+                if query in name.lower() or query in appid.lower()
+            }
+        self.display_apps(self.filtered_apps)
 
     def toggle_app(self, app_id):
         if app_id in selected_apps:

@@ -17,11 +17,9 @@
     "Emacs": "org.gnu.emacs",
     "Code::Blocks": "org.codeblocks.Codeblocks",
     "KDevelop": "org.kde.kdevelop",
-    "Arduino IDE": "cc.arduino.Arduino",
+    "Arduino IDE": "cc.arduino.arduinoide",
     "Godot Engine": "org.godotengine.Godot",
-    "LibreOffice SDK": "org.libreoffice.LibreOffice-SDK",
-    "Funny Code Simulator": "com.fun.funnycodesim" ,
-    "ASCII Art Generator": "com.asciiart.generator"
+    "LibreOffice SDK": "org.libreoffice.LibreOffice-SDK"
   },
   "Browsers": {
     "Firefox": "org.mozilla.firefox",
@@ -32,8 +30,7 @@
     "Opera": "com.opera.Opera",
     "Vivaldi": "com.vivaldi.Vivaldi",
     "Tor Browser": "com.github.micahflee.torbrowser-launcher",
-    "DuckDuckGo Privacy Browser": "com.duckduckgo.browser",
-    "Unicorn Browser": "com.magic.unicornbrowser"
+    "DuckDuckGo Privacy Browser": "com.duckduckgo.browser"
   },
   "Multimedia": {
     "VLC": "org.videolan.VLC",
@@ -51,11 +48,7 @@
     "Pitivi": "org.pitivi.Pitivi",
     "Rhythmbox": "org.gnome.Rhythmbox3",
     "Krita": "org.krita.krita",
-    "OBS-NDI": "com.obsproject.Studio",
-    "SimpleScreenRecorder": "com.maartenbaert.simplessr",
-    "Meme Maker Deluxe": "com.funny.mememaker",
-    "Cat Video Player": "com.cat.video",
-    "Karaoke Fun": "com.karaoke.funtime"
+    "SimpleScreenRecorder": "com.maartenbaert.simplessr"
   },
   "Utilities": {
     "BleachBit": "org.bleachbit.BleachBit",
@@ -74,10 +67,7 @@
     "Remmina": "org.remmina.Remmina",
     "Flameshot": "org.flameshot.Flameshot",
     "Redshift": "org.redshift.Redshift",
-    "GUFW": "com.github.christian.angel.gufw",
-    "Paw Print Cleaner": "com.fun.pawprintcleaner",
-    "Nyan Cat Monitor": "com.nyan.cat.monitor",
-    "Chuck Norris System Info": "com.chucknorris.sysinfo"
+    "GUFW": "com.github.christian.angel.gufw"
   },
   "Office": {
     "LibreOffice Writer": "org.libreoffice.LibreOffice",
@@ -91,9 +81,7 @@
     "Calibre": "com.calibre_ebook.calibre",
     "PDF Arranger": "com.github.jeromerobert.pdfarranger",
     "Okular": "org.kde.okular",
-    "Foxit Reader": "com.foxitsoftware.FoxitReader",
-    "Sticky Notes Pro": "com.fun.stickynotes",
-    "Magic Spreadsheet": "com.magic.spreadsheet"
+    "Foxit Reader": "com.foxitsoftware.FoxitReader"
   },
   "Games": {
     "SuperTuxKart": "org.supertuxkart.SuperTuxKart",
@@ -107,13 +95,9 @@
     "Godot Engine": "org.godotengine.Godot",
     "OpenRA": "org.openra.OpenRA",
     "Battle for Wesnoth": "org.wesnoth.Wesnoth",
-    "Stellarium": "org.stellarium.Stellarium",
-    "Wesnoth": "org.wesnoth.Wesnoth",
     "FreeCiv": "org.freeciv.Freeciv",
     "FlightGear": "org.flightgear.FlightGear",
-    "ScummVM": "org.scummvm.ScummVM",
-    "Unicorn Racing": "com.fun.unicornracing",
-    "Catapult Simulator": "com.fun.catapultsim"
+    "ScummVM": "org.scummvm.ScummVM"
   },
   "Graphics": {
     "Inkscape": "org.inkscape.Inkscape",
@@ -128,9 +112,7 @@
     "Blender": "org.blender.Blender",
     "Dia": "org.gnome.Dia",
     "OpenToonz": "org.opentoonz.Opentoonz",
-    "Vectr": "com.vectr.Vectr",
-    "Funny Face Generator": "com.fun.funnyfacegen",
-    "Emoji Painter": "com.emoji.painter"
+    "Vectr": "com.vectr.Vectr"
   },
   "Education": {
     "Stellarium": "org.stellarium.Stellarium",
@@ -144,8 +126,6 @@
     "Marble": "org.kde.marble",
     "Kalzium": "org.kde.kalzium",
     "Parley": "org.kde.parley",
-    "KmPlot": "org.kde.kmplot",
-    "Fun Quiz Game": "com.fun.quizgame",
-    "Space Explorer": "com.fun.spaceexplorer"
+    "KmPlot": "org.kde.kmplot"
   }
 }
