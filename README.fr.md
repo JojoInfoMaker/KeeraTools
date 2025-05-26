@@ -5,6 +5,7 @@ La version Linux utilise Flatpak (une version DNF/APT/PACMAN/etc) est en cours d
 La version Windows utilise Winget/Chocoltey.
 
 Notre code source (de chaque version) est trouvable dans les répertoires.
+Dites nous si vous aimeriez qu'il soit Libre (code source modifiable et possible à publier librement).
 
 ### Note : LA PROJET EST ENCORE EN COURS DE DÉVELOPEMENT, NOUS DEVONS TRIER LES FICHIERS
 
