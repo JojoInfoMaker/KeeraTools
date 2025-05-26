@@ -16,13 +16,13 @@
   "Bureautique": {
     "LibreOffice": "TheDocumentFoundation.LibreOffice",
     "Notepad++": "Notepad++.Notepad++",
-    "Adobe Acrobat Reader": "Adobe.Acrobat.Reader.64-bit",
+    "Adobe Acrobat Reader": "Adobe.Acrobat.Reader.32-bit",
     "Obsidian": "Obsidian.Obsidian",
     "KDE Okular": "KDE.Okular"
   },
   "Outils Multimédia": {
     "VLC": "VideoLAN.VLC",
-    "Spotify (à regarder)": "",
+    "Spotify (à regarder)": "Spotify.Spotify",
     "Krita": "KDE.Krita",
     "IMG Burn": "LIGHTNINGUK.ImgBurn",
     "ImageGlass": "DuongDieuPhap.ImageGlass",
