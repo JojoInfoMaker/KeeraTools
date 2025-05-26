@@ -15,26 +15,26 @@ Dévelopé par : Nixiews (le gars qui à écris ce truc), Jojo-Infomaker (le gar
 
 Version Jojo :
 
-# Bienvenue sur la page Github de Nova Installer
+# Bienvenue sur la page GitHub de Nova Installer
 
 ## Présentation
-Nous somme deux lycéens qui à un moment voulais crée un projet pour lutter contre les site de téléchargement malvaillants, après plusieurs temps de réflexion nous avons commencer à crée le logiciel, nous avions passer beaucoup de temps sur ce logiciel pour savoir comment on pourrais faire sont fonctionnement et on sais aider de l'outil internet et d'un très bon amis qui s'appelle ChatGPT.
+Nous sommes deux lycéens qui à un moment voulaient créer un projet pour lutter contre les sites de téléchargement malveillants, après plusieurs temps de réflexion, nous avons commencé à créer le logiciel, nous avions passé beaucoup de temps sur ce logiciel pour savoir comment on pourrait faire son fonctionnement et on sait aider de l'outil internet et un très bons amis qui s'appellent ChatGPT.
 
-Nova Installer est une alternative à l'outil ChrisTiTus (Youtubeur) qui est facile d'accès et sans avoir à faire 50 mille manipulation pour installer une application.
+Nova Installer est une alternative à l'outil ChrisTiTus (Youtubeur) qui est facile d'accès et sans avoir à faire 50 mille manipulations pour installer une application.
 
 ## Pourquoi ce logiciel ?
-Nova Installer est la pour lutter des personnes malveillant qui veulent réccupérer vos données personnels sans que vous le sachez. Nova Installer est la pour vous acompagner dans votre PC, il est la pour installer des applications que vous désirer. Il vous indique ce qui vas pas, il est la vraiment pour vous facilité la tâche.
+Nova Installer est là pour lutter des personnes malveillantes qui veulent récupérer vos données personnelles sans que vous le sachiez. Nova Installer est là pour vous accompagner dans votre PC. Il est là pour installer des applications que vous désirez. Il vous indique ce qui ne vas pas, il est là vraiment pour vous faciliter la tâche.
 
 ## Le logiciel est fait comment ?
-Nova Installer est fait entièrement en python, cela facilite la tâche pour nous et ultra facile grâce à sont nombre incalculable de librairies disponible dans ce language.
+Nova Installer est fait entièrement en Python, cela facilite la tâche pour nous et est ultra-facile grâce à son nombre incalculable de librairies disponibles dans ce langage.
 
-Pour la version Windows, le logiciel utilise l'outil Winget pour installer des applications via Powershell (Pour information si vous venez d'installer le logiciel il vous demanderas de le mettre à jour)
-Pour la version Linux, le logiciel utilise l'outil Flatpak pour installer les applications (bientôt le logiciel installeras avec les systèmes de paquet DNF (Fedora), APT (Debian), PACMAN (Arch), etc...)
+Pour la version Windows, le logiciel utilise l'outil Winget pour installer des applications via Powershell (pour information, si vous venez d'installer Windows et que vous utilisez le logiciel, il vous demandera de le mettre à jour).
+Pour la version Linux, le logiciel utilise l'outil Flatpak pour installer les applications (bientôt, le logiciel s'installera avec les systèmes de paquet DNF (Fedora), APT (Debian), PACMAN (Arch), etc.)
 
 ## Comment utiliser le logiciel ? 
-Il y a juste à double-clique dessus et puis de sélectionner les applications que vous voulez installer, vous cliquer sur installer, et puis vous avez jusqu'a attendre tranquillement sans à rien faire. (Si un logiciel demande des actions faite-les, sinon elle seras pas installer mais tout est automatiser.
+Il y a juste à double-cliquer dessus et puis à sélectionner les applications que vous voulez installer, à cliquer sur installer, et puis vous avez jusqu'à attendre tranquillement sans rien faire. (Si un logiciel demande des actions, faites-les, sinon elle ne sera pas installée, mais tout est automatisé.)
 
 
-Nous essayons de rendre ce logiciel le plus simple et rapide possible, si vous avez quelqu'onque problème faite le nous savoir dans les commantaires Github, nous vous répondrons avec plaisir.
+Nous essayons de rendre ce logiciel le plus simple et rapide possible. Si vous avez un problème, faites-le nous savoir dans les commentaires GitHub, nous vous répondrons avec plaisir.
 
-Si vous voulez nous aider à évoluer notre projet nous avions un Tepee ou vous pouvez envoyer de l'argent et ça nous aideras à développer en plus gros notre applications.
+Si vous voulez nous aider à évoluer notre projet, nous avions un Tepee où vous pouvez envoyer de l'argent et ça nous aidera à développer en plus gros notre application.
