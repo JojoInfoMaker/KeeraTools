@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+#!/usr/bin/env python
 
 import os
 import sys
@@ -20,8 +20,6 @@ BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 DATA_DIR = os.path.join(BASE_DIR, "data")
 CONFIG_FILE = os.path.join(DATA_DIR, "apps.json")
 LOGO_PATH = os.path.join(DATA_DIR, "icon.ico")
-LOGO_PATH2 = os.path.join(DATA_DIR, "icon2.ico")
-FONT_PATH = os.path.join(DATA_DIR, "Comfortaa-Regular.ttf")
 
 selected_apps = []
 
