@@ -93,6 +93,19 @@ class ProgressWindow(ctk.CTkToplevel):
         failed = []
         for app in apps:
             self.append_text(f">>> Installation de {app}... ! NE PAS FERMER CETTE FENÊTRE SINON L'INSTALLATION S'ANNULERAS !\n")
+            if app.lower() == "spotify.spotify":
+                # Ouvre une fenêtre PowerShell non admin pour Spotify
+                powershell_cmd = (
+                    f'powershell -NoExit -Command "winget install --id Spotify.Spotify --accept-package-agreements --accept-source-agreements"'
+                )
+                subprocess.Popen(
+                    ["start", "powershell", "-NoExit", "-Command", f"winget install --id Spotify.Spotify --accept-package-agreements --accept-source-agreements"],
+                    shell=True
+                )
+                self.textbox.after(0, self.append_text, "Spotify va s'installer dans une fenêtre PowerShell séparée.\n\n")
+                installed.append(app)  # On considère comme lancé
+                continue
+            # Installation normale pour les autres applis
             self.process = subprocess.Popen(
                 ["winget", "install", "--id", app, "--accept-package-agreements", "--accept-source-agreements"],
                 stdout=subprocess.PIPE, stderr=subprocess.STDOUT, text=True, encoding="utf-8",
@@ -103,7 +116,6 @@ class ProgressWindow(ctk.CTkToplevel):
                 output += line
                 self.textbox.after(0, self.append_text, line)
             self.process.wait()
-            # Vérifie si l'installation a réussi (code 0)
             if self.process.returncode == 0:
                 installed.append(app)
             else:
@@ -126,7 +138,6 @@ class ProgressWindow(ctk.CTkToplevel):
             )
             self.destroy()
         self.textbox.after(0, show_summary_and_close)
-        # Écriture du log à la fin de l'installation
         log_content = (
             f"Installation terminée pour : {', '.join(apps)}\n"
             f"Installées : {', '.join(installed)}\n"
