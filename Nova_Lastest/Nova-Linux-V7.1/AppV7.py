@@ -20,6 +20,9 @@ BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 DATA_DIR = os.path.join(BASE_DIR, "data")
 CONFIG_FILE = os.path.join(DATA_DIR, "apps.json")
 LOGO_PATH = os.path.join(DATA_DIR, "icon.ico")
+LOGO_PATH2 = os.path.join(DATA_DIR, "icon2.ico")
+GITHUB_REPO = "Nixiews/Nova-Installer"
+CURRENT_VERSION = "V1"
 
 selected_apps = []
 
@@ -101,7 +104,7 @@ class App(ctk.CTk):
 
         if os.path.exists(LOGO_PATH):
             try:
-                logo_img = Image.open(LOGO_PATH).resize((200, 200))
+                logo_img = Image.open(LOGO_PATH2).resize((200, 200))
                 self.logo = ImageTk.PhotoImage(logo_img)
                 ctk.CTkLabel(self.sidebar, image=self.logo, text="").pack(pady=(10, 10))
             except Exception:
@@ -164,10 +167,11 @@ class App(ctk.CTk):
         # Texte à propos
         msg = (
             "Creator : Jojo - InfoMaker & Nixiews\n\n"
-            "Version : 1.0.0\n\n"
-            "Nova Installer est un logiciel d'installateur d'applications\n"
-            "Ce projet a pour but d'arrêter les gens de télécharger n'importe quoi sur Internet.\n\n"
+            "Version : 1.0\n\n"
+            "Nova Installer ™ est un outil de gestion d'applications pour Windows / Linux.\n"
+            "Il permet d'installer facilement des applications sans avoir de virus.\n\n"
             "Ce projet est Open-Source et disponible sur notre Github dans le menu À propos !\n"
+            "Copyright © 2025 Jojo - InfoMaker & Nixiews\n\n"
         )
         ctk.CTkLabel(about_win, text=msg, font=default_font, justify="center", wraplength=350).pack(pady=(0, 20), padx=10)
 
