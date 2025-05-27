@@ -20,7 +20,7 @@
     "Arduino IDE": "cc.arduino.arduinoide",
     "Godot Engine": "org.godotengine.Godot",
     "LibreOffice SDK": "org.libreoffice.LibreOffice-SDK",
-    "VSCodium": "com.vscodium.codium",
+    "VSCodium": "com.vscodium.codium"
   },
   "Browsers": {
     "Firefox": "org.mozilla.firefox",
