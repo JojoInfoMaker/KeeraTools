@@ -1,4 +1,4 @@
-# Bienvenue sur la page GitHub de Nova Installer
+# Bienvenue sur Nova Installer ![NOVA Installer Logo](Nova_Old_Versions/Icone/Logo V3 (2).png)
 
 ## Présentation
 Nous sommes deux lycéens qui à un moment voulaient créer un projet pour lutter contre les sites de téléchargement malveillants, après plusieurs temps de réflexion, nous avons commencé à créer le logiciel, nous avions passé beaucoup de temps sur ce logiciel pour savoir comment on pourrait faire son fonctionnement et on sait aider de l'outil internet et un très bons amis qui s'appellent ChatGPT.
