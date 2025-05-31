@@ -1,21 +1,8 @@
-Version : Nixiews
+# Bienvenue sur Nova Installer 
 
-## Bienvenu sur la page Github de Nova Installer.
-
-Nova Installer est un proget indépendant de 2 gars qui s'ennuiaient donc ils ont codé une appli avec ChatGPT pour télécharger des applis sans que l'appli prennent 4 ans à charger et lag de fou.
-La version Linux utilise Flatpak (une version DNF/APT/PACMAN/etc) est en cours de réflection.
-La version Windows utilise Winget/Chocoltey.
-
-Notre code source (de chaque version) est trouvable dans les répertoires.
-Dites nous si vous aimeriez qu'il soit Libre (code source modifiable et possible à publier librement).
-
-### Note : LA PROJET EST ENCORE EN COURS DE DÉVELOPEMENT, NOUS DEVONS TRIER LES FICHIERS
-
-Dévelopé par : Nixiews (le gars qui à écris ce truc), Jojo-Infomaker (le gars qui fait la version Windows), ChatGPT (le truc qui à fait la plas part du code mdr).
-
-Version Jojo :
-
-# Bienvenue sur la page GitHub de Nova Installer
+<p align="center">
+  <img src="https://github.com/Nixiews/Nova-Installer/blob/main/Nova_Old_Versions/Icone/Logo%20V3%20(2).png?raw=true" alt="Logo Nova Installer" width="400"/>
+</p>
 
 ## Présentation
 Nous sommes deux lycéens qui à un moment voulaient créer un projet pour lutter contre les sites de téléchargement malveillants, après plusieurs temps de réflexion, nous avons commencé à créer le logiciel, nous avions passé beaucoup de temps sur ce logiciel pour savoir comment on pourrait faire son fonctionnement et on sait aider de l'outil internet et un très bons amis qui s'appellent ChatGPT.
@@ -31,9 +18,9 @@ Nova Installer est fait entièrement en Python, cela facilite la tâche pour nou
 Pour la version Windows, le logiciel utilise l'outil Winget pour installer des applications via Powershell (pour information, si vous venez d'installer Windows et que vous utilisez le logiciel, il vous demandera de le mettre à jour).
 Pour la version Linux, le logiciel utilise l'outil Flatpak pour installer les applications (bientôt, le logiciel s'installera avec les systèmes de paquet DNF (Fedora), APT (Debian), PACMAN (Arch), etc.)
 
-## Comment installer la version Linux?
+## Ou Installer Nova Installer ?
 
-Pour installer la version Linux, allez dans /Nova_Lastest/*version-de-l'appli*/dist puis ouvrez un terminal ici puis faites ``bash Installer.sh`` et normalement tout sera bon après le mot de passe sudo
+
 
 ## Comment utiliser le logiciel ? 
 Il y a juste à double-cliquer dessus et puis à sélectionner les applications que vous voulez installer, à cliquer sur installer, et puis vous avez jusqu'à attendre tranquillement sans rien faire. (Si un logiciel demande des actions, faites-les, sinon elle ne sera pas installée, mais tout est automatisé.)
