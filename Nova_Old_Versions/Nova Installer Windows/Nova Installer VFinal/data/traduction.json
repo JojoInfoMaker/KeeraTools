@@ -1,6 +1,6 @@
 {
     "fr": {
-        "welcome": "Bienvenue sur Nova Installer !\n\nPour utiliser notre application, Nova Installer utilise le programme d'installation d'applications. ...",
+        "welcome": "Bienvenue sur Nova Installer !\n\nPour utiliser notre application, Nova Installer utilise le programme d'installation d'applications de Windows\nQuand vous installer Windows pour la première fois il n'est pas mis à jours\n\n nous vous demandons de vérifier si il est bien à jours. Cliquez sur 'Oui' et attendez quelques secondes.\nSi il affiche pas mise à jours c'est bon vous pouvez utiliser le logiciel. Sinon mettez le à jour puis vous pourrez installer des applications.",
         "update_recommended": "Mise à jour recommandée",
         "export": "Exporter sélection",
         "import": "Importer sélection",
@@ -45,7 +45,7 @@
         "about_text": "Creator : Jojo - InfoMaker & Nixiews\n\nVersion : 1.0\n\nNova Installer ™ est un outil de gestion d'applications pour Windows / Linux.\nIl permet d'installer facilement des applications sans avoir de virus.\n\nCe projet est Open-Source et disponible sur notre Github dans le menu À propos !\n\nCopyright © 2025 Jojo - InfoMaker & Nixiews"
     },
     "en": {
-        "welcome": "Welcome to Nova Installer!\n\nTo use our application, Nova Installer uses the application installer program. ...",
+        "welcome": "Welcome to Nova Installer!\n\nTo use our application, Nova Installer uses the Windows application installer.\nWhen you install Windows for the first time, it is not updated\n\nClick on 'Oui' and wait a few seconds.\nIf it doesn't show an update, it's OK, you can use the software. If not, update it, then you can install applications.",
         "update_recommended": "Recommended update",
         "export": "Export selection",
         "import": "Import selection",
