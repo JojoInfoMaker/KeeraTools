@@ -36,5 +36,5 @@ exe = EXE(
     codesign_identity=None,
     entitlements_file=None,
     uac_admin=True,
-    icon=['data\\icon.ico'],
+    icon=r'C:\Users\Jojo-InfoMaker\Documents\GitHub\Nova-Installer\Nova_Old_Versions\Nova Installer Windows\Nova Installer VFinal\data\icon4.ico',
 )
