@@ -4,7 +4,7 @@
 Nous sommes deux lycéens qui à un moment voulaient créer un projet pour lutter contre les sites de téléchargement malveillants, après plusieurs temps de réflexion, nous avons commencé à créer le logiciel, nous avions passé beaucoup de temps sur ce logiciel pour savoir comment on pourrait faire son fonctionnement et on sait aider de l'outil internet et un très bons amis qui s'appellent ChatGPT.
 
 Nova Installer est une alternative à l'outil ChrisTiTus (Youtubeur) qui est facile d'accès et sans avoir à faire 50 mille manipulations pour installer une application.
-
+![NOVAINSTALLERLOGO](Icone/Logo V3 (2).png)
 ## Pourquoi ce logiciel ?
 Nova Installer est là pour lutter des personnes malveillantes qui veulent récupérer vos données personnelles sans que vous le sachiez. Nova Installer est là pour vous accompagner dans votre PC. Il est là pour installer des applications que vous désirez. Il vous indique ce qui ne vas pas, il est là vraiment pour vous faciliter la tâche.
 
