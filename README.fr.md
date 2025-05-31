@@ -1,6 +1,6 @@
 # Bienvenue sur Nova Installer 
 
-<p>
+<p align="center">
   <img src="https://github.com/Nixiews/Nova-Installer/blob/main/Nova_Old_Versions/Icone/Logo%20V3%20(2).png?raw=true" alt="Logo Nova Installer" width="200"/>
 </p>
 
