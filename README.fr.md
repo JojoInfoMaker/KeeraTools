@@ -20,7 +20,11 @@ Pour la version Linux, le logiciel utilise l'outil Flatpak pour installer les ap
 
 ## Ou Installer Nova Installer ?
 
+- Version Linux :
+.
 
+- Version Windows :
+.
 
 ## Comment utiliser le logiciel ? 
 Il y a juste à double-cliquer dessus et puis à sélectionner les applications que vous voulez installer, à cliquer sur installer, et puis vous avez jusqu'à attendre tranquillement sans rien faire. (Si un logiciel demande des actions, faites-les, sinon elle ne sera pas installée, mais tout est automatisé.)
