@@ -2,3 +2,5 @@
 
 - 🇫🇷 [Français](README.fr.md)
 - 🇬🇧 [English](README.en.md)
+
+# To English mates : ENGLISH VERSION IS NOT DONE YET.
