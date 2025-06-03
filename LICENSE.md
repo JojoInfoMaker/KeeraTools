@@ -1,7 +1,7 @@
 # English : 
 **Nova Installer License**
 
-Copyright © Jojo - InfoMaker 2025 (Co-creator Nixiews)
+Copyright © Jojo - InfoMaker AND Nixiews 2025
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to use, copy, modify, and distribute the Software, subject to the following condition:
 
@@ -13,7 +13,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 # French :
 **Licence Nova Installer**
 
-Copyright © Jojo - InfoMaker 2025 (Co-créateur Nixiews)
+Copyright © Jojo - InfoMaker AND Nixiews 2025
 
 L'autorisation est accordée par la présente, gratuitement, à toute personne obtenant une copie de ce logiciel et des fichiers de documentation associés (le « Logiciel »), d'utiliser, de copier, de modifier et de distribuer le Logiciel, sous réserve des conditions suivantes :
 
