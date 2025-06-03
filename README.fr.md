@@ -23,7 +23,7 @@ Pour la version Linux, le logiciel utilise l'outil Flatpak pour installer les ap
 - Version Linux :
 .
 
-- Version Windows :
+- Version Windows : [📦 Télécharger MonFichier.zip](https://github.com/NomUtilisateur/NomDepot/raw/main/releases/MonFichier.zip)
 .
 
 ## Comment utiliser le logiciel ? 
