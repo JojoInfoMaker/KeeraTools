@@ -407,6 +407,7 @@ class App(ctk.CTk):
 
         # Texte à propos
         msg = tr("about_text")
+        self.iconbitmap(os.path.join(DATA_DIR, "icon.ico"))
         ctk.CTkLabel(about_win, text=msg, font=default_font, justify="center", wraplength=350).pack(pady=(0, 20), padx=10)
 
         ctk.CTkButton(about_win, text=tr("Close"), command=about_win.destroy).pack(pady=10)
@@ -575,7 +576,7 @@ del "%~f0"
             ctk.CTkLabel(self.sidebar, image=self.logo, text="").pack(pady=(10, 10))
         else:
             ctk.CTkLabel(self.sidebar, text="Nova Installer ", font=big_title_font).pack(pady=(10, 10))
-        ctk.CTkLabel(self.sidebar, text=tr("categories"), font=title_font).pack(pady=(10, 20))
+        ctk.CTkLabel(self.sidebar, text=tr("Categories"), font=title_font).pack(pady=(10, 20))
         for category in self.data:
             ctk.CTkButton(self.sidebar, text=tr(category), width=200, font=default_font, command=lambda c=category: self.show_category(c)).pack(pady=5, fill="x")
 
