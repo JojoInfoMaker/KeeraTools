@@ -207,6 +207,40 @@ class App(ctk.CTk):
             with open(lang_marker_path, "r", encoding="utf-8") as f:
                 current_lang = f.read().strip()
 
+        # Création des widgets principaux ici
+        self.title("Nova Installer")
+        self.iconbitmap(os.path.join(DATA_DIR, "icon.ico"))
+        self.geometry("1280x720")
+        self.minsize(960, 540)
+        self.grid_rowconfigure(1, weight=1)
+        self.grid_columnconfigure(1, weight=1)
+
+        self.checkbox_vars = {}
+        self.checkboxes = {}
+
+        self.sidebar = ctk.CTkFrame(self, width=220)
+        self.sidebar.grid(row=1, column=0, sticky="nsw", padx=(10,0), pady=10)
+        self.sidebar.grid_propagate(False)
+
+        self.center_frame = ctk.CTkFrame(self)
+        self.center_frame.grid(row=1, column=1, sticky="nsew", padx=10, pady=10)
+        self.center_frame.grid_propagate(True)
+
+        self.bottom_frame = ctk.CTkFrame(self, fg_color="transparent")
+        self.bottom_frame.grid(row=2, column=0, sticky="sw", padx=20, pady=10)
+        ctk.CTkButton(self.bottom_frame, text=tr("install"), font=default_font, command=lambda: install_selected_apps(self)).pack(side="left", padx=(0,10))
+
+        self.selected_var = tk.StringVar(value=tr("no_app_selected"))
+        self.dropdown_btn = ctk.CTkOptionMenu(self.bottom_frame, variable=self.selected_var, values=[tr("no_app_selected")], width=220, font=default_font)
+        self.dropdown_btn.pack(side="left")
+
+        with open(CONFIG_FILE, encoding="utf-8") as f:
+            self.data = json.load(f)
+
+        # Maintenant tu peux rafraîchir les textes
+        self.refresh_texts()
+        self.show_category(next(iter(self.data)))
+
         self.title("Nova Installer")
         self.iconbitmap(os.path.join(DATA_DIR, "icon.ico"))
         self.geometry("1280x720")
@@ -289,16 +323,15 @@ class App(ctk.CTk):
         help_menu.add_command(label=tr("tipeee"), command=lambda: webbrowser.open("https://fr.tipeee.com/nova-instaaller//"))
         help_menu.add_command(label=tr("project"), command=lambda: webbrowser.open("https://github.com/Nixiews/Nova-Installer"))
 
-   
+
         self.sidebar = ctk.CTkFrame(self, width=220)
         self.sidebar.grid(row=1, column=0, sticky="nsw", padx=(10,0), pady=10)
         self.sidebar.grid_propagate(False)
 
-       
+
         self.center_frame = ctk.CTkFrame(self)
         self.center_frame.grid(row=1, column=1, sticky="nsew", padx=10, pady=10)
         self.center_frame.grid_propagate(True)
-
 
         self.bottom_frame = ctk.CTkFrame(self, fg_color="transparent")
         self.bottom_frame.grid(row=2, column=0, sticky="sw", padx=20, pady=10)
@@ -308,81 +341,13 @@ class App(ctk.CTk):
         self.dropdown_btn = ctk.CTkOptionMenu(self.bottom_frame, variable=self.selected_var, values=[tr("no_app_selected")], width=220, font=default_font)
         self.dropdown_btn.pack(side="left")
 
-  
+
         with open(CONFIG_FILE, encoding="utf-8") as f:
             self.data = json.load(f)
 
 
         self.refresh_texts()
 
-        if not os.path.exists(marker_path):
-            self.iconbitmap(os.path.join(DATA_DIR, "icon.ico"))
-            store_url = "ms-windows-store://pdp/?productid=9NBLGGH4NNS1"
-            message = tr("welcome")
-            if messagebox.askyesno(tr("update_recommended"), message):
-                os.startfile(store_url)
-            os.makedirs(os.path.dirname(marker_path), exist_ok=True)
-            with open(marker_path, "w", encoding="utf-8") as f:
-                f.write("shown")
-
-        self.title("Nova Installer")
-        self.iconbitmap(os.path.join(DATA_DIR, "icon.ico"))
-        self.geometry("1280x720")
-        self.minsize(960, 540)
-        self.grid_rowconfigure(1, weight=1)
-        self.grid_columnconfigure(1, weight=1)
-
-        self.checkbox_vars = {}
-        self.checkboxes = {}
-
-        Menu
-        menubar = Menu(self)
-        self.config(menu=menubar)
-        help_menu = Menu(menubar, tearoff=0)
-        menubar.add_command(label=tr("export"), command=self.export_selection)
-        menubar.add_command(label=tr("import"), command=self.import_selection)
-        menubar.add_command(label="Français", command=lambda: self.set_language("fr"))
-        menubar.add_command(label="English", command=lambda: self.set_language("en"))
-        menubar.add_cascade(label=tr("about_title"), menu=help_menu)
-        help_menu.add_command(label=tr("app_info"), command=self.show_about)
-        help_menu.add_separator()
-        help_menu.add_command(label=tr("tipeee"), command=lambda: webbrowser.open("https://fr.tipeee.com/nova-instaaller//"))
-        help_menu.add_command(label=tr("project"), command=lambda: webbrowser.open("https://github.com/Nixiews/Nova-Installer"))
-
-       
-        self.sidebar = ctk.CTkFrame(self, width=220)
-        self.sidebar.grid(row=1, column=0, sticky="nsw", padx=(10,0), pady=10)
-        self.sidebar.grid_propagate(False)
-
-        logo_path = os.path.join(DATA_DIR, "icon2.ico")
-        if os.path.exists(logo_path):
-            logo_img = Image.open(logo_path).resize((200, 200))
-            self.logo = ImageTk.PhotoImage(logo_img)
-            ctk.CTkLabel(self.sidebar, image=self.logo, text="").pack(pady=(10, 10))
-        else:
-            ctk.CTkLabel(self.sidebar, text="Nova Installer", font=big_title_font).pack(pady=(10, 10))
-
-        ctk.CTkLabel(self.sidebar, text=tr("Categories"), font=title_font).pack(pady=(10, 20))
-
-       
-        self.center_frame = ctk.CTkFrame(self)
-        self.center_frame.grid(row=1, column=1, sticky="nsew", padx=10, pady=10)
-        self.center_frame.grid_propagate(True)
-
-       
-        self.bottom_frame = ctk.CTkFrame(self, fg_color="transparent")
-        self.bottom_frame.grid(row=2, column=0, sticky="sw", padx=20, pady=10)
-        ctk.CTkButton(self.bottom_frame, text=tr("install"), font=default_font, command=lambda: install_selected_apps(self)).pack(side="left", padx=(0,10))
-
-        self.selected_var = tk.StringVar(value=tr("no_app_selected"))
-        self.dropdown_btn = ctk.CTkOptionMenu(self.bottom_frame, variable=self.selected_var, values=[tr("no_app_selected")], width=220, font=default_font)
-        self.dropdown_btn.pack(side="left")
-
-       
-        with open(CONFIG_FILE, encoding="utf-8") as f:
-            self.data = json.load(f)
-
-      
         for category in self.data:
             ctk.CTkButton(self.sidebar, text=tr(category), width=200, font=default_font, command=lambda c=category: self.show_category(c)).pack(pady=5, fill="x")
 
@@ -391,8 +356,16 @@ class App(ctk.CTk):
 
     def set_language(self, lang):
         global current_lang
+        lang_marker_path = os.path.join(os.path.expanduser("~"), "Documents", "Nova Installer", "lang_marker.txt")
         current_lang = lang
-        self.refresh_texts()
+        os.makedirs(os.path.dirname(lang_marker_path), exist_ok=True)
+        with open(lang_marker_path, "w", encoding="utf-8") as f:
+            f.write(lang)
+        # Redémarre l'application proprement
+        python = sys.executable
+        subprocess.Popen([python] + sys.argv)
+        self.destroy()
+        sys.exit(0)
 
     def show_about(self):
         about_win = ctk.CTkToplevel(self)
@@ -402,18 +375,18 @@ class App(ctk.CTk):
         about_win.resizable(False, False)
         about_win.attributes("-topmost", True)
 
-        
+
         if os.path.exists(LOGO_PATH_INFO):
             try:
                 logo_img = Image.open(LOGO_PATH_INFO).resize((128, 128))
                 logo_photo = ImageTk.PhotoImage(logo_img)
                 logo_label = ctk.CTkLabel(about_win, image=logo_photo, text="")
-                logo_label.image = logo_photo 
+                logo_label.image = logo_photo
                 logo_label.pack(pady=(30, 10))
             except Exception:
                 pass
 
-        
+
         msg = tr("about_text")
         self.iconbitmap(os.path.join(DATA_DIR, "icon.ico"))
         ctk.CTkLabel(about_win, text=msg, font=default_font, justify="center", wraplength=350).pack(pady=(0, 20), padx=10)
@@ -560,7 +533,7 @@ del "%~f0"
             messagebox.showinfo(tr("import"), tr("import_success"))
 
     def refresh_texts(self):
-  
+        # Refresh Menubar
         menubar = Menu(self)
         self.config(menu=menubar)
         help_menu = Menu(menubar, tearoff=0)
@@ -574,6 +547,7 @@ del "%~f0"
         help_menu.add_command(label=tr("tipeee"), command=lambda: webbrowser.open("https://fr.tipeee.com/nova-instaaller//"))
         help_menu.add_command(label=tr("project"), command=lambda: webbrowser.open("https://github.com/Nixiews/Nova-Installer"))
 
+        # Refresh Sidebar
         for widget in self.sidebar.winfo_children():
             widget.destroy()
         logo_path = os.path.join(DATA_DIR, "icon2.ico")
@@ -587,10 +561,20 @@ del "%~f0"
         for category in self.data:
             ctk.CTkButton(self.sidebar, text=tr(category), width=200, font=default_font, command=lambda c=category: self.show_category(c)).pack(pady=5, fill="x")
 
-        self.show_category(next(iter(self.data)))
+        # Refresh Dropdown Menu
+        if selected_apps:
+            if len(selected_apps) == 1:
+                self.selected_var.set(selected_apps[0])
+            else:
+                self.selected_var.set(f"{len(selected_apps)} {tr('apps_selected')}")
+            self.dropdown_btn.configure(values=selected_apps)
+        else:
+            self.selected_var.set(tr("no_app_selected"))
+            self.dropdown_btn.configure(values=[tr("no_app_selected")])
+            if self.selected_var.get() not in self.dropdown_btn.cget("values"):
+                self.selected_var.set(self.dropdown_btn.cget("values")[0])
 
-        self.selected_var.set(tr("no_app_selected"))
-        self.dropdown_btn.configure(values=[tr("no_app_selected")])
+        # Refresh Install Button
         self.bottom_frame.winfo_children()[0].configure(text=tr("install"))
 
 def write_install_log(log_content):

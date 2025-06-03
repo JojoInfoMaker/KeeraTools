@@ -43,7 +43,7 @@
         "Close": "Fermer",
         "update_available": "Mise à jour disponible",
         "Categories": "Catégories",
-        "about_text": "Creator : Jojo - InfoMaker & Nixiews\n\nVersion : 1.0\n\nNova Installer ™ est un outil de gestion d'applications pour Windows / Linux.\nIl permet d'installer facilement des applications sans avoir de virus.\n\nCe projet est Open-Source et disponible sur notre Github dans le menu À propos !\n\nCopyright © 2025 Jojo - InfoMaker & Nixiews"
+        "about_text": "Creator : Jojo - InfoMaker & Nixiews\n\nVersion : 1.0\n\nNova Installer ™ est un outil de gestion d'applications pour Windows / Linux.\nIl permet d'installer facilement des applications sans avoir de virus.\n\nCe projet est Open-Source et disponible sur notre Github dans le menu À propos !\n\nCopyright © Jojo - InfoMaker AND Nixiews 2025"
     },
     "en": {
         "welcome": "Welcome to Nova Installer!\n\nTo use our application, Nova Installer uses the Windows application installer.\nWhen you install Windows for the first time, it is not updated\n\nClick on 'Oui' and wait a few seconds.\nIf it doesn't show an update, it's OK, you can use the software. If not, update it, then you can install applications.",
@@ -85,6 +85,6 @@
         "finished_installations_for": "Installation finished for",
         "apps_selected": "applications selected",
         "Categories": "Catégories",
-        "about_text": "Creator: Jojo - InfoMaker & Nixiews\n\nVersion: 1.0\n\nNova Installer ™ is an application management tool for Windows / Linux.\nIt allows you to easily install applications without any viruses.\n\nThis project is Open-Source and available on our Github in the About menu!\n\nCopyright © 2025 Jojo - InfoMaker & Nixiews"
+        "about_text": "Creator: Jojo - InfoMaker & Nixiews\n\nVersion: 1.0\n\nNova Installer ™ is an application management tool for Windows / Linux.\nIt allows you to easily install applications without any viruses.\n\nThis project is Open-Source and available on our Github in the About menu!\n\nCopyright © Jojo - InfoMaker AND Nixiews 2025"
     }
 }

@@ -1,5 +1,5 @@
 ('C:\\Users\\Jojo-InfoMaker\\Documents\\GitHub\\Nova-Installer\\Nova_Old_Versions\\Nova '
- 'Installer Windows\\Nova Installer VFinal\\build\\NOVA Installer\\PYZ-00.pyz',
+ 'Installer Windows\\Nova Installer V8\\build\\NOVA Installer\\PYZ-00.pyz',
  [('PIL',
    'C:\\Users\\Jojo-InfoMaker\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PIL\\__init__.py',
    'PYMODULE'),

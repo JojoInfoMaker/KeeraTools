@@ -25,7 +25,7 @@ For the Linux version, the software uses Flatpak to install applications (soon, 
 
 - Linux version: [📦 Download NOVA Installer for Linux (INSERT DOWNLOAD LINK)](https://github.com/NomUtilisateur/NomDepot/raw/main/releases/MonFichier.zip)
 
-- Windows version: [📦 Download NOVA Installer for Windows (INSERT DOWNLOAD LINK)](https://github.com/NomUtilisateur/NomDepot/raw/main/releases/MonFichier.zip)
+- Windows version: [📦 Download NOVA Installer for Windows](https://github.com/Nixiews/Nova-Installer/releases/tag/V1W)
 
 ## How to use the software?
 Just double-click on it, select the applications you want to install, click install, and then simply wait without doing anything. (If a program requires user actions, perform them, or it won’t be installed — but everything is mostly automated.)
