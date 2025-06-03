@@ -1,7 +1,7 @@
 # Bienvenue sur Nova Installer 
 
 <p align="center">
-  <img src="https://github.com/Nixiews/Nova-Installer/NOVA Installer Logo.png?raw=true" alt="Logo Nova Installer" width="400"/>
+  <img src="https://github.com/Nixiews/Nova-Installer/blob/main/NOVA%20Installer%20Logo.png?raw=true" alt="Logo Nova Installer" width="400"/>
 </p>
 
 ## You are English ?
