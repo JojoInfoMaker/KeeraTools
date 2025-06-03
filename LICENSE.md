@@ -20,3 +20,11 @@ L'autorisation est accordée par la présente, gratuitement, à toute personne o
 * Toute version modifiée ou redistribuée de ce logiciel **doit inclure une référence claire à** https://github.com/Nixiews/Nova-Installer/.
 
 LE LOGICIEL EST FOURNI « TEL QUEL », SANS GARANTIE D'AUCUNE SORTE, EXPRESSE OU IMPLICITE, Y COMPRIS, MAIS SANS S'Y LIMITER, LES GARANTIES DE QUALITÉ MARCHANDE, D'ADÉQUATION À UN USAGE PARTICULIER ET D'ABSENCE DE CONTREFAÇON. EN AUCUN CAS, LES AUTEURS OU LES DÉTENTEURS DES DROITS D'AUTEUR NE PEUVENT ÊTRE TENUS RESPONSABLES DE TOUTE RÉCLAMATION, DE TOUT DOMMAGE OU DE TOUTE AUTRE RESPONSABILITÉ, QUE CE SOIT DANS LE CADRE D'UNE ACTION CONTRACTUELLE, DÉLICTUELLE OU AUTRE, DÉCOULANT DU LOGICIEL, DE SON UTILISATION OU DE TOUTE AUTRE OPÉRATION LIÉE AU LOGICIEL.
+
+
+
+
+
+<p align="center">
+  <img src="https://github.com/Nixiews/Nova-Installer/blob/main/NOVA%20Installer%20Logo.png?raw=true" alt="Nova Installer Logo" width="400"/>
+</p>
