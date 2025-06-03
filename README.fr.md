@@ -20,10 +20,10 @@ Pour la version Linux, le logiciel utilise l'outil Flatpak pour installer les ap
 
 ## Ou Installer Nova Installer ?
 
-- Version Linux :
+- Version Linux : [📦 Télécharger NOVA Installer Linux (METTRE LIEN DE DOWNLAOD](https://github.com/NomUtilisateur/NomDepot/raw/main/releases/MonFichier.zip)
 .
 
-- Version Windows : [📦 Télécharger MonFichier.zip](https://github.com/NomUtilisateur/NomDepot/raw/main/releases/MonFichier.zip)
+- Version Windows : [📦 Télécharger NOVA Installer Windows (METTRE LIEN DE DOWNLAOD](https://github.com/NomUtilisateur/NomDepot/raw/main/releases/MonFichier.zip)
 .
 
 ## Comment utiliser le logiciel ? 
