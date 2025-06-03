@@ -79,10 +79,20 @@ def is_admin():
     except:
         return False
 
+def center_window(win, width=None, height=None):
+    win.update_idletasks()
+    if width is None or height is None:
+        width = win.winfo_width()
+        height = win.winfo_height()
+    x = (win.winfo_screenwidth() // 2) - (width // 2)
+    y = (win.winfo_screenheight() // 2) - (height // 2)
+    win.geometry(f"{width}x{height}+{x}+{y}")
+
 class ProgressWindow(ctk.CTkToplevel):
     def __init__(self, parent, apps):
         super().__init__(parent)
         self.geometry("1100x650")
+        center_window(self, 1100, 650)
         self.transient(parent)
         self.title(tr("installing"))
         self.iconbitmap(os.path.join(DATA_DIR, "icon.ico"))
@@ -178,6 +188,7 @@ class App(ctk.CTk):
             lang_win = ctk.CTkToplevel(self)
             lang_win.title("Choix de la langue / Language selection")
             lang_win.geometry("350x200")
+            center_window(lang_win, 350, 200)
             self.iconbitmap(os.path.join(DATA_DIR, "icon.ico"))
             lang_win.resizable(False, False)
             lang_win.attributes("-topmost", True)
@@ -387,6 +398,7 @@ class App(ctk.CTk):
         about_win = ctk.CTkToplevel(self)
         about_win.title(tr("about_title"))
         about_win.geometry("400x540")
+        center_window(about_win, 400, 540)
         about_win.resizable(False, False)
         about_win.attributes("-topmost", True)
 
