@@ -4,6 +4,9 @@
   <img src="https://github.com/Nixiews/Nova-Installer/blob/main/Nova_Old_Versions/Icone/Logo%20V3%20(2).png?raw=true" alt="Logo Nova Installer" width="400"/>
 </p>
 
+## Your Are English ?
+of course we had an English page for the software, which is also available in English.
+
 ## Présentation
 Nous sommes deux lycéens qui à un moment voulaient créer un projet pour lutter contre les sites de téléchargement malveillants, après plusieurs temps de réflexion, nous avons commencé à créer le logiciel, nous avions passé beaucoup de temps sur ce logiciel pour savoir comment on pourrait faire son fonctionnement et on sait aider de l'outil internet et un très bons amis qui s'appellent ChatGPT.
 
