@@ -36,5 +36,7 @@ Il y a juste à double-cliquer dessus et puis à sélectionner les applications 
 Nous essayons de rendre ce logiciel le plus simple et rapide possible. Si vous avez un problème, faites-le nous savoir dans les commentaires GitHub, nous vous répondrons avec plaisir.
 
 Si vous voulez nous aider à évoluer notre projet, nous avions un Tepee où vous pouvez envoyer de l'argent et ça nous aidera à développer en plus gros notre application.
-la Licence de NOVA Installer juste ici -> [LICENSE](LICENSE.md)
 
+---------
+la Licence de NOVA Installer juste ici -> [LICENSE](LICENSE.md)
+---------
