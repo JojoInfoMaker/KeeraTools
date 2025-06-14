@@ -38,10 +38,7 @@
       "last_updated",
       "installation_window_title"
     ]
-  }
-}
-
-{
+  },
   "language_changed": {
     "en": "Language Changed",
     "fr": "Langue Modifiée",

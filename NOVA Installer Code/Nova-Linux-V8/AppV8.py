@@ -7,18 +7,31 @@ Last updated: 2025-06-13 21:09:46 UTC
 import os
 import sys
 import json
-import platform
+import shutil
+import ctypes
+import webbrowser
 import subprocess
-import tkinter as tk
-from tkinter import filedialog, messagebox, colorchooser
-from PIL import Image, ImageOps, ImageTk
-from datetime import datetime, timezone
+from datetime import datetime
+from threading import Thread
+from PIL import Image, ImageTk
 import customtkinter as ctk
-import logging
-from theme_manager import ThemeManager
-import time
-from tkinter import filedialog
-import shutil  # Add this import
+import tkinter as tk
+from tkinter import messagebox, filedialog
+
+# Constants
+CONFIG_FILE = os.path.join("config", "config.json")
+DATA_DIR = os.path.join("data")
+CONFIG_TRAD = os.path.join(DATA_DIR, "Languages.json")
+LOGO_PATH_INFO = os.path.join(DATA_DIR, "icon.png")
+LOGO_DIR = os.path.join(DATA_DIR, "icon.png")
+GITHUB_REPO = "Nixiews/Nova-Installer"
+CURRENT_VERSION = "V8"  # Updated for Linux V8
+
+# Load translations
+with open(CONFIG_TRAD, encoding="utf-8") as f:
+    LANGUAGES = json.load(f)
+
+current_lang = "fr"  # Default language
 
 # --- Constants and Setup ---
 CURRENT_USER = "Nixiews"
@@ -32,27 +45,6 @@ ctk.set_default_color_theme("dark-blue")
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 DATA_DIR = os.path.join(BASE_DIR, "data")
 os.makedirs(DATA_DIR, exist_ok=True)
-
-# Define paths
-APPS_FILE = os.path.join(DATA_DIR, "apps.json")
-CONFIG_FILE = os.path.join(DATA_DIR, "config.json")
-LANG_FILE = os.path.join(DATA_DIR, "Languages.json")
-THEME_FILE = os.path.join(DATA_DIR, "universal_themes.json")
-LOGO_PATH = os.path.join(DATA_DIR, "inco.png")
-LOG_DIR = os.path.join(os.path.expanduser("~"), "Documents", "Nova Installer")
-os.makedirs(LOG_DIR, exist_ok=True)
-
-# Set up logging with rotation
-LOG_FILE = os.path.join(LOG_DIR, 'nova_installer.log')
-logging.basicConfig(
-    level=logging.DEBUG,
-    format='%(asctime)s - %(levelname)s - %(message)s',
-    handlers=[
-        logging.FileHandler(LOG_FILE),
-        logging.StreamHandler()
-    ]
-)
-logger = logging.getLogger("NovaInstaller")
 
 # Default configuration
 DEFAULT_CONFIG = {
@@ -113,15 +105,53 @@ def load_languages():
         with open(LANG_FILE, 'r', encoding='utf-8') as f:
             langs = json.load(f)
 
+            # Get available languages from metadata
+            available_langs = langs.get("metadata", {}).get("supported_languages", [])
+            if not available_langs:
+                logger.error("No supported languages found in metadata")
+                return {"en": {}, "fr": {}}
+
+            # Check if language entries exist
+            for lang in available_langs:
+                for key in langs:
+                    if key != "metadata":  # Skip metadata section
+                        if lang not in langs[key]:
+                            logger.warning(f"Missing translation for '{key}' in language '{lang}'")
+
             # Log available languages
-            available_langs = [lang for lang in langs.keys() if lang != "metadata"]
             logger.info(f"Loaded {len(available_langs)} languages: {', '.join(available_langs)}")
 
             return langs
 
+    except json.JSONDecodeError as e:
+        logger.error(f"Invalid JSON in language file: {e}")
+        return {"en": {}, "fr": {}}
     except Exception as e:
         logger.error(f"Error loading languages: {e}")
-        return {"en": {}, "fr": {}}  # Fallback to minimal language support
+        return {"en": {}, "fr": {}}
+
+def set_language(self, lang):
+    global current_lang
+    lang_marker_path = os.path.join(os.path.expanduser("~"), "Documents", "Nova Installer", "lang_marker.txt")
+    current_lang = lang
+
+    # Make sure the directory exists
+    os.makedirs(os.path.dirname(lang_marker_path), exist_ok=True)
+
+    # Write the language selection with proper encoding
+    try:
+        with open(lang_marker_path, "w", encoding="utf-8") as f:
+            f.write(lang)
+    except Exception as e:
+        print(f"Error saving language selection: {e}")
+
+    # Restart the application to apply the new language
+    python = sys.executable
+    try:
+        subprocess.Popen([python] + sys.argv)
+        self.quit()  # Use quit() instead of destroy() for cleaner exit
+    except Exception as e:
+        print(f"Error restarting application: {e}")
 
 def load_config():
     """Load and merge configuration with defaults."""
@@ -137,25 +167,6 @@ def load_config():
 # Load configuration and languages
 config = load_config()
 LANGUAGES = load_languages()
-
-def tr(key, lang=None):
-    """Get translation for key"""
-    try:
-        # Use specified language or get from config
-        current_lang = lang or config.get("language", "en")
-
-        # Try to get translation
-        translation = LANGUAGES.get(current_lang, {}).get(key)
-
-        # Fallback to English if translation not found
-        if translation is None:
-            translation = LANGUAGES.get("en", {}).get(key, key)
-
-        return translation
-
-    except Exception as e:
-        logger.error(f"Translation error for key '{key}': {e}")
-        return key
 
 # Load configuration
 config = load_config()
@@ -306,6 +317,401 @@ def setup_system_requirements(requirements):
             return False
 
     return True
+
+def tr(key, **kwargs):
+    txt = LANGUAGES.get(current_lang, {}).get(key, key)
+    if kwargs:
+        return txt.format(**kwargs)
+    return txt
+
+# Font configuration
+default_font = ("Comfortaa", 12)
+title_font = ("Comfortaa", 20, "bold")
+big_title_font = ("Comfortaa", 32, "bold")
+
+selected_apps = []
+
+def center_window(win, width=None, height=None):
+    win.update_idletasks()
+    if width is None or height is None:
+        width = win.winfo_width()
+        height = win.winfo_height()
+    x = (win.winfo_screenwidth() // 2) - (width // 2)
+    y = (win.winfo_screenheight() // 2) - (height // 2)
+    win.geometry(f"{width}x{height}+{x}+{y}")
+
+class ThemeManager:
+    """Manages consistent theme across the application"""
+    COLORS = {
+        "background": "#2b2b2b",
+        "topbar": "#23272e",
+        "frame": "#2b2b2b",
+        "button": "#1f538d",
+        "button_hover": "#1a4578",
+        "text": "#ffffff"
+    }
+
+    @classmethod
+    def apply_theme(cls, widget):
+        """Recursively applies theme to widget and its children"""
+        if isinstance(widget, ctk.CTkFrame):
+            widget.configure(fg_color=cls.COLORS["frame"])
+        elif isinstance(widget, ctk.CTkButton):
+            widget.configure(fg_color=cls.COLORS["button"],
+                           hover_color=cls.COLORS["button_hover"])
+        elif isinstance(widget, ctk.CTkLabel):
+            widget.configure(text_color=cls.COLORS["text"])
+
+        if hasattr(widget, 'winfo_children'):
+            for child in widget.winfo_children():
+                cls.apply_theme(child)
+
+class LanguageManager:
+    """Manages language selection and persistence"""
+    @staticmethod
+    def get_language_path():
+        return os.path.join(os.path.expanduser("~"), "Documents", "Nova Installer", "lang_marker.txt")
+
+    @staticmethod
+    def load_language():
+        global current_lang
+        lang_path = LanguageManager.get_language_path()
+        try:
+            if os.path.exists(lang_path):
+                with open(lang_path, "r", encoding="utf-8") as f:
+                    current_lang = f.read().strip()
+            return current_lang
+        except Exception:
+            return "fr"  # Default to French if there's an error
+
+    @staticmethod
+    def save_language(lang):
+        lang_path = LanguageManager.get_language_path()
+        os.makedirs(os.path.dirname(lang_path), exist_ok=True)
+        with open(lang_path, "w", encoding="utf-8") as f:
+            f.write(lang)
+
+class LanguageManager:
+    """Manages language selection and persistence"""
+    @staticmethod
+    def get_language_path():
+        return os.path.join(os.path.expanduser("~"), "Documents", "Nova Installer", "lang_marker.txt")
+
+    @staticmethod
+    def load_language():
+        global current_lang
+        lang_path = LanguageManager.get_language_path()
+        try:
+            if os.path.exists(lang_path):
+                with open(lang_path, "r", encoding="utf-8") as f:
+                    current_lang = f.read().strip()
+            return current_lang
+        except Exception:
+            return "fr"  # Default to French if there's an error
+
+    @staticmethod
+    def save_language(lang):
+        lang_path = LanguageManager.get_language_path()
+        os.makedirs(os.path.dirname(lang_path), exist_ok=True)
+        with open(lang_path, "w", encoding="utf-8") as f:
+            f.write(lang)
+
+class App(ctk.CTk):
+    def __init__(self):
+        super().__init__()
+        self.theme_manager = ThemeManager
+        self.setup_window()
+        self.setup_language()
+        self.create_widgets()
+        self.load_config()
+        self.refresh_texts()
+        self.after(1000, self.check_for_update)
+
+    def setup_window(self):
+        self.title("Nova Installer")
+        self.geometry("1280x760")
+        self.minsize(960, 540)
+        self.grid_rowconfigure(1, weight=1)
+        self.grid_columnconfigure(1, weight=1)
+        self.protocol("WM_DELETE_WINDOW", self.on_close)
+
+    def setup_language(self):
+        global current_lang
+        lang_marker_path = LanguageManager.get_language_path()
+
+        if not os.path.exists(lang_marker_path):
+            self.show_language_picker()
+        else:
+            current_lang = LanguageManager.load_language()
+
+    def show_language_picker(self):
+        lang_win = ctk.CTkToplevel(self)
+        lang_win.title("Choix de la langue / Language selection")
+        lang_win.geometry("350x200")
+        center_window(lang_win, 350, 200)
+        lang_win.resizable(False, False)
+        lang_win.attributes("-topmost", True)
+
+        ctk.CTkLabel(
+            lang_win,
+            text="Veuillez choisir une langue\nPlease select a language",
+            font=title_font,
+            justify="center"
+        ).pack(pady=20)
+
+        def set_lang_and_close(lang):
+            LanguageManager.save_language(lang)
+            lang_win.destroy()
+            self.restart_app()
+
+        ctk.CTkButton(
+            lang_win,
+            text="Français",
+            command=lambda: set_lang_and_close("fr"),
+            width=120
+        ).pack(pady=5)
+
+        ctk.CTkButton(
+            lang_win,
+            text="English",
+            command=lambda: set_lang_and_close("en"),
+            width=120
+        ).pack(pady=5)
+
+        self.wait_window(lang_win)
+
+    def create_widgets(self):
+        # Top bar
+        self.topbar = ctk.CTkFrame(self, height=48, fg_color=ThemeManager.COLORS["topbar"])
+        self.topbar.grid(row=0, column=0, columnspan=2, sticky="ew")
+        self.topbar.grid_propagate(False)
+        self.create_topbar_buttons()
+
+        # Sidebar
+        self.sidebar = ctk.CTkFrame(self, width=220)
+        self.sidebar.grid(row=1, column=0, sticky="nsw", padx=(10,0), pady=10)
+        self.sidebar.grid_propagate(False)
+
+        # Center frame
+        self.center_frame = ctk.CTkFrame(self)
+        self.center_frame.grid(row=1, column=1, sticky="nsew", padx=10, pady=10)
+
+        # Bottom frame
+        self.bottom_frame = ctk.CTkFrame(self, fg_color="transparent")
+        self.bottom_frame.grid(row=2, column=0, sticky="sw", padx=20, pady=10)
+
+        # Install button and dropdown
+        self.create_bottom_controls()
+
+    def create_topbar_buttons(self):
+        buttons = [
+            ("🏠 " + tr("Home"), lambda: self.show_category(next(iter(self.data)))),
+            (tr("export"), self.export_selection),
+            (tr("import"), self.import_selection),
+            ("Français", lambda: self.set_language("fr")),
+            ("English", lambda: self.set_language("en")),
+            (tr("Open Logs"), lambda: self.open_logs()),
+            ("❓ " + tr("about_title"), self.show_about)
+        ]
+
+        for text, command in buttons[:-1]:  # All except the last button
+            ctk.CTkButton(
+                self.topbar,
+                text=text,
+                width=90,
+                font=default_font,
+                command=command
+            ).pack(side="left", padx=6, pady=8)
+
+        # About button goes to the right
+        ctk.CTkButton(
+            self.topbar,
+            text=buttons[-1][0],
+            width=110,
+            font=default_font,
+            command=buttons[-1][1]
+        ).pack(side="right", padx=8, pady=8)
+
+    def create_bottom_controls(self):
+        ctk.CTkButton(
+            self.bottom_frame,
+            text=tr("install"),
+            font=default_font,
+            command=lambda: self.install_selected_apps()
+        ).pack(side="left", padx=(0,10))
+
+        self.selected_var = tk.StringVar(value=tr("no_app_selected"))
+        self.dropdown_btn = ctk.CTkOptionMenu(
+            self.bottom_frame,
+            variable=self.selected_var,
+            values=[tr("no_app_selected")],
+            width=220,
+            font=default_font
+        )
+        self.dropdown_btn.pack(side="left")
+
+    def load_config(self):
+        with open(CONFIG_FILE, encoding="utf-8") as f:
+            self.data = json.load(f)
+        self.show_category(next(iter(self.data)))
+
+    def set_language(self, lang):
+        global current_lang
+        LanguageManager.save_language(lang)
+        self.restart_app()
+
+    def restart_app(self):
+        python = sys.executable
+        subprocess.Popen([python] + sys.argv)
+        self.quit()
+
+    def show_category(self, category):
+        for widget in self.center_frame.winfo_children():
+            widget.destroy()
+
+        # Category title
+        ctk.CTkLabel(
+            self.center_frame,
+            text=tr(category),
+            font=(title_font[0], title_font[1], "bold")
+        ).pack(pady=(0,10))
+
+        # Apps list
+        apps_list = list(self.data[category].items())
+        self.checkboxes[category] = {}
+
+        # Create scrollable frame if needed
+        if len(apps_list) > 21:
+            self.create_scrollable_apps_list(category, apps_list)
+        else:
+            self.create_simple_apps_list(category, apps_list)
+
+        # Apply theme to new widgets
+        ThemeManager.apply_theme(self.center_frame)
+
+    def create_scrollable_apps_list(self, category, apps_list):
+        frame_canvas = ctk.CTkFrame(self.center_frame)
+        frame_canvas.pack(fill="both", expand=True)
+
+        canvas = tk.Canvas(
+            frame_canvas,
+            borderwidth=0,
+            highlightthickness=0,
+            bg=ThemeManager.COLORS["background"]
+        )
+        scrollbar = ctk.CTkScrollbar(
+            frame_canvas,
+            orientation="vertical",
+            command=canvas.yview
+        )
+
+        canvas.pack(side="left", fill="both", expand=True)
+        scrollbar.pack(side="right", fill="y")
+
+        scrollable_frame = ctk.CTkFrame(canvas)
+        scrollable_frame_id = canvas.create_window(
+            (0, 0),
+            window=scrollable_frame,
+            anchor="nw"
+        )
+
+        def on_frame_configure(event):
+            canvas.configure(scrollregion=canvas.bbox("all"))
+            canvas.itemconfig(scrollable_frame_id, width=canvas.winfo_width())
+
+        scrollable_frame.bind("<Configure>", on_frame_configure)
+        canvas.bind("<Configure>", on_frame_configure)
+
+        self.create_app_checkboxes(scrollable_frame, category, apps_list)
+
+        def _on_mousewheel(event):
+            canvas.yview_scroll(int(-1*(event.delta/120)), "units")
+        canvas.bind_all("<MouseWheel>", _on_mousewheel)
+
+    def create_simple_apps_list(self, category, apps_list):
+        frame = ctk.CTkFrame(
+            self.center_frame,
+            fg_color=ThemeManager.COLORS["frame"]
+        )
+        frame.pack(fill="both", expand=True)
+        self.create_app_checkboxes(frame, category, apps_list)
+
+    def create_app_checkboxes(self, parent_frame, category, apps_list):
+        for app, app_id in apps_list:
+            if app_id not in self.checkbox_vars:
+                self.checkbox_vars[app_id] = tk.BooleanVar(
+                    value=app_id in selected_apps
+                )
+            cb = ctk.CTkCheckBox(
+                parent_frame,
+                text=app,
+                font=default_font,
+                variable=self.checkbox_vars[app_id],
+                command=lambda a=app_id, c=category: self.toggle_app(a, c)
+            )
+            cb.pack(anchor="w", padx=20, pady=2)
+            self.checkboxes[category][app_id] = cb
+
+    def toggle_app(self, app_id, category=None):
+        checked = self.checkbox_vars[app_id].get()
+        if checked and app_id not in selected_apps:
+            selected_apps.append(app_id)
+        elif not checked and app_id in selected_apps:
+            selected_apps.remove(app_id)
+
+        self.update_selection_display()
+
+    def update_selection_display(self):
+        if selected_apps:
+            if len(selected_apps) == 1:
+                self.selected_var.set(selected_apps[0])
+            else:
+                self.selected_var.set(f"{len(selected_apps)} {tr('apps_selected')}")
+            self.dropdown_btn.configure(values=selected_apps)
+        else:
+            self.selected_var.set(tr("no_app_selected"))
+            self.dropdown_btn.configure(values=[tr("no_app_selected")])
+
+    def refresh_texts(self):
+        # Clear and rebuild sidebar
+        for widget in self.sidebar.winfo_children():
+            widget.destroy()
+
+        # Add logo or title
+        logo_path = os.path.join(DATA_DIR, "icon2.ico")
+        if os.path.exists(logo_path):
+            try:
+                logo_img = Image.open(logo_path).resize((200, 200))
+                self.logo = ImageTk.PhotoImage(logo_img)
+                ctk.CTkLabel(self.sidebar, image=self.logo, text="").pack(pady=(10, 10))
+            except Exception:
+                ctk.CTkLabel(self.sidebar, text="Nova Installer", font=big_title_font).pack(pady=(10, 10))
+        else:
+            ctk.CTkLabel(self.sidebar, text="Nova Installer", font=big_title_font).pack(pady=(10, 10))
+
+        # Categories section
+        ctk.CTkLabel(self.sidebar, text=tr("Categories"), font=title_font).pack(pady=(10, 20))
+
+        # Category buttons
+        for category in self.data:
+            ctk.CTkButton(
+                self.sidebar,
+                text=tr(category),
+                width=200,
+                font=default_font,
+                command=lambda c=category: self.show_category(c)
+            ).pack(pady=5, fill="x")
+
+        # Update bottom controls
+        self.update_selection_display()
+        self.bottom_frame.winfo_children()[0].configure(text=tr("install"))
+
+        # Apply theme to all widgets
+        ThemeManager.apply_theme(self)
+
+    def on_close(self):
+        """Clean up and close the application"""
+        self.quit()
 
 class InstallDialog(ctk.CTkToplevel):
     """Installation progress dialog"""
