@@ -1,0 +1,761 @@
+2025-06-13 14:50:27,471 - DEBUG - STREAM b'IHDR' 16 13
+2025-06-13 14:50:27,471 - DEBUG - STREAM b'pHYs' 41 9
+2025-06-13 14:50:27,471 - DEBUG - STREAM b'IDAT' 62 2949
+2025-06-13 14:56:18,426 - ERROR - Installation error: Command '['flatpak', 'install', '-y', 'org.eclipse.Eclipse']' returned non-zero exit status 1.
+2025-06-13 14:57:12,889 - INFO - Application started by user: Nixiews
+2025-06-13 14:57:12,910 - DEBUG - STREAM b'IHDR' 16 13
+2025-06-13 14:57:12,910 - DEBUG - STREAM b'pHYs' 41 9
+2025-06-13 14:57:12,910 - DEBUG - STREAM b'IDAT' 62 2949
+2025-06-13 14:57:25,430 - ERROR - Error in theme change: 'ColorDialog' object has no attribute 'bg_color'
+2025-06-13 15:01:38,313 - INFO - Application started by user: Nixiews
+2025-06-13 15:01:38,337 - DEBUG - STREAM b'IHDR' 16 13
+2025-06-13 15:01:38,337 - DEBUG - STREAM b'pHYs' 41 9
+2025-06-13 15:01:38,338 - DEBUG - STREAM b'IDAT' 62 2949
+2025-06-13 15:04:03,737 - DEBUG - STREAM b'IHDR' 16 13
+2025-06-13 15:04:03,737 - DEBUG - STREAM b'pHYs' 41 9
+2025-06-13 15:04:03,737 - DEBUG - STREAM b'IDAT' 62 2949
+2025-06-13 15:06:32,609 - DEBUG - STREAM b'IHDR' 16 13
+2025-06-13 15:06:32,609 - DEBUG - STREAM b'pHYs' 41 9
+2025-06-13 15:06:32,609 - DEBUG - STREAM b'IDAT' 62 2949
+2025-06-13 15:08:33,579 - DEBUG - STREAM b'IHDR' 16 13
+2025-06-13 15:08:33,580 - DEBUG - STREAM b'pHYs' 41 9
+2025-06-13 15:08:33,580 - DEBUG - STREAM b'IDAT' 62 2949
+2025-06-13 15:18:06,937 - DEBUG - STREAM b'IHDR' 16 13
+2025-06-13 15:18:06,937 - DEBUG - STREAM b'pHYs' 41 9
+2025-06-13 15:18:06,937 - DEBUG - STREAM b'IDAT' 62 2949
+2025-06-13 15:21:56,452 - DEBUG - STREAM b'IHDR' 16 13
+2025-06-13 15:21:56,453 - DEBUG - STREAM b'pHYs' 41 9
+2025-06-13 15:21:56,453 - DEBUG - STREAM b'IDAT' 62 2949
+2025-06-13 15:28:15,374 - DEBUG - STREAM b'IHDR' 16 13
+2025-06-13 15:28:15,375 - DEBUG - STREAM b'pHYs' 41 9
+2025-06-13 15:28:15,375 - DEBUG - STREAM b'IDAT' 62 2949
+2025-06-13 15:28:44,881 - ERROR - Error in theme change: 'ColorDialog' object has no attribute 'bg_color'
+2025-06-13 15:31:05,061 - DEBUG - STREAM b'IHDR' 16 13
+2025-06-13 15:31:05,061 - DEBUG - STREAM b'pHYs' 41 9
+2025-06-13 15:31:05,061 - DEBUG - STREAM b'IDAT' 62 2949
+2025-06-13 15:32:17,879 - DEBUG - STREAM b'IHDR' 16 13
+2025-06-13 15:32:17,879 - DEBUG - STREAM b'pHYs' 41 9
+2025-06-13 15:32:17,879 - DEBUG - STREAM b'IDAT' 62 2949
+2025-06-13 15:33:58,378 - DEBUG - STREAM b'IHDR' 16 13
+2025-06-13 15:33:58,378 - DEBUG - STREAM b'pHYs' 41 9
+2025-06-13 15:33:58,378 - DEBUG - STREAM b'IDAT' 62 2949
+2025-06-13 15:37:20,220 - ERROR - apps.json not found
+2025-06-13 15:37:25,791 - DEBUG - STREAM b'IHDR' 16 13
+2025-06-13 15:37:25,791 - DEBUG - STREAM b'pHYs' 41 9
+2025-06-13 15:37:25,791 - DEBUG - STREAM b'IDAT' 62 2949
+2025-06-13 15:40:29,858 - ERROR - apps.json not found
+2025-06-13 15:40:33,946 - DEBUG - STREAM b'IHDR' 16 13
+2025-06-13 15:40:33,946 - DEBUG - STREAM b'pHYs' 41 9
+2025-06-13 15:40:33,946 - DEBUG - STREAM b'IDAT' 62 2949
+2025-06-13 15:42:24,078 - INFO - Starting Nova Installer - Date: 2025-06-13 13:40:05 - User: Nixiews
+2025-06-13 15:42:24,079 - INFO - Loading apps.json from: /home/Nixiews/Documents/GitHub/NOVA-Installer-test/V1/Nova_Lastest/Nova-Linux-V8/apps.json
+2025-06-13 15:42:24,079 - ERROR - apps.json not found at: /home/Nixiews/Documents/GitHub/NOVA-Installer-test/V1/Nova_Lastest/Nova-Linux-V8/apps.json
+2025-06-13 15:44:30,689 - INFO - Starting Nova Installer - Date: 2025-06-13 13:44:30 - User: Nixiews
+2025-06-13 15:44:30,690 - INFO - Loading apps.json from: /home/Nixiews/Documents/GitHub/NOVA-Installer-test/V1/Nova_Lastest/Nova-Linux-V8/apps.json
+2025-06-13 15:44:30,690 - ERROR - apps.json not found at: /home/Nixiews/Documents/GitHub/NOVA-Installer-test/V1/Nova_Lastest/Nova-Linux-V8/apps.json
+2025-06-13 15:44:34,018 - DEBUG - STREAM b'IHDR' 16 13
+2025-06-13 15:44:34,019 - DEBUG - STREAM b'pHYs' 41 9
+2025-06-13 15:44:34,019 - DEBUG - STREAM b'IDAT' 62 2949
+2025-06-13 15:49:42,863 - INFO - Starting Nova Installer - Date: 2025-06-13 13:49:42 - User: Nixiews
+2025-06-13 15:49:42,863 - INFO - Loading apps.json from: /home/Nixiews/Documents/GitHub/NOVA-Installer-test/V1/Nova_Lastest/Nova-Linux-V8/apps.json
+2025-06-13 15:49:42,863 - ERROR - apps.json not found at: /home/Nixiews/Documents/GitHub/NOVA-Installer-test/V1/Nova_Lastest/Nova-Linux-V8/apps.json
+2025-06-13 15:49:45,792 - DEBUG - STREAM b'IHDR' 16 13
+2025-06-13 15:49:45,792 - DEBUG - STREAM b'pHYs' 41 9
+2025-06-13 15:49:45,792 - DEBUG - STREAM b'IDAT' 62 2949
+2025-06-13 15:53:53,408 - INFO - Starting Nova Installer - Date: 2025-06-13 13:53:53 - User: Nixiews
+2025-06-13 15:53:53,408 - INFO - Loading apps.json from: /home/Nixiews/Documents/GitHub/NOVA-Installer-test/V1/Nova_Lastest/Nova-Linux-V8/apps.json
+2025-06-13 15:53:53,409 - ERROR - apps.json not found at: /home/Nixiews/Documents/GitHub/NOVA-Installer-test/V1/Nova_Lastest/Nova-Linux-V8/apps.json
+2025-06-13 15:53:56,647 - DEBUG - STREAM b'IHDR' 16 13
+2025-06-13 15:53:56,647 - DEBUG - STREAM b'pHYs' 41 9
+2025-06-13 15:53:56,648 - DEBUG - STREAM b'IDAT' 62 2949
+2025-06-13 15:56:57,728 - INFO - Starting Nova Installer - Date: 2025-06-13 13:56:57 - User: Nixiews
+2025-06-13 15:56:57,729 - INFO - Loading apps.json from: /home/Nixiews/Documents/GitHub/NOVA-Installer-test/V1/Nova_Lastest/Nova-Linux-V8/data/apps.json
+2025-06-13 15:56:57,729 - INFO - Successfully loaded 8 categories from apps.json
+2025-06-13 15:56:57,750 - DEBUG - STREAM b'IHDR' 16 13
+2025-06-13 15:56:57,750 - DEBUG - STREAM b'pHYs' 41 9
+2025-06-13 15:56:57,750 - DEBUG - STREAM b'IDAT' 62 2949
+2025-06-13 16:02:31,222 - INFO - Starting Nova Installer - Date: 2025-06-13 14:02:31 - User: Nixiews
+2025-06-13 16:02:31,223 - INFO - Loading apps.json from: /home/Nixiews/Documents/GitHub/NOVA-Installer-test/V1/Nova_Lastest/Nova-Linux-V8/data/apps.json
+2025-06-13 16:02:31,223 - INFO - Successfully loaded 8 categories from apps.json
+2025-06-13 16:02:31,243 - DEBUG - STREAM b'IHDR' 16 13
+2025-06-13 16:02:31,243 - DEBUG - STREAM b'pHYs' 41 9
+2025-06-13 16:02:31,243 - DEBUG - STREAM b'IDAT' 62 2949
+2025-06-13 16:06:06,261 - INFO - Starting Nova Installer - Date: 2025-06-13 14:06:06 - User: Nixiews
+2025-06-13 16:06:06,270 - ERROR - Theme application failed: 'str' object has no attribute 'name'
+2025-06-13 16:08:13,004 - INFO - Starting Nova Installer - Date: 2025-06-13 14:08:13 - User: Nixiews
+2025-06-13 16:08:13,013 - INFO - Loading apps.json from: /home/Nixiews/Documents/GitHub/NOVA-Installer-test/V1/Nova_Lastest/Nova-Linux-V8/data/apps.json
+2025-06-13 16:08:13,014 - INFO - Successfully loaded 8 categories from apps.json
+2025-06-13 16:08:13,030 - DEBUG - STREAM b'IHDR' 16 13
+2025-06-13 16:08:13,030 - DEBUG - STREAM b'pHYs' 41 9
+2025-06-13 16:08:13,030 - DEBUG - STREAM b'IDAT' 62 2949
+2025-06-13 16:08:19,806 - ERROR - Failed to update widget colors: ['border_color'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 16:08:20,798 - ERROR - Failed to update widget colors: ['border_color'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 16:08:20,799 - ERROR - Failed to update widget colors: ['border_color'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 16:08:20,799 - ERROR - Failed to update widget colors: ['border_color'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 16:08:20,821 - ERROR - Failed to update widget colors: ['border_color'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 16:08:20,837 - ERROR - Failed to update widget colors: ['border_color'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 16:08:20,839 - ERROR - Failed to update widget colors: ['border_color'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 16:12:20,346 - INFO - Starting Nova Installer - Date: 2025-06-13 14:12:20 - User: Nixiews
+2025-06-13 16:12:20,355 - INFO - Loading apps.json from: /home/Nixiews/Documents/GitHub/NOVA-Installer-test/V1/Nova_Lastest/Nova-Linux-V8/data/apps.json
+2025-06-13 16:12:20,356 - INFO - Successfully loaded 8 categories from apps.json
+2025-06-13 16:12:20,372 - DEBUG - STREAM b'IHDR' 16 13
+2025-06-13 16:12:20,372 - DEBUG - STREAM b'pHYs' 41 9
+2025-06-13 16:12:20,372 - DEBUG - STREAM b'IDAT' 62 2949
+2025-06-13 16:12:25,917 - ERROR - Failed to update widget colors: ['border_color'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 16:12:26,839 - ERROR - Failed to update widget colors: color is None, for transparency set color='transparent'
+2025-06-13 16:12:26,839 - ERROR - Failed to update widget colors: color is None, for transparency set color='transparent'
+2025-06-13 16:12:26,839 - ERROR - Failed to update widget colors: color is None, for transparency set color='transparent'
+2025-06-13 16:12:26,856 - ERROR - Failed to update widget colors: ['border_color'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 16:12:26,872 - ERROR - Failed to update widget colors: ['border_color'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 16:12:26,873 - ERROR - Failed to update widget colors: color is None, for transparency set color='transparent'
+2025-06-13 16:12:26,873 - ERROR - Failed to update widget colors: color is None, for transparency set color='transparent'
+2025-06-13 16:12:32,791 - ERROR - Failed to update widget colors: ['border_color'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 16:12:34,062 - ERROR - Failed to update widget colors: color is None, for transparency set color='transparent'
+2025-06-13 16:12:34,062 - ERROR - Failed to update widget colors: color is None, for transparency set color='transparent'
+2025-06-13 16:12:34,062 - ERROR - Failed to update widget colors: color is None, for transparency set color='transparent'
+2025-06-13 16:12:34,079 - ERROR - Failed to update widget colors: ['border_color'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 16:12:34,114 - ERROR - Failed to update widget colors: ['border_color'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 16:12:34,115 - ERROR - Failed to update widget colors: color is None, for transparency set color='transparent'
+2025-06-13 16:12:34,115 - ERROR - Failed to update widget colors: color is None, for transparency set color='transparent'
+2025-06-13 16:12:40,559 - INFO - Starting Nova Installer - Date: 2025-06-13 14:12:40 - User: Nixiews
+2025-06-13 16:12:40,569 - INFO - Loading apps.json from: /home/Nixiews/Documents/GitHub/NOVA-Installer-test/V1/Nova_Lastest/Nova-Linux-V8/data/apps.json
+2025-06-13 16:12:40,570 - INFO - Successfully loaded 8 categories from apps.json
+2025-06-13 16:12:40,587 - DEBUG - STREAM b'IHDR' 16 13
+2025-06-13 16:12:40,587 - DEBUG - STREAM b'pHYs' 41 9
+2025-06-13 16:12:40,587 - DEBUG - STREAM b'IDAT' 62 2949
+2025-06-13 16:14:43,078 - INFO - Starting Nova Installer - Date: 2025-06-13 14:14:43 - User: Nixiews
+2025-06-13 16:14:43,078 - ERROR - Failed to create or apply base theme: type object 'ThemeManager' has no attribute 'create_base_theme'
+2025-06-13 16:14:49,409 - INFO - Loading apps.json from: /home/Nixiews/Documents/GitHub/NOVA-Installer-test/V1/Nova_Lastest/Nova-Linux-V8/data/apps.json
+2025-06-13 16:14:49,410 - INFO - Successfully loaded 8 categories from apps.json
+2025-06-13 16:14:49,424 - DEBUG - STREAM b'IHDR' 16 13
+2025-06-13 16:14:49,425 - DEBUG - STREAM b'pHYs' 41 9
+2025-06-13 16:14:49,425 - DEBUG - STREAM b'IDAT' 62 2949
+2025-06-13 16:14:55,220 - ERROR - Failed to create or apply base theme: type object 'ThemeManager' has no attribute 'create_base_theme'
+2025-06-13 16:14:59,782 - ERROR - Failed to create or apply base theme: type object 'ThemeManager' has no attribute 'create_base_theme'
+2025-06-13 16:18:20,729 - INFO - Starting Nova Installer - Date: 2025-06-13 14:18:20 - User: Nixiews
+2025-06-13 16:18:20,730 - INFO - Loading apps.json from: /home/Nixiews/Documents/GitHub/NOVA-Installer-test/V1/Nova_Lastest/Nova-Linux-V8/data/apps.json
+2025-06-13 16:18:20,730 - INFO - Successfully loaded 8 categories from apps.json
+2025-06-13 16:18:20,753 - DEBUG - STREAM b'IHDR' 16 13
+2025-06-13 16:18:20,753 - DEBUG - STREAM b'pHYs' 41 9
+2025-06-13 16:18:20,753 - DEBUG - STREAM b'IDAT' 62 2949
+2025-06-13 16:18:31,198 - ERROR - Failed to update widget colors: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 16:18:31,199 - ERROR - Failed to update widget colors: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 16:18:31,199 - ERROR - Failed to update widget colors: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 16:18:31,201 - ERROR - Failed to update widget colors: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 16:18:31,204 - ERROR - Failed to update widget colors: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 16:18:32,326 - ERROR - Failed to update widget colors: color is None, for transparency set color='transparent'
+2025-06-13 16:18:32,326 - ERROR - Failed to update widget colors: color is None, for transparency set color='transparent'
+2025-06-13 16:18:32,326 - ERROR - Failed to update widget colors: color is None, for transparency set color='transparent'
+2025-06-13 16:18:32,347 - ERROR - Failed to update widget colors: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 16:18:32,349 - ERROR - Failed to update widget colors: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 16:18:32,350 - ERROR - Failed to update widget colors: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 16:18:32,352 - ERROR - Failed to update widget colors: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 16:18:32,354 - ERROR - Failed to update widget colors: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 16:18:32,356 - ERROR - Failed to update widget colors: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 16:18:32,358 - ERROR - Failed to update widget colors: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 16:18:32,360 - ERROR - Failed to update widget colors: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 16:18:32,360 - ERROR - Failed to update widget colors: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 16:18:32,432 - ERROR - Failed to update widget colors: color is None, for transparency set color='transparent'
+2025-06-13 16:18:32,434 - ERROR - Failed to update widget colors: color is None, for transparency set color='transparent'
+2025-06-13 16:18:32,437 - ERROR - Failed to update widget colors: color is None, for transparency set color='transparent'
+2025-06-13 16:18:32,439 - ERROR - Failed to update widget colors: color is None, for transparency set color='transparent'
+2025-06-13 16:18:32,441 - ERROR - Failed to update widget colors: color is None, for transparency set color='transparent'
+2025-06-13 16:18:32,443 - ERROR - Failed to update widget colors: color is None, for transparency set color='transparent'
+2025-06-13 16:18:32,445 - ERROR - Failed to update widget colors: color is None, for transparency set color='transparent'
+2025-06-13 16:18:32,447 - ERROR - Failed to update widget colors: color is None, for transparency set color='transparent'
+2025-06-13 16:18:32,449 - ERROR - Failed to update widget colors: color is None, for transparency set color='transparent'
+2025-06-13 16:18:32,451 - ERROR - Failed to update widget colors: color is None, for transparency set color='transparent'
+2025-06-13 16:18:32,453 - ERROR - Failed to update widget colors: color is None, for transparency set color='transparent'
+2025-06-13 16:18:32,455 - ERROR - Failed to update widget colors: color is None, for transparency set color='transparent'
+2025-06-13 16:18:32,457 - ERROR - Failed to update widget colors: color is None, for transparency set color='transparent'
+2025-06-13 16:18:32,459 - ERROR - Failed to update widget colors: color is None, for transparency set color='transparent'
+2025-06-13 16:18:32,461 - ERROR - Failed to update widget colors: color is None, for transparency set color='transparent'
+2025-06-13 16:18:32,463 - ERROR - Failed to update widget colors: color is None, for transparency set color='transparent'
+2025-06-13 16:18:32,465 - ERROR - Failed to update widget colors: color is None, for transparency set color='transparent'
+2025-06-13 16:18:32,467 - ERROR - Failed to update widget colors: color is None, for transparency set color='transparent'
+2025-06-13 16:18:32,469 - ERROR - Failed to update widget colors: color is None, for transparency set color='transparent'
+2025-06-13 16:18:32,471 - ERROR - Failed to update widget colors: color is None, for transparency set color='transparent'
+2025-06-13 16:18:32,472 - ERROR - Failed to update widget colors: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 16:18:32,473 - ERROR - Failed to update widget colors: color is None, for transparency set color='transparent'
+2025-06-13 16:18:32,473 - ERROR - Failed to update widget colors: color is None, for transparency set color='transparent'
+2025-06-13 16:18:42,169 - ERROR - Failed to update widget colors: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 16:18:42,169 - ERROR - Failed to update widget colors: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 16:18:42,170 - ERROR - Failed to update widget colors: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 16:18:42,171 - ERROR - Failed to update widget colors: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 16:18:42,174 - ERROR - Failed to update widget colors: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 16:18:43,423 - ERROR - Failed to update widget colors: color is None, for transparency set color='transparent'
+2025-06-13 16:18:43,423 - ERROR - Failed to update widget colors: color is None, for transparency set color='transparent'
+2025-06-13 16:18:43,423 - ERROR - Failed to update widget colors: color is None, for transparency set color='transparent'
+2025-06-13 16:18:43,445 - ERROR - Failed to update widget colors: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 16:18:43,446 - ERROR - Failed to update widget colors: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 16:18:43,448 - ERROR - Failed to update widget colors: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 16:18:43,450 - ERROR - Failed to update widget colors: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 16:18:43,451 - ERROR - Failed to update widget colors: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 16:18:43,453 - ERROR - Failed to update widget colors: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 16:18:43,455 - ERROR - Failed to update widget colors: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 16:18:43,457 - ERROR - Failed to update widget colors: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 16:18:43,457 - ERROR - Failed to update widget colors: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 16:18:43,513 - ERROR - Failed to update widget colors: color is None, for transparency set color='transparent'
+2025-06-13 16:18:43,515 - ERROR - Failed to update widget colors: color is None, for transparency set color='transparent'
+2025-06-13 16:18:43,517 - ERROR - Failed to update widget colors: color is None, for transparency set color='transparent'
+2025-06-13 16:18:43,519 - ERROR - Failed to update widget colors: color is None, for transparency set color='transparent'
+2025-06-13 16:18:43,522 - ERROR - Failed to update widget colors: color is None, for transparency set color='transparent'
+2025-06-13 16:18:43,524 - ERROR - Failed to update widget colors: color is None, for transparency set color='transparent'
+2025-06-13 16:18:43,526 - ERROR - Failed to update widget colors: color is None, for transparency set color='transparent'
+2025-06-13 16:18:43,528 - ERROR - Failed to update widget colors: color is None, for transparency set color='transparent'
+2025-06-13 16:18:43,530 - ERROR - Failed to update widget colors: color is None, for transparency set color='transparent'
+2025-06-13 16:18:43,532 - ERROR - Failed to update widget colors: color is None, for transparency set color='transparent'
+2025-06-13 16:18:43,535 - ERROR - Failed to update widget colors: color is None, for transparency set color='transparent'
+2025-06-13 16:18:43,537 - ERROR - Failed to update widget colors: color is None, for transparency set color='transparent'
+2025-06-13 16:18:43,539 - ERROR - Failed to update widget colors: color is None, for transparency set color='transparent'
+2025-06-13 16:18:43,541 - ERROR - Failed to update widget colors: color is None, for transparency set color='transparent'
+2025-06-13 16:18:43,543 - ERROR - Failed to update widget colors: color is None, for transparency set color='transparent'
+2025-06-13 16:18:43,545 - ERROR - Failed to update widget colors: color is None, for transparency set color='transparent'
+2025-06-13 16:18:43,547 - ERROR - Failed to update widget colors: color is None, for transparency set color='transparent'
+2025-06-13 16:18:43,550 - ERROR - Failed to update widget colors: color is None, for transparency set color='transparent'
+2025-06-13 16:18:43,552 - ERROR - Failed to update widget colors: color is None, for transparency set color='transparent'
+2025-06-13 16:18:43,554 - ERROR - Failed to update widget colors: color is None, for transparency set color='transparent'
+2025-06-13 16:18:43,554 - ERROR - Failed to update widget colors: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 16:18:43,555 - ERROR - Failed to update widget colors: color is None, for transparency set color='transparent'
+2025-06-13 16:18:43,555 - ERROR - Failed to update widget colors: color is None, for transparency set color='transparent'
+2025-06-13 16:21:40,446 - INFO - Starting Nova Installer - Date: 2025-06-13 14:21:40 - User: Nixiews
+2025-06-13 16:21:40,447 - INFO - Loading apps.json from: /home/Nixiews/Documents/GitHub/NOVA-Installer-test/V1/Nova_Lastest/Nova-Linux-V8/data/apps.json
+2025-06-13 16:21:40,447 - INFO - Successfully loaded 8 categories from apps.json
+2025-06-13 16:21:40,468 - DEBUG - STREAM b'IHDR' 16 13
+2025-06-13 16:21:40,468 - DEBUG - STREAM b'pHYs' 41 9
+2025-06-13 16:21:40,468 - DEBUG - STREAM b'IDAT' 62 2949
+2025-06-13 16:21:46,899 - ERROR - Failed to update widget colors: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 16:21:46,899 - ERROR - Failed to update widget colors: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 16:21:46,900 - ERROR - Failed to update widget colors: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 16:21:46,901 - ERROR - Failed to update widget colors: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 16:21:46,903 - ERROR - Failed to update widget colors: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 16:21:46,904 - ERROR - Error in force_widget_color: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 16:21:46,904 - ERROR - Error in force_widget_color: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 16:21:46,904 - ERROR - Error in force_widget_color: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 16:22:00,837 - ERROR - Failed to update widget colors: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 16:22:00,837 - ERROR - Failed to update widget colors: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 16:22:00,838 - ERROR - Failed to update widget colors: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 16:22:00,839 - ERROR - Failed to update widget colors: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 16:22:00,841 - ERROR - Failed to update widget colors: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 16:22:00,842 - ERROR - Error in force_widget_color: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 16:22:00,843 - ERROR - Error in force_widget_color: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 16:22:00,843 - ERROR - Error in force_widget_color: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 16:25:37,931 - INFO - Starting Nova Installer - Date: 2025-06-13 14:25:37 - User: Nixiews
+2025-06-13 16:25:37,932 - INFO - Loading apps.json from: /home/Nixiews/Documents/GitHub/NOVA-Installer-test/V1/Nova_Lastest/Nova-Linux-V8/data/apps.json
+2025-06-13 16:25:37,932 - INFO - Successfully loaded 8 categories from apps.json
+2025-06-13 16:25:37,953 - DEBUG - STREAM b'IHDR' 16 13
+2025-06-13 16:25:37,953 - DEBUG - STREAM b'pHYs' 41 9
+2025-06-13 16:25:37,953 - DEBUG - STREAM b'IDAT' 62 2949
+2025-06-13 16:25:43,623 - ERROR - Failed to update widget colors: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 16:25:43,623 - ERROR - Failed to update widget colors: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 16:25:43,628 - ERROR - Failed to update widget colors: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 16:25:43,632 - ERROR - Failed to update widget colors: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 16:25:43,637 - ERROR - Failed to update widget colors: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 16:25:43,644 - ERROR - Error in force_widget_color: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 16:25:43,644 - ERROR - Error in force_widget_color: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 16:25:43,644 - ERROR - Error in force_widget_color: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 16:25:48,439 - ERROR - Failed to update widget colors: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 16:25:48,439 - ERROR - Failed to update widget colors: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 16:25:48,443 - ERROR - Failed to update widget colors: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 16:25:48,447 - ERROR - Failed to update widget colors: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 16:25:48,453 - ERROR - Failed to update widget colors: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 16:25:48,458 - ERROR - Error in force_widget_color: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 16:25:48,459 - ERROR - Error in force_widget_color: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 16:25:48,459 - ERROR - Error in force_widget_color: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 16:25:50,639 - ERROR - Failed to update widget colors: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 16:25:50,639 - ERROR - Failed to update widget colors: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 16:25:50,640 - ERROR - Failed to update widget colors: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 16:25:50,642 - ERROR - Failed to update widget colors: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 16:25:50,645 - ERROR - Failed to update widget colors: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 16:25:50,647 - ERROR - Error in force_widget_color: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 16:25:50,648 - ERROR - Error in force_widget_color: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 16:25:50,648 - ERROR - Error in force_widget_color: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 16:25:55,826 - ERROR - Failed to update widget colors: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 16:25:55,826 - ERROR - Failed to update widget colors: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 16:25:55,829 - ERROR - Failed to update widget colors: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 16:25:55,833 - ERROR - Failed to update widget colors: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 16:25:55,838 - ERROR - Failed to update widget colors: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 16:25:55,843 - ERROR - Error in force_widget_color: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 16:25:55,843 - ERROR - Error in force_widget_color: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 16:25:55,844 - ERROR - Error in force_widget_color: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 16:28:07,977 - INFO - Starting Nova Installer - Date: 2025-06-13 14:28:07 - User: Nixiews
+2025-06-13 16:28:07,978 - INFO - Loading apps.json from: /home/Nixiews/Documents/GitHub/NOVA-Installer-test/V1/Nova_Lastest/Nova-Linux-V8/data/apps.json
+2025-06-13 16:28:07,978 - INFO - Successfully loaded 8 categories from apps.json
+2025-06-13 16:28:07,998 - DEBUG - STREAM b'IHDR' 16 13
+2025-06-13 16:28:07,998 - DEBUG - STREAM b'pHYs' 41 9
+2025-06-13 16:28:07,999 - DEBUG - STREAM b'IDAT' 62 2949
+2025-06-13 16:28:13,336 - ERROR - Error in force_widget_color: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 16:28:13,336 - ERROR - Error in force_widget_color: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 16:28:13,337 - ERROR - Error in force_widget_color: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 16:28:14,539 - ERROR - Error in force_widget_color: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 16:28:14,539 - ERROR - Error in force_widget_color: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 16:28:14,539 - ERROR - Error in force_widget_color: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 16:28:14,543 - ERROR - Error in force_widget_color: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 16:28:14,543 - ERROR - Error in force_widget_color: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 16:28:14,543 - ERROR - Error in force_widget_color: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 16:28:14,549 - ERROR - Error in force_widget_color: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 16:28:14,549 - ERROR - Error in force_widget_color: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 16:28:14,549 - ERROR - Error in force_widget_color: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 16:28:14,560 - ERROR - Error in force_widget_color: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 16:28:22,204 - ERROR - Error in force_widget_color: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 16:28:22,205 - ERROR - Error in force_widget_color: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 16:28:22,205 - ERROR - Error in force_widget_color: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 16:28:23,113 - ERROR - Error in force_widget_color: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 16:28:23,114 - ERROR - Error in force_widget_color: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 16:28:23,114 - ERROR - Error in force_widget_color: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 16:28:23,117 - ERROR - Error in force_widget_color: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 16:28:23,117 - ERROR - Error in force_widget_color: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 16:28:23,117 - ERROR - Error in force_widget_color: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 16:28:23,122 - ERROR - Error in force_widget_color: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 16:28:23,122 - ERROR - Error in force_widget_color: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 16:28:23,122 - ERROR - Error in force_widget_color: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 16:28:23,132 - ERROR - Error in force_widget_color: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 16:31:58,530 - INFO - Starting Nova Installer - Date: 2025-06-13 14:31:58 - User: Nixiews
+2025-06-13 16:31:58,531 - INFO - Loading apps.json from: /home/Nixiews/Documents/GitHub/NOVA-Installer-test/V1/Nova_Lastest/Nova-Linux-V8/data/apps.json
+2025-06-13 16:31:58,531 - INFO - Successfully loaded 8 categories from apps.json
+2025-06-13 16:31:58,552 - DEBUG - STREAM b'IHDR' 16 13
+2025-06-13 16:31:58,552 - DEBUG - STREAM b'pHYs' 41 9
+2025-06-13 16:31:58,552 - DEBUG - STREAM b'IDAT' 62 2949
+2025-06-13 16:32:03,843 - ERROR - Failed to update widget colors: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 16:32:03,844 - ERROR - Failed to update widget colors: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 16:32:03,852 - ERROR - Failed to update widget colors: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 16:32:03,861 - ERROR - Failed to update widget colors: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 16:32:03,868 - ERROR - Failed to update widget colors: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 16:32:03,871 - ERROR - Error in force_widget_color: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 16:32:03,871 - ERROR - Error in force_widget_color: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 16:32:03,872 - ERROR - Error in force_widget_color: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 16:32:04,697 - ERROR - Failed to update widget colors: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 16:32:04,698 - ERROR - Failed to update widget colors: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 16:32:04,698 - ERROR - Failed to update widget colors: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 16:32:04,715 - ERROR - Failed to update widget colors: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 16:32:04,720 - ERROR - Failed to update widget colors: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 16:32:04,725 - ERROR - Failed to update widget colors: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 16:32:04,729 - ERROR - Failed to update widget colors: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 16:32:04,733 - ERROR - Failed to update widget colors: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 16:32:04,738 - ERROR - Failed to update widget colors: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 16:32:04,742 - ERROR - Failed to update widget colors: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 16:32:04,746 - ERROR - Failed to update widget colors: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 16:32:04,750 - ERROR - Failed to update widget colors: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 16:32:04,802 - ERROR - Failed to update widget colors: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 16:32:04,807 - ERROR - Failed to update widget colors: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 16:32:04,808 - ERROR - Error in force_widget_color: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 16:32:04,808 - ERROR - Error in force_widget_color: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 16:32:04,808 - ERROR - Error in force_widget_color: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 16:32:04,808 - ERROR - Error in force_widget_color: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 16:32:12,758 - ERROR - Failed to update widget colors: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 16:32:12,758 - ERROR - Failed to update widget colors: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 16:32:12,766 - ERROR - Failed to update widget colors: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 16:32:12,776 - ERROR - Failed to update widget colors: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 16:32:12,784 - ERROR - Failed to update widget colors: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 16:32:12,789 - ERROR - Error in force_widget_color: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 16:32:12,789 - ERROR - Error in force_widget_color: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 16:32:12,789 - ERROR - Error in force_widget_color: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 16:32:13,543 - ERROR - Failed to update widget colors: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 16:32:13,543 - ERROR - Failed to update widget colors: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 16:32:13,544 - ERROR - Failed to update widget colors: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 16:32:13,563 - ERROR - Failed to update widget colors: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 16:32:13,566 - ERROR - Failed to update widget colors: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 16:32:13,568 - ERROR - Failed to update widget colors: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 16:32:13,570 - ERROR - Failed to update widget colors: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 16:32:13,573 - ERROR - Failed to update widget colors: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 16:32:13,576 - ERROR - Failed to update widget colors: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 16:32:13,578 - ERROR - Failed to update widget colors: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 16:32:13,580 - ERROR - Failed to update widget colors: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 16:32:13,581 - ERROR - Failed to update widget colors: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 16:32:13,664 - ERROR - Failed to update widget colors: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 16:32:13,669 - ERROR - Failed to update widget colors: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 16:32:13,675 - ERROR - Failed to update widget colors: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 16:32:13,679 - ERROR - Failed to update widget colors: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 16:32:13,683 - ERROR - Failed to update widget colors: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 16:32:13,688 - ERROR - Failed to update widget colors: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 16:32:13,693 - ERROR - Failed to update widget colors: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 16:32:13,697 - ERROR - Failed to update widget colors: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 16:32:13,702 - ERROR - Failed to update widget colors: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 16:32:13,706 - ERROR - Failed to update widget colors: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 16:32:13,711 - ERROR - Failed to update widget colors: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 16:32:13,717 - ERROR - Failed to update widget colors: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 16:32:13,722 - ERROR - Failed to update widget colors: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 16:32:13,727 - ERROR - Failed to update widget colors: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 16:32:13,731 - ERROR - Failed to update widget colors: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 16:32:13,736 - ERROR - Failed to update widget colors: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 16:32:13,741 - ERROR - Failed to update widget colors: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 16:32:13,746 - ERROR - Failed to update widget colors: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 16:32:13,750 - ERROR - Failed to update widget colors: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 16:32:13,755 - ERROR - Failed to update widget colors: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 16:32:13,758 - ERROR - Failed to update widget colors: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 16:32:13,822 - ERROR - Failed to update widget colors: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 16:32:13,822 - ERROR - Error in force_widget_color: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 16:32:13,823 - ERROR - Error in force_widget_color: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 16:32:13,823 - ERROR - Error in force_widget_color: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 16:32:13,823 - ERROR - Error in force_widget_color: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 16:32:18,649 - INFO - Starting Nova Installer - Date: 2025-06-13 14:32:18 - User: Nixiews
+2025-06-13 16:32:18,649 - INFO - Loading apps.json from: /home/Nixiews/Documents/GitHub/NOVA-Installer-test/V1/Nova_Lastest/Nova-Linux-V8/data/apps.json
+2025-06-13 16:32:18,650 - INFO - Successfully loaded 8 categories from apps.json
+2025-06-13 16:32:18,671 - DEBUG - STREAM b'IHDR' 16 13
+2025-06-13 16:32:18,671 - DEBUG - STREAM b'pHYs' 41 9
+2025-06-13 16:32:18,672 - DEBUG - STREAM b'IDAT' 62 2949
+2025-06-13 16:34:14,697 - INFO - Starting Nova Installer - Date: 2025-06-13 14:34:14 - User: Nixiews
+2025-06-13 16:34:14,704 - INFO - Loading apps.json from: /home/Nixiews/Documents/GitHub/NOVA-Installer-test/V1/Nova_Lastest/Nova-Linux-V8/data/apps.json
+2025-06-13 16:34:14,705 - INFO - Successfully loaded 8 categories from apps.json
+2025-06-13 16:34:14,737 - DEBUG - STREAM b'IHDR' 16 13
+2025-06-13 16:34:14,738 - DEBUG - STREAM b'pHYs' 41 9
+2025-06-13 16:34:14,738 - DEBUG - STREAM b'IDAT' 62 2949
+2025-06-13 16:34:21,517 - ERROR - Failed to update widget colors: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 16:34:21,517 - ERROR - Failed to update widget colors: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 16:34:21,526 - ERROR - Failed to update widget colors: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 16:34:21,535 - ERROR - Failed to update widget colors: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 16:34:21,543 - ERROR - Failed to update widget colors: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 16:34:22,444 - ERROR - Failed to update widget colors: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 16:34:22,444 - ERROR - Failed to update widget colors: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 16:34:22,444 - ERROR - Failed to update widget colors: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 16:34:22,463 - ERROR - Failed to update widget colors: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 16:34:22,467 - ERROR - Failed to update widget colors: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 16:34:22,471 - ERROR - Failed to update widget colors: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 16:34:22,476 - ERROR - Failed to update widget colors: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 16:34:22,480 - ERROR - Failed to update widget colors: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 16:34:22,484 - ERROR - Failed to update widget colors: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 16:34:22,488 - ERROR - Failed to update widget colors: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 16:34:22,493 - ERROR - Failed to update widget colors: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 16:34:22,496 - ERROR - Failed to update widget colors: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 16:34:22,572 - ERROR - Failed to update widget colors: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 16:34:22,578 - ERROR - Failed to update widget colors: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 16:34:22,583 - ERROR - Failed to update widget colors: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 16:34:22,589 - ERROR - Failed to update widget colors: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 16:34:22,594 - ERROR - Failed to update widget colors: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 16:34:22,600 - ERROR - Failed to update widget colors: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 16:34:22,605 - ERROR - Failed to update widget colors: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 16:34:22,610 - ERROR - Failed to update widget colors: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 16:34:22,617 - ERROR - Failed to update widget colors: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 16:34:22,622 - ERROR - Failed to update widget colors: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 16:34:22,626 - ERROR - Failed to update widget colors: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 16:34:22,631 - ERROR - Failed to update widget colors: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 16:34:22,636 - ERROR - Failed to update widget colors: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 16:34:22,640 - ERROR - Failed to update widget colors: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 16:34:22,644 - ERROR - Failed to update widget colors: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 16:34:22,649 - ERROR - Failed to update widget colors: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 16:34:22,653 - ERROR - Failed to update widget colors: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 16:34:22,658 - ERROR - Failed to update widget colors: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 16:34:22,662 - ERROR - Failed to update widget colors: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 16:34:22,666 - ERROR - Failed to update widget colors: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 16:34:22,669 - ERROR - Failed to update widget colors: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 16:34:22,761 - ERROR - Failed to update widget colors: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 16:34:25,930 - INFO - Starting Nova Installer - Date: 2025-06-13 14:34:25 - User: Nixiews
+2025-06-13 16:34:25,936 - INFO - Loading apps.json from: /home/Nixiews/Documents/GitHub/NOVA-Installer-test/V1/Nova_Lastest/Nova-Linux-V8/data/apps.json
+2025-06-13 16:34:25,937 - INFO - Successfully loaded 8 categories from apps.json
+2025-06-13 16:34:25,967 - DEBUG - STREAM b'IHDR' 16 13
+2025-06-13 16:34:25,967 - DEBUG - STREAM b'pHYs' 41 9
+2025-06-13 16:34:25,967 - DEBUG - STREAM b'IDAT' 62 2949
+2025-06-13 16:35:29,991 - INFO - Starting Nova Installer - Date: 2025-06-13 14:35:29 - User: Nixiews
+2025-06-13 16:35:29,998 - INFO - Loading apps.json from: /home/Nixiews/Documents/GitHub/NOVA-Installer-test/V1/Nova_Lastest/Nova-Linux-V8/data/apps.json
+2025-06-13 16:35:29,999 - INFO - Successfully loaded 8 categories from apps.json
+2025-06-13 16:35:30,030 - DEBUG - STREAM b'IHDR' 16 13
+2025-06-13 16:35:30,030 - DEBUG - STREAM b'pHYs' 41 9
+2025-06-13 16:35:30,030 - DEBUG - STREAM b'IDAT' 62 2949
+2025-06-13 16:35:34,785 - ERROR - Failed to update widget colors: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 16:35:34,785 - ERROR - Failed to update widget colors: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 16:35:34,792 - ERROR - Failed to update widget colors: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 16:35:34,801 - ERROR - Failed to update widget colors: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 16:35:34,807 - ERROR - Failed to update widget colors: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 16:35:35,649 - ERROR - Failed to update widget colors: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 16:35:35,649 - ERROR - Failed to update widget colors: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 16:35:35,649 - ERROR - Failed to update widget colors: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 16:35:35,668 - ERROR - Failed to update widget colors: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 16:35:35,672 - ERROR - Failed to update widget colors: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 16:35:35,677 - ERROR - Failed to update widget colors: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 16:35:35,681 - ERROR - Failed to update widget colors: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 16:35:35,686 - ERROR - Failed to update widget colors: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 16:35:35,690 - ERROR - Failed to update widget colors: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 16:35:35,694 - ERROR - Failed to update widget colors: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 16:35:35,698 - ERROR - Failed to update widget colors: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 16:35:35,701 - ERROR - Failed to update widget colors: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 16:35:35,740 - ERROR - Failed to update widget colors: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 16:35:35,745 - ERROR - Failed to update widget colors: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 16:35:42,568 - ERROR - Failed to update widget colors: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 16:35:42,569 - ERROR - Failed to update widget colors: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 16:35:42,569 - ERROR - Failed to update widget colors: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 16:35:42,598 - ERROR - Failed to update widget colors: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 16:35:42,601 - ERROR - Failed to update widget colors: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 16:35:42,604 - ERROR - Failed to update widget colors: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 16:35:42,606 - ERROR - Failed to update widget colors: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 16:35:42,608 - ERROR - Failed to update widget colors: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 16:35:42,611 - ERROR - Failed to update widget colors: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 16:35:42,613 - ERROR - Failed to update widget colors: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 16:35:42,615 - ERROR - Failed to update widget colors: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 16:35:42,616 - ERROR - Failed to update widget colors: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 16:35:42,673 - ERROR - Failed to update widget colors: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 16:35:42,679 - ERROR - Failed to update widget colors: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 16:35:42,684 - ERROR - Failed to update widget colors: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 16:35:42,690 - ERROR - Failed to update widget colors: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 16:35:42,695 - ERROR - Failed to update widget colors: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 16:35:42,700 - ERROR - Failed to update widget colors: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 16:35:42,705 - ERROR - Failed to update widget colors: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 16:35:42,709 - ERROR - Failed to update widget colors: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 16:35:42,714 - ERROR - Failed to update widget colors: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 16:35:42,719 - ERROR - Failed to update widget colors: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 16:35:42,723 - ERROR - Failed to update widget colors: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 16:35:42,727 - ERROR - Failed to update widget colors: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 16:35:42,731 - ERROR - Failed to update widget colors: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 16:35:42,736 - ERROR - Failed to update widget colors: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 16:35:42,740 - ERROR - Failed to update widget colors: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 16:35:42,745 - ERROR - Failed to update widget colors: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 16:35:42,750 - ERROR - Failed to update widget colors: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 16:35:42,754 - ERROR - Failed to update widget colors: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 16:35:42,759 - ERROR - Failed to update widget colors: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 16:35:42,763 - ERROR - Failed to update widget colors: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 16:35:42,766 - ERROR - Failed to update widget colors: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 16:35:42,834 - ERROR - Failed to update widget colors: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 16:36:01,645 - INFO - Starting Nova Installer - Date: 2025-06-13 14:36:01 - User: Nixiews
+2025-06-13 16:36:01,653 - INFO - Loading apps.json from: /home/Nixiews/Documents/GitHub/NOVA-Installer-test/V1/Nova_Lastest/Nova-Linux-V8/data/apps.json
+2025-06-13 16:36:01,654 - INFO - Successfully loaded 8 categories from apps.json
+2025-06-13 16:36:01,685 - DEBUG - STREAM b'IHDR' 16 13
+2025-06-13 16:36:01,686 - DEBUG - STREAM b'pHYs' 41 9
+2025-06-13 16:36:01,686 - DEBUG - STREAM b'IDAT' 62 2949
+2025-06-13 16:41:52,168 - INFO - Starting Nova Installer - Date: 2025-06-13 14:41:52 - User: Nixiews
+2025-06-13 16:41:52,174 - INFO - Loading apps.json from: /home/Nixiews/Documents/GitHub/NOVA-Installer-test/V1/Nova_Lastest/Nova-Linux-V8/data/apps.json
+2025-06-13 16:41:52,174 - INFO - Successfully loaded 8 categories from apps.json
+2025-06-13 16:41:52,204 - DEBUG - STREAM b'IHDR' 16 13
+2025-06-13 16:41:52,204 - DEBUG - STREAM b'pHYs' 41 9
+2025-06-13 16:41:52,204 - DEBUG - STREAM b'IDAT' 62 2949
+2025-06-13 16:42:02,321 - ERROR - Failed to update widget colors: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 16:42:02,321 - ERROR - Failed to update widget colors: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 16:42:02,329 - ERROR - Failed to update widget colors: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 16:42:02,338 - ERROR - Failed to update widget colors: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 16:42:02,344 - ERROR - Failed to update widget colors: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 16:42:03,034 - ERROR - Failed to update widget colors: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 16:42:03,034 - ERROR - Failed to update widget colors: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 16:42:03,034 - ERROR - Failed to update widget colors: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 16:42:03,052 - ERROR - Failed to update widget colors: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 16:42:03,057 - ERROR - Failed to update widget colors: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 16:42:03,061 - ERROR - Failed to update widget colors: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 16:42:03,066 - ERROR - Failed to update widget colors: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 16:42:03,070 - ERROR - Failed to update widget colors: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 16:42:03,074 - ERROR - Failed to update widget colors: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 16:42:03,078 - ERROR - Failed to update widget colors: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 16:42:03,082 - ERROR - Failed to update widget colors: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 16:42:03,086 - ERROR - Failed to update widget colors: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 16:42:03,123 - ERROR - Failed to update widget colors: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 16:42:03,128 - ERROR - Failed to update widget colors: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 16:42:57,502 - INFO - Starting Nova Installer - Date: 2025-06-13 14:42:57 - User: Nixiews
+2025-06-13 16:42:57,509 - INFO - Loading apps.json from: /home/Nixiews/Documents/GitHub/NOVA-Installer-test/V1/Nova_Lastest/Nova-Linux-V8/data/apps.json
+2025-06-13 16:42:57,509 - INFO - Successfully loaded 8 categories from apps.json
+2025-06-13 16:42:57,540 - DEBUG - STREAM b'IHDR' 16 13
+2025-06-13 16:42:57,540 - DEBUG - STREAM b'pHYs' 41 9
+2025-06-13 16:42:57,540 - DEBUG - STREAM b'IDAT' 62 2949
+2025-06-13 16:44:36,103 - INFO - Starting Nova Installer - Date: 2025-06-13 14:44:36 - User: Nixiews
+2025-06-13 16:46:27,989 - INFO - Starting Nova Installer - Date: 2025-06-13 14:46:27 - User: Nixiews
+2025-06-13 16:46:27,995 - INFO - Loading apps.json from: /home/Nixiews/Documents/GitHub/NOVA-Installer-test/V1/Nova_Lastest/Nova-Linux-V8/data/apps.json
+2025-06-13 16:46:27,996 - INFO - Successfully loaded 8 categories from apps.json
+2025-06-13 16:46:28,027 - DEBUG - STREAM b'IHDR' 16 13
+2025-06-13 16:46:28,027 - DEBUG - STREAM b'pHYs' 41 9
+2025-06-13 16:46:28,027 - DEBUG - STREAM b'IDAT' 62 2949
+2025-06-13 16:46:45,899 - ERROR - Failed to update widget colors: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 16:46:45,899 - ERROR - Failed to update widget colors: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 16:46:45,907 - ERROR - Failed to update widget colors: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 16:46:45,916 - ERROR - Failed to update widget colors: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 16:46:45,922 - ERROR - Failed to update widget colors: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 16:46:48,282 - ERROR - Failed to update widget colors: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 16:46:48,282 - ERROR - Failed to update widget colors: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 16:46:48,287 - ERROR - Failed to update widget colors: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 16:46:48,291 - ERROR - Failed to update widget colors: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 16:46:48,296 - ERROR - Failed to update widget colors: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 16:46:49,486 - ERROR - Failed to update widget colors: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 16:46:49,486 - ERROR - Failed to update widget colors: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 16:46:49,486 - ERROR - Failed to update widget colors: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 16:46:49,505 - ERROR - Failed to update widget colors: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 16:46:49,510 - ERROR - Failed to update widget colors: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 16:46:49,515 - ERROR - Failed to update widget colors: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 16:46:49,519 - ERROR - Failed to update widget colors: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 16:46:49,523 - ERROR - Failed to update widget colors: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 16:46:49,527 - ERROR - Failed to update widget colors: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 16:46:49,531 - ERROR - Failed to update widget colors: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 16:46:49,536 - ERROR - Failed to update widget colors: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 16:46:49,539 - ERROR - Failed to update widget colors: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 16:46:49,574 - ERROR - Failed to update widget colors: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 16:46:49,579 - ERROR - Failed to update widget colors: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 17:50:07,076 - INFO - Starting Nova Installer - Date: 2025-06-13 15:50:07 - User: nixiews
+2025-06-13 17:50:07,096 - INFO - Loading apps.json from: /home/nixiews/Documents/GitHub/NOVA-Installer-test/V1/Nova_Lastest/Nova-Linux-V8/data/apps.json
+2025-06-13 17:50:07,096 - INFO - Successfully loaded 8 categories from apps.json
+2025-06-13 17:50:07,117 - DEBUG - STREAM b'IHDR' 16 13
+2025-06-13 17:50:07,117 - DEBUG - STREAM b'pHYs' 41 9
+2025-06-13 17:50:07,117 - DEBUG - STREAM b'IDAT' 62 2949
+2025-06-13 17:50:20,268 - ERROR - Failed to update widget colors: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 17:50:20,268 - ERROR - Failed to update widget colors: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 17:50:20,273 - ERROR - Failed to update widget colors: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 17:50:20,277 - ERROR - Failed to update widget colors: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 17:50:20,281 - ERROR - Failed to update widget colors: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 17:50:21,379 - ERROR - Failed to update widget colors: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 17:50:21,379 - ERROR - Failed to update widget colors: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 17:50:21,379 - ERROR - Failed to update widget colors: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 17:50:21,389 - ERROR - Failed to update widget colors: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 17:50:21,391 - ERROR - Failed to update widget colors: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 17:50:21,394 - ERROR - Failed to update widget colors: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 17:50:21,398 - ERROR - Failed to update widget colors: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 17:50:21,400 - ERROR - Failed to update widget colors: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 17:50:21,403 - ERROR - Failed to update widget colors: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 17:50:21,405 - ERROR - Failed to update widget colors: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 17:50:21,408 - ERROR - Failed to update widget colors: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 17:50:21,410 - ERROR - Failed to update widget colors: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 17:50:21,432 - ERROR - Failed to update widget colors: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 17:50:21,435 - ERROR - Failed to update widget colors: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 17:57:49,762 - INFO - Starting Nova Installer - Date: 2025-06-13 15:57:49 - User: nixiews
+2025-06-13 17:57:49,767 - INFO - Loading apps.json from: /home/nixiews/Documents/GitHub/NOVA-Installer-test/V1/Nova_Lastest/Nova-Linux-V8/data/apps.json
+2025-06-13 17:57:49,767 - INFO - Successfully loaded 8 categories from apps.json
+2025-06-13 17:57:49,786 - DEBUG - STREAM b'IHDR' 16 13
+2025-06-13 17:57:49,786 - DEBUG - STREAM b'pHYs' 41 9
+2025-06-13 17:57:49,786 - DEBUG - STREAM b'IDAT' 62 2949
+2025-06-13 17:57:52,961 - INFO - ColorDialog initialized - Date: 2025-06-13 15:56:10 - User: Nixiews
+2025-06-13 17:57:55,061 - ERROR - Failed to update widget colors: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 17:57:55,061 - ERROR - Failed to update widget colors: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 17:57:55,061 - ERROR - Failed to update widget colors: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 17:57:55,061 - ERROR - Failed to update widget colors: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 17:57:55,061 - ERROR - Failed to update widget colors: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 17:57:55,061 - ERROR - Failed to update widget colors: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 17:57:55,061 - ERROR - Failed to update widget colors: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 17:57:55,061 - ERROR - Failed to update widget colors: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 17:57:55,066 - ERROR - Failed to update widget colors: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 17:57:55,071 - ERROR - Failed to update widget colors: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 17:57:55,075 - ERROR - Failed to update widget colors: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 17:57:55,092 - INFO - Theme changed to matrix - Time: 2025-06-13 15:56:10 - User: Nixiews
+2025-06-13 17:57:56,057 - INFO - Theme applied: {'color_theme': 'matrix', 'custom': {'button': None, 'background': None}} - Time: 2025-06-13 15:56:10 - User: Nixiews
+2025-06-13 17:57:56,219 - ERROR - Failed to update widget colors: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 17:57:56,220 - ERROR - Failed to update widget colors: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 17:57:56,220 - ERROR - Failed to update widget colors: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 17:57:56,228 - ERROR - Failed to update widget colors: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 17:57:56,231 - ERROR - Failed to update widget colors: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 17:57:56,233 - ERROR - Failed to update widget colors: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 17:57:56,236 - ERROR - Failed to update widget colors: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 17:57:56,238 - ERROR - Failed to update widget colors: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 17:57:56,241 - ERROR - Failed to update widget colors: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 17:57:56,243 - ERROR - Failed to update widget colors: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 17:57:56,246 - ERROR - Failed to update widget colors: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 17:57:56,247 - ERROR - Failed to update widget colors: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 17:57:56,278 - ERROR - Failed to update widget colors: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 17:57:56,281 - ERROR - Failed to update widget colors: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 17:57:56,284 - ERROR - Failed to update widget colors: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 17:57:56,287 - ERROR - Failed to update widget colors: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 17:57:56,289 - ERROR - Failed to update widget colors: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 17:57:56,292 - ERROR - Failed to update widget colors: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 17:57:56,294 - ERROR - Failed to update widget colors: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 17:57:56,297 - ERROR - Failed to update widget colors: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 17:57:56,300 - ERROR - Failed to update widget colors: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 17:57:56,302 - ERROR - Failed to update widget colors: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 17:57:56,305 - ERROR - Failed to update widget colors: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 17:57:56,307 - ERROR - Failed to update widget colors: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 17:57:56,310 - ERROR - Failed to update widget colors: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 17:57:56,313 - ERROR - Failed to update widget colors: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 17:57:56,315 - ERROR - Failed to update widget colors: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 17:57:56,318 - ERROR - Failed to update widget colors: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 17:57:56,321 - ERROR - Failed to update widget colors: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 17:57:56,324 - ERROR - Failed to update widget colors: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 17:57:56,327 - ERROR - Failed to update widget colors: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 17:57:56,329 - ERROR - Failed to update widget colors: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 17:57:56,331 - ERROR - Failed to update widget colors: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 17:57:56,381 - ERROR - Failed to update widget colors: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 17:58:00,865 - INFO - ColorDialog initialized - Date: 2025-06-13 15:56:10 - User: Nixiews
+2025-06-13 17:58:02,640 - ERROR - Failed to update widget colors: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 17:58:02,640 - ERROR - Failed to update widget colors: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 17:58:02,640 - ERROR - Failed to update widget colors: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 17:58:02,640 - ERROR - Failed to update widget colors: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 17:58:02,640 - ERROR - Failed to update widget colors: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 17:58:02,640 - ERROR - Failed to update widget colors: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 17:58:02,640 - ERROR - Failed to update widget colors: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 17:58:02,640 - ERROR - Failed to update widget colors: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 17:58:02,645 - ERROR - Failed to update widget colors: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 17:58:02,650 - ERROR - Failed to update widget colors: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 17:58:02,653 - ERROR - Failed to update widget colors: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 17:58:02,672 - INFO - Theme changed to oled - Time: 2025-06-13 15:56:10 - User: Nixiews
+2025-06-13 17:58:03,121 - INFO - Theme applied: {'color_theme': 'oled', 'custom': {'button': None, 'background': None}} - Time: 2025-06-13 15:56:10 - User: Nixiews
+2025-06-13 17:58:03,295 - ERROR - Failed to update widget colors: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 17:58:03,295 - ERROR - Failed to update widget colors: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 17:58:03,295 - ERROR - Failed to update widget colors: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 17:58:03,304 - ERROR - Failed to update widget colors: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 17:58:03,305 - ERROR - Failed to update widget colors: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 17:58:03,306 - ERROR - Failed to update widget colors: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 17:58:03,308 - ERROR - Failed to update widget colors: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 17:58:03,309 - ERROR - Failed to update widget colors: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 17:58:03,310 - ERROR - Failed to update widget colors: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 17:58:03,311 - ERROR - Failed to update widget colors: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 17:58:03,313 - ERROR - Failed to update widget colors: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 17:58:03,314 - ERROR - Failed to update widget colors: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 17:58:03,339 - ERROR - Failed to update widget colors: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 17:58:03,341 - ERROR - Failed to update widget colors: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 17:58:03,342 - ERROR - Failed to update widget colors: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 17:58:03,343 - ERROR - Failed to update widget colors: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 17:58:03,344 - ERROR - Failed to update widget colors: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 17:58:03,346 - ERROR - Failed to update widget colors: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 17:58:03,347 - ERROR - Failed to update widget colors: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 17:58:03,348 - ERROR - Failed to update widget colors: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 17:58:03,350 - ERROR - Failed to update widget colors: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 17:58:03,351 - ERROR - Failed to update widget colors: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 17:58:03,352 - ERROR - Failed to update widget colors: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 17:58:03,354 - ERROR - Failed to update widget colors: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 17:58:03,355 - ERROR - Failed to update widget colors: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 17:58:03,356 - ERROR - Failed to update widget colors: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 17:58:03,358 - ERROR - Failed to update widget colors: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 17:58:03,359 - ERROR - Failed to update widget colors: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 17:58:03,360 - ERROR - Failed to update widget colors: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 17:58:03,362 - ERROR - Failed to update widget colors: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 17:58:03,363 - ERROR - Failed to update widget colors: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 17:58:03,364 - ERROR - Failed to update widget colors: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 17:58:03,365 - ERROR - Failed to update widget colors: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 17:58:03,396 - ERROR - Failed to update widget colors: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 18:10:52,182 - INFO - Starting Nova Installer - Date: 2025-06-13 16:10:52 - User: Nixiews
+2025-06-13 18:10:52,187 - INFO - Loading apps.json from: /home/nixiews/Documents/GitHub/NOVA-Installer-test/V1/Nova_Lastest/Nova-Linux-V8/data/apps.json
+2025-06-13 18:10:52,187 - INFO - Successfully loaded 8 categories from apps.json
+2025-06-13 18:10:52,206 - DEBUG - STREAM b'IHDR' 16 13
+2025-06-13 18:10:52,206 - DEBUG - STREAM b'pHYs' 41 9
+2025-06-13 18:10:52,206 - DEBUG - STREAM b'IDAT' 62 2949
+2025-06-13 18:11:02,128 - INFO - ColorDialog initialized - Date: 2025-06-13 16:07:17 - User: Nixiews
+2025-06-13 18:11:03,964 - ERROR - Failed to update widget colors: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 18:11:03,965 - ERROR - Failed to update widget colors: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 18:11:03,965 - ERROR - Failed to update widget colors: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 18:11:03,965 - ERROR - Failed to update widget colors: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 18:11:03,965 - ERROR - Failed to update widget colors: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 18:11:03,965 - ERROR - Failed to update widget colors: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 18:11:03,965 - ERROR - Failed to update widget colors: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 18:11:03,965 - ERROR - Failed to update widget colors: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 18:11:03,969 - ERROR - Failed to update widget colors: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 18:11:03,974 - ERROR - Failed to update widget colors: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 18:11:03,978 - ERROR - Failed to update widget colors: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 18:11:03,997 - INFO - Theme changed to oled - Time: 2025-06-13 16:07:17 - User: Nixiews
+2025-06-13 18:11:04,543 - INFO - Theme applied: {'color_theme': 'oled', 'custom': {'button': None, 'background': None}} - Time: 2025-06-13 16:07:17 - User: Nixiews
+2025-06-13 18:11:04,791 - ERROR - Failed to update widget colors: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 18:11:04,792 - ERROR - Failed to update widget colors: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 18:11:04,792 - ERROR - Failed to update widget colors: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 18:11:04,801 - ERROR - Failed to update widget colors: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 18:11:04,804 - ERROR - Failed to update widget colors: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 18:11:04,806 - ERROR - Failed to update widget colors: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 18:11:04,809 - ERROR - Failed to update widget colors: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 18:11:04,811 - ERROR - Failed to update widget colors: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 18:11:04,813 - ERROR - Failed to update widget colors: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 18:11:04,816 - ERROR - Failed to update widget colors: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 18:11:04,818 - ERROR - Failed to update widget colors: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 18:11:04,820 - ERROR - Failed to update widget colors: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 18:11:04,856 - ERROR - Failed to update widget colors: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 18:11:04,859 - ERROR - Failed to update widget colors: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 18:11:04,864 - ERROR - Failed to update widget colors: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 18:11:04,867 - ERROR - Failed to update widget colors: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 18:11:04,871 - ERROR - Failed to update widget colors: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 18:11:04,875 - ERROR - Failed to update widget colors: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 18:11:04,878 - ERROR - Failed to update widget colors: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 18:11:04,882 - ERROR - Failed to update widget colors: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 18:11:04,885 - ERROR - Failed to update widget colors: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 18:11:04,889 - ERROR - Failed to update widget colors: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 18:11:04,892 - ERROR - Failed to update widget colors: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 18:11:04,895 - ERROR - Failed to update widget colors: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 18:11:04,901 - ERROR - Failed to update widget colors: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 18:11:04,905 - ERROR - Failed to update widget colors: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 18:11:04,909 - ERROR - Failed to update widget colors: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 18:11:04,913 - ERROR - Failed to update widget colors: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 18:11:04,917 - ERROR - Failed to update widget colors: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 18:11:04,920 - ERROR - Failed to update widget colors: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 18:11:04,924 - ERROR - Failed to update widget colors: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 18:11:04,927 - ERROR - Failed to update widget colors: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 18:11:04,930 - ERROR - Failed to update widget colors: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 18:11:04,998 - ERROR - Failed to update widget colors: ['bg'] are not supported arguments. Look at the documentation for supported arguments.
+2025-06-13 18:16:39,681 - INFO - Starting Nova Installer - Date: 2025-06-13 16:16:39 - User: Nixiews
+2025-06-13 18:16:39,687 - INFO - Loading apps.json from: /home/nixiews/Documents/GitHub/NOVA-Installer-test/V1/Nova_Lastest/Nova-Linux-V8/data/apps.json
+2025-06-13 18:16:39,687 - INFO - Successfully loaded 8 categories from apps.json
+2025-06-13 18:16:39,705 - DEBUG - STREAM b'IHDR' 16 13
+2025-06-13 18:16:39,705 - DEBUG - STREAM b'pHYs' 41 9
+2025-06-13 18:16:39,705 - DEBUG - STREAM b'IDAT' 62 2949

@@ -1,0 +1,97 @@
+{
+  "metadata": {
+    "last_updated": "2025-06-13 21:05:17",
+    "last_updated_by": "Nixiews",
+    "supported_languages": [
+      "en", "fr", "es", "de", "it", "pt", "nl", "pl", "ru", "zh", "ja"
+    ],
+    "language_names": {
+      "en": "English",
+      "fr": "Français",
+      "es": "Español",
+      "de": "Deutsch",
+      "it": "Italiano",
+      "pt": "Português",
+      "nl": "Nederlands",
+      "pl": "Polski",
+      "ru": "Русский",
+      "zh": "中文",
+      "ja": "日本語"
+    },
+    "required_keys": [
+      "installing",
+      "finished",
+      "install_done",
+      "about_title",
+      "about_text",
+      "no_app_selected",
+      "apps_selected",
+      "export",
+      "import",
+      "install",
+      "Categories",
+      "Close",
+      "Select Language",
+      "Apply",
+      "language_changed",
+      "restart_required",
+      "last_updated",
+      "installation_window_title"
+    ]
+  }
+}
+
+{
+  "language_changed": {
+    "en": "Language Changed",
+    "fr": "Langue Modifiée",
+    "es": "Idioma Cambiado",
+    "de": "Sprache Geändert",
+    "it": "Lingua Modificata",
+    "pt": "Idioma Alterado",
+    "nl": "Taal Gewijzigd",
+    "pl": "Zmieniono Język",
+    "ru": "Язык Изменен",
+    "zh": "语言已更改",
+    "ja": "言語が変更されました"
+  },
+  "restart_required": {
+    "en": "Please restart the application for the language change to take effect.",
+    "fr": "Veuillez redémarrer l'application pour que le changement de langue prenne effet.",
+    "es": "Por favor, reinicie la aplicación para que el cambio de idioma surta efecto.",
+    "de": "Bitte starten Sie die Anwendung neu, damit die Sprachänderung wirksam wird.",
+    "it": "Riavviare l'applicazione per rendere effettivo il cambio di lingua.",
+    "pt": "Reinicie o aplicativo para que a alteração do idioma tenha efeito.",
+    "nl": "Start de applicatie opnieuw op om de taalwijziging door te voeren.",
+    "pl": "Uruchom ponownie aplikację, aby zmiana języka zaczęła obowiązywać.",
+    "ru": "Перезапустите приложение, чтобы изменение языка вступило в силу.",
+    "zh": "请重启应用程序以使语言更改生效。",
+    "ja": "言語の変更を適用するにはアプリケーションを再起動してください。"
+  },
+  "last_updated": {
+    "en": "Last Updated",
+    "fr": "Dernière mise à jour",
+    "es": "Última actualización",
+    "de": "Zuletzt aktualisiert",
+    "it": "Ultimo aggiornamento",
+    "pt": "Última atualização",
+    "nl": "Laatst bijgewerkt",
+    "pl": "Ostatnia aktualizacja",
+    "ru": "Последнее обновление",
+    "zh": "最后更新",
+    "ja": "最終更新"
+  },
+  "installation_window_title": {
+    "en": "Nova Installer - Installation",
+    "fr": "Nova Installer - Installation",
+    "es": "Nova Installer - Instalación",
+    "de": "Nova Installer - Installation",
+    "it": "Nova Installer - Installazione",
+    "pt": "Nova Installer - Instalação",
+    "nl": "Nova Installer - Installatie",
+    "pl": "Nova Installer - Instalacja",
+    "ru": "Nova Installer - Установка",
+    "zh": "Nova 安装程序 - 安装",
+    "ja": "Nova インストーラー - インストール"
+  }
+}

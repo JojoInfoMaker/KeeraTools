@@ -1,0 +1,14 @@
+{
+  "language": "fr",
+  "theme": {
+    "color_theme": "cyberpunk",
+    "custom": {
+      "button": null,
+      "background": null
+    }
+  },
+  "flatpak": {
+    "auto_add_flathub": true,
+    "installation_timeout": 300
+  }
+}

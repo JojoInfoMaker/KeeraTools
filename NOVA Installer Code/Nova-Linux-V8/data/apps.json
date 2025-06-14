@@ -1,0 +1,494 @@
+{
+  "Development": {
+    "description": "Tools and IDEs for software development",
+    "apps": {
+      "Visual Studio Code": {
+        "id": "com.visualstudio.code",
+        "description": "Lightweight but powerful source code editor"
+      },
+      "JetBrains IntelliJ IDEA Community": {
+        "id": "com.jetbrains.IntelliJ-IDEA-Community",
+        "description": "Java IDE for professional developers"
+      },
+      "Eclipse": {
+        "id": "org.eclipse.Eclipse",
+        "description": "Popular open-source Java IDE"
+      },
+      "PyCharm Community Edition": {
+        "id": "com.jetbrains.PyCharm-Community",
+        "description": "Python IDE for professional developers"
+      },
+      "Android Studio": {
+        "id": "com.google.AndroidStudio",
+        "description": "Official Android development IDE"
+      },
+      "Atom": {
+        "id": "io.atom.Atom",
+        "description": "Hackable text editor for the 21st century"
+      },
+      "Brackets": {
+        "id": "org.brackets.Brackets",
+        "description": "Modern open source code editor for web design"
+      },
+      "BlueJ": {
+        "id": "org.bluej.BlueJ",
+        "description": "Java development environment for education"
+      },
+      "Geany": {
+        "id": "org.geany.Geany",
+        "description": "Lightweight IDE"
+      },
+      "GNOME Builder": {
+        "id": "org.gnome.Builder",
+        "description": "IDE for GNOME applications"
+      },
+      "NetBeans": {
+        "id": "org.netbeans.NetBeans",
+        "description": "Free and open-source IDE for Java"
+      },
+      "Qt Creator": {
+        "id": "org.qtproject.QtCreator",
+        "description": "Cross-platform C++ IDE"
+      },
+      "Sublime Text": {
+        "id": "com.sublimetext.three",
+        "description": "Sophisticated text editor for code"
+      },
+      "Vim": {
+        "id": "org.vim.Vim",
+        "description": "Highly configurable text editor"
+      },
+      "Emacs": {
+        "id": "org.gnu.emacs",
+        "description": "Extensible, customizable text editor"
+      },
+      "Code::Blocks": {
+        "id": "org.codeblocks.Codeblocks",
+        "description": "Free C, C++ and Fortran IDE"
+      },
+      "KDevelop": {
+        "id": "org.kde.kdevelop",
+        "description": "Feature-rich IDE for C/C++ and more"
+      },
+      "Arduino IDE": {
+        "id": "cc.arduino.arduinoide",
+        "description": "IDE for Arduino projects"
+      },
+      "Godot Engine": {
+        "id": "org.godotengine.Godot",
+        "description": "Open source game engine"
+      },
+      "LibreOffice SDK": {
+        "id": "org.libreoffice.LibreOffice-SDK",
+        "description": "Software development kit for LibreOffice"
+      }
+    }
+  },
+  "Browsers": {
+    "description": "Web browsers for daily internet use",
+    "apps": {
+      "Firefox": {
+        "id": "org.mozilla.firefox",
+        "description": "Popular open-source web browser"
+      },
+      "Chromium": {
+        "id": "org.chromium.Chromium",
+        "description": "Open-source base of Google Chrome"
+      },
+      "Google Chrome": {
+        "id": "com.google.Chrome",
+        "description": "Google's popular web browser"
+      },
+      "Brave Browser": {
+        "id": "com.brave.Browser",
+        "description": "Privacy-focused web browser"
+      },
+      "Midori": {
+        "id": "org.midori_midori",
+        "description": "Lightweight web browser"
+      },
+      "Opera": {
+        "id": "com.opera.Opera",
+        "description": "Fast and secure web browser"
+      },
+      "Vivaldi": {
+        "id": "com.vivaldi.Vivaldi",
+        "description": "Highly customizable web browser"
+      },
+      "Tor Browser": {
+        "id": "com.github.micahflee.torbrowser-launcher",
+        "description": "Browser for anonymous communication"
+      },
+      "DuckDuckGo Privacy Browser": {
+        "id": "com.duckduckgo.browser",
+        "description": "Privacy-first mobile web browser"
+      }
+    }
+  },
+  "Multimedia": {
+    "description": "Audio, video and multimedia tools",
+    "apps": {
+      "VLC": {
+        "id": "org.videolan.VLC",
+        "description": "Versatile media player"
+      },
+      "Spotify": {
+        "id": "com.spotify.Client",
+        "description": "Music streaming service"
+      },
+      "Audacity": {
+        "id": "org.audacityteam.Audacity",
+        "description": "Audio editing software"
+      },
+      "OBS Studio": {
+        "id": "com.obsproject.Studio",
+        "description": "Screen recording and live streaming"
+      },
+      "Kdenlive": {
+        "id": "org.kde.kdenlive",
+        "description": "Non-linear video editor"
+      },
+      "Shotcut": {
+        "id": "org.shotcut.Shotcut",
+        "description": "Open-source video editor"
+      },
+      "Blender": {
+        "id": "org.blender.Blender",
+        "description": "3D creation suite"
+      },
+      "GIMP": {
+        "id": "org.gimp.GIMP",
+        "description": "Image manipulation program"
+      },
+      "Inkscape": {
+        "id": "org.inkscape.Inkscape",
+        "description": "Vector graphics editor"
+      },
+      "Darktable": {
+        "id": "org.darktable.Darktable",
+        "description": "Photography workflow application"
+      },
+      "RawTherapee": {
+        "id": "com.rawtherapee.RawTherapee",
+        "description": "RAW photo processing software"
+      },
+      "HandBrake": {
+        "id": "fr.handbrake.ghb",
+        "description": "Video transcoder"
+      },
+      "Pitivi": {
+        "id": "org.pitivi.Pitivi",
+        "description": "Video editor"
+      },
+      "Rhythmbox": {
+        "id": "org.gnome.Rhythmbox3",
+        "description": "Music player for GNOME"
+      },
+      "Krita": {
+        "id": "org.krita.krita",
+        "description": "Digital painting application"
+      },
+      "SimpleScreenRecorder": {
+        "id": "com.maartenbaert.simplessr",
+        "description": "Screen recorder for Linux"
+      }
+    }
+  },
+  "Utilities": {
+    "description": "System utilities and tools",
+    "apps": {
+      "BleachBit": {
+        "id": "org.bleachbit.BleachBit",
+        "description": "System cleaning software"
+      },
+      "HTop": {
+        "id": "org.hishamhm.htop",
+        "description": "Interactive process viewer"
+      },
+      "GNOME Disk Utility": {
+        "id": "org.gnome.DiskUtility",
+        "description": "Disk management tool"
+      },
+      "GParted": {
+        "id": "org.gparted.GParted",
+        "description": "Partition editor"
+      },
+      "Timeshift": {
+        "id": "com.timeshift.timeshift",
+        "description": "System restore utility"
+      },
+      "Etcher": {
+        "id": "io.balena.etcher",
+        "description": "USB & SD card image writer"
+      },
+      "Transmission": {
+        "id": "org.transmissionbt.Transmission",
+        "description": "BitTorrent client"
+      },
+      "FileZilla": {
+        "id": "org.filezillaproject.Filezilla",
+        "description": "FTP client"
+      },
+      "KeepassXC": {
+        "id": "org.keepassxc.KeePassXC",
+        "description": "Password manager"
+      },
+      "VirtualBox": {
+        "id": "org.virtualbox.VirtualBox",
+        "description": "Virtualization software"
+      },
+      "KSysGuard": {
+        "id": "org.kde.ksysguard",
+        "description": "System monitor for KDE"
+      },
+      "QEMU": {
+        "id": "org.qemu.qemu",
+        "description": "Generic and open source machine emulator"
+      },
+      "Vagrant": {
+        "id": "com.vagrant.Vagrant",
+        "description": "Development environment automation"
+      },
+      "Remmina": {
+        "id": "org.remmina.Remmina",
+        "description": "Remote desktop client"
+      },
+      "Flameshot": {
+        "id": "org.flameshot.Flameshot",
+        "description": "Screenshot tool"
+      },
+      "Redshift": {
+        "id": "org.redshift.Redshift",
+        "description": "Adjusts screen color temperature"
+      },
+      "GUFW": {
+        "id": "com.github.christian.angel.gufw",
+        "description": "Graphical firewall manager"
+      }
+    }
+  },
+  "Office": {
+    "description": "Office productivity applications",
+    "apps": {
+      "LibreOffice Writer": {
+        "id": "org.libreoffice.LibreOffice",
+        "description": "Word processor"
+      },
+      "OnlyOffice Desktop Editors": {
+        "id": "org.onlyoffice.desktopeditors",
+        "description": "Office suite"
+      },
+      "Calligra Suite": {
+        "id": "org.kde.calligra",
+        "description": "Office and graphic art suite"
+      },
+      "WPS Office": {
+        "id": "com.wps.Office",
+        "description": "Office suite compatible with MS Office"
+      },
+      "Evernote": {
+        "id": "com.evernote.Evernote",
+        "description": "Note-taking application"
+      },
+      "Zim": {
+        "id": "org.zim.WikiEditor",
+        "description": "Desktop wiki"
+      },
+      "AbiWord": {
+        "id": "org.abisource.AbiWord",
+        "description": "Lightweight word processor"
+      },
+      "Gnumeric": {
+        "id": "org.gnome.Gnumeric",
+        "description": "Spreadsheet program"
+      },
+      "Calibre": {
+        "id": "com.calibre_ebook.calibre",
+        "description": "E-book management"
+      },
+      "PDF Arranger": {
+        "id": "com.github.jeromerobert.pdfarranger",
+        "description": "PDF manipulation tool"
+      },
+      "Okular": {
+        "id": "org.kde.okular",
+        "description": "Universal document viewer"
+      },
+      "Foxit Reader": {
+        "id": "com.foxitsoftware.FoxitReader",
+        "description": "PDF reader"
+      }
+    }
+  },
+  "Games": {
+    "description": "Games and gaming platforms",
+    "apps": {
+      "SuperTuxKart": {
+        "id": "org.supertuxkart.SuperTuxKart",
+        "description": "Fun kart racing game"
+      },
+      "0 A.D.": {
+        "id": "org.wildfiregames.zeroad",
+        "description": "Real-time strategy game"
+      },
+      "Steam": {
+        "id": "com.valvesoftware.Steam",
+        "description": "Game distribution platform"
+      },
+      "Minetest": {
+        "id": "net.minetest.Minetest",
+        "description": "Minecraft-like voxel game"
+      },
+      "Minecraft": {
+        "id": "com.mojang.Minecraft",
+        "description": "Popular sandbox game"
+      },
+      "Lutris": {
+        "id": "net.lutris.Lutris",
+        "description": "Gaming platform for Linux"
+      },
+      "DOSBox": {
+        "id": "com.dosbox.DOSBox",
+        "description": "DOS emulator"
+      },
+      "RetroArch": {
+        "id": "org.libretro.RetroArch",
+        "description": "Frontend for emulators"
+      },
+      "Godot Engine": {
+        "id": "org.godotengine.Godot",
+        "description": "Open source game engine"
+      },
+      "OpenRA": {
+        "id": "org.openra.OpenRA",
+        "description": "Open source RTS game engine"
+      },
+      "Battle for Wesnoth": {
+        "id": "org.wesnoth.Wesnoth",
+        "description": "Turn-based strategy game"
+      },
+      "FreeCiv": {
+        "id": "org.freeciv.Freeciv",
+        "description": "Open source empire-building strategy"
+      },
+      "FlightGear": {
+        "id": "org.flightgear.FlightGear",
+        "description": "Flight simulator"
+      },
+      "ScummVM": {
+        "id": "org.scummvm.ScummVM",
+        "description": "Classic adventure game interpreter"
+      }
+    }
+  },
+  "Graphics": {
+    "description": "Graphic design and image editing tools",
+    "apps": {
+      "Inkscape": {
+        "id": "org.inkscape.Inkscape",
+        "description": "Vector graphics editor"
+      },
+      "GIMP": {
+        "id": "org.gimp.GIMP",
+        "description": "Image manipulation program"
+      },
+      "Krita": {
+        "id": "org.krita.krita",
+        "description": "Digital painting application"
+      },
+      "Darktable": {
+        "id": "org.darktable.Darktable",
+        "description": "Photography workflow application"
+      },
+      "RawTherapee": {
+        "id": "com.rawtherapee.RawTherapee",
+        "description": "RAW photo processing software"
+      },
+      "MyPaint": {
+        "id": "org.mypaint.MyPaint",
+        "description": "Digital painting program"
+      },
+      "Pixelorama": {
+        "id": "com.orama_interactive.Pixelorama",
+        "description": "Pixel art editor"
+      },
+      "Pinta": {
+        "id": "com.github.PintaProject.Pinta",
+        "description": "Simple painting program"
+      },
+      "Scribus": {
+        "id": "org.scribus.Scribus",
+        "description": "Desktop publishing application"
+      },
+      "Blender": {
+        "id": "org.blender.Blender",
+        "description": "3D creation suite"
+      },
+      "Dia": {
+        "id": "org.gnome.Dia",
+        "description": "Diagram editor"
+      },
+      "OpenToonz": {
+        "id": "org.opentoonz.Opentoonz",
+        "description": "2D animation software"
+      },
+      "Vectr": {
+        "id": "com.vectr.Vectr",
+        "description": "Free vector graphics software"
+      }
+    }
+  },
+  "Education": {
+    "description": "Educational software and tools",
+    "apps": {
+      "Stellarium": {
+        "id": "org.stellarium.Stellarium",
+        "description": "Planetarium software"
+      },
+      "Khan Academy": {
+        "id": "org.khanacademy.KhanAcademy",
+        "description": "Educational learning platform"
+      },
+      "TuxMath": {
+        "id": "org.tuxmath.TuxMath",
+        "description": "Math game for kids"
+      },
+      "GCompris": {
+        "id": "org.gcompris.Gcompris",
+        "description": "Educational software suite"
+      },
+      "Celestia": {
+        "id": "org.celestia.Celestia",
+        "description": "Space simulation"
+      },
+      "Krita": {
+        "id": "org.krita.krita",
+        "description": "Digital painting application"
+      },
+      "Anki": {
+        "id": "net.ankiweb.Anki",
+        "description": "Flashcard program"
+      },
+      "Tux Typing": {
+        "id": "org.tuxtyping.TuxTyping",
+        "description": "Typing tutor game"
+      },
+      "Marble": {
+        "id": "org.kde.marble",
+        "description": "Virtual globe and world atlas"
+      },
+      "Kalzium": {
+        "id": "org.kde.kalzium",
+        "description": "Periodic table of elements"
+      },
+      "Parley": {
+        "id": "org.kde.parley",
+        "description": "Vocabulary trainer"
+      },
+      "KmPlot": {
+        "id": "org.kde.kmplot",
+        "description": "Function plotter"
+      }
+    }
+  }
+}
