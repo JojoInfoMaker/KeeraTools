@@ -1,11 +1,8 @@
 {
   "language": "fr",
   "theme": {
-    "color_theme": "cyberpunk",
-    "custom": {
-      "button": null,
-      "background": null
-    }
+    "appearance_mode": "dark",
+    "color_theme": "forest"
   },
   "flatpak": {
     "auto_add_flathub": true,
