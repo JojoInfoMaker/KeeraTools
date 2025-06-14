@@ -2666,3 +2666,23 @@
 2025-06-14 19:27:55,318 - WARNING - Translation missing for key 'no_apps_selected' in en, using English
 2025-06-14 19:27:55,319 - INFO - Applications data loaded successfully
 2025-06-14 19:27:55,349 - INFO - Applied theme: forest
+2025-06-14 22:14:50,504 - INFO - Starting Nova Installer - Time: 2025-06-14 16:51:09 - User: Nixiews
+2025-06-14 22:14:50,592 - INFO - Starting Nova Installer - Time: 2025-06-14 17:25:40 - User: Nixiews
+2025-06-14 22:14:50,593 - INFO - Theme Manager initialized
+2025-06-14 22:14:50,593 - INFO - Successfully loaded languages from /home/jojoinfomaker/Documents/GitHub2/Nova-Installer/NOVA Installer Code/Nova-Linux-V8/data/Languages.json
+2025-06-14 22:14:50,594 - INFO - Language Manager initialized
+2025-06-14 22:14:50,594 - INFO - Icon Manager initialized
+2025-06-14 22:14:50,666 - WARNING - Translation missing for key 'import' in en, using English
+2025-06-14 22:14:50,666 - WARNING - Translation missing for key 'export' in en, using English
+2025-06-14 22:14:50,666 - WARNING - Translation missing for key 'exit' in en, using English
+2025-06-14 22:14:50,782 - WARNING - Translation missing for key 'file' in en, using English
+2025-06-14 22:14:50,783 - WARNING - Translation missing for key 'colors' in en, using English
+2025-06-14 22:14:50,783 - WARNING - Translation missing for key 'language' in en, using English
+2025-06-14 22:14:50,828 - WARNING - Translation missing for key 'options' in en, using English
+2025-06-14 22:14:50,829 - WARNING - Translation missing for key 'about' in en, using English
+2025-06-14 22:14:50,829 - WARNING - Translation missing for key 'logs' in en, using English
+2025-06-14 22:14:50,850 - WARNING - Translation missing for key 'help' in en, using English
+2025-06-14 22:14:50,930 - WARNING - Translation missing for key 'install' in en, using English
+2025-06-14 22:14:50,948 - WARNING - Translation missing for key 'no_apps_selected' in en, using English
+2025-06-14 22:14:50,959 - INFO - Applications data loaded successfully
+2025-06-14 22:14:51,174 - INFO - Applied theme: forest
