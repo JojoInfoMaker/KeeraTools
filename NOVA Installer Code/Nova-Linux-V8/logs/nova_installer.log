@@ -2666,3 +2666,498 @@
 2025-06-14 19:27:55,318 - WARNING - Translation missing for key 'no_apps_selected' in en, using English
 2025-06-14 19:27:55,319 - INFO - Applications data loaded successfully
 2025-06-14 19:27:55,349 - INFO - Applied theme: forest
+2025-06-14 19:31:19,737 - INFO - Starting Nova Installer - Time: 2025-06-14 16:51:09 - User: Nixiews
+2025-06-14 19:31:19,767 - INFO - Starting Nova Installer - Time: 2025-06-14 17:29:01 - User: Nixiews
+2025-06-14 19:31:19,767 - INFO - Theme Manager initialized
+2025-06-14 19:31:19,767 - INFO - Successfully loaded languages from /home/nixiews/Documents/GitHub/Nova-Installer/NOVA Installer Code/Nova-Linux-V8/data/Languages.json
+2025-06-14 19:31:19,767 - INFO - Language Manager initialized
+2025-06-14 19:31:19,767 - INFO - Icon Manager initialized
+2025-06-14 19:31:19,767 - INFO - Applications data loaded successfully
+2025-06-14 19:31:19,800 - WARNING - Translation missing for key 'import' in en, using English
+2025-06-14 19:31:19,800 - WARNING - Translation missing for key 'export' in en, using English
+2025-06-14 19:31:19,800 - WARNING - Translation missing for key 'exit' in en, using English
+2025-06-14 19:31:19,819 - WARNING - Translation missing for key 'file' in en, using English
+2025-06-14 19:31:19,819 - WARNING - Translation missing for key 'colors' in en, using English
+2025-06-14 19:31:19,819 - WARNING - Translation missing for key 'language' in en, using English
+2025-06-14 19:31:19,828 - WARNING - Translation missing for key 'options' in en, using English
+2025-06-14 19:31:19,828 - WARNING - Translation missing for key 'about' in en, using English
+2025-06-14 19:31:19,828 - WARNING - Translation missing for key 'logs' in en, using English
+2025-06-14 19:31:19,836 - WARNING - Translation missing for key 'help' in en, using English
+2025-06-14 19:31:19,850 - WARNING - Translation key not found: Development
+2025-06-14 19:31:19,855 - WARNING - Translation key not found: Browsers
+2025-06-14 19:31:19,858 - WARNING - Translation key not found: Multimedia
+2025-06-14 19:31:19,861 - WARNING - Translation key not found: Utilities
+2025-06-14 19:31:19,864 - WARNING - Translation key not found: Office
+2025-06-14 19:31:19,868 - WARNING - Translation key not found: Games
+2025-06-14 19:31:19,871 - WARNING - Translation key not found: Graphics
+2025-06-14 19:31:19,874 - WARNING - Translation key not found: Education
+2025-06-14 19:31:19,906 - WARNING - Translation missing for key 'install' in en, using English
+2025-06-14 19:31:19,910 - WARNING - Translation missing for key 'no_apps_selected' in en, using English
+2025-06-14 19:31:19,954 - INFO - Applied theme: forest
+2025-06-14 19:31:19,956 - WARNING - Translation key not found: Development
+2025-06-14 19:31:24,531 - WARNING - Translation missing for key 'colors' in en, using English
+2025-06-14 19:31:24,532 - WARNING - Translation missing for key 'colors' in en, using English
+2025-06-14 19:31:24,532 - WARNING - Translation missing for key 'colors' in en, using English
+2025-06-14 19:31:24,570 - WARNING - Translation key not found: cancel
+2025-06-14 19:31:25,510 - INFO - Applied theme: purple-dream
+2025-06-14 19:31:26,275 - INFO - Applied theme: night-blue
+2025-06-14 19:31:26,956 - INFO - Applied theme: purple-dream
+2025-06-14 19:31:27,835 - INFO - Applied theme: ocean
+2025-06-14 19:31:28,326 - INFO - Applied theme: sunset
+2025-06-14 19:31:28,892 - INFO - Applied theme: mint
+2025-06-14 19:31:30,245 - INFO - Applied theme: night-blue
+2025-06-14 19:31:43,657 - INFO - Applied theme: forest
+2025-06-14 19:31:44,393 - INFO - Applied theme: purple-dream
+2025-06-14 19:31:46,004 - INFO - Applied theme: ocean
+2025-06-14 19:31:46,586 - INFO - Applied theme: sunset
+2025-06-14 19:31:47,130 - INFO - Applied theme: mint
+2025-06-14 19:31:48,057 - INFO - Applied theme: mint
+2025-06-14 19:31:48,157 - WARNING - Translation missing for key 'options' in en, using English
+2025-06-14 19:31:49,963 - WARNING - Translation missing for key 'import' in en, using English
+2025-06-14 19:31:49,963 - WARNING - Translation missing for key 'export' in en, using English
+2025-06-14 19:31:49,963 - WARNING - Translation missing for key 'exit' in en, using English
+2025-06-14 19:31:51,773 - INFO - Starting Nova Installer - Time: 2025-06-14 16:51:09 - User: Nixiews
+2025-06-14 19:31:51,805 - INFO - Starting Nova Installer - Time: 2025-06-14 17:29:01 - User: Nixiews
+2025-06-14 19:31:51,805 - INFO - Theme Manager initialized
+2025-06-14 19:31:51,806 - INFO - Successfully loaded languages from /home/nixiews/Documents/GitHub/Nova-Installer/NOVA Installer Code/Nova-Linux-V8/data/Languages.json
+2025-06-14 19:31:51,806 - INFO - Language Manager initialized
+2025-06-14 19:31:51,806 - INFO - Icon Manager initialized
+2025-06-14 19:31:51,806 - INFO - Applications data loaded successfully
+2025-06-14 19:31:51,842 - WARNING - Translation missing for key 'import' in en, using English
+2025-06-14 19:31:51,842 - WARNING - Translation missing for key 'export' in en, using English
+2025-06-14 19:31:51,842 - WARNING - Translation missing for key 'exit' in en, using English
+2025-06-14 19:31:51,860 - WARNING - Translation missing for key 'file' in en, using English
+2025-06-14 19:31:51,860 - WARNING - Translation missing for key 'colors' in en, using English
+2025-06-14 19:31:51,860 - WARNING - Translation missing for key 'language' in en, using English
+2025-06-14 19:31:51,874 - WARNING - Translation missing for key 'options' in en, using English
+2025-06-14 19:31:51,874 - WARNING - Translation missing for key 'about' in en, using English
+2025-06-14 19:31:51,874 - WARNING - Translation missing for key 'logs' in en, using English
+2025-06-14 19:31:51,883 - WARNING - Translation missing for key 'help' in en, using English
+2025-06-14 19:31:51,899 - WARNING - Translation key not found: Development
+2025-06-14 19:31:51,905 - WARNING - Translation key not found: Browsers
+2025-06-14 19:31:51,908 - WARNING - Translation key not found: Multimedia
+2025-06-14 19:31:51,912 - WARNING - Translation key not found: Utilities
+2025-06-14 19:31:51,916 - WARNING - Translation key not found: Office
+2025-06-14 19:31:51,919 - WARNING - Translation key not found: Games
+2025-06-14 19:31:51,923 - WARNING - Translation key not found: Graphics
+2025-06-14 19:31:51,926 - WARNING - Translation key not found: Education
+2025-06-14 19:31:51,962 - WARNING - Translation missing for key 'install' in en, using English
+2025-06-14 19:31:51,965 - WARNING - Translation missing for key 'no_apps_selected' in en, using English
+2025-06-14 19:31:52,014 - INFO - Applied theme: mint
+2025-06-14 19:31:52,017 - WARNING - Translation key not found: Development
+2025-06-14 19:35:47,480 - INFO - Starting Nova Installer - Time: 2025-06-14 16:51:09 - User: Nixiews
+2025-06-14 19:35:47,510 - INFO - Starting Nova Installer - Time: 2025-06-14 17:33:45 - User: Nixiews
+2025-06-14 19:35:47,510 - INFO - Theme Manager initialized
+2025-06-14 19:35:47,511 - INFO - Successfully loaded languages from /home/nixiews/Documents/GitHub/Nova-Installer/NOVA Installer Code/Nova-Linux-V8/data/Languages.json
+2025-06-14 19:35:47,511 - INFO - Language Manager initialized
+2025-06-14 19:35:47,511 - INFO - Icon Manager initialized
+2025-06-14 19:35:47,511 - INFO - Applications data loaded successfully
+2025-06-14 19:35:47,544 - WARNING - Translation missing for key 'import' in en, using English
+2025-06-14 19:35:47,544 - WARNING - Translation missing for key 'export' in en, using English
+2025-06-14 19:35:47,544 - WARNING - Translation missing for key 'exit' in en, using English
+2025-06-14 19:35:47,563 - WARNING - Translation missing for key 'file' in en, using English
+2025-06-14 19:35:47,563 - WARNING - Translation missing for key 'colors' in en, using English
+2025-06-14 19:35:47,563 - WARNING - Translation missing for key 'language' in en, using English
+2025-06-14 19:35:47,574 - WARNING - Translation missing for key 'options' in en, using English
+2025-06-14 19:35:47,574 - WARNING - Translation missing for key 'about' in en, using English
+2025-06-14 19:35:47,574 - WARNING - Translation missing for key 'logs' in en, using English
+2025-06-14 19:35:47,582 - WARNING - Translation missing for key 'help' in en, using English
+2025-06-14 19:35:47,595 - WARNING - Translation key not found: Development
+2025-06-14 19:35:47,600 - WARNING - Translation key not found: Browsers
+2025-06-14 19:35:47,604 - WARNING - Translation key not found: Multimedia
+2025-06-14 19:35:47,607 - WARNING - Translation key not found: Utilities
+2025-06-14 19:35:47,611 - WARNING - Translation key not found: Office
+2025-06-14 19:35:47,614 - WARNING - Translation key not found: Games
+2025-06-14 19:35:47,617 - WARNING - Translation key not found: Graphics
+2025-06-14 19:35:47,622 - WARNING - Translation key not found: Education
+2025-06-14 19:35:47,655 - WARNING - Translation missing for key 'install' in en, using English
+2025-06-14 19:35:47,658 - WARNING - Translation missing for key 'no_apps_selected' in en, using English
+2025-06-14 19:35:47,660 - CRITICAL - Critical error in main: '_tkinter.tkapp' object has no attribute 'load_language'
+2025-06-14 19:35:58,385 - INFO - Starting Nova Installer - Time: 2025-06-14 16:51:09 - User: Nixiews
+2025-06-14 19:35:58,415 - INFO - Starting Nova Installer - Time: 2025-06-14 17:29:01 - User: Nixiews
+2025-06-14 19:35:58,415 - INFO - Theme Manager initialized
+2025-06-14 19:35:58,415 - INFO - Successfully loaded languages from /home/nixiews/Documents/GitHub/Nova-Installer/NOVA Installer Code/Nova-Linux-V8/data/Languages.json
+2025-06-14 19:35:58,415 - INFO - Language Manager initialized
+2025-06-14 19:35:58,415 - INFO - Icon Manager initialized
+2025-06-14 19:35:58,415 - INFO - Applications data loaded successfully
+2025-06-14 19:35:58,447 - WARNING - Translation missing for key 'import' in en, using English
+2025-06-14 19:35:58,447 - WARNING - Translation missing for key 'export' in en, using English
+2025-06-14 19:35:58,447 - WARNING - Translation missing for key 'exit' in en, using English
+2025-06-14 19:35:58,467 - WARNING - Translation missing for key 'file' in en, using English
+2025-06-14 19:35:58,467 - WARNING - Translation missing for key 'colors' in en, using English
+2025-06-14 19:35:58,467 - WARNING - Translation missing for key 'language' in en, using English
+2025-06-14 19:35:58,477 - WARNING - Translation missing for key 'options' in en, using English
+2025-06-14 19:35:58,477 - WARNING - Translation missing for key 'about' in en, using English
+2025-06-14 19:35:58,477 - WARNING - Translation missing for key 'logs' in en, using English
+2025-06-14 19:35:58,485 - WARNING - Translation missing for key 'help' in en, using English
+2025-06-14 19:35:58,499 - WARNING - Translation key not found: Development
+2025-06-14 19:35:58,504 - WARNING - Translation key not found: Browsers
+2025-06-14 19:35:58,507 - WARNING - Translation key not found: Multimedia
+2025-06-14 19:35:58,510 - WARNING - Translation key not found: Utilities
+2025-06-14 19:35:58,514 - WARNING - Translation key not found: Office
+2025-06-14 19:35:58,517 - WARNING - Translation key not found: Games
+2025-06-14 19:35:58,520 - WARNING - Translation key not found: Graphics
+2025-06-14 19:35:58,523 - WARNING - Translation key not found: Education
+2025-06-14 19:35:58,554 - WARNING - Translation missing for key 'install' in en, using English
+2025-06-14 19:35:58,557 - WARNING - Translation missing for key 'no_apps_selected' in en, using English
+2025-06-14 19:35:58,600 - INFO - Applied theme: mint
+2025-06-14 19:35:58,603 - WARNING - Translation key not found: Development
+2025-06-14 19:37:30,338 - INFO - Starting Nova Installer - Time: 2025-06-14 16:51:09 - User: Nixiews
+2025-06-14 19:37:30,368 - INFO - Starting Nova Installer - Time: 2025-06-14 17:33:45 - User: Nixiews
+2025-06-14 19:37:30,368 - INFO - Theme Manager initialized
+2025-06-14 19:37:30,368 - INFO - Successfully loaded languages from /home/nixiews/Documents/GitHub/Nova-Installer/NOVA Installer Code/Nova-Linux-V8/data/Languages.json
+2025-06-14 19:37:30,368 - INFO - Language Manager initialized
+2025-06-14 19:37:30,368 - INFO - Icon Manager initialized
+2025-06-14 19:37:30,368 - INFO - Applications data loaded successfully
+2025-06-14 19:37:30,401 - WARNING - Translation missing for key 'import' in en, using English
+2025-06-14 19:37:30,401 - WARNING - Translation missing for key 'export' in en, using English
+2025-06-14 19:37:30,401 - WARNING - Translation missing for key 'exit' in en, using English
+2025-06-14 19:37:30,421 - WARNING - Translation missing for key 'file' in en, using English
+2025-06-14 19:37:30,421 - WARNING - Translation missing for key 'colors' in en, using English
+2025-06-14 19:37:30,421 - WARNING - Translation missing for key 'language' in en, using English
+2025-06-14 19:37:30,430 - WARNING - Translation missing for key 'options' in en, using English
+2025-06-14 19:37:30,430 - WARNING - Translation missing for key 'about' in en, using English
+2025-06-14 19:37:30,430 - WARNING - Translation missing for key 'logs' in en, using English
+2025-06-14 19:37:30,438 - WARNING - Translation missing for key 'help' in en, using English
+2025-06-14 19:37:30,451 - WARNING - Translation key not found: Development
+2025-06-14 19:37:30,457 - WARNING - Translation key not found: Browsers
+2025-06-14 19:37:30,460 - WARNING - Translation key not found: Multimedia
+2025-06-14 19:37:30,463 - WARNING - Translation key not found: Utilities
+2025-06-14 19:37:30,466 - WARNING - Translation key not found: Office
+2025-06-14 19:37:30,470 - WARNING - Translation key not found: Games
+2025-06-14 19:37:30,473 - WARNING - Translation key not found: Graphics
+2025-06-14 19:37:30,476 - WARNING - Translation key not found: Education
+2025-06-14 19:37:30,507 - WARNING - Translation missing for key 'install' in en, using English
+2025-06-14 19:37:30,511 - WARNING - Translation missing for key 'no_apps_selected' in en, using English
+2025-06-14 19:37:30,512 - INFO - Successfully loaded language: fr
+2025-06-14 19:37:30,513 - INFO - Language loaded successfully: fr
+2025-06-14 19:37:30,513 - ERROR - Error applying theme: [Errno 2] No such file or directory: 'mint'
+2025-06-14 19:37:33,706 - WARNING - Translation key not found: Development
+2025-06-14 20:25:49,674 - INFO - Starting Nova Installer - Time: 2025-06-14 16:51:09 - User: Nixiews
+2025-06-14 20:25:49,706 - INFO - Starting Nova Installer - Time: 2025-06-14 17:33:45 - User: Nixiews
+2025-06-14 20:25:49,706 - INFO - Theme Manager initialized
+2025-06-14 20:25:49,707 - INFO - Successfully loaded languages from /home/nixiews/Documents/GitHub/Nova-Installer/NOVA Installer Code/Nova-Linux-V8/data/Languages.json
+2025-06-14 20:25:49,707 - INFO - Language Manager initialized
+2025-06-14 20:25:49,707 - INFO - Icon Manager initialized
+2025-06-14 20:25:49,707 - INFO - Applications data loaded successfully
+2025-06-14 20:25:49,742 - WARNING - Translation missing for key 'import' in en, using English
+2025-06-14 20:25:49,742 - WARNING - Translation missing for key 'export' in en, using English
+2025-06-14 20:25:49,742 - WARNING - Translation missing for key 'exit' in en, using English
+2025-06-14 20:25:49,761 - WARNING - Translation missing for key 'file' in en, using English
+2025-06-14 20:25:49,761 - WARNING - Translation missing for key 'colors' in en, using English
+2025-06-14 20:25:49,761 - WARNING - Translation missing for key 'language' in en, using English
+2025-06-14 20:25:49,773 - WARNING - Translation missing for key 'options' in en, using English
+2025-06-14 20:25:49,773 - WARNING - Translation missing for key 'about' in en, using English
+2025-06-14 20:25:49,773 - WARNING - Translation missing for key 'logs' in en, using English
+2025-06-14 20:25:49,783 - WARNING - Translation missing for key 'help' in en, using English
+2025-06-14 20:25:49,800 - WARNING - Translation key not found: Development
+2025-06-14 20:25:49,805 - WARNING - Translation key not found: Browsers
+2025-06-14 20:25:49,808 - WARNING - Translation key not found: Multimedia
+2025-06-14 20:25:49,812 - WARNING - Translation key not found: Utilities
+2025-06-14 20:25:49,815 - WARNING - Translation key not found: Office
+2025-06-14 20:25:49,818 - WARNING - Translation key not found: Games
+2025-06-14 20:25:49,821 - WARNING - Translation key not found: Graphics
+2025-06-14 20:25:49,825 - WARNING - Translation key not found: Education
+2025-06-14 20:25:49,859 - WARNING - Translation missing for key 'install' in en, using English
+2025-06-14 20:25:49,862 - WARNING - Translation missing for key 'no_apps_selected' in en, using English
+2025-06-14 20:25:49,864 - INFO - Successfully loaded language: fr
+2025-06-14 20:25:49,864 - INFO - Language loaded successfully: fr
+2025-06-14 20:25:49,864 - ERROR - Error applying theme: [Errno 2] No such file or directory: 'mint'
+2025-06-14 20:25:53,228 - WARNING - Translation key not found: Development
+2025-06-14 20:28:01,008 - INFO - Starting Nova Installer - Time: 2025-06-14 16:51:09 - User: Nixiews
+2025-06-14 20:28:01,038 - INFO - Starting Nova Installer - Time: 2025-06-14 17:33:45 - User: Nixiews
+2025-06-14 20:28:01,038 - INFO - Theme Manager initialized
+2025-06-14 20:28:01,038 - INFO - Successfully loaded languages from /home/nixiews/Documents/GitHub/Nova-Installer/NOVA Installer Code/Nova-Linux-V8/data/Languages.json
+2025-06-14 20:28:01,038 - INFO - Language Manager initialized
+2025-06-14 20:28:01,038 - INFO - Icon Manager initialized
+2025-06-14 20:28:01,039 - INFO - Applications data loaded successfully
+2025-06-14 20:28:01,071 - WARNING - Translation missing for key 'import' in en, using English
+2025-06-14 20:28:01,071 - WARNING - Translation missing for key 'export' in en, using English
+2025-06-14 20:28:01,072 - WARNING - Translation missing for key 'exit' in en, using English
+2025-06-14 20:28:01,090 - WARNING - Translation missing for key 'file' in en, using English
+2025-06-14 20:28:01,090 - WARNING - Translation missing for key 'colors' in en, using English
+2025-06-14 20:28:01,090 - WARNING - Translation missing for key 'language' in en, using English
+2025-06-14 20:28:01,101 - WARNING - Translation missing for key 'options' in en, using English
+2025-06-14 20:28:01,101 - WARNING - Translation missing for key 'about' in en, using English
+2025-06-14 20:28:01,101 - WARNING - Translation missing for key 'logs' in en, using English
+2025-06-14 20:28:01,109 - WARNING - Translation missing for key 'help' in en, using English
+2025-06-14 20:28:01,123 - WARNING - Translation key not found: Development
+2025-06-14 20:28:01,128 - WARNING - Translation key not found: Browsers
+2025-06-14 20:28:01,131 - WARNING - Translation key not found: Multimedia
+2025-06-14 20:28:01,135 - WARNING - Translation key not found: Utilities
+2025-06-14 20:28:01,138 - WARNING - Translation key not found: Office
+2025-06-14 20:28:01,141 - WARNING - Translation key not found: Games
+2025-06-14 20:28:01,144 - WARNING - Translation key not found: Graphics
+2025-06-14 20:28:01,147 - WARNING - Translation key not found: Education
+2025-06-14 20:28:01,179 - WARNING - Translation missing for key 'install' in en, using English
+2025-06-14 20:28:01,182 - WARNING - Translation missing for key 'no_apps_selected' in en, using English
+2025-06-14 20:28:01,184 - INFO - Successfully loaded language: fr
+2025-06-14 20:28:01,184 - INFO - Language loaded successfully: fr
+2025-06-14 20:28:01,184 - ERROR - Error applying theme: 'frame_low'
+2025-06-14 20:28:01,187 - WARNING - Translation key not found: Development
+2025-06-14 21:10:54,832 - INFO - Starting Nova Installer - Time: 2025-06-14 16:51:09 - User: Nixiews
+2025-06-14 21:10:54,864 - INFO - Starting Nova Installer - Time: 2025-06-14 17:33:45 - User: Nixiews
+2025-06-14 21:10:54,864 - INFO - Theme Manager initialized
+2025-06-14 21:10:54,865 - INFO - Successfully loaded languages from /home/nixiews/Documents/GitHub/Nova-Installer/NOVA Installer Code/Nova-Linux-V8/data/Languages.json
+2025-06-14 21:10:54,865 - INFO - Language Manager initialized
+2025-06-14 21:10:54,865 - INFO - Icon Manager initialized
+2025-06-14 21:10:54,865 - INFO - Applications data loaded successfully
+2025-06-14 21:10:54,899 - WARNING - Translation missing for key 'import' in en, using English
+2025-06-14 21:10:54,899 - WARNING - Translation missing for key 'export' in en, using English
+2025-06-14 21:10:54,899 - WARNING - Translation missing for key 'exit' in en, using English
+2025-06-14 21:10:54,921 - WARNING - Translation missing for key 'file' in en, using English
+2025-06-14 21:10:54,921 - WARNING - Translation missing for key 'colors' in en, using English
+2025-06-14 21:10:54,921 - WARNING - Translation missing for key 'language' in en, using English
+2025-06-14 21:10:54,930 - WARNING - Translation missing for key 'options' in en, using English
+2025-06-14 21:10:54,931 - WARNING - Translation missing for key 'about' in en, using English
+2025-06-14 21:10:54,931 - WARNING - Translation missing for key 'logs' in en, using English
+2025-06-14 21:10:54,941 - WARNING - Translation missing for key 'help' in en, using English
+2025-06-14 21:10:54,957 - WARNING - Translation key not found: Development
+2025-06-14 21:10:54,962 - WARNING - Translation key not found: Browsers
+2025-06-14 21:10:54,966 - WARNING - Translation key not found: Multimedia
+2025-06-14 21:10:54,970 - WARNING - Translation key not found: Utilities
+2025-06-14 21:10:54,974 - WARNING - Translation key not found: Office
+2025-06-14 21:10:54,977 - WARNING - Translation key not found: Games
+2025-06-14 21:10:54,981 - WARNING - Translation key not found: Graphics
+2025-06-14 21:10:54,985 - WARNING - Translation key not found: Education
+2025-06-14 21:10:55,022 - WARNING - Translation missing for key 'install' in en, using English
+2025-06-14 21:10:55,026 - WARNING - Translation missing for key 'no_apps_selected' in en, using English
+2025-06-14 21:10:55,028 - INFO - Successfully loaded language: fr
+2025-06-14 21:10:55,028 - INFO - Language loaded successfully: fr
+2025-06-14 21:10:55,028 - ERROR - Error applying theme: 'frame_low'
+2025-06-14 21:10:55,031 - WARNING - Translation key not found: Development
+2025-06-14 21:13:51,646 - INFO - Starting Nova Installer - Time: 2025-06-14 16:51:09 - User: Nixiews
+2025-06-14 21:13:51,681 - INFO - Starting Nova Installer - Time: 2025-06-14 17:33:45 - User: Nixiews
+2025-06-14 21:13:51,681 - INFO - Theme Manager initialized
+2025-06-14 21:13:51,682 - INFO - Successfully loaded languages from /home/nixiews/Documents/GitHub/Nova-Installer/NOVA Installer Code/Nova-Linux-V8/data/Languages.json
+2025-06-14 21:13:51,682 - INFO - Language Manager initialized
+2025-06-14 21:13:51,682 - INFO - Icon Manager initialized
+2025-06-14 21:13:51,682 - INFO - Applications data loaded successfully
+2025-06-14 21:13:51,721 - WARNING - Translation missing for key 'import' in en, using English
+2025-06-14 21:13:51,721 - WARNING - Translation missing for key 'export' in en, using English
+2025-06-14 21:13:51,721 - WARNING - Translation missing for key 'exit' in en, using English
+2025-06-14 21:13:51,740 - WARNING - Translation missing for key 'file' in en, using English
+2025-06-14 21:13:51,740 - WARNING - Translation missing for key 'colors' in en, using English
+2025-06-14 21:13:51,740 - WARNING - Translation missing for key 'language' in en, using English
+2025-06-14 21:13:51,749 - WARNING - Translation missing for key 'options' in en, using English
+2025-06-14 21:13:51,749 - WARNING - Translation missing for key 'about' in en, using English
+2025-06-14 21:13:51,749 - WARNING - Translation missing for key 'logs' in en, using English
+2025-06-14 21:13:51,757 - WARNING - Translation missing for key 'help' in en, using English
+2025-06-14 21:13:51,772 - WARNING - Translation key not found: Development
+2025-06-14 21:13:51,776 - WARNING - Translation key not found: Browsers
+2025-06-14 21:13:51,780 - WARNING - Translation key not found: Multimedia
+2025-06-14 21:13:51,783 - WARNING - Translation key not found: Utilities
+2025-06-14 21:13:51,786 - WARNING - Translation key not found: Office
+2025-06-14 21:13:51,789 - WARNING - Translation key not found: Games
+2025-06-14 21:13:51,793 - WARNING - Translation key not found: Graphics
+2025-06-14 21:13:51,796 - WARNING - Translation key not found: Education
+2025-06-14 21:13:51,828 - WARNING - Translation missing for key 'install' in en, using English
+2025-06-14 21:13:51,831 - WARNING - Translation missing for key 'no_apps_selected' in en, using English
+2025-06-14 21:13:51,833 - INFO - Successfully loaded language: fr
+2025-06-14 21:13:51,833 - INFO - Language loaded successfully: fr
+2025-06-14 21:13:51,833 - ERROR - Error applying theme: 'frame_low'
+2025-06-14 21:13:51,835 - WARNING - Translation key not found: Development
+2025-06-14 21:15:14,046 - INFO - Starting Nova Installer - Time: 2025-06-14 16:51:09 - User: Nixiews
+2025-06-14 21:15:14,078 - INFO - Starting Nova Installer - Time: 2025-06-14 17:33:45 - User: Nixiews
+2025-06-14 21:15:14,079 - INFO - Theme Manager initialized
+2025-06-14 21:15:14,079 - INFO - Successfully loaded languages from /home/nixiews/Documents/GitHub/Nova-Installer/NOVA Installer Code/Nova-Linux-V8/data/Languages.json
+2025-06-14 21:15:14,079 - INFO - Language Manager initialized
+2025-06-14 21:15:14,079 - INFO - Icon Manager initialized
+2025-06-14 21:15:14,079 - INFO - Applications data loaded successfully
+2025-06-14 21:15:14,112 - WARNING - Translation missing for key 'file' in en, using English
+2025-06-14 21:15:14,112 - CRITICAL - Critical error in main: '_tkinter.tkapp' object has no attribute 'show_file_menu'
+2025-06-14 21:18:01,050 - INFO - Starting Nova Installer - Time: 2025-06-14 16:51:09 - User: Nixiews
+2025-06-14 21:18:01,080 - INFO - Starting Nova Installer - Time: 2025-06-14 17:33:45 - User: Nixiews
+2025-06-14 21:18:01,080 - INFO - Theme Manager initialized
+2025-06-14 21:18:01,080 - INFO - Successfully loaded languages from /home/nixiews/Documents/GitHub/Nova-Installer/NOVA Installer Code/Nova-Linux-V8/data/Languages.json
+2025-06-14 21:18:01,080 - INFO - Language Manager initialized
+2025-06-14 21:18:01,080 - INFO - Icon Manager initialized
+2025-06-14 21:18:01,080 - INFO - Applications data loaded successfully
+2025-06-14 21:18:01,113 - WARNING - Translation missing for key 'file' in en, using English
+2025-06-14 21:18:01,118 - WARNING - Translation missing for key 'options' in en, using English
+2025-06-14 21:18:01,121 - WARNING - Translation missing for key 'help' in en, using English
+2025-06-14 21:18:01,150 - WARNING - Translation key not found: Development
+2025-06-14 21:18:01,154 - WARNING - Translation key not found: Browsers
+2025-06-14 21:18:01,158 - WARNING - Translation key not found: Multimedia
+2025-06-14 21:18:01,161 - WARNING - Translation key not found: Utilities
+2025-06-14 21:18:01,165 - WARNING - Translation key not found: Office
+2025-06-14 21:18:01,168 - WARNING - Translation key not found: Games
+2025-06-14 21:18:01,172 - WARNING - Translation key not found: Graphics
+2025-06-14 21:18:01,175 - WARNING - Translation key not found: Education
+2025-06-14 21:18:01,207 - WARNING - Translation missing for key 'install' in en, using English
+2025-06-14 21:18:01,210 - WARNING - Translation missing for key 'no_apps_selected' in en, using English
+2025-06-14 21:18:01,212 - INFO - Successfully loaded language: fr
+2025-06-14 21:18:01,212 - INFO - Language loaded successfully: fr
+2025-06-14 21:18:01,212 - ERROR - Error applying theme: 'frame_low'
+2025-06-14 21:18:01,215 - WARNING - Translation key not found: Development
+2025-06-14 21:18:05,090 - WARNING - Translation key not found: cancel
+2025-06-14 21:18:09,356 - ERROR - Error importing selection: name 'filedialog' is not defined
+2025-06-14 21:18:12,625 - WARNING - Translation key not found: cancel
+2025-06-14 21:21:36,169 - INFO - Starting Nova Installer - Time: 2025-06-14 16:51:09 - User: Nixiews
+2025-06-14 21:21:36,198 - INFO - Starting Nova Installer - Time: 2025-06-14 17:33:45 - User: Nixiews
+2025-06-14 21:21:36,198 - INFO - Theme Manager initialized
+2025-06-14 21:21:36,199 - INFO - Successfully loaded languages from /home/nixiews/Documents/GitHub/Nova-Installer/NOVA Installer Code/Nova-Linux-V8/data/Languages.json
+2025-06-14 21:21:36,199 - INFO - Language Manager initialized
+2025-06-14 21:21:36,199 - INFO - Icon Manager initialized
+2025-06-14 21:21:36,199 - INFO - Applications data loaded successfully
+2025-06-14 21:21:36,232 - WARNING - Translation missing for key 'file' in en, using English
+2025-06-14 21:21:36,236 - WARNING - Translation missing for key 'options' in en, using English
+2025-06-14 21:21:36,239 - WARNING - Translation missing for key 'help' in en, using English
+2025-06-14 21:21:36,267 - WARNING - Translation key not found: Development
+2025-06-14 21:21:36,272 - WARNING - Translation key not found: Browsers
+2025-06-14 21:21:36,275 - WARNING - Translation key not found: Multimedia
+2025-06-14 21:21:36,279 - WARNING - Translation key not found: Utilities
+2025-06-14 21:21:36,282 - WARNING - Translation key not found: Office
+2025-06-14 21:21:36,286 - WARNING - Translation key not found: Games
+2025-06-14 21:21:36,289 - WARNING - Translation key not found: Graphics
+2025-06-14 21:21:36,292 - WARNING - Translation key not found: Education
+2025-06-14 21:21:36,323 - WARNING - Translation missing for key 'install' in en, using English
+2025-06-14 21:21:36,327 - WARNING - Translation missing for key 'no_apps_selected' in en, using English
+2025-06-14 21:21:36,328 - INFO - Successfully loaded language: fr
+2025-06-14 21:21:36,328 - INFO - Language loaded successfully: fr
+2025-06-14 21:21:36,328 - ERROR - Error applying theme: 'frame_low'
+2025-06-14 21:21:36,331 - WARNING - Translation key not found: Development
+2025-06-14 21:21:43,064 - WARNING - Translation key not found: Browsers
+2025-06-14 21:21:44,288 - WARNING - Translation key not found: Development
+2025-06-14 21:21:50,937 - WARNING - Translation key not found: Browsers
+2025-06-14 21:21:51,407 - WARNING - Translation key not found: Development
+2025-06-14 21:21:52,800 - WARNING - Translation key not found: Browsers
+2025-06-14 21:21:53,263 - WARNING - Translation key not found: Development
+2025-06-14 21:22:27,739 - WARNING - Translation key not found: installation_type
+2025-06-14 21:22:27,742 - WARNING - Translation key not found: installation_type
+2025-06-14 21:22:27,745 - WARNING - Translation key not found: user_only
+2025-06-14 21:22:27,753 - WARNING - Translation key not found: system_wide
+2025-06-14 21:22:27,775 - WARNING - Translation key not found: cancel
+2025-06-14 21:22:27,780 - WARNING - Translation key not found: proceed
+2025-06-14 21:22:27,801 - INFO - Installation dialog initialized successfully
+2025-06-14 21:22:30,830 - WARNING - Translation key not found: Development
+2025-06-14 21:25:02,166 - INFO - Starting Nova Installer - Time: 2025-06-14 16:51:09 - User: Nixiews
+2025-06-14 21:25:02,196 - INFO - Starting Nova Installer - Time: 2025-06-14 17:33:45 - User: Nixiews
+2025-06-14 21:25:02,196 - INFO - Theme Manager initialized
+2025-06-14 21:25:02,196 - INFO - Successfully loaded languages from /home/nixiews/Documents/GitHub/Nova-Installer/NOVA Installer Code/Nova-Linux-V8/data/Languages.json
+2025-06-14 21:25:02,196 - INFO - Language Manager initialized
+2025-06-14 21:25:02,196 - INFO - Icon Manager initialized
+2025-06-14 21:25:02,196 - INFO - Applications data loaded successfully
+2025-06-14 21:25:02,232 - CRITICAL - Critical error in main: 'frame_low'
+2025-06-14 21:29:12,813 - INFO - Starting Nova Installer - Time: 2025-06-14 16:51:09 - User: Nixiews
+2025-06-14 21:29:12,844 - INFO - Starting Nova Installer - Time: 2025-06-14 19:26:23 - User: Nixiews
+2025-06-14 21:29:12,844 - INFO - Theme Manager initialized
+2025-06-14 21:29:12,844 - INFO - Successfully loaded languages from /home/nixiews/Documents/GitHub/Nova-Installer/NOVA Installer Code/Nova-Linux-V8/data/Languages.json
+2025-06-14 21:29:12,845 - INFO - Language Manager initialized
+2025-06-14 21:29:12,845 - INFO - Icon Manager initialized
+2025-06-14 21:29:12,845 - INFO - Successfully loaded language: fr
+2025-06-14 21:29:12,845 - INFO - Language loaded successfully: fr
+2025-06-14 21:29:12,845 - INFO - Applications data loaded successfully
+2025-06-14 21:29:12,879 - WARNING - Using default colors due to: 'ThemeManager' object has no attribute 'get_colors'
+2025-06-14 21:29:12,879 - CRITICAL - Critical error in main: '_tkinter.tkapp' object has no attribute 'tr'
+2025-06-14 21:33:47,957 - INFO - Starting Nova Installer - Time: 2025-06-14 16:51:09 - User: Nixiews
+2025-06-14 21:33:47,988 - INFO - Starting Nova Installer - Time: 2025-06-14 19:31:13 - User: Nixiews
+2025-06-14 21:33:47,988 - INFO - Theme Manager initialized
+2025-06-14 21:33:47,988 - INFO - Successfully loaded languages from /home/nixiews/Documents/GitHub/Nova-Installer/NOVA Installer Code/Nova-Linux-V8/data/Languages.json
+2025-06-14 21:33:47,988 - INFO - Language Manager initialized
+2025-06-14 21:33:47,988 - INFO - Icon Manager initialized
+2025-06-14 21:33:47,989 - INFO - Successfully loaded language: fr
+2025-06-14 21:33:47,989 - INFO - Language loaded successfully: fr
+2025-06-14 21:33:47,989 - INFO - Applications data loaded successfully
+2025-06-14 21:33:48,022 - WARNING - Using default colors due to: 'ThemeManager' object has no attribute 'get_colors'
+2025-06-14 21:33:48,060 - WARNING - Translation key not found: Development
+2025-06-14 21:33:48,064 - WARNING - Translation key not found: Browsers
+2025-06-14 21:33:48,068 - WARNING - Translation key not found: Multimedia
+2025-06-14 21:33:48,072 - WARNING - Translation key not found: Utilities
+2025-06-14 21:33:48,075 - WARNING - Translation key not found: Office
+2025-06-14 21:33:48,078 - WARNING - Translation key not found: Games
+2025-06-14 21:33:48,082 - WARNING - Translation key not found: Graphics
+2025-06-14 21:33:48,085 - WARNING - Translation key not found: Education
+2025-06-14 21:33:48,122 - WARNING - Using default colors due to: 'ThemeManager' object has no attribute 'get_colors'
+2025-06-14 21:33:48,150 - INFO - Theme applied successfully
+2025-06-14 21:33:48,150 - WARNING - Using default colors due to: 'ThemeManager' object has no attribute 'get_colors'
+2025-06-14 21:33:48,152 - WARNING - Translation key not found: Development
+2025-06-14 21:33:50,376 - WARNING - Using default colors due to: 'ThemeManager' object has no attribute 'get_colors'
+2025-06-14 21:33:50,886 - WARNING - Using default colors due to: 'ThemeManager' object has no attribute 'get_colors'
+2025-06-14 21:33:51,046 - WARNING - Using default colors due to: 'ThemeManager' object has no attribute 'get_colors'
+2025-06-14 21:33:51,406 - WARNING - Using default colors due to: 'ThemeManager' object has no attribute 'get_colors'
+2025-06-14 21:33:51,573 - WARNING - Using default colors due to: 'ThemeManager' object has no attribute 'get_colors'
+2025-06-14 21:33:52,006 - WARNING - Using default colors due to: 'ThemeManager' object has no attribute 'get_colors'
+2025-06-14 21:33:52,149 - WARNING - Using default colors due to: 'ThemeManager' object has no attribute 'get_colors'
+2025-06-14 21:37:05,049 - INFO - Starting Nova Installer - Time: 2025-06-14 16:51:09 - User: Nixiews
+2025-06-14 21:37:05,079 - INFO - Starting Nova Installer - Time: 2025-06-14 19:31:13 - User: Nixiews
+2025-06-14 21:37:05,080 - INFO - Theme Manager initialized
+2025-06-14 21:37:05,080 - INFO - Successfully loaded languages from /home/nixiews/Documents/GitHub/Nova-Installer/NOVA Installer Code/Nova-Linux-V8/data/Languages.json
+2025-06-14 21:37:05,080 - INFO - Language Manager initialized
+2025-06-14 21:37:05,080 - INFO - Icon Manager initialized
+2025-06-14 21:37:05,080 - INFO - Successfully loaded language: fr
+2025-06-14 21:37:05,080 - INFO - Language loaded successfully: fr
+2025-06-14 21:37:05,080 - INFO - Applications data loaded successfully
+2025-06-14 21:37:05,114 - WARNING - Using default colors due to: 'ThemeManager' object has no attribute 'get_colors'
+2025-06-14 21:37:05,152 - WARNING - Translation key not found: Development
+2025-06-14 21:37:05,156 - WARNING - Translation key not found: Browsers
+2025-06-14 21:37:05,159 - WARNING - Translation key not found: Multimedia
+2025-06-14 21:37:05,163 - WARNING - Translation key not found: Utilities
+2025-06-14 21:37:05,166 - WARNING - Translation key not found: Office
+2025-06-14 21:37:05,169 - WARNING - Translation key not found: Games
+2025-06-14 21:37:05,173 - WARNING - Translation key not found: Graphics
+2025-06-14 21:37:05,176 - WARNING - Translation key not found: Education
+2025-06-14 21:37:05,220 - WARNING - Using default colors due to: 'ThemeManager' object has no attribute 'get_colors'
+2025-06-14 21:37:05,248 - INFO - Theme applied successfully
+2025-06-14 21:37:05,248 - WARNING - Using default colors due to: 'ThemeManager' object has no attribute 'get_colors'
+2025-06-14 21:37:05,250 - WARNING - Translation key not found: Development
+2025-06-14 21:37:07,222 - WARNING - Using default colors due to: 'ThemeManager' object has no attribute 'get_colors'
+2025-06-14 21:37:07,731 - WARNING - Using default colors due to: 'ThemeManager' object has no attribute 'get_colors'
+2025-06-14 21:37:07,883 - WARNING - Using default colors due to: 'ThemeManager' object has no attribute 'get_colors'
+2025-06-14 21:37:08,251 - WARNING - Using default colors due to: 'ThemeManager' object has no attribute 'get_colors'
+2025-06-14 21:37:08,435 - WARNING - Using default colors due to: 'ThemeManager' object has no attribute 'get_colors'
+2025-06-14 21:37:08,867 - WARNING - Using default colors due to: 'ThemeManager' object has no attribute 'get_colors'
+2025-06-14 21:37:08,995 - WARNING - Using default colors due to: 'ThemeManager' object has no attribute 'get_colors'
+2025-06-14 21:37:10,798 - WARNING - Using default colors due to: 'ThemeManager' object has no attribute 'get_colors'
+2025-06-14 21:37:10,801 - WARNING - Translation key not found: Development
+2025-06-14 21:37:11,318 - WARNING - Using default colors due to: 'ThemeManager' object has no attribute 'get_colors'
+2025-06-14 21:37:11,323 - WARNING - Translation key not found: Browsers
+2025-06-14 21:37:11,732 - WARNING - Using default colors due to: 'ThemeManager' object has no attribute 'get_colors'
+2025-06-14 21:37:11,736 - WARNING - Translation key not found: Development
+2025-06-14 21:39:03,276 - INFO - Starting Nova Installer - Time: 2025-06-14 16:51:09 - User: Nixiews
+2025-06-14 21:39:03,306 - INFO - Starting Nova Installer - Time: 2025-06-14 19:31:13 - User: Nixiews
+2025-06-14 21:39:03,306 - INFO - Theme Manager initialized
+2025-06-14 21:39:03,307 - INFO - Successfully loaded languages from /home/nixiews/Documents/GitHub/Nova-Installer/NOVA Installer Code/Nova-Linux-V8/data/Languages.json
+2025-06-14 21:39:03,307 - INFO - Language Manager initialized
+2025-06-14 21:39:03,307 - INFO - Icon Manager initialized
+2025-06-14 21:39:03,307 - INFO - Successfully loaded language: fr
+2025-06-14 21:39:03,307 - INFO - Language loaded successfully: fr
+2025-06-14 21:39:03,307 - INFO - Applications data loaded successfully
+2025-06-14 21:39:03,339 - WARNING - Using default colors due to: 'ThemeManager' object has no attribute 'get_colors'
+2025-06-14 21:39:03,377 - WARNING - Translation key not found: Development
+2025-06-14 21:39:03,381 - WARNING - Translation key not found: Browsers
+2025-06-14 21:39:03,384 - WARNING - Translation key not found: Multimedia
+2025-06-14 21:39:03,388 - WARNING - Translation key not found: Utilities
+2025-06-14 21:39:03,391 - WARNING - Translation key not found: Office
+2025-06-14 21:39:03,395 - WARNING - Translation key not found: Games
+2025-06-14 21:39:03,398 - WARNING - Translation key not found: Graphics
+2025-06-14 21:39:03,401 - WARNING - Translation key not found: Education
+2025-06-14 21:39:03,437 - WARNING - Using default colors due to: 'ThemeManager' object has no attribute 'get_colors'
+2025-06-14 21:39:03,465 - INFO - Theme applied successfully
+2025-06-14 21:39:03,466 - WARNING - Using default colors due to: 'ThemeManager' object has no attribute 'get_colors'
+2025-06-14 21:39:03,468 - WARNING - Translation key not found: Development
+2025-06-14 21:39:04,522 - WARNING - Using default colors due to: 'ThemeManager' object has no attribute 'get_colors'
+2025-06-14 21:39:05,390 - WARNING - Using default colors due to: 'ThemeManager' object has no attribute 'get_colors'
+2025-06-14 21:39:06,070 - WARNING - Using default colors due to: 'ThemeManager' object has no attribute 'get_colors'
+2025-06-14 21:39:06,991 - WARNING - Translation key not found: cancel
+2025-06-14 21:39:08,076 - INFO - Applied theme: forest
+2025-06-14 21:39:08,739 - INFO - Applied theme: night-blue
+2025-06-14 21:39:09,289 - INFO - Applied theme: mint
+2025-06-14 21:39:09,771 - INFO - Applied theme: sunset
+2025-06-14 21:39:10,243 - INFO - Applied theme: ocean
+2025-06-14 21:39:10,702 - INFO - Applied theme: purple-dream
+2025-06-14 21:39:11,113 - INFO - Applied theme: forest
+2025-06-14 21:39:11,597 - INFO - Applied theme: purple-dream
+2025-06-14 21:39:12,280 - WARNING - Using default colors due to: 'ThemeManager' object has no attribute 'get_colors'
+2025-06-14 21:39:12,308 - WARNING - Translation key not found: Development
+2025-06-14 21:39:12,309 - WARNING - Translation key not found: Development
+2025-06-14 21:39:12,309 - WARNING - Translation key not found: Development
+2025-06-14 21:39:12,309 - WARNING - Translation key not found: Development
+2025-06-14 21:39:12,310 - WARNING - Translation key not found: Development
+2025-06-14 21:39:12,310 - WARNING - Translation key not found: Development
+2025-06-14 21:39:12,310 - WARNING - Translation key not found: Development
+2025-06-14 21:39:12,311 - WARNING - Translation key not found: Development
+2025-06-14 21:39:12,311 - INFO - Theme applied successfully
+2025-06-14 21:39:12,311 - INFO - Theme updated successfully
+2025-06-14 21:39:14,798 - WARNING - Using default colors due to: 'ThemeManager' object has no attribute 'get_colors'
+2025-06-14 21:39:15,588 - WARNING - Translation key not found: cancel
