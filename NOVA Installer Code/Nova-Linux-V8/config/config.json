@@ -2,7 +2,7 @@
   "language": "fr",
   "theme": {
     "appearance_mode": "dark",
-    "color_theme": "purple-dream"
+    "color_theme": "carbon"
   },
   "flatpak": {
     "auto_add_flathub": true,

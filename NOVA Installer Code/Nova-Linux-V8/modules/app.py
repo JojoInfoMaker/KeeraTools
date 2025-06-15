@@ -80,10 +80,16 @@ class NovaInstallerApp(ctk.CTk):
         self.config = load_config()
 
         # Initialize managers with config
-        self.theme_manager = ThemeManager(self.config)  # Pass config to ThemeManager
+        self.theme_manager = ThemeManager(self.config)
         self.language_manager = LanguageManager()
         self.icon_manager = IconManager()
         self.menu_manager = MenuManager(self)
+
+        # Synchronize config with theme manager's config
+        if "theme" not in self.config:
+            self.config["theme"] = {}
+        self.config["theme"].update(self.theme_manager.theme_config)
+        save_config(self.config)
 
         # Load settings
         self.load_language()
@@ -187,20 +193,27 @@ class NovaInstallerApp(ctk.CTk):
             dialog.grab_set()
             dialog.focus_set()
 
-            x = self.winfo_x() + (self.winfo_width() // 2) - (400 // 2)
-            y = self.winfo_y() + (self.winfo_height() // 2) - (300 // 2)
-            dialog.geometry(f"400x300+{x}+{y}")
+            # Center the dialog with larger initial size
+            x = self.winfo_x() + (self.winfo_width() // 2) - (450 // 2)
+            y = self.winfo_y() + (self.winfo_height() // 2) - (600 // 2)
+            dialog.geometry(f"450x600+{x}+{y}")  # Increased initial size
 
             self.wait_window(dialog)
 
             if hasattr(dialog, 'result') and dialog.result:
                 self.config["theme"] = dialog.result
-                save_config(self.config)
+                self.theme_manager.config = self.config
+                save_config(self.config)  # This will save both app config and theme
                 self.apply_theme()
                 logger.info("Theme updated successfully")
+
         except Exception as e:
             logger.error(f"Error in color dialog: {e}")
-            messagebox.showerror(self.tr("error"), self.tr("theme_error"))
+            if not self.tr("theme_error"):
+                error_message = "An error occurred while applying the theme."
+            else:
+                error_message = self.tr("theme_error")
+            messagebox.showerror(self.tr("error"), error_message)
 
     def show_language_dialog(self):
         """Show language selection dialog"""
@@ -325,7 +338,9 @@ class NovaInstallerApp(ctk.CTk):
 
             # Set global appearance
             ctk.set_appearance_mode(appearance_mode)
-            ctk.set_default_color_theme(color_theme)
+
+            # Update root window
+            self.configure(fg_color=colors["bg"])
 
             # Update all frames
             self._update_frame_colors(self, colors)

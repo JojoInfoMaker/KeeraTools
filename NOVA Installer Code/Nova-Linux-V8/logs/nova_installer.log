@@ -3506,3 +3506,709 @@
 2025-06-15 11:15:00,703 - INFO - Starting Nova Installer - Time: 2025-06-14 16:51:09 - User: Nixiews
 2025-06-15 11:15:00,733 - INFO - Starting Nova Installer - Time: 2025-06-15 09:03:46 - User: Nixiews
 2025-06-15 11:15:00,733 - CRITICAL - Critical error in main: ThemeManager.__init__() takes 1 positional argument but 2 were given
+2025-06-15 11:17:11,686 - INFO - Starting Nova Installer - Time: 2025-06-14 16:51:09 - User: Nixiews
+2025-06-15 11:17:11,716 - INFO - Starting Nova Installer - Time: 2025-06-15 09:03:46 - User: Nixiews
+2025-06-15 11:17:11,716 - INFO - Theme Manager initialized with theme: purple-dream (dark)
+2025-06-15 11:17:11,716 - INFO - Successfully loaded languages from /home/nixiews/Documents/GitHub/Nova-Installer/NOVA Installer Code/Nova-Linux-V8/data/Languages.json
+2025-06-15 11:17:11,716 - INFO - Language Manager initialized
+2025-06-15 11:17:11,716 - INFO - Icon Manager initialized
+2025-06-15 11:17:11,716 - INFO - Successfully loaded language: fr
+2025-06-15 11:17:11,716 - INFO - Language loaded successfully: fr
+2025-06-15 11:17:11,716 - INFO - Sample translations: file=Fichier, options=Options
+2025-06-15 11:17:11,717 - INFO - Applications data loaded successfully
+2025-06-15 11:17:11,760 - INFO - Menu buttons created successfully
+2025-06-15 11:17:11,808 - ERROR - Error setting window icon: 'IconManager' object has no attribute 'get_app_icon_path'
+2025-06-15 11:17:11,808 - WARNING - Translation key not found: Development
+2025-06-15 11:17:11,811 - WARNING - Translation key not found: Browsers
+2025-06-15 11:17:11,814 - WARNING - Translation key not found: Multimedia
+2025-06-15 11:17:11,818 - WARNING - Translation key not found: Utilities
+2025-06-15 11:17:11,821 - WARNING - Translation key not found: Office
+2025-06-15 11:17:11,825 - WARNING - Translation key not found: Games
+2025-06-15 11:17:11,828 - WARNING - Translation key not found: Graphics
+2025-06-15 11:17:11,837 - WARNING - Translation key not found: Education
+2025-06-15 11:17:11,845 - INFO - Categories created successfully
+2025-06-15 11:17:11,845 - ERROR - Error applying theme: [Errno 2] No such file or directory: 'purple-dream'
+2025-06-15 11:17:11,848 - WARNING - Translation key not found: Development
+2025-06-15 11:17:12,012 - INFO - Category displayed: Development
+2025-06-15 11:17:13,996 - INFO - Showing options menu
+2025-06-15 11:17:14,001 - INFO - Showing menu at position x=3595, y=76
+2025-06-15 11:17:14,002 - INFO - Showing options menu
+2025-06-15 11:17:14,003 - INFO - Showing menu at position x=3595, y=76
+2025-06-15 11:17:15,149 - WARNING - Translation key not found: cancel
+2025-06-15 11:17:16,064 - INFO - Applied theme: night-blue
+2025-06-15 11:17:16,590 - INFO - Applied theme: forest
+2025-06-15 11:17:17,947 - INFO - Applied theme: purple-dream
+2025-06-15 11:17:20,489 - INFO - Starting Nova Installer - Time: 2025-06-14 16:51:09 - User: Nixiews
+2025-06-15 11:17:20,519 - INFO - Starting Nova Installer - Time: 2025-06-15 09:03:46 - User: Nixiews
+2025-06-15 11:17:20,519 - INFO - Theme Manager initialized with theme: purple-dream (dark)
+2025-06-15 11:17:20,519 - INFO - Successfully loaded languages from /home/nixiews/Documents/GitHub/Nova-Installer/NOVA Installer Code/Nova-Linux-V8/data/Languages.json
+2025-06-15 11:17:20,519 - INFO - Language Manager initialized
+2025-06-15 11:17:20,519 - INFO - Icon Manager initialized
+2025-06-15 11:17:20,519 - INFO - Successfully loaded language: fr
+2025-06-15 11:17:20,520 - INFO - Language loaded successfully: fr
+2025-06-15 11:17:20,520 - INFO - Sample translations: file=Fichier, options=Options
+2025-06-15 11:17:20,520 - INFO - Applications data loaded successfully
+2025-06-15 11:17:20,562 - INFO - Menu buttons created successfully
+2025-06-15 11:17:20,621 - ERROR - Error setting window icon: 'IconManager' object has no attribute 'get_app_icon_path'
+2025-06-15 11:17:20,621 - WARNING - Translation key not found: Development
+2025-06-15 11:17:20,624 - WARNING - Translation key not found: Browsers
+2025-06-15 11:17:20,628 - WARNING - Translation key not found: Multimedia
+2025-06-15 11:17:20,631 - WARNING - Translation key not found: Utilities
+2025-06-15 11:17:20,634 - WARNING - Translation key not found: Office
+2025-06-15 11:17:20,637 - WARNING - Translation key not found: Games
+2025-06-15 11:17:20,640 - WARNING - Translation key not found: Graphics
+2025-06-15 11:17:20,644 - WARNING - Translation key not found: Education
+2025-06-15 11:17:20,647 - INFO - Categories created successfully
+2025-06-15 11:17:20,647 - ERROR - Error applying theme: [Errno 2] No such file or directory: 'purple-dream'
+2025-06-15 11:17:20,649 - WARNING - Translation key not found: Development
+2025-06-15 11:17:20,814 - INFO - Category displayed: Development
+2025-06-15 11:17:21,540 - INFO - Showing options menu
+2025-06-15 11:17:21,545 - INFO - Showing menu at position x=3135, y=275
+2025-06-15 11:17:21,547 - INFO - Showing options menu
+2025-06-15 11:17:21,547 - INFO - Showing menu at position x=3135, y=275
+2025-06-15 11:17:22,138 - WARNING - Translation key not found: cancel
+2025-06-15 11:17:22,900 - INFO - Applied theme: night-blue
+2025-06-15 11:17:25,662 - INFO - Starting Nova Installer - Time: 2025-06-14 16:51:09 - User: Nixiews
+2025-06-15 11:17:25,692 - INFO - Starting Nova Installer - Time: 2025-06-15 09:03:46 - User: Nixiews
+2025-06-15 11:17:25,692 - INFO - Theme Manager initialized with theme: purple-dream (dark)
+2025-06-15 11:17:25,693 - INFO - Successfully loaded languages from /home/nixiews/Documents/GitHub/Nova-Installer/NOVA Installer Code/Nova-Linux-V8/data/Languages.json
+2025-06-15 11:17:25,693 - INFO - Language Manager initialized
+2025-06-15 11:17:25,693 - INFO - Icon Manager initialized
+2025-06-15 11:17:25,693 - INFO - Successfully loaded language: fr
+2025-06-15 11:17:25,693 - INFO - Language loaded successfully: fr
+2025-06-15 11:17:25,693 - INFO - Sample translations: file=Fichier, options=Options
+2025-06-15 11:17:25,693 - INFO - Applications data loaded successfully
+2025-06-15 11:17:25,736 - INFO - Menu buttons created successfully
+2025-06-15 11:17:25,784 - ERROR - Error setting window icon: 'IconManager' object has no attribute 'get_app_icon_path'
+2025-06-15 11:17:25,784 - WARNING - Translation key not found: Development
+2025-06-15 11:17:25,787 - WARNING - Translation key not found: Browsers
+2025-06-15 11:17:25,790 - WARNING - Translation key not found: Multimedia
+2025-06-15 11:17:25,794 - WARNING - Translation key not found: Utilities
+2025-06-15 11:17:25,797 - WARNING - Translation key not found: Office
+2025-06-15 11:17:25,800 - WARNING - Translation key not found: Games
+2025-06-15 11:17:25,803 - WARNING - Translation key not found: Graphics
+2025-06-15 11:17:25,806 - WARNING - Translation key not found: Education
+2025-06-15 11:17:25,809 - INFO - Categories created successfully
+2025-06-15 11:17:25,810 - ERROR - Error applying theme: [Errno 2] No such file or directory: 'purple-dream'
+2025-06-15 11:17:25,811 - WARNING - Translation key not found: Development
+2025-06-15 11:17:25,992 - INFO - Category displayed: Development
+2025-06-15 11:20:58,217 - INFO - Starting Nova Installer - Time: 2025-06-14 16:51:09 - User: Nixiews
+2025-06-15 11:20:58,247 - INFO - Starting Nova Installer - Time: 2025-06-15 09:03:46 - User: Nixiews
+2025-06-15 11:20:58,247 - INFO - Theme Manager initialized with theme: purple-dream (dark)
+2025-06-15 11:20:58,247 - INFO - Successfully loaded languages from /home/nixiews/Documents/GitHub/Nova-Installer/NOVA Installer Code/Nova-Linux-V8/data/Languages.json
+2025-06-15 11:20:58,247 - INFO - Language Manager initialized
+2025-06-15 11:20:58,247 - INFO - Icon Manager initialized
+2025-06-15 11:20:58,247 - INFO - Successfully loaded language: fr
+2025-06-15 11:20:58,247 - INFO - Language loaded successfully: fr
+2025-06-15 11:20:58,247 - INFO - Sample translations: file=Fichier, options=Options
+2025-06-15 11:20:58,248 - INFO - Applications data loaded successfully
+2025-06-15 11:20:58,290 - INFO - Menu buttons created successfully
+2025-06-15 11:20:58,347 - ERROR - Error setting window icon: 'IconManager' object has no attribute 'get_app_icon_path'
+2025-06-15 11:20:58,347 - WARNING - Translation key not found: Development
+2025-06-15 11:20:58,350 - WARNING - Translation key not found: Browsers
+2025-06-15 11:20:58,354 - WARNING - Translation key not found: Multimedia
+2025-06-15 11:20:58,357 - WARNING - Translation key not found: Utilities
+2025-06-15 11:20:58,360 - WARNING - Translation key not found: Office
+2025-06-15 11:20:58,364 - WARNING - Translation key not found: Games
+2025-06-15 11:20:58,367 - WARNING - Translation key not found: Graphics
+2025-06-15 11:20:58,370 - WARNING - Translation key not found: Education
+2025-06-15 11:20:58,374 - INFO - Categories created successfully
+2025-06-15 11:20:58,426 - INFO - Theme applied successfully: purple-dream (dark)
+2025-06-15 11:20:58,429 - WARNING - Translation key not found: Development
+2025-06-15 11:20:58,598 - INFO - Category displayed: Development
+2025-06-15 11:20:59,914 - INFO - Showing options menu
+2025-06-15 11:20:59,920 - INFO - Showing menu at position x=3135, y=275
+2025-06-15 11:20:59,921 - INFO - Showing options menu
+2025-06-15 11:20:59,922 - INFO - Showing menu at position x=3135, y=275
+2025-06-15 11:21:00,859 - WARNING - Translation key not found: cancel
+2025-06-15 11:21:01,627 - INFO - Applied theme: night-blue
+2025-06-15 11:21:02,359 - INFO - Applied theme: forest
+2025-06-15 11:21:03,040 - INFO - Applied theme: purple-dream
+2025-06-15 11:21:03,793 - INFO - Applied theme: night-blue
+2025-06-15 11:21:04,728 - INFO - Applied theme: forest
+2025-06-15 11:21:07,579 - INFO - Starting Nova Installer - Time: 2025-06-14 16:51:09 - User: Nixiews
+2025-06-15 11:21:07,609 - INFO - Starting Nova Installer - Time: 2025-06-15 09:03:46 - User: Nixiews
+2025-06-15 11:21:07,609 - INFO - Theme Manager initialized with theme: purple-dream (dark)
+2025-06-15 11:21:07,610 - INFO - Successfully loaded languages from /home/nixiews/Documents/GitHub/Nova-Installer/NOVA Installer Code/Nova-Linux-V8/data/Languages.json
+2025-06-15 11:21:07,610 - INFO - Language Manager initialized
+2025-06-15 11:21:07,610 - INFO - Icon Manager initialized
+2025-06-15 11:21:07,610 - INFO - Successfully loaded language: fr
+2025-06-15 11:21:07,610 - INFO - Language loaded successfully: fr
+2025-06-15 11:21:07,610 - INFO - Sample translations: file=Fichier, options=Options
+2025-06-15 11:21:07,610 - INFO - Applications data loaded successfully
+2025-06-15 11:21:07,654 - INFO - Menu buttons created successfully
+2025-06-15 11:21:07,707 - ERROR - Error setting window icon: 'IconManager' object has no attribute 'get_app_icon_path'
+2025-06-15 11:21:07,707 - WARNING - Translation key not found: Development
+2025-06-15 11:21:07,710 - WARNING - Translation key not found: Browsers
+2025-06-15 11:21:07,714 - WARNING - Translation key not found: Multimedia
+2025-06-15 11:21:07,718 - WARNING - Translation key not found: Utilities
+2025-06-15 11:21:07,721 - WARNING - Translation key not found: Office
+2025-06-15 11:21:07,724 - WARNING - Translation key not found: Games
+2025-06-15 11:21:07,727 - WARNING - Translation key not found: Graphics
+2025-06-15 11:21:07,731 - WARNING - Translation key not found: Education
+2025-06-15 11:21:07,734 - INFO - Categories created successfully
+2025-06-15 11:21:07,802 - INFO - Theme applied successfully: purple-dream (dark)
+2025-06-15 11:21:07,805 - WARNING - Translation key not found: Development
+2025-06-15 11:21:07,967 - INFO - Category displayed: Development
+2025-06-15 11:22:30,073 - INFO - Starting Nova Installer - Time: 2025-06-14 16:51:09 - User: Nixiews
+2025-06-15 11:22:30,104 - INFO - Starting Nova Installer - Time: 2025-06-15 09:03:46 - User: Nixiews
+2025-06-15 11:22:30,104 - INFO - Theme Manager initialized with theme: purple-dream (dark)
+2025-06-15 11:22:30,105 - INFO - Successfully loaded languages from /home/nixiews/Documents/GitHub/Nova-Installer/NOVA Installer Code/Nova-Linux-V8/data/Languages.json
+2025-06-15 11:22:30,105 - INFO - Language Manager initialized
+2025-06-15 11:22:30,105 - INFO - Icon Manager initialized
+2025-06-15 11:22:30,105 - INFO - Successfully loaded language: fr
+2025-06-15 11:22:30,105 - INFO - Language loaded successfully: fr
+2025-06-15 11:22:30,105 - INFO - Sample translations: file=Fichier, options=Options
+2025-06-15 11:22:30,105 - INFO - Applications data loaded successfully
+2025-06-15 11:22:30,151 - INFO - Menu buttons created successfully
+2025-06-15 11:22:30,202 - ERROR - Error setting window icon: 'IconManager' object has no attribute 'get_app_icon_path'
+2025-06-15 11:22:30,202 - WARNING - Translation key not found: Development
+2025-06-15 11:22:30,205 - WARNING - Translation key not found: Browsers
+2025-06-15 11:22:30,209 - WARNING - Translation key not found: Multimedia
+2025-06-15 11:22:30,212 - WARNING - Translation key not found: Utilities
+2025-06-15 11:22:30,216 - WARNING - Translation key not found: Office
+2025-06-15 11:22:30,219 - WARNING - Translation key not found: Games
+2025-06-15 11:22:30,223 - WARNING - Translation key not found: Graphics
+2025-06-15 11:22:30,226 - WARNING - Translation key not found: Education
+2025-06-15 11:22:30,229 - INFO - Categories created successfully
+2025-06-15 11:22:30,282 - INFO - Theme applied successfully: purple-dream (dark)
+2025-06-15 11:22:30,285 - WARNING - Translation key not found: Development
+2025-06-15 11:22:30,456 - INFO - Category displayed: Development
+2025-06-15 11:22:31,285 - INFO - Showing file menu
+2025-06-15 11:22:31,289 - INFO - Showing menu at position x=3025, y=275
+2025-06-15 11:22:31,290 - INFO - Showing file menu
+2025-06-15 11:22:31,291 - INFO - Showing menu at position x=3025, y=275
+2025-06-15 11:22:31,925 - INFO - Showing options menu
+2025-06-15 11:22:31,927 - INFO - Showing menu at position x=3135, y=275
+2025-06-15 11:22:31,928 - INFO - Showing options menu
+2025-06-15 11:22:31,928 - INFO - Showing menu at position x=3135, y=275
+2025-06-15 11:22:32,501 - INFO - Showing help menu
+2025-06-15 11:22:32,503 - INFO - Showing menu at position x=3245, y=275
+2025-06-15 11:22:32,504 - INFO - Showing help menu
+2025-06-15 11:22:32,504 - INFO - Showing menu at position x=3245, y=275
+2025-06-15 11:22:33,341 - INFO - Showing file menu
+2025-06-15 11:22:33,341 - INFO - Showing menu at position x=3025, y=275
+2025-06-15 11:22:33,342 - INFO - Showing file menu
+2025-06-15 11:22:33,342 - INFO - Showing menu at position x=3025, y=275
+2025-06-15 11:22:33,845 - INFO - Showing file menu
+2025-06-15 11:22:33,845 - INFO - Showing menu at position x=3025, y=275
+2025-06-15 11:22:33,846 - INFO - Showing file menu
+2025-06-15 11:22:33,847 - INFO - Showing menu at position x=3025, y=275
+2025-06-15 11:22:36,285 - INFO - Showing file menu
+2025-06-15 11:22:36,285 - INFO - Showing menu at position x=3025, y=275
+2025-06-15 11:22:36,286 - INFO - Showing file menu
+2025-06-15 11:22:36,286 - INFO - Showing menu at position x=3025, y=275
+2025-06-15 11:25:46,408 - INFO - Starting Nova Installer - Time: 2025-06-14 16:51:09 - User: Nixiews
+2025-06-15 11:25:46,441 - INFO - Starting Nova Installer - Time: 2025-06-15 09:03:46 - User: Nixiews
+2025-06-15 11:25:46,441 - INFO - Theme configuration saved to config/theme.json
+2025-06-15 11:25:46,441 - INFO - Created new theme configuration with defaults
+2025-06-15 11:25:46,441 - INFO - Theme Manager initialized with theme: night-blue (dark)
+2025-06-15 11:25:46,441 - INFO - Successfully loaded languages from /home/nixiews/Documents/GitHub/Nova-Installer/NOVA Installer Code/Nova-Linux-V8/data/Languages.json
+2025-06-15 11:25:46,441 - INFO - Language Manager initialized
+2025-06-15 11:25:46,441 - INFO - Icon Manager initialized
+2025-06-15 11:25:46,441 - INFO - Successfully loaded language: fr
+2025-06-15 11:25:46,441 - INFO - Language loaded successfully: fr
+2025-06-15 11:25:46,441 - INFO - Sample translations: file=Fichier, options=Options
+2025-06-15 11:25:46,442 - INFO - Applications data loaded successfully
+2025-06-15 11:25:46,491 - INFO - Menu buttons created successfully
+2025-06-15 11:25:46,547 - ERROR - Error setting window icon: 'IconManager' object has no attribute 'get_app_icon_path'
+2025-06-15 11:25:46,547 - WARNING - Translation key not found: Development
+2025-06-15 11:25:46,550 - WARNING - Translation key not found: Browsers
+2025-06-15 11:25:46,554 - WARNING - Translation key not found: Multimedia
+2025-06-15 11:25:46,557 - WARNING - Translation key not found: Utilities
+2025-06-15 11:25:46,561 - WARNING - Translation key not found: Office
+2025-06-15 11:25:46,564 - WARNING - Translation key not found: Games
+2025-06-15 11:25:46,567 - WARNING - Translation key not found: Graphics
+2025-06-15 11:25:46,571 - WARNING - Translation key not found: Education
+2025-06-15 11:25:46,574 - INFO - Categories created successfully
+2025-06-15 11:25:46,630 - INFO - Theme applied successfully: night-blue (dark)
+2025-06-15 11:25:46,632 - WARNING - Translation key not found: Development
+2025-06-15 11:25:46,807 - INFO - Category displayed: Development
+2025-06-15 11:25:47,683 - INFO - Showing options menu
+2025-06-15 11:25:47,688 - INFO - Showing menu at position x=3135, y=275
+2025-06-15 11:25:47,691 - INFO - Showing options menu
+2025-06-15 11:25:47,692 - INFO - Showing menu at position x=3135, y=275
+2025-06-15 11:25:48,420 - WARNING - Translation key not found: cancel
+2025-06-15 11:25:49,357 - INFO - Theme configuration saved to config/theme.json
+2025-06-15 11:25:49,426 - INFO - Applied theme: forest
+2025-06-15 11:25:51,669 - INFO - Starting Nova Installer - Time: 2025-06-14 16:51:09 - User: Nixiews
+2025-06-15 11:25:51,699 - INFO - Starting Nova Installer - Time: 2025-06-15 09:03:46 - User: Nixiews
+2025-06-15 11:25:51,699 - INFO - Theme configuration loaded from config/theme.json
+2025-06-15 11:25:51,699 - INFO - Theme Manager initialized with theme: forest (dark)
+2025-06-15 11:25:51,699 - INFO - Successfully loaded languages from /home/nixiews/Documents/GitHub/Nova-Installer/NOVA Installer Code/Nova-Linux-V8/data/Languages.json
+2025-06-15 11:25:51,699 - INFO - Language Manager initialized
+2025-06-15 11:25:51,699 - INFO - Icon Manager initialized
+2025-06-15 11:25:51,699 - INFO - Successfully loaded language: fr
+2025-06-15 11:25:51,699 - INFO - Language loaded successfully: fr
+2025-06-15 11:25:51,699 - INFO - Sample translations: file=Fichier, options=Options
+2025-06-15 11:25:51,700 - INFO - Applications data loaded successfully
+2025-06-15 11:25:51,743 - INFO - Menu buttons created successfully
+2025-06-15 11:25:51,797 - ERROR - Error setting window icon: 'IconManager' object has no attribute 'get_app_icon_path'
+2025-06-15 11:25:51,797 - WARNING - Translation key not found: Development
+2025-06-15 11:25:51,801 - WARNING - Translation key not found: Browsers
+2025-06-15 11:25:51,805 - WARNING - Translation key not found: Multimedia
+2025-06-15 11:25:51,811 - WARNING - Translation key not found: Utilities
+2025-06-15 11:25:51,815 - WARNING - Translation key not found: Office
+2025-06-15 11:25:51,819 - WARNING - Translation key not found: Games
+2025-06-15 11:25:51,823 - WARNING - Translation key not found: Graphics
+2025-06-15 11:25:51,827 - WARNING - Translation key not found: Education
+2025-06-15 11:25:51,830 - INFO - Categories created successfully
+2025-06-15 11:25:51,891 - INFO - Theme applied successfully: forest (dark)
+2025-06-15 11:25:51,893 - WARNING - Translation key not found: Development
+2025-06-15 11:25:52,055 - INFO - Category displayed: Development
+2025-06-15 11:28:35,497 - INFO - Starting Nova Installer - Time: 2025-06-14 16:51:09 - User: Nixiews
+2025-06-15 11:28:35,528 - INFO - Starting Nova Installer - Time: 2025-06-15 09:03:46 - User: Nixiews
+2025-06-15 11:28:35,528 - INFO - Theme configuration loaded from config/theme.json
+2025-06-15 11:28:35,528 - INFO - Theme Manager initialized with theme: forest (dark)
+2025-06-15 11:28:35,529 - INFO - Successfully loaded languages from /home/nixiews/Documents/GitHub/Nova-Installer/NOVA Installer Code/Nova-Linux-V8/data/Languages.json
+2025-06-15 11:28:35,529 - INFO - Language Manager initialized
+2025-06-15 11:28:35,529 - INFO - Icon Manager initialized
+2025-06-15 11:28:35,529 - INFO - Successfully loaded language: fr
+2025-06-15 11:28:35,529 - INFO - Language loaded successfully: fr
+2025-06-15 11:28:35,529 - INFO - Sample translations: file=Fichier, options=Options
+2025-06-15 11:28:35,529 - INFO - Applications data loaded successfully
+2025-06-15 11:28:35,575 - INFO - Menu buttons created successfully
+2025-06-15 11:28:35,622 - ERROR - Error setting window icon: 'IconManager' object has no attribute 'get_app_icon_path'
+2025-06-15 11:28:35,623 - WARNING - Translation key not found: Development
+2025-06-15 11:28:35,626 - WARNING - Translation key not found: Browsers
+2025-06-15 11:28:35,629 - WARNING - Translation key not found: Multimedia
+2025-06-15 11:28:35,632 - WARNING - Translation key not found: Utilities
+2025-06-15 11:28:35,636 - WARNING - Translation key not found: Office
+2025-06-15 11:28:35,640 - WARNING - Translation key not found: Games
+2025-06-15 11:28:35,643 - WARNING - Translation key not found: Graphics
+2025-06-15 11:28:35,646 - WARNING - Translation key not found: Education
+2025-06-15 11:28:35,649 - INFO - Categories created successfully
+2025-06-15 11:28:35,716 - INFO - Theme applied successfully: forest (dark)
+2025-06-15 11:28:35,718 - WARNING - Translation key not found: Development
+2025-06-15 11:28:35,880 - INFO - Category displayed: Development
+2025-06-15 11:28:55,815 - WARNING - Translation key not found: Browsers
+2025-06-15 11:28:55,890 - INFO - Category displayed: Browsers
+2025-06-15 11:28:56,301 - WARNING - Translation key not found: Multimedia
+2025-06-15 11:28:56,432 - INFO - Category displayed: Multimedia
+2025-06-15 11:28:56,806 - WARNING - Translation key not found: Utilities
+2025-06-15 11:28:56,963 - INFO - Category displayed: Utilities
+2025-06-15 11:28:57,278 - WARNING - Translation key not found: Office
+2025-06-15 11:28:57,377 - INFO - Category displayed: Office
+2025-06-15 11:28:57,870 - WARNING - Translation key not found: Graphics
+2025-06-15 11:28:57,990 - INFO - Category displayed: Graphics
+2025-06-15 11:28:58,518 - WARNING - Translation key not found: Games
+2025-06-15 11:28:58,632 - INFO - Category displayed: Games
+2025-06-15 11:28:59,342 - WARNING - Translation key not found: Education
+2025-06-15 11:28:59,457 - INFO - Category displayed: Education
+2025-06-15 11:28:59,948 - WARNING - Translation key not found: Development
+2025-06-15 11:29:00,112 - INFO - Category displayed: Development
+2025-06-15 11:29:25,297 - INFO - Showing options menu
+2025-06-15 11:29:25,303 - INFO - Showing menu at position x=3595, y=76
+2025-06-15 11:29:25,304 - INFO - Showing options menu
+2025-06-15 11:29:25,304 - INFO - Showing menu at position x=3595, y=76
+2025-06-15 11:29:26,008 - WARNING - Translation key not found: cancel
+2025-06-15 11:29:26,859 - INFO - Theme configuration saved to config/theme.json
+2025-06-15 11:29:26,935 - INFO - Applied theme: night-blue
+2025-06-15 11:30:30,722 - INFO - Starting Nova Installer - Time: 2025-06-14 16:51:09 - User: Nixiews
+2025-06-15 11:30:30,752 - INFO - Starting Nova Installer - Time: 2025-06-15 09:03:46 - User: Nixiews
+2025-06-15 11:30:30,752 - INFO - Theme configuration loaded from config/theme.json
+2025-06-15 11:30:30,752 - INFO - Theme Manager initialized with theme: night-blue (dark)
+2025-06-15 11:30:30,752 - INFO - Successfully loaded languages from /home/nixiews/Documents/GitHub/Nova-Installer/NOVA Installer Code/Nova-Linux-V8/data/Languages.json
+2025-06-15 11:30:30,753 - INFO - Language Manager initialized
+2025-06-15 11:30:30,753 - INFO - Icon Manager initialized
+2025-06-15 11:30:30,753 - INFO - Successfully loaded language: fr
+2025-06-15 11:30:30,753 - INFO - Language loaded successfully: fr
+2025-06-15 11:30:30,753 - INFO - Sample translations: file=Fichier, options=Options
+2025-06-15 11:30:30,753 - INFO - Applications data loaded successfully
+2025-06-15 11:30:30,799 - INFO - Menu buttons created successfully
+2025-06-15 11:30:30,851 - ERROR - Error setting window icon: 'IconManager' object has no attribute 'get_app_icon_path'
+2025-06-15 11:30:30,851 - WARNING - Translation key not found: Development
+2025-06-15 11:30:30,854 - WARNING - Translation key not found: Browsers
+2025-06-15 11:30:30,858 - WARNING - Translation key not found: Multimedia
+2025-06-15 11:30:30,861 - WARNING - Translation key not found: Utilities
+2025-06-15 11:30:30,864 - WARNING - Translation key not found: Office
+2025-06-15 11:30:30,868 - WARNING - Translation key not found: Games
+2025-06-15 11:30:30,871 - WARNING - Translation key not found: Graphics
+2025-06-15 11:30:30,874 - WARNING - Translation key not found: Education
+2025-06-15 11:30:30,877 - INFO - Categories created successfully
+2025-06-15 11:30:30,944 - INFO - Theme applied successfully: night-blue (dark)
+2025-06-15 11:30:30,947 - WARNING - Translation key not found: Development
+2025-06-15 11:30:31,118 - INFO - Category displayed: Development
+2025-06-15 11:30:33,490 - INFO - Showing options menu
+2025-06-15 11:30:33,496 - INFO - Showing menu at position x=3595, y=76
+2025-06-15 11:30:33,497 - INFO - Showing options menu
+2025-06-15 11:30:33,497 - INFO - Showing menu at position x=3595, y=76
+2025-06-15 11:30:34,864 - WARNING - Translation key not found: cancel
+2025-06-15 11:30:36,787 - INFO - Showing file menu
+2025-06-15 11:30:36,788 - INFO - Showing menu at position x=3485, y=76
+2025-06-15 11:30:36,791 - INFO - Showing file menu
+2025-06-15 11:30:36,792 - INFO - Showing menu at position x=3485, y=76
+2025-06-15 11:30:44,291 - INFO - Showing help menu
+2025-06-15 11:30:44,291 - INFO - Showing menu at position x=3705, y=76
+2025-06-15 11:30:44,293 - INFO - Showing help menu
+2025-06-15 11:30:44,293 - INFO - Showing menu at position x=3705, y=76
+2025-06-15 11:30:44,980 - WARNING - Translation key not found: Close
+2025-06-15 11:31:30,512 - INFO - Starting Nova Installer - Time: 2025-06-14 16:51:09 - User: Nixiews
+2025-06-15 11:31:30,543 - INFO - Starting Nova Installer - Time: 2025-06-15 09:03:46 - User: Nixiews
+2025-06-15 11:31:30,543 - INFO - Theme configuration loaded from config/theme.json
+2025-06-15 11:31:30,543 - INFO - Theme Manager initialized with theme: night-blue (dark)
+2025-06-15 11:31:30,543 - INFO - Successfully loaded languages from /home/nixiews/Documents/GitHub/Nova-Installer/NOVA Installer Code/Nova-Linux-V8/data/Languages.json
+2025-06-15 11:31:30,543 - INFO - Language Manager initialized
+2025-06-15 11:31:30,543 - INFO - Icon Manager initialized
+2025-06-15 11:31:30,544 - INFO - Successfully loaded language: fr
+2025-06-15 11:31:30,544 - INFO - Language loaded successfully: fr
+2025-06-15 11:31:30,544 - INFO - Sample translations: file=Fichier, options=Options
+2025-06-15 11:31:30,544 - INFO - Applications data loaded successfully
+2025-06-15 11:31:30,588 - INFO - Menu buttons created successfully
+2025-06-15 11:31:30,644 - ERROR - Error setting window icon: 'IconManager' object has no attribute 'get_app_icon_path'
+2025-06-15 11:31:30,645 - WARNING - Translation key not found: Development
+2025-06-15 11:31:30,648 - WARNING - Translation key not found: Browsers
+2025-06-15 11:31:30,651 - WARNING - Translation key not found: Multimedia
+2025-06-15 11:31:30,654 - WARNING - Translation key not found: Utilities
+2025-06-15 11:31:30,657 - WARNING - Translation key not found: Office
+2025-06-15 11:31:30,660 - WARNING - Translation key not found: Games
+2025-06-15 11:31:30,664 - WARNING - Translation key not found: Graphics
+2025-06-15 11:31:30,667 - WARNING - Translation key not found: Education
+2025-06-15 11:31:30,670 - INFO - Categories created successfully
+2025-06-15 11:31:30,727 - INFO - Theme applied successfully: night-blue (dark)
+2025-06-15 11:31:30,730 - WARNING - Translation key not found: Development
+2025-06-15 11:31:30,903 - INFO - Category displayed: Development
+2025-06-15 11:31:32,044 - INFO - Showing options menu
+2025-06-15 11:31:32,049 - INFO - Showing menu at position x=3135, y=275
+2025-06-15 11:31:32,050 - INFO - Showing options menu
+2025-06-15 11:31:32,051 - INFO - Showing menu at position x=3135, y=275
+2025-06-15 11:31:32,530 - WARNING - Translation key not found: cancel
+2025-06-15 11:31:34,181 - INFO - Showing options menu
+2025-06-15 11:31:34,181 - INFO - Showing menu at position x=3135, y=275
+2025-06-15 11:31:34,181 - INFO - Showing options menu
+2025-06-15 11:31:34,182 - INFO - Showing menu at position x=3135, y=275
+2025-06-15 11:31:35,091 - WARNING - Translation key not found: cancel
+2025-06-15 11:33:06,697 - INFO - Starting Nova Installer - Time: 2025-06-14 16:51:09 - User: Nixiews
+2025-06-15 11:33:06,726 - INFO - Starting Nova Installer - Time: 2025-06-15 09:03:46 - User: Nixiews
+2025-06-15 11:33:06,726 - INFO - Theme configuration loaded from config/theme.json
+2025-06-15 11:33:06,727 - INFO - Theme Manager initialized with theme: night-blue (dark)
+2025-06-15 11:33:06,727 - INFO - Successfully loaded languages from /home/nixiews/Documents/GitHub/Nova-Installer/NOVA Installer Code/Nova-Linux-V8/data/Languages.json
+2025-06-15 11:33:06,727 - INFO - Language Manager initialized
+2025-06-15 11:33:06,727 - INFO - Icon Manager initialized
+2025-06-15 11:33:06,727 - INFO - Successfully loaded language: fr
+2025-06-15 11:33:06,727 - INFO - Language loaded successfully: fr
+2025-06-15 11:33:06,727 - INFO - Sample translations: file=Fichier, options=Options
+2025-06-15 11:33:06,727 - INFO - Applications data loaded successfully
+2025-06-15 11:33:06,770 - INFO - Menu buttons created successfully
+2025-06-15 11:33:06,818 - ERROR - Error setting window icon: 'IconManager' object has no attribute 'get_app_icon_path'
+2025-06-15 11:33:06,818 - WARNING - Translation key not found: Development
+2025-06-15 11:33:06,821 - WARNING - Translation key not found: Browsers
+2025-06-15 11:33:06,824 - WARNING - Translation key not found: Multimedia
+2025-06-15 11:33:06,827 - WARNING - Translation key not found: Utilities
+2025-06-15 11:33:06,831 - WARNING - Translation key not found: Office
+2025-06-15 11:33:06,834 - WARNING - Translation key not found: Games
+2025-06-15 11:33:06,837 - WARNING - Translation key not found: Graphics
+2025-06-15 11:33:06,840 - WARNING - Translation key not found: Education
+2025-06-15 11:33:06,843 - INFO - Categories created successfully
+2025-06-15 11:33:06,896 - INFO - Theme applied successfully: night-blue (dark)
+2025-06-15 11:33:06,898 - WARNING - Translation key not found: Development
+2025-06-15 11:33:07,072 - INFO - Category displayed: Development
+2025-06-15 11:33:07,895 - INFO - Showing options menu
+2025-06-15 11:33:07,901 - INFO - Showing menu at position x=3135, y=275
+2025-06-15 11:33:07,902 - INFO - Showing options menu
+2025-06-15 11:33:07,903 - INFO - Showing menu at position x=3135, y=275
+2025-06-15 11:33:08,458 - WARNING - Translation key not found: select_theme
+2025-06-15 11:33:08,462 - WARNING - Translation key not found: appearance_mode
+2025-06-15 11:33:08,493 - WARNING - Translation key not found: available_themes
+2025-06-15 11:33:08,532 - WARNING - Translation key not found: apply
+2025-06-15 11:33:08,535 - WARNING - Translation key not found: cancel
+2025-06-15 11:33:08,539 - INFO - Color dialog initialized
+2025-06-15 11:33:12,474 - INFO - Appearance mode changed to: light
+2025-06-15 11:33:14,669 - INFO - Appearance mode changed to: dark
+2025-06-15 11:33:16,449 - INFO - Theme configuration saved to config/theme.json
+2025-06-15 11:33:16,553 - INFO - Applied theme: forest
+2025-06-15 11:33:16,553 - INFO - Theme preview: forest
+2025-06-15 11:33:17,025 - WARNING - Theme sunset not found, using night-blue
+2025-06-15 11:33:17,025 - INFO - Theme configuration saved to config/theme.json
+2025-06-15 11:33:17,133 - INFO - Applied theme: night-blue
+2025-06-15 11:33:17,133 - INFO - Theme preview: sunset
+2025-06-15 11:33:17,385 - WARNING - Theme mint not found, using night-blue
+2025-06-15 11:33:17,385 - INFO - Theme configuration saved to config/theme.json
+2025-06-15 11:33:17,492 - INFO - Applied theme: night-blue
+2025-06-15 11:33:17,492 - INFO - Theme preview: mint
+2025-06-15 11:33:18,401 - WARNING - Theme sunset not found, using night-blue
+2025-06-15 11:33:18,401 - INFO - Theme configuration saved to config/theme.json
+2025-06-15 11:33:18,508 - INFO - Applied theme: night-blue
+2025-06-15 11:33:18,508 - INFO - Theme preview: sunset
+2025-06-15 11:33:19,233 - WARNING - Theme mint not found, using night-blue
+2025-06-15 11:33:19,233 - INFO - Theme configuration saved to config/theme.json
+2025-06-15 11:33:19,332 - INFO - Applied theme: night-blue
+2025-06-15 11:33:19,332 - INFO - Theme preview: mint
+2025-06-15 11:33:19,729 - WARNING - Theme ocean not found, using night-blue
+2025-06-15 11:33:19,730 - INFO - Theme configuration saved to config/theme.json
+2025-06-15 11:33:19,831 - INFO - Applied theme: night-blue
+2025-06-15 11:33:19,831 - INFO - Theme preview: ocean
+2025-06-15 11:33:20,129 - WARNING - Theme purple-dream not found, using night-blue
+2025-06-15 11:33:20,129 - INFO - Theme configuration saved to config/theme.json
+2025-06-15 11:33:20,233 - INFO - Applied theme: night-blue
+2025-06-15 11:33:20,233 - INFO - Theme preview: purple-dream
+2025-06-15 11:33:20,489 - INFO - Theme configuration saved to config/theme.json
+2025-06-15 11:33:20,591 - INFO - Applied theme: forest
+2025-06-15 11:33:20,591 - INFO - Theme preview: forest
+2025-06-15 11:33:21,129 - INFO - Theme configuration saved to config/theme.json
+2025-06-15 11:33:21,233 - INFO - Applied theme: night-blue
+2025-06-15 11:33:21,233 - INFO - Theme preview: night-blue
+2025-06-15 11:33:21,761 - INFO - Theme configuration saved to config/theme.json
+2025-06-15 11:33:21,861 - INFO - Applied theme: forest
+2025-06-15 11:33:21,861 - INFO - Theme preview: forest
+2025-06-15 11:33:22,105 - WARNING - Theme purple-dream not found, using night-blue
+2025-06-15 11:33:22,105 - INFO - Theme configuration saved to config/theme.json
+2025-06-15 11:33:22,213 - INFO - Applied theme: night-blue
+2025-06-15 11:33:22,213 - INFO - Theme preview: purple-dream
+2025-06-15 11:33:27,621 - INFO - Appearance mode changed to: light
+2025-06-15 11:33:29,240 - INFO - Appearance mode changed to: dark
+2025-06-15 11:33:30,040 - INFO - Theme applied: {'appearance_mode': 'dark', 'color_theme': 'purple-dream'}
+2025-06-15 11:33:30,042 - ERROR - Error in color dialog: 'ThemeManager' object has no attribute 'save_theme_config'
+2025-06-15 11:33:30,042 - WARNING - Translation key not found: theme_error
+2025-06-15 11:35:56,561 - INFO - Starting Nova Installer - Time: 2025-06-14 16:51:09 - User: Nixiews
+2025-06-15 11:35:56,591 - INFO - Starting Nova Installer - Time: 2025-06-15 09:03:46 - User: Nixiews
+2025-06-15 11:35:56,591 - INFO - Theme configuration loaded from config/theme.json
+2025-06-15 11:35:56,591 - INFO - Theme Manager initialized with theme: night-blue (dark)
+2025-06-15 11:35:56,591 - INFO - Successfully loaded languages from /home/nixiews/Documents/GitHub/Nova-Installer/NOVA Installer Code/Nova-Linux-V8/data/Languages.json
+2025-06-15 11:35:56,591 - INFO - Language Manager initialized
+2025-06-15 11:35:56,592 - INFO - Icon Manager initialized
+2025-06-15 11:35:56,592 - INFO - Successfully loaded language: fr
+2025-06-15 11:35:56,592 - INFO - Language loaded successfully: fr
+2025-06-15 11:35:56,592 - INFO - Sample translations: file=Fichier, options=Options
+2025-06-15 11:35:56,592 - INFO - Applications data loaded successfully
+2025-06-15 11:35:56,640 - INFO - Menu buttons created successfully
+2025-06-15 11:35:56,688 - ERROR - Error setting window icon: 'IconManager' object has no attribute 'get_app_icon_path'
+2025-06-15 11:35:56,688 - WARNING - Translation key not found: Development
+2025-06-15 11:35:56,692 - WARNING - Translation key not found: Browsers
+2025-06-15 11:35:56,695 - WARNING - Translation key not found: Multimedia
+2025-06-15 11:35:56,698 - WARNING - Translation key not found: Utilities
+2025-06-15 11:35:56,701 - WARNING - Translation key not found: Office
+2025-06-15 11:35:56,704 - WARNING - Translation key not found: Games
+2025-06-15 11:35:56,707 - WARNING - Translation key not found: Graphics
+2025-06-15 11:35:56,710 - WARNING - Translation key not found: Education
+2025-06-15 11:35:56,713 - INFO - Categories created successfully
+2025-06-15 11:35:56,766 - INFO - Theme applied successfully: night-blue (dark)
+2025-06-15 11:35:56,768 - WARNING - Translation key not found: Development
+2025-06-15 11:35:56,943 - INFO - Category displayed: Development
+2025-06-15 11:35:57,884 - INFO - Showing options menu
+2025-06-15 11:35:57,887 - INFO - Showing menu at position x=3135, y=275
+2025-06-15 11:35:57,890 - INFO - Showing options menu
+2025-06-15 11:35:57,891 - INFO - Showing menu at position x=3135, y=275
+2025-06-15 11:35:58,695 - WARNING - Translation key not found: select_theme
+2025-06-15 11:35:58,701 - WARNING - Translation key not found: available_themes
+2025-06-15 11:35:58,759 - WARNING - Translation key not found: apply
+2025-06-15 11:35:58,763 - WARNING - Translation key not found: cancel
+2025-06-15 11:35:58,767 - INFO - Color dialog initialized with theme: night-blue
+2025-06-15 11:36:02,734 - INFO - Theme configuration saved to config/theme.json
+2025-06-15 11:36:02,837 - INFO - Applied theme: forest
+2025-06-15 11:36:02,841 - INFO - Theme preview: forest
+2025-06-15 11:36:03,549 - WARNING - Theme purple-dream not found, using night-blue
+2025-06-15 11:36:03,550 - INFO - Theme configuration saved to config/theme.json
+2025-06-15 11:36:03,657 - INFO - Applied theme: night-blue
+2025-06-15 11:36:03,660 - INFO - Theme preview: purple-dream
+2025-06-15 11:36:05,214 - WARNING - Theme ocean not found, using night-blue
+2025-06-15 11:36:05,214 - INFO - Theme configuration saved to config/theme.json
+2025-06-15 11:36:05,316 - INFO - Applied theme: night-blue
+2025-06-15 11:36:05,320 - INFO - Theme preview: ocean
+2025-06-15 11:36:06,134 - WARNING - Theme sunset not found, using night-blue
+2025-06-15 11:36:06,134 - INFO - Theme configuration saved to config/theme.json
+2025-06-15 11:36:06,238 - INFO - Applied theme: night-blue
+2025-06-15 11:36:06,242 - INFO - Theme preview: sunset
+2025-06-15 11:36:07,334 - WARNING - Theme mint not found, using night-blue
+2025-06-15 11:36:07,334 - INFO - Theme configuration saved to config/theme.json
+2025-06-15 11:36:07,439 - INFO - Applied theme: night-blue
+2025-06-15 11:36:07,443 - INFO - Theme preview: mint
+2025-06-15 11:36:08,014 - WARNING - Theme ocean not found, using night-blue
+2025-06-15 11:36:08,014 - INFO - Theme configuration saved to config/theme.json
+2025-06-15 11:36:08,118 - INFO - Applied theme: night-blue
+2025-06-15 11:36:08,122 - INFO - Theme preview: ocean
+2025-06-15 11:36:08,534 - WARNING - Theme purple-dream not found, using night-blue
+2025-06-15 11:36:08,534 - INFO - Theme configuration saved to config/theme.json
+2025-06-15 11:36:08,640 - INFO - Applied theme: night-blue
+2025-06-15 11:36:08,643 - INFO - Theme preview: purple-dream
+2025-06-15 11:36:09,134 - INFO - Theme configuration saved to config/theme.json
+2025-06-15 11:36:09,235 - INFO - Applied theme: forest
+2025-06-15 11:36:09,239 - INFO - Theme preview: forest
+2025-06-15 11:36:09,638 - INFO - Theme configuration saved to config/theme.json
+2025-06-15 11:36:09,739 - INFO - Applied theme: night-blue
+2025-06-15 11:36:09,743 - INFO - Theme preview: night-blue
+2025-06-15 11:36:10,046 - WARNING - Theme purple-dream not found, using night-blue
+2025-06-15 11:36:10,046 - INFO - Theme configuration saved to config/theme.json
+2025-06-15 11:36:10,151 - INFO - Applied theme: night-blue
+2025-06-15 11:36:10,155 - INFO - Theme preview: purple-dream
+2025-06-15 11:36:10,375 - INFO - Theme configuration saved to config/theme.json
+2025-06-15 11:36:10,480 - INFO - Applied theme: forest
+2025-06-15 11:36:10,484 - INFO - Theme preview: forest
+2025-06-15 11:36:10,766 - INFO - Theme configuration saved to config/theme.json
+2025-06-15 11:36:10,867 - INFO - Applied theme: night-blue
+2025-06-15 11:36:10,871 - INFO - Theme preview: night-blue
+2025-06-15 11:36:11,342 - WARNING - Theme purple-dream not found, using night-blue
+2025-06-15 11:36:11,342 - INFO - Theme configuration saved to config/theme.json
+2025-06-15 11:36:11,449 - INFO - Applied theme: night-blue
+2025-06-15 11:36:11,452 - INFO - Theme preview: purple-dream
+2025-06-15 11:36:11,974 - INFO - Theme configuration saved to config/theme.json
+2025-06-15 11:36:12,076 - INFO - Applied theme: forest
+2025-06-15 11:36:12,080 - INFO - Theme preview: forest
+2025-06-15 11:36:12,814 - INFO - Theme configuration saved to config/theme.json
+2025-06-15 11:36:12,920 - INFO - Applied theme: night-blue
+2025-06-15 11:36:12,924 - INFO - Theme preview: night-blue
+2025-06-15 11:36:14,052 - INFO - Theme applied: night-blue
+2025-06-15 11:36:14,055 - ERROR - Error in color dialog: 'ThemeManager' object has no attribute 'save_theme_config'
+2025-06-15 11:36:14,055 - WARNING - Translation key not found: theme_error
+2025-06-15 11:40:02,593 - INFO - Starting Nova Installer - Time: 2025-06-14 16:51:09 - User: Nixiews
+2025-06-15 11:40:02,624 - INFO - Starting Nova Installer - Time: 2025-06-15 09:03:46 - User: Nixiews
+2025-06-15 11:40:02,624 - INFO - Configuration loaded: night-blue (dark)
+2025-06-15 11:40:02,624 - INFO - Theme Manager initialized: night-blue (dark)
+2025-06-15 11:40:02,624 - INFO - Successfully loaded languages from /home/nixiews/Documents/GitHub/Nova-Installer/NOVA Installer Code/Nova-Linux-V8/data/Languages.json
+2025-06-15 11:40:02,624 - INFO - Language Manager initialized
+2025-06-15 11:40:02,624 - INFO - Icon Manager initialized
+2025-06-15 11:40:02,624 - CRITICAL - Critical error in main: 'ThemeManager' object has no attribute 'theme_config'
+2025-06-15 11:41:46,481 - INFO - Starting Nova Installer - Time: 2025-06-14 16:51:09 - User: Nixiews
+2025-06-15 11:41:46,511 - INFO - Starting Nova Installer - Time: 2025-06-15 09:03:46 - User: Nixiews
+2025-06-15 11:41:46,511 - INFO - Configuration loaded: night-blue (dark)
+2025-06-15 11:41:46,512 - INFO - Theme Manager initialized: night-blue (dark)
+2025-06-15 11:41:46,512 - INFO - Successfully loaded languages from /home/nixiews/Documents/GitHub/Nova-Installer/NOVA Installer Code/Nova-Linux-V8/data/Languages.json
+2025-06-15 11:41:46,512 - INFO - Language Manager initialized
+2025-06-15 11:41:46,512 - INFO - Icon Manager initialized
+2025-06-15 11:41:46,512 - INFO - Successfully loaded language: fr
+2025-06-15 11:41:46,512 - INFO - Language loaded successfully: fr
+2025-06-15 11:41:46,512 - INFO - Sample translations: file=Fichier, options=Options
+2025-06-15 11:41:46,512 - INFO - Applications data loaded successfully
+2025-06-15 11:41:46,545 - ERROR - Error creating menu buttons: ThemeManager.get_theme_colors() takes 1 positional argument but 2 were given
+2025-06-15 11:41:46,597 - ERROR - Error setting window icon: 'IconManager' object has no attribute 'get_app_icon_path'
+2025-06-15 11:41:46,597 - ERROR - Error creating categories: ThemeManager.get_theme_colors() takes 1 positional argument but 2 were given
+2025-06-15 11:41:46,597 - ERROR - Error applying theme: ThemeManager.get_theme_colors() takes 1 positional argument but 2 were given
+2025-06-15 11:41:46,597 - ERROR - Error showing category: ThemeManager.get_theme_colors() takes 1 positional argument but 2 were given
+2025-06-15 11:43:15,507 - INFO - Starting Nova Installer - Time: 2025-06-14 16:51:09 - User: Nixiews
+2025-06-15 11:43:15,539 - INFO - Starting Nova Installer - Time: 2025-06-15 09:03:46 - User: Nixiews
+2025-06-15 11:43:15,539 - INFO - Theme configuration loaded from config/theme.json
+2025-06-15 11:43:15,539 - INFO - Theme Manager initialized with theme: night-blue (dark)
+2025-06-15 11:43:15,539 - INFO - Successfully loaded languages from /home/nixiews/Documents/GitHub/Nova-Installer/NOVA Installer Code/Nova-Linux-V8/data/Languages.json
+2025-06-15 11:43:15,539 - INFO - Language Manager initialized
+2025-06-15 11:43:15,539 - INFO - Icon Manager initialized
+2025-06-15 11:43:15,539 - INFO - Successfully loaded language: fr
+2025-06-15 11:43:15,539 - INFO - Language loaded successfully: fr
+2025-06-15 11:43:15,539 - INFO - Sample translations: file=Fichier, options=Options
+2025-06-15 11:43:15,540 - INFO - Applications data loaded successfully
+2025-06-15 11:43:15,582 - INFO - Menu buttons created successfully
+2025-06-15 11:43:15,632 - ERROR - Error setting window icon: 'IconManager' object has no attribute 'get_app_icon_path'
+2025-06-15 11:43:15,632 - WARNING - Translation key not found: Development
+2025-06-15 11:43:15,636 - WARNING - Translation key not found: Browsers
+2025-06-15 11:43:15,639 - WARNING - Translation key not found: Multimedia
+2025-06-15 11:43:15,642 - WARNING - Translation key not found: Utilities
+2025-06-15 11:43:15,646 - WARNING - Translation key not found: Office
+2025-06-15 11:43:15,649 - WARNING - Translation key not found: Games
+2025-06-15 11:43:15,653 - WARNING - Translation key not found: Graphics
+2025-06-15 11:43:15,656 - WARNING - Translation key not found: Education
+2025-06-15 11:43:15,659 - INFO - Categories created successfully
+2025-06-15 11:43:15,712 - INFO - Theme applied successfully: night-blue (dark)
+2025-06-15 11:43:15,715 - WARNING - Translation key not found: Development
+2025-06-15 11:43:15,877 - INFO - Category displayed: Development
+2025-06-15 11:43:16,704 - INFO - Showing options menu
+2025-06-15 11:43:16,708 - INFO - Showing menu at position x=3135, y=275
+2025-06-15 11:43:16,709 - INFO - Showing options menu
+2025-06-15 11:43:16,710 - INFO - Showing menu at position x=3135, y=275
+2025-06-15 11:43:17,739 - WARNING - Translation key not found: select_theme
+2025-06-15 11:43:17,746 - WARNING - Translation key not found: available_themes
+2025-06-15 11:43:17,874 - WARNING - Translation key not found: apply
+2025-06-15 11:43:17,877 - WARNING - Translation key not found: cancel
+2025-06-15 11:43:17,884 - INFO - Color dialog initialized with theme: night-blue
+2025-06-15 11:43:19,509 - INFO - Theme configuration saved to config/theme.json
+2025-06-15 11:43:19,634 - INFO - Applied theme: forest
+2025-06-15 11:43:19,640 - INFO - Theme preview: forest
+2025-06-15 11:43:20,238 - INFO - Theme configuration saved to config/theme.json
+2025-06-15 11:43:20,365 - INFO - Applied theme: deep-ocean
+2025-06-15 11:43:20,372 - INFO - Theme preview: deep-ocean
+2025-06-15 11:43:21,038 - INFO - Theme configuration saved to config/theme.json
+2025-06-15 11:43:21,165 - INFO - Applied theme: cherry-blossom
+2025-06-15 11:43:21,172 - INFO - Theme preview: cherry-blossom
+2025-06-15 11:43:25,373 - INFO - Theme configuration saved to config/theme.json
+2025-06-15 11:43:25,497 - INFO - Applied theme: midnight
+2025-06-15 11:43:25,504 - INFO - Theme preview: midnight
+2025-06-15 11:43:25,837 - INFO - Theme configuration saved to config/theme.json
+2025-06-15 11:43:25,956 - INFO - Applied theme: emerald
+2025-06-15 11:43:25,963 - INFO - Theme preview: emerald
+2025-06-15 11:43:26,309 - INFO - Theme configuration saved to config/theme.json
+2025-06-15 11:43:26,430 - INFO - Applied theme: royal
+2025-06-15 11:43:26,437 - INFO - Theme preview: royal
+2025-06-15 11:43:26,726 - INFO - Theme configuration saved to config/theme.json
+2025-06-15 11:43:26,847 - INFO - Applied theme: desert
+2025-06-15 11:43:26,854 - INFO - Theme preview: desert
+2025-06-15 11:43:27,181 - INFO - Theme configuration saved to config/theme.json
+2025-06-15 11:43:27,306 - INFO - Applied theme: carbon
+2025-06-15 11:43:27,313 - INFO - Theme preview: carbon
+2025-06-15 11:43:29,005 - INFO - Theme configuration saved to config/theme.json
+2025-06-15 11:43:29,126 - INFO - Applied theme: aurora
+2025-06-15 11:43:29,133 - INFO - Theme preview: aurora
+2025-06-15 11:43:29,605 - INFO - Theme configuration saved to config/theme.json
+2025-06-15 11:43:29,726 - INFO - Applied theme: carbon
+2025-06-15 11:43:29,732 - INFO - Theme preview: carbon
+2025-06-15 11:43:31,581 - WARNING - Theme purple-dream not found, using night-blue
+2025-06-15 11:43:31,582 - INFO - Theme configuration saved to config/theme.json
+2025-06-15 11:43:31,703 - INFO - Applied theme: night-blue
+2025-06-15 11:43:31,710 - INFO - Theme preview: purple-dream
+2025-06-15 11:43:32,413 - WARNING - Theme ocean not found, using night-blue
+2025-06-15 11:43:32,413 - INFO - Theme configuration saved to config/theme.json
+2025-06-15 11:43:32,540 - INFO - Applied theme: night-blue
+2025-06-15 11:43:32,547 - INFO - Theme preview: ocean
+2025-06-15 11:43:32,965 - WARNING - Theme sunset not found, using night-blue
+2025-06-15 11:43:32,965 - INFO - Theme configuration saved to config/theme.json
+2025-06-15 11:43:33,085 - INFO - Applied theme: night-blue
+2025-06-15 11:43:33,091 - INFO - Theme preview: sunset
+2025-06-15 11:43:34,637 - INFO - Theme configuration saved to config/theme.json
+2025-06-15 11:43:34,759 - INFO - Applied theme: carbon
+2025-06-15 11:43:34,766 - INFO - Theme preview: carbon
+2025-06-15 11:43:38,361 - INFO - Theme applied: carbon
+2025-06-15 11:43:38,453 - WARNING - Translation key not found: Development
+2025-06-15 11:43:38,454 - WARNING - Translation key not found: Development
+2025-06-15 11:43:38,454 - WARNING - Translation key not found: Development
+2025-06-15 11:43:38,454 - WARNING - Translation key not found: Development
+2025-06-15 11:43:38,455 - WARNING - Translation key not found: Development
+2025-06-15 11:43:38,455 - WARNING - Translation key not found: Development
+2025-06-15 11:43:38,455 - WARNING - Translation key not found: Development
+2025-06-15 11:43:38,456 - WARNING - Translation key not found: Development
+2025-06-15 11:43:38,456 - INFO - Theme applied successfully: carbon (dark)
+2025-06-15 11:43:38,456 - INFO - Theme updated successfully
+2025-06-15 11:43:40,427 - INFO - Starting Nova Installer - Time: 2025-06-14 16:51:09 - User: Nixiews
+2025-06-15 11:43:40,457 - INFO - Starting Nova Installer - Time: 2025-06-15 09:03:46 - User: Nixiews
+2025-06-15 11:43:40,457 - INFO - Theme configuration loaded from config/theme.json
+2025-06-15 11:43:40,457 - INFO - Theme Manager initialized with theme: carbon (dark)
+2025-06-15 11:43:40,457 - INFO - Successfully loaded languages from /home/nixiews/Documents/GitHub/Nova-Installer/NOVA Installer Code/Nova-Linux-V8/data/Languages.json
+2025-06-15 11:43:40,457 - INFO - Language Manager initialized
+2025-06-15 11:43:40,458 - INFO - Icon Manager initialized
+2025-06-15 11:43:40,458 - INFO - Successfully loaded language: fr
+2025-06-15 11:43:40,458 - INFO - Language loaded successfully: fr
+2025-06-15 11:43:40,458 - INFO - Sample translations: file=Fichier, options=Options
+2025-06-15 11:43:40,458 - INFO - Applications data loaded successfully
+2025-06-15 11:43:40,500 - INFO - Menu buttons created successfully
+2025-06-15 11:43:40,547 - ERROR - Error setting window icon: 'IconManager' object has no attribute 'get_app_icon_path'
+2025-06-15 11:43:40,548 - WARNING - Translation key not found: Development
+2025-06-15 11:43:40,551 - WARNING - Translation key not found: Browsers
+2025-06-15 11:43:40,554 - WARNING - Translation key not found: Multimedia
+2025-06-15 11:43:40,557 - WARNING - Translation key not found: Utilities
+2025-06-15 11:43:40,561 - WARNING - Translation key not found: Office
+2025-06-15 11:43:40,564 - WARNING - Translation key not found: Games
+2025-06-15 11:43:40,568 - WARNING - Translation key not found: Graphics
+2025-06-15 11:43:40,571 - WARNING - Translation key not found: Education
+2025-06-15 11:43:40,574 - INFO - Categories created successfully
+2025-06-15 11:43:40,629 - INFO - Theme applied successfully: carbon (dark)
+2025-06-15 11:43:40,632 - WARNING - Translation key not found: Development
+2025-06-15 11:43:40,796 - INFO - Category displayed: Development
+2025-06-15 11:43:45,513 - INFO - Showing options menu
+2025-06-15 11:43:45,517 - INFO - Showing menu at position x=3595, y=76
+2025-06-15 11:43:45,518 - INFO - Showing options menu
+2025-06-15 11:43:45,519 - INFO - Showing menu at position x=3595, y=76
+2025-06-15 11:43:46,148 - WARNING - Translation key not found: select_theme
+2025-06-15 11:43:46,154 - WARNING - Translation key not found: available_themes
+2025-06-15 11:43:46,286 - WARNING - Translation key not found: apply
+2025-06-15 11:43:46,289 - WARNING - Translation key not found: cancel
+2025-06-15 11:43:46,296 - INFO - Color dialog initialized with theme: carbon
+2025-06-15 11:43:50,817 - INFO - Theme configuration saved to config/theme.json
+2025-06-15 11:43:50,930 - INFO - Applied theme: carbon
+2025-06-15 11:43:50,937 - INFO - Theme preview: carbon
+2025-06-15 11:43:51,985 - INFO - Theme applied: carbon
+2025-06-15 11:43:52,080 - WARNING - Translation key not found: Development
+2025-06-15 11:43:52,080 - WARNING - Translation key not found: Development
+2025-06-15 11:43:52,080 - WARNING - Translation key not found: Development
+2025-06-15 11:43:52,081 - WARNING - Translation key not found: Development
+2025-06-15 11:43:52,081 - WARNING - Translation key not found: Development
+2025-06-15 11:43:52,081 - WARNING - Translation key not found: Development
+2025-06-15 11:43:52,082 - WARNING - Translation key not found: Development
+2025-06-15 11:43:52,082 - WARNING - Translation key not found: Development
+2025-06-15 11:43:52,082 - INFO - Theme applied successfully: carbon (dark)
+2025-06-15 11:43:52,082 - INFO - Theme updated successfully
