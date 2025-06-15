@@ -1,7 +1,7 @@
 """
 Nova Installer Theme Manager
 Created by Nixiews
-Last updated: 2025-06-14 17:04:51 UTC
+Last updated: 2025-06-15 08:48:08 UTC
 Version: 3.0.0
 """
 
@@ -82,6 +82,38 @@ class ThemeManager:
 
         self.current_theme = "night-blue"
         logger.info("Theme Manager initialized")
+
+    def get_theme_colors(self, config=None):
+        """Get current theme colors with fallbacks"""
+        default_colors = {
+            "frame": "#2B2B2B",
+            "frame_high": "#333333",
+            "frame_low": "#222222",
+            "button": "#444444",
+            "button_hover": "#4D4D4D",
+            "text": "#FFFFFF",
+            "text_disabled": "#888888"
+        }
+
+        try:
+            if config:
+                theme = config.get("theme", {})
+                color_theme = theme.get("color_theme", "night-blue")
+                if color_theme in self.themes:
+                    theme_colors = self.themes[color_theme]
+                    return {
+                        "frame": theme_colors["bg"],
+                        "frame_high": theme_colors["sidebar"],
+                        "frame_low": theme_colors["bg"],
+                        "button": theme_colors["button"],
+                        "button_hover": theme_colors["button_hover"],
+                        "text": theme_colors["text"],
+                        "text_disabled": theme_colors["text_secondary"]
+                    }
+            return default_colors
+        except Exception as e:
+            logger.warning(f"Using default colors due to: {e}")
+            return default_colors
 
     def apply_theme(self, app, theme_name):
         """Apply theme to application"""

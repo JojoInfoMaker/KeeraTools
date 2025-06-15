@@ -3263,3 +3263,246 @@
 2025-06-14 23:03:56,121 - WARNING - Translation key not found: Browsers
 2025-06-14 23:03:56,574 - WARNING - Using default colors due to: 'ThemeManager' object has no attribute 'get_colors'
 2025-06-14 23:03:56,578 - WARNING - Translation key not found: Development
+2025-06-15 10:47:32,847 - INFO - Starting Nova Installer - Time: 2025-06-14 16:51:09 - User: Nixiews
+2025-06-15 10:47:32,888 - INFO - Starting Nova Installer - Time: 2025-06-15 08:43:33 - User: Nixiews
+2025-06-15 10:47:32,888 - INFO - Theme Manager initialized
+2025-06-15 10:47:32,889 - INFO - Successfully loaded languages from /home/nixiews/Documents/GitHub/Nova-Installer/NOVA Installer Code/Nova-Linux-V8/data/Languages.json
+2025-06-15 10:47:32,889 - INFO - Language Manager initialized
+2025-06-15 10:47:32,889 - INFO - Icon Manager initialized
+2025-06-15 10:47:32,889 - INFO - Successfully loaded language: fr
+2025-06-15 10:47:32,889 - INFO - Language loaded successfully: fr
+2025-06-15 10:47:32,889 - INFO - Applications data loaded successfully
+2025-06-15 10:47:32,926 - CRITICAL - Critical error in main: 'ThemeManager' object has no attribute 'get_theme_colors'
+2025-06-15 10:49:21,472 - INFO - Starting Nova Installer - Time: 2025-06-14 16:51:09 - User: Nixiews
+2025-06-15 10:49:21,502 - INFO - Starting Nova Installer - Time: 2025-06-15 08:43:33 - User: Nixiews
+2025-06-15 10:49:21,503 - INFO - Theme Manager initialized
+2025-06-15 10:49:21,503 - INFO - Successfully loaded languages from /home/nixiews/Documents/GitHub/Nova-Installer/NOVA Installer Code/Nova-Linux-V8/data/Languages.json
+2025-06-15 10:49:21,503 - INFO - Language Manager initialized
+2025-06-15 10:49:21,503 - INFO - Icon Manager initialized
+2025-06-15 10:49:21,503 - INFO - Successfully loaded language: fr
+2025-06-15 10:49:21,503 - INFO - Language loaded successfully: fr
+2025-06-15 10:49:21,503 - INFO - Applications data loaded successfully
+2025-06-15 10:49:21,618 - INFO - Theme applied successfully
+2025-06-15 10:49:21,618 - WARNING - Translation key not found: Development
+2025-06-15 10:54:27,076 - INFO - Starting Nova Installer - Time: 2025-06-14 16:51:09 - User: Nixiews
+2025-06-15 10:54:27,120 - INFO - Starting Nova Installer - Time: 2025-06-15 08:50:11 - User: Nixiews
+2025-06-15 10:54:27,120 - INFO - Theme Manager initialized
+2025-06-15 10:54:27,120 - INFO - Successfully loaded languages from /home/nixiews/Documents/GitHub/Nova-Installer/NOVA Installer Code/Nova-Linux-V8/data/Languages.json
+2025-06-15 10:54:27,120 - INFO - Language Manager initialized
+2025-06-15 10:54:27,120 - INFO - Icon Manager initialized
+2025-06-15 10:54:27,120 - INFO - Successfully loaded language: fr
+2025-06-15 10:54:27,120 - INFO - Language loaded successfully: fr
+2025-06-15 10:54:27,121 - INFO - Applications data loaded successfully
+2025-06-15 10:54:27,213 - WARNING - Translation key not found: Development
+2025-06-15 10:54:27,216 - WARNING - Translation key not found: Browsers
+2025-06-15 10:54:27,219 - WARNING - Translation key not found: Multimedia
+2025-06-15 10:54:27,223 - WARNING - Translation key not found: Utilities
+2025-06-15 10:54:27,226 - WARNING - Translation key not found: Office
+2025-06-15 10:54:27,229 - WARNING - Translation key not found: Games
+2025-06-15 10:54:27,232 - WARNING - Translation key not found: Graphics
+2025-06-15 10:54:27,235 - WARNING - Translation key not found: Education
+2025-06-15 10:54:27,277 - INFO - Theme applied successfully
+2025-06-15 10:54:27,280 - WARNING - Translation key not found: Development
+2025-06-15 10:55:32,030 - WARNING - Translation key not found: Browsers
+2025-06-15 10:55:34,000 - WARNING - Translation key not found: installation_type
+2025-06-15 10:55:34,003 - WARNING - Translation key not found: installation_type
+2025-06-15 10:55:34,007 - WARNING - Translation key not found: user_only
+2025-06-15 10:55:34,015 - WARNING - Translation key not found: system_wide
+2025-06-15 10:55:34,039 - WARNING - Translation key not found: cancel
+2025-06-15 10:55:34,043 - WARNING - Translation key not found: proceed
+2025-06-15 10:55:34,172 - INFO - Installation dialog initialized successfully
+2025-06-15 10:55:36,313 - WARNING - Translation key not found: cancel_installation
+2025-06-15 10:55:37,936 - WARNING - Translation key not found: confirm_cancel
+2025-06-15 10:55:37,936 - WARNING - Translation key not found: cancel_installation_confirm
+2025-06-15 10:55:38,317 - INFO - Successfully installed com.github.micahflee.torbrowser-launcher
+2025-06-15 10:55:38,320 - WARNING - Translation key not found: installation_complete
+2025-06-15 10:55:39,024 - WARNING - Translation key not found: Browsers
+2025-06-15 10:57:54,593 - INFO - Starting Nova Installer - Time: 2025-06-14 16:51:09 - User: Nixiews
+2025-06-15 10:57:54,623 - INFO - Starting Nova Installer - Time: 2025-06-15 08:50:11 - User: Nixiews
+2025-06-15 10:57:54,623 - INFO - Theme Manager initialized
+2025-06-15 10:57:54,623 - INFO - Successfully loaded languages from /home/nixiews/Documents/GitHub/Nova-Installer/NOVA Installer Code/Nova-Linux-V8/data/Languages.json
+2025-06-15 10:57:54,624 - INFO - Language Manager initialized
+2025-06-15 10:57:54,624 - INFO - Icon Manager initialized
+2025-06-15 10:57:54,624 - INFO - Successfully loaded language: fr
+2025-06-15 10:57:54,624 - INFO - Language loaded successfully: fr
+2025-06-15 10:57:54,624 - INFO - Sample translations: file=Fichier, options=Options
+2025-06-15 10:57:54,624 - INFO - Applications data loaded successfully
+2025-06-15 10:57:54,656 - INFO - Creating menu buttons with translations: file=Fichier, options=Options, help=Aide
+2025-06-15 10:57:54,717 - WARNING - Translation key not found: Development
+2025-06-15 10:57:54,720 - WARNING - Translation key not found: Browsers
+2025-06-15 10:57:54,724 - WARNING - Translation key not found: Multimedia
+2025-06-15 10:57:54,727 - WARNING - Translation key not found: Utilities
+2025-06-15 10:57:54,730 - WARNING - Translation key not found: Office
+2025-06-15 10:57:54,733 - WARNING - Translation key not found: Games
+2025-06-15 10:57:54,736 - WARNING - Translation key not found: Graphics
+2025-06-15 10:57:54,739 - WARNING - Translation key not found: Education
+2025-06-15 10:57:54,778 - INFO - Theme applied successfully
+2025-06-15 10:57:54,781 - WARNING - Translation key not found: Development
+2025-06-15 10:57:56,826 - INFO - Creating options menu with translations: colors=Couleurs, language=Langue
+2025-06-15 10:57:56,827 - INFO - Showing menu at position x=3595, y=76
+2025-06-15 10:57:57,470 - INFO - Creating file menu with translations: import=Importer, export=Exporter
+2025-06-15 10:57:57,470 - INFO - Showing menu at position x=3485, y=76
+2025-06-15 10:57:57,654 - INFO - Creating file menu with translations: import=Importer, export=Exporter
+2025-06-15 10:57:57,654 - INFO - Showing menu at position x=3485, y=76
+2025-06-15 10:57:58,085 - INFO - Creating help menu with translations: about=À propos, logs=Journaux
+2025-06-15 10:57:58,086 - INFO - Showing menu at position x=3705, y=76
+2025-06-15 10:57:58,254 - INFO - Creating help menu with translations: about=À propos, logs=Journaux
+2025-06-15 10:57:58,254 - INFO - Showing menu at position x=3705, y=76
+2025-06-15 10:58:14,246 - INFO - Creating file menu with translations: import=Importer, export=Exporter
+2025-06-15 10:58:14,247 - INFO - Showing menu at position x=3485, y=76
+2025-06-15 10:58:14,718 - INFO - Creating options menu with translations: colors=Couleurs, language=Langue
+2025-06-15 10:58:14,718 - INFO - Showing menu at position x=3595, y=76
+2025-06-15 10:58:15,183 - INFO - Creating help menu with translations: about=À propos, logs=Journaux
+2025-06-15 10:58:15,183 - INFO - Showing menu at position x=3705, y=76
+2025-06-15 11:01:29,815 - INFO - Starting Nova Installer - Time: 2025-06-14 16:51:09 - User: Nixiews
+2025-06-15 11:01:29,844 - INFO - Starting Nova Installer - Time: 2025-06-15 08:58:28 - User: Nixiews
+2025-06-15 11:01:29,845 - INFO - Theme Manager initialized
+2025-06-15 11:01:29,845 - INFO - Successfully loaded languages from /home/nixiews/Documents/GitHub/Nova-Installer/NOVA Installer Code/Nova-Linux-V8/data/Languages.json
+2025-06-15 11:01:29,845 - INFO - Language Manager initialized
+2025-06-15 11:01:29,845 - INFO - Icon Manager initialized
+2025-06-15 11:01:29,845 - INFO - Successfully loaded language: fr
+2025-06-15 11:01:29,845 - INFO - Language loaded successfully: fr
+2025-06-15 11:01:29,845 - INFO - Sample translations: file=Fichier, options=Options
+2025-06-15 11:01:29,845 - INFO - Applications data loaded successfully
+2025-06-15 11:01:29,878 - INFO - Creating menu buttons
+2025-06-15 11:01:29,889 - INFO - Menu buttons created successfully
+2025-06-15 11:01:29,936 - WARNING - Translation key not found: Development
+2025-06-15 11:01:29,939 - WARNING - Translation key not found: Browsers
+2025-06-15 11:01:29,943 - WARNING - Translation key not found: Multimedia
+2025-06-15 11:01:29,946 - WARNING - Translation key not found: Utilities
+2025-06-15 11:01:29,949 - WARNING - Translation key not found: Office
+2025-06-15 11:01:29,952 - WARNING - Translation key not found: Games
+2025-06-15 11:01:29,955 - WARNING - Translation key not found: Graphics
+2025-06-15 11:01:29,959 - WARNING - Translation key not found: Education
+2025-06-15 11:01:29,999 - INFO - Theme applied successfully
+2025-06-15 11:01:30,002 - WARNING - Translation key not found: Development
+2025-06-15 11:01:31,586 - INFO - Showing options menu
+2025-06-15 11:01:31,590 - INFO - Showing menu at position x=3135, y=275
+2025-06-15 11:01:31,591 - INFO - Showing options menu
+2025-06-15 11:01:31,592 - INFO - Showing menu at position x=3135, y=275
+2025-06-15 11:01:32,810 - WARNING - Translation key not found: cancel
+2025-06-15 11:01:35,404 - INFO - Successfully loaded language: en
+2025-06-15 11:01:36,418 - INFO - Language updated to: en
+2025-06-15 11:01:38,541 - INFO - Starting Nova Installer - Time: 2025-06-14 16:51:09 - User: Nixiews
+2025-06-15 11:01:38,571 - INFO - Starting Nova Installer - Time: 2025-06-15 08:58:28 - User: Nixiews
+2025-06-15 11:01:38,572 - INFO - Theme Manager initialized
+2025-06-15 11:01:38,572 - INFO - Successfully loaded languages from /home/nixiews/Documents/GitHub/Nova-Installer/NOVA Installer Code/Nova-Linux-V8/data/Languages.json
+2025-06-15 11:01:38,572 - INFO - Language Manager initialized
+2025-06-15 11:01:38,572 - INFO - Icon Manager initialized
+2025-06-15 11:01:38,572 - INFO - Successfully loaded language: en
+2025-06-15 11:01:38,572 - INFO - Language loaded successfully: en
+2025-06-15 11:01:38,572 - INFO - Sample translations: file=File, options=Options
+2025-06-15 11:01:38,572 - INFO - Applications data loaded successfully
+2025-06-15 11:01:38,605 - INFO - Creating menu buttons
+2025-06-15 11:01:38,616 - INFO - Menu buttons created successfully
+2025-06-15 11:01:38,665 - WARNING - Translation key not found: Development
+2025-06-15 11:01:38,668 - WARNING - Translation key not found: Browsers
+2025-06-15 11:01:38,671 - WARNING - Translation key not found: Multimedia
+2025-06-15 11:01:38,674 - WARNING - Translation key not found: Utilities
+2025-06-15 11:01:38,677 - WARNING - Translation key not found: Office
+2025-06-15 11:01:38,680 - WARNING - Translation key not found: Games
+2025-06-15 11:01:38,684 - WARNING - Translation key not found: Graphics
+2025-06-15 11:01:38,687 - WARNING - Translation key not found: Education
+2025-06-15 11:01:38,727 - INFO - Theme applied successfully
+2025-06-15 11:01:38,731 - WARNING - Translation key not found: Development
+2025-06-15 11:01:39,946 - INFO - Showing options menu
+2025-06-15 11:01:39,950 - INFO - Showing menu at position x=3135, y=275
+2025-06-15 11:01:39,951 - INFO - Showing options menu
+2025-06-15 11:01:39,952 - INFO - Showing menu at position x=3135, y=275
+2025-06-15 11:01:40,739 - WARNING - Translation key not found: cancel
+2025-06-15 11:01:41,884 - INFO - Successfully loaded language: fr
+2025-06-15 11:01:42,739 - INFO - Language updated to: fr
+2025-06-15 11:01:45,139 - INFO - Starting Nova Installer - Time: 2025-06-14 16:51:09 - User: Nixiews
+2025-06-15 11:01:45,169 - INFO - Starting Nova Installer - Time: 2025-06-15 08:58:28 - User: Nixiews
+2025-06-15 11:01:45,169 - INFO - Theme Manager initialized
+2025-06-15 11:01:45,169 - INFO - Successfully loaded languages from /home/nixiews/Documents/GitHub/Nova-Installer/NOVA Installer Code/Nova-Linux-V8/data/Languages.json
+2025-06-15 11:01:45,169 - INFO - Language Manager initialized
+2025-06-15 11:01:45,169 - INFO - Icon Manager initialized
+2025-06-15 11:01:45,169 - INFO - Successfully loaded language: fr
+2025-06-15 11:01:45,169 - INFO - Language loaded successfully: fr
+2025-06-15 11:01:45,169 - INFO - Sample translations: file=Fichier, options=Options
+2025-06-15 11:01:45,170 - INFO - Applications data loaded successfully
+2025-06-15 11:01:45,201 - INFO - Creating menu buttons
+2025-06-15 11:01:45,212 - INFO - Menu buttons created successfully
+2025-06-15 11:01:45,259 - WARNING - Translation key not found: Development
+2025-06-15 11:01:45,262 - WARNING - Translation key not found: Browsers
+2025-06-15 11:01:45,265 - WARNING - Translation key not found: Multimedia
+2025-06-15 11:01:45,268 - WARNING - Translation key not found: Utilities
+2025-06-15 11:01:45,272 - WARNING - Translation key not found: Office
+2025-06-15 11:01:45,275 - WARNING - Translation key not found: Games
+2025-06-15 11:01:45,278 - WARNING - Translation key not found: Graphics
+2025-06-15 11:01:45,281 - WARNING - Translation key not found: Education
+2025-06-15 11:01:45,321 - INFO - Theme applied successfully
+2025-06-15 11:01:45,324 - WARNING - Translation key not found: Development
+2025-06-15 11:01:49,338 - INFO - Showing file menu
+2025-06-15 11:01:49,344 - INFO - Showing menu at position x=3485, y=76
+2025-06-15 11:01:49,345 - INFO - Showing file menu
+2025-06-15 11:01:49,346 - INFO - Showing menu at position x=3485, y=76
+2025-06-15 11:01:51,931 - INFO - Showing help menu
+2025-06-15 11:01:51,931 - INFO - Showing menu at position x=3705, y=76
+2025-06-15 11:01:51,932 - INFO - Showing help menu
+2025-06-15 11:01:51,933 - INFO - Showing menu at position x=3705, y=76
+2025-06-15 11:01:52,616 - WARNING - Translation key not found: Close
+2025-06-15 11:01:59,859 - INFO - Showing help menu
+2025-06-15 11:01:59,859 - INFO - Showing menu at position x=3705, y=76
+2025-06-15 11:01:59,860 - INFO - Showing help menu
+2025-06-15 11:01:59,861 - INFO - Showing menu at position x=3705, y=76
+2025-06-15 11:02:09,995 - INFO - Showing options menu
+2025-06-15 11:02:09,995 - INFO - Showing menu at position x=3595, y=76
+2025-06-15 11:02:09,996 - INFO - Showing options menu
+2025-06-15 11:02:09,996 - INFO - Showing menu at position x=3595, y=76
+2025-06-15 11:02:10,608 - WARNING - Translation key not found: cancel
+2025-06-15 11:02:11,651 - INFO - Applied theme: forest
+2025-06-15 11:02:13,371 - INFO - Applied theme: night-blue
+2025-06-15 11:02:19,685 - INFO - Starting Nova Installer - Time: 2025-06-14 16:51:09 - User: Nixiews
+2025-06-15 11:02:19,715 - INFO - Starting Nova Installer - Time: 2025-06-15 08:58:28 - User: Nixiews
+2025-06-15 11:02:19,716 - INFO - Theme Manager initialized
+2025-06-15 11:02:19,716 - INFO - Successfully loaded languages from /home/nixiews/Documents/GitHub/Nova-Installer/NOVA Installer Code/Nova-Linux-V8/data/Languages.json
+2025-06-15 11:02:19,716 - INFO - Language Manager initialized
+2025-06-15 11:02:19,716 - INFO - Icon Manager initialized
+2025-06-15 11:02:19,716 - INFO - Successfully loaded language: fr
+2025-06-15 11:02:19,716 - INFO - Language loaded successfully: fr
+2025-06-15 11:02:19,716 - INFO - Sample translations: file=Fichier, options=Options
+2025-06-15 11:02:19,716 - INFO - Applications data loaded successfully
+2025-06-15 11:02:19,749 - INFO - Creating menu buttons
+2025-06-15 11:02:19,761 - INFO - Menu buttons created successfully
+2025-06-15 11:02:19,809 - WARNING - Translation key not found: Development
+2025-06-15 11:02:19,813 - WARNING - Translation key not found: Browsers
+2025-06-15 11:02:19,816 - WARNING - Translation key not found: Multimedia
+2025-06-15 11:02:19,819 - WARNING - Translation key not found: Utilities
+2025-06-15 11:02:19,822 - WARNING - Translation key not found: Office
+2025-06-15 11:02:19,825 - WARNING - Translation key not found: Games
+2025-06-15 11:02:19,828 - WARNING - Translation key not found: Graphics
+2025-06-15 11:02:19,831 - WARNING - Translation key not found: Education
+2025-06-15 11:02:19,871 - INFO - Theme applied successfully
+2025-06-15 11:02:19,874 - WARNING - Translation key not found: Development
+2025-06-15 11:02:22,883 - INFO - Showing options menu
+2025-06-15 11:02:22,890 - INFO - Showing menu at position x=3595, y=76
+2025-06-15 11:02:22,891 - INFO - Showing options menu
+2025-06-15 11:02:22,891 - INFO - Showing menu at position x=3595, y=76
+2025-06-15 11:02:23,530 - WARNING - Translation key not found: cancel
+2025-06-15 11:03:19,414 - INFO - Starting Nova Installer - Time: 2025-06-14 16:51:09 - User: Nixiews
+2025-06-15 11:03:19,447 - INFO - Starting Nova Installer - Time: 2025-06-15 08:58:28 - User: Nixiews
+2025-06-15 11:03:19,447 - INFO - Theme Manager initialized
+2025-06-15 11:03:19,447 - INFO - Successfully loaded languages from /home/nixiews/Documents/GitHub/Nova-Installer/NOVA Installer Code/Nova-Linux-V8/data/Languages.json
+2025-06-15 11:03:19,447 - INFO - Language Manager initialized
+2025-06-15 11:03:19,447 - INFO - Icon Manager initialized
+2025-06-15 11:03:19,447 - INFO - Successfully loaded language: fr
+2025-06-15 11:03:19,447 - INFO - Language loaded successfully: fr
+2025-06-15 11:03:19,447 - INFO - Sample translations: file=Fichier, options=Options
+2025-06-15 11:03:19,448 - INFO - Applications data loaded successfully
+2025-06-15 11:03:19,480 - INFO - Creating menu buttons
+2025-06-15 11:03:19,491 - INFO - Menu buttons created successfully
+2025-06-15 11:03:19,541 - WARNING - Translation key not found: Development
+2025-06-15 11:03:19,545 - WARNING - Translation key not found: Browsers
+2025-06-15 11:03:19,548 - WARNING - Translation key not found: Multimedia
+2025-06-15 11:03:19,551 - WARNING - Translation key not found: Utilities
+2025-06-15 11:03:19,555 - WARNING - Translation key not found: Office
+2025-06-15 11:03:19,559 - WARNING - Translation key not found: Games
+2025-06-15 11:03:19,562 - WARNING - Translation key not found: Graphics
+2025-06-15 11:03:19,566 - WARNING - Translation key not found: Education
+2025-06-15 11:03:19,605 - INFO - Theme applied successfully
+2025-06-15 11:03:19,607 - WARNING - Translation key not found: Development
+2025-06-15 11:15:00,703 - INFO - Starting Nova Installer - Time: 2025-06-14 16:51:09 - User: Nixiews
+2025-06-15 11:15:00,733 - INFO - Starting Nova Installer - Time: 2025-06-15 09:03:46 - User: Nixiews
+2025-06-15 11:15:00,733 - CRITICAL - Critical error in main: ThemeManager.__init__() takes 1 positional argument but 2 were given
