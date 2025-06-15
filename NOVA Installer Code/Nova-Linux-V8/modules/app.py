@@ -318,8 +318,13 @@ class NovaInstallerApp(ctk.CTk):
 
         return menu
 
+    """
+    SHOW DEFS UNDER
+    """
+
     def show_file_menu(self, event=None):
         """Show file menu popup"""
+        # Create menu for each show to ensure it's fresh
         menu = tk.Menu(self, tearoff=0)
         colors = self.get_theme_colors()
 
@@ -328,28 +333,21 @@ class NovaInstallerApp(ctk.CTk):
             bg=colors["frame_low"],
             fg=colors["text"],
             activebackground=colors["button_hover"],
-            activeforeground=colors["text"],
-            bd=0
+            activeforeground=colors["text"]
         )
 
-        # Add menu items
+        # Add menu items with direct command binding
         menu.add_command(label=self.tr("import"), command=self.import_selection)
         menu.add_command(label=self.tr("export"), command=self.export_selection)
         menu.add_separator()
         menu.add_command(label=self.tr("exit"), command=self.quit)
 
         # Show at button position
-        x = self.file_button.winfo_rootx()
-        y = self.file_button.winfo_rooty() + self.file_button.winfo_height()
-        menu.post(x, y)
-
-        # Store active menu
-        if self.active_menu:
-            self.active_menu.unpost()
-        self.active_menu = menu
+        self.show_menu_at_button(menu, self.file_button)
 
     def show_options_menu(self, event=None):
         """Show options menu popup"""
+        # Create menu for each show to ensure it's fresh
         menu = tk.Menu(self, tearoff=0)
         colors = self.get_theme_colors()
 
@@ -358,26 +356,19 @@ class NovaInstallerApp(ctk.CTk):
             bg=colors["frame_low"],
             fg=colors["text"],
             activebackground=colors["button_hover"],
-            activeforeground=colors["text"],
-            bd=0
+            activeforeground=colors["text"]
         )
 
-        # Add menu items
+        # Add menu items with direct command binding
         menu.add_command(label=self.tr("colors"), command=self.show_color_dialog)
         menu.add_command(label=self.tr("language"), command=self.show_language_dialog)
 
         # Show at button position
-        x = self.options_button.winfo_rootx()
-        y = self.options_button.winfo_rooty() + self.options_button.winfo_height()
-        menu.post(x, y)
-
-        # Store active menu
-        if self.active_menu:
-            self.active_menu.unpost()
-        self.active_menu = menu
+        self.show_menu_at_button(menu, self.options_button)
 
     def show_help_menu(self, event=None):
         """Show help menu popup"""
+        # Create menu for each show to ensure it's fresh
         menu = tk.Menu(self, tearoff=0)
         colors = self.get_theme_colors()
 
@@ -386,23 +377,15 @@ class NovaInstallerApp(ctk.CTk):
             bg=colors["frame_low"],
             fg=colors["text"],
             activebackground=colors["button_hover"],
-            activeforeground=colors["text"],
-            bd=0
+            activeforeground=colors["text"]
         )
 
-        # Add menu items
+        # Add menu items with direct command binding
         menu.add_command(label=self.tr("about"), command=self.show_about_dialog)
         menu.add_command(label=self.tr("logs"), command=self.open_logs)
 
         # Show at button position
-        x = self.help_button.winfo_rootx()
-        y = self.help_button.winfo_rooty() + self.help_button.winfo_height()
-        menu.post(x, y)
-
-        # Store active menu
-        if self.active_menu:
-            self.active_menu.unpost()
-        self.active_menu = menu
+        self.show_menu_at_button(menu, self.help_button)
 
     def dismiss_active_menu(self, event=None):
         """Dismiss active menu if exists"""
@@ -427,6 +410,19 @@ class NovaInstallerApp(ctk.CTk):
             )
             button.pack(fill="x", padx=5, pady=2)
             self.category_buttons[category] = button
+
+    def show_menu_at_button(self, menu, button):
+        """Helper to show menu at button position"""
+        if self.active_menu:
+            self.active_menu.unpost()
+
+        # Calculate position
+        x = button.winfo_rootx()
+        y = button.winfo_rooty() + button.winfo_height()
+
+        # Post menu and store reference
+        menu.post(x, y)
+        self.active_menu = menu
 
     def show_category(self, category):
         """Display apps for selected category"""
@@ -508,24 +504,29 @@ class NovaInstallerApp(ctk.CTk):
     def show_color_dialog(self):
         """Show color theme dialog"""
         try:
-            # Dismiss any active menu before showing dialog
+            # Dismiss any active menu first
             self.dismiss_active_menu()
 
-            # Import dialog here to avoid circular imports
-            from .dialogs.color_dialog import ColorDialog
-
             dialog = ColorDialog(self, self.config)
+            dialog.title(self.tr("colors"))  # Set dialog title
+            dialog.transient(self)  # Set as transient to main window
             dialog.grab_set()  # Make dialog modal
+            dialog.focus_set()  # Set focus to dialog
+
+            # Calculate center position
+            x = self.winfo_x() + (self.winfo_width() // 2) - (400 // 2)
+            y = self.winfo_y() + (self.winfo_height() // 2) - (300 // 2)
+            dialog.geometry(f"400x300+{x}+{y}")
+
+            # Wait for dialog
             self.wait_window(dialog)
 
             if hasattr(dialog, 'result') and dialog.result:
                 # Update config
                 self.config["theme"] = dialog.result
                 save_config(self.config)
-
                 # Apply new theme
                 self.apply_theme()
-
                 logger.info("Theme updated successfully")
         except Exception as e:
             logger.error(f"Error in color dialog: {e}")
@@ -537,14 +538,21 @@ class NovaInstallerApp(ctk.CTk):
     def show_language_dialog(self):
         """Show language selection dialog"""
         try:
-            # Dismiss any active menu before showing dialog
+            # Dismiss any active menu first
             self.dismiss_active_menu()
 
-            # Import dialog here to avoid circular imports
-            from .dialogs.language_dialog import LanguageDialog
-
             dialog = LanguageDialog(self, self.config)
+            dialog.title(self.tr("language"))  # Set dialog title
+            dialog.transient(self)  # Set as transient to main window
             dialog.grab_set()  # Make dialog modal
+            dialog.focus_set()  # Set focus to dialog
+
+            # Calculate center position
+            x = self.winfo_x() + (self.winfo_width() // 2) - (400 // 2)
+            y = self.winfo_y() + (self.winfo_height() // 2) - (300 // 2)
+            dialog.geometry(f"400x300+{x}+{y}")
+
+            # Wait for dialog
             self.wait_window(dialog)
 
             if hasattr(dialog, 'result') and dialog.result:
@@ -555,6 +563,7 @@ class NovaInstallerApp(ctk.CTk):
                     self.tr("info"),
                     self.tr("restart_required")
                 )
+                logger.info(f"Language updated to: {dialog.result}")
         except Exception as e:
             logger.error(f"Error in language dialog: {e}")
             messagebox.showerror(
@@ -565,14 +574,21 @@ class NovaInstallerApp(ctk.CTk):
     def show_about_dialog(self):
         """Show about dialog"""
         try:
-            # Dismiss any active menu before showing dialog
+            # Dismiss any active menu first
             self.dismiss_active_menu()
 
-            # Import dialog here to avoid circular imports
-            from .dialogs.about_dialog import AboutDialog
-
             dialog = AboutDialog(self, self.config)
+            dialog.title(self.tr("about"))  # Set dialog title
+            dialog.transient(self)  # Set as transient to main window
             dialog.grab_set()  # Make dialog modal
+            dialog.focus_set()  # Set focus to dialog
+
+            # Calculate center position
+            x = self.winfo_x() + (self.winfo_width() // 2) - (400 // 2)
+            y = self.winfo_y() + (self.winfo_height() // 2) - (300 // 2)
+            dialog.geometry(f"400x300+{x}+{y}")
+
+            # Wait for dialog
             self.wait_window(dialog)
         except Exception as e:
             logger.error(f"Error in about dialog: {e}")

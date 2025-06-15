@@ -3161,3 +3161,105 @@
 2025-06-14 21:39:12,311 - INFO - Theme updated successfully
 2025-06-14 21:39:14,798 - WARNING - Using default colors due to: 'ThemeManager' object has no attribute 'get_colors'
 2025-06-14 21:39:15,588 - WARNING - Translation key not found: cancel
+2025-06-14 22:58:46,738 - INFO - Starting Nova Installer - Time: 2025-06-14 16:51:09 - User: Nixiews
+2025-06-14 22:58:46,768 - INFO - Starting Nova Installer - Time: 2025-06-14 19:37:30 - User: Nixiews
+2025-06-14 22:58:46,768 - INFO - Theme Manager initialized
+2025-06-14 22:58:46,768 - INFO - Successfully loaded languages from /home/nixiews/Documents/GitHub/Nova-Installer/NOVA Installer Code/Nova-Linux-V8/data/Languages.json
+2025-06-14 22:58:46,768 - INFO - Language Manager initialized
+2025-06-14 22:58:46,768 - INFO - Icon Manager initialized
+2025-06-14 22:58:46,769 - INFO - Successfully loaded language: fr
+2025-06-14 22:58:46,769 - INFO - Language loaded successfully: fr
+2025-06-14 22:58:46,769 - INFO - Applications data loaded successfully
+2025-06-14 22:58:46,804 - WARNING - Using default colors due to: 'ThemeManager' object has no attribute 'get_colors'
+2025-06-14 22:58:46,845 - WARNING - Translation key not found: Development
+2025-06-14 22:58:46,849 - WARNING - Translation key not found: Browsers
+2025-06-14 22:58:46,853 - WARNING - Translation key not found: Multimedia
+2025-06-14 22:58:46,857 - WARNING - Translation key not found: Utilities
+2025-06-14 22:58:46,860 - WARNING - Translation key not found: Office
+2025-06-14 22:58:46,864 - WARNING - Translation key not found: Games
+2025-06-14 22:58:46,867 - WARNING - Translation key not found: Graphics
+2025-06-14 22:58:46,870 - WARNING - Translation key not found: Education
+2025-06-14 22:58:46,910 - WARNING - Using default colors due to: 'ThemeManager' object has no attribute 'get_colors'
+2025-06-14 22:58:46,940 - INFO - Theme applied successfully
+2025-06-14 22:58:46,940 - WARNING - Using default colors due to: 'ThemeManager' object has no attribute 'get_colors'
+2025-06-14 22:58:46,943 - WARNING - Translation key not found: Development
+2025-06-14 22:58:48,712 - WARNING - Using default colors due to: 'ThemeManager' object has no attribute 'get_colors'
+2025-06-14 22:58:49,276 - WARNING - Using default colors due to: 'ThemeManager' object has no attribute 'get_colors'
+2025-06-14 22:58:49,668 - WARNING - Using default colors due to: 'ThemeManager' object has no attribute 'get_colors'
+2025-06-14 22:58:49,852 - WARNING - Using default colors due to: 'ThemeManager' object has no attribute 'get_colors'
+2025-06-14 22:58:50,188 - WARNING - Using default colors due to: 'ThemeManager' object has no attribute 'get_colors'
+2025-06-14 22:58:50,356 - WARNING - Using default colors due to: 'ThemeManager' object has no attribute 'get_colors'
+2025-06-14 22:58:50,644 - WARNING - Using default colors due to: 'ThemeManager' object has no attribute 'get_colors'
+2025-06-14 22:58:50,812 - WARNING - Using default colors due to: 'ThemeManager' object has no attribute 'get_colors'
+2025-06-14 22:58:51,727 - WARNING - Using default colors due to: 'ThemeManager' object has no attribute 'get_colors'
+2025-06-14 22:58:51,731 - WARNING - Translation key not found: Development
+2025-06-14 22:58:52,303 - WARNING - Using default colors due to: 'ThemeManager' object has no attribute 'get_colors'
+2025-06-14 22:58:52,307 - WARNING - Translation key not found: Browsers
+2025-06-14 22:58:52,846 - WARNING - Using default colors due to: 'ThemeManager' object has no attribute 'get_colors'
+2025-06-14 22:58:52,849 - WARNING - Translation key not found: Development
+2025-06-14 22:59:32,242 - WARNING - Using default colors due to: 'ThemeManager' object has no attribute 'get_colors'
+2025-06-14 22:59:32,244 - WARNING - Translation key not found: Browsers
+2025-06-14 22:59:34,806 - WARNING - Translation key not found: installation_type
+2025-06-14 22:59:34,808 - WARNING - Translation key not found: installation_type
+2025-06-14 22:59:34,812 - WARNING - Translation key not found: user_only
+2025-06-14 22:59:34,821 - WARNING - Translation key not found: system_wide
+2025-06-14 22:59:34,844 - WARNING - Translation key not found: cancel
+2025-06-14 22:59:34,849 - WARNING - Translation key not found: proceed
+2025-06-14 22:59:34,870 - INFO - Installation dialog initialized successfully
+2025-06-14 22:59:36,414 - WARNING - Translation key not found: cancel_installation
+2025-06-14 22:59:38,094 - WARNING - Translation key not found: confirm_cancel
+2025-06-14 22:59:38,094 - WARNING - Translation key not found: cancel_installation_confirm
+2025-06-14 22:59:38,662 - INFO - Successfully installed com.github.micahflee.torbrowser-launcher
+2025-06-14 22:59:38,666 - WARNING - Translation key not found: installation_complete
+2025-06-14 22:59:39,370 - WARNING - Using default colors due to: 'ThemeManager' object has no attribute 'get_colors'
+2025-06-14 22:59:39,374 - WARNING - Translation key not found: Browsers
+2025-06-14 22:59:41,726 - WARNING - Using default colors due to: 'ThemeManager' object has no attribute 'get_colors'
+2025-06-14 23:03:47,141 - INFO - Starting Nova Installer - Time: 2025-06-14 16:51:09 - User: Nixiews
+2025-06-14 23:03:47,171 - INFO - Starting Nova Installer - Time: 2025-06-14 19:37:30 - User: Nixiews
+2025-06-14 23:03:47,172 - INFO - Theme Manager initialized
+2025-06-14 23:03:47,172 - INFO - Successfully loaded languages from /home/nixiews/Documents/GitHub/Nova-Installer/NOVA Installer Code/Nova-Linux-V8/data/Languages.json
+2025-06-14 23:03:47,172 - INFO - Language Manager initialized
+2025-06-14 23:03:47,172 - INFO - Icon Manager initialized
+2025-06-14 23:03:47,172 - INFO - Successfully loaded language: fr
+2025-06-14 23:03:47,172 - INFO - Language loaded successfully: fr
+2025-06-14 23:03:47,172 - INFO - Applications data loaded successfully
+2025-06-14 23:03:47,205 - WARNING - Using default colors due to: 'ThemeManager' object has no attribute 'get_colors'
+2025-06-14 23:03:47,241 - WARNING - Translation key not found: Development
+2025-06-14 23:03:47,244 - WARNING - Translation key not found: Browsers
+2025-06-14 23:03:47,248 - WARNING - Translation key not found: Multimedia
+2025-06-14 23:03:47,251 - WARNING - Translation key not found: Utilities
+2025-06-14 23:03:47,255 - WARNING - Translation key not found: Office
+2025-06-14 23:03:47,258 - WARNING - Translation key not found: Games
+2025-06-14 23:03:47,261 - WARNING - Translation key not found: Graphics
+2025-06-14 23:03:47,264 - WARNING - Translation key not found: Education
+2025-06-14 23:03:47,301 - WARNING - Using default colors due to: 'ThemeManager' object has no attribute 'get_colors'
+2025-06-14 23:03:47,328 - INFO - Theme applied successfully
+2025-06-14 23:03:47,329 - WARNING - Using default colors due to: 'ThemeManager' object has no attribute 'get_colors'
+2025-06-14 23:03:47,331 - WARNING - Translation key not found: Development
+2025-06-14 23:03:50,057 - WARNING - Using default colors due to: 'ThemeManager' object has no attribute 'get_colors'
+2025-06-14 23:03:50,605 - WARNING - Using default colors due to: 'ThemeManager' object has no attribute 'get_colors'
+2025-06-14 23:03:50,773 - WARNING - Using default colors due to: 'ThemeManager' object has no attribute 'get_colors'
+2025-06-14 23:03:51,124 - WARNING - Using default colors due to: 'ThemeManager' object has no attribute 'get_colors'
+2025-06-14 23:03:51,309 - WARNING - Using default colors due to: 'ThemeManager' object has no attribute 'get_colors'
+2025-06-14 23:03:51,685 - WARNING - Using default colors due to: 'ThemeManager' object has no attribute 'get_colors'
+2025-06-14 23:03:51,804 - WARNING - Using default colors due to: 'ThemeManager' object has no attribute 'get_colors'
+2025-06-14 23:03:52,943 - WARNING - Using default colors due to: 'ThemeManager' object has no attribute 'get_colors'
+2025-06-14 23:03:52,947 - WARNING - Translation key not found: Browsers
+2025-06-14 23:03:53,262 - WARNING - Using default colors due to: 'ThemeManager' object has no attribute 'get_colors'
+2025-06-14 23:03:53,266 - WARNING - Translation key not found: Development
+2025-06-14 23:03:53,815 - WARNING - Using default colors due to: 'ThemeManager' object has no attribute 'get_colors'
+2025-06-14 23:03:53,819 - WARNING - Translation key not found: Multimedia
+2025-06-14 23:03:54,247 - WARNING - Using default colors due to: 'ThemeManager' object has no attribute 'get_colors'
+2025-06-14 23:03:54,250 - WARNING - Translation key not found: Utilities
+2025-06-14 23:03:54,551 - WARNING - Using default colors due to: 'ThemeManager' object has no attribute 'get_colors'
+2025-06-14 23:03:54,556 - WARNING - Translation key not found: Office
+2025-06-14 23:03:54,855 - WARNING - Using default colors due to: 'ThemeManager' object has no attribute 'get_colors'
+2025-06-14 23:03:54,858 - WARNING - Translation key not found: Games
+2025-06-14 23:03:55,190 - WARNING - Using default colors due to: 'ThemeManager' object has no attribute 'get_colors'
+2025-06-14 23:03:55,195 - WARNING - Translation key not found: Graphics
+2025-06-14 23:03:55,455 - WARNING - Using default colors due to: 'ThemeManager' object has no attribute 'get_colors'
+2025-06-14 23:03:55,458 - WARNING - Translation key not found: Education
+2025-06-14 23:03:56,118 - WARNING - Using default colors due to: 'ThemeManager' object has no attribute 'get_colors'
+2025-06-14 23:03:56,121 - WARNING - Translation key not found: Browsers
+2025-06-14 23:03:56,574 - WARNING - Using default colors due to: 'ThemeManager' object has no attribute 'get_colors'
+2025-06-14 23:03:56,578 - WARNING - Translation key not found: Development
