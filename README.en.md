@@ -21,6 +21,8 @@ Nova Installer is entirely made with Python, which makes it easier for us and ve
 For the Windows version, the software uses Winget to install applications via PowerShell (note: if you just installed Windows and you're using the software, it may ask to update first).  
 For the Linux version, the software uses Flatpak to install applications (soon, the software will also support DNF (Fedora), APT (Debian), PACMAN (Arch), etc.).
 
+The software is functional, but there are still a few issues to be ironed out, such as the graphical interface. We haven't had time (because we're busy as well as doing this project) to finalize the GUI so it's different between Windows and Linux (I promise, next update we'll fix that 🙏🏻) If you have any problems with the Software we're open to questions either here on GitHub.
+
 ## Where to install Nova Installer?
 
 - Linux version: [📦 Download NOVA Installer for Linux (INSERT DOWNLOAD LINK)](https://github.com/NomUtilisateur/NomDepot/raw/main/releases/MonFichier.zip)
