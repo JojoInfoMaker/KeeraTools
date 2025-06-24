@@ -21,6 +21,8 @@ Nova Installer est fait entièrement en Python, cela facilite la tâche pour nou
 Pour la version Windows, le logiciel utilise l'outil Winget pour installer des applications via Powershell (pour information, si vous venez d'installer Windows et que vous utilisez le logiciel, il vous demandera de le mettre à jour).
 Pour la version Linux, le logiciel utilise l'outil Flatpak pour installer les applications (bientôt, le logiciel s'installera avec les systèmes de paquet DNF (Fedora), APT (Debian), PACMAN (Arch), etc.)
 
+Le logiciel est fonctionnelle mais reste quelque problème à régler comme l'interface graphique. Nous avons pas eu le temps (car nous sommes occuper en plus de faire ce projet) de finaliser l'interface graphique donc elle est différente entre celle de Windows et celle de Linux (Promis à la prochaine mise à jours on règle ça 🙏🏻) Si vous avez quelqu'onque problème avec le Logiciel nous sommes ouvert au question que ce soit ici sur Github ou via l'adresse mail nova.instaaller@gmail.com.
+
 ## Ou Installer Nova Installer ?
 
 - Version Linux : [📦 Télécharger NOVA Installer Linux (Via script .sh)](https://github.com/Nixiews/Nova-Installer/tree/main/Install%20Nova/Install%20Linux)
