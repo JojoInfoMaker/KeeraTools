@@ -10,7 +10,8 @@ import sys
 import logging
 from tkinter import messagebox
 from modules.app import NovaInstallerApp
-
+from modules.updater import check_and_update
+from modules.version_writer import write_version_file
 # Configure logging
 LOG_DIR = "logs"
 LOG_FILE = os.path.join(LOG_DIR, "nova_installer.log")
@@ -31,6 +32,8 @@ logger = logging.getLogger(__name__)
 def main():
     """Main entry point of the application"""
     try:
+        write_version_file("V1L")  # Remplace "V1L" par la version actuelle si besoin
+        check_and_update()
         logger.info(f"Starting Nova Installer - Time: 2025-06-14 16:51:09 - User: Nixiews")
         app = NovaInstallerApp()
         app.run()
