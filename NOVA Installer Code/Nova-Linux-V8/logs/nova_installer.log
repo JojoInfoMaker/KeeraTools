@@ -4212,3 +4212,164 @@
 2025-06-15 11:43:52,082 - WARNING - Translation key not found: Development
 2025-06-15 11:43:52,082 - INFO - Theme applied successfully: carbon (dark)
 2025-06-15 11:43:52,082 - INFO - Theme updated successfully
+2025-06-28 21:51:33,878 - INFO - Starting Nova Installer - Time: 2025-06-14 16:51:09 - User: Nixiews
+2025-06-28 21:51:33,921 - INFO - Starting Nova Installer - Time: 2025-06-15 09:03:46 - User: Nixiews
+2025-06-28 21:51:33,921 - INFO - Theme configuration loaded from config/theme.json
+2025-06-28 21:51:33,921 - INFO - Theme Manager initialized with theme: carbon (dark)
+2025-06-28 21:51:33,922 - INFO - Successfully loaded languages from /home/nixiews/Documents/GitHub/Nova-Installer/NOVA Installer Code/Nova-Linux-V8/data/Languages.json
+2025-06-28 21:51:33,922 - INFO - Language Manager initialized
+2025-06-28 21:51:33,922 - INFO - Icon Manager initialized
+2025-06-28 21:51:33,922 - INFO - Successfully loaded language: fr
+2025-06-28 21:51:33,922 - INFO - Language loaded successfully: fr
+2025-06-28 21:51:33,922 - INFO - Sample translations: file=Fichier, options=Options
+2025-06-28 21:51:33,922 - INFO - Applications data loaded successfully
+2025-06-28 21:51:33,976 - INFO - Menu buttons created successfully
+2025-06-28 21:51:34,059 - ERROR - Error setting window icon: 'IconManager' object has no attribute 'get_app_icon_path'
+2025-06-28 21:51:34,059 - WARNING - Translation key not found: Development
+2025-06-28 21:51:34,063 - WARNING - Translation key not found: Browsers
+2025-06-28 21:51:34,066 - WARNING - Translation key not found: Multimedia
+2025-06-28 21:51:34,070 - WARNING - Translation key not found: Utilities
+2025-06-28 21:51:34,073 - WARNING - Translation key not found: Office
+2025-06-28 21:51:34,077 - WARNING - Translation key not found: Games
+2025-06-28 21:51:34,080 - WARNING - Translation key not found: Graphics
+2025-06-28 21:51:34,083 - WARNING - Translation key not found: Education
+2025-06-28 21:51:34,087 - INFO - Categories created successfully
+2025-06-28 21:51:34,145 - INFO - Theme applied successfully: carbon (dark)
+2025-06-28 21:51:34,148 - WARNING - Translation key not found: Development
+2025-06-28 21:51:34,362 - INFO - Category displayed: Development
+2025-06-28 21:51:37,432 - INFO - Showing file menu
+2025-06-28 21:51:37,437 - INFO - Showing menu at position x=3485, y=76
+2025-06-28 21:51:37,438 - INFO - Showing file menu
+2025-06-28 21:51:37,440 - INFO - Showing menu at position x=3485, y=76
+2025-06-28 21:51:38,199 - INFO - Showing options menu
+2025-06-28 21:51:38,201 - INFO - Showing menu at position x=3595, y=76
+2025-06-28 21:51:38,203 - INFO - Showing options menu
+2025-06-28 21:51:38,203 - INFO - Showing menu at position x=3595, y=76
+2025-06-28 21:51:39,011 - WARNING - Translation key not found: select_theme
+2025-06-28 21:51:39,019 - WARNING - Translation key not found: available_themes
+2025-06-28 21:51:39,176 - WARNING - Translation key not found: apply
+2025-06-28 21:51:39,179 - WARNING - Translation key not found: cancel
+2025-06-28 21:51:39,186 - INFO - Color dialog initialized with theme: carbon
+2025-06-28 21:51:41,476 - INFO - Theme configuration saved to config/theme.json
+2025-06-28 21:51:41,612 - INFO - Applied theme: cyber-punk
+2025-06-28 21:51:41,620 - INFO - Theme preview: cyber-punk
+2025-06-28 21:51:42,061 - INFO - Theme configuration saved to config/theme.json
+2025-06-28 21:51:42,201 - INFO - Applied theme: forest
+2025-06-28 21:51:42,209 - INFO - Theme preview: forest
+2025-06-28 21:51:42,573 - INFO - Theme configuration saved to config/theme.json
+2025-06-28 21:51:42,709 - INFO - Applied theme: deep-ocean
+2025-06-28 21:51:42,716 - INFO - Theme preview: deep-ocean
+2025-06-28 21:51:43,245 - INFO - Theme configuration saved to config/theme.json
+2025-06-28 21:51:43,378 - INFO - Applied theme: desert
+2025-06-28 21:51:43,385 - INFO - Theme preview: desert
+2025-06-28 21:51:43,757 - INFO - Theme configuration saved to config/theme.json
+2025-06-28 21:51:43,885 - INFO - Applied theme: royal
+2025-06-28 21:51:43,892 - INFO - Theme preview: royal
+2025-06-28 21:51:44,260 - INFO - Theme configuration saved to config/theme.json
+2025-06-28 21:51:44,392 - INFO - Applied theme: emerald
+2025-06-28 21:51:44,399 - INFO - Theme preview: emerald
+2025-06-28 21:51:44,676 - INFO - Theme configuration saved to config/theme.json
+2025-06-28 21:51:44,810 - INFO - Applied theme: midnight
+2025-06-28 21:51:44,817 - INFO - Theme preview: midnight
+2025-06-28 21:51:45,204 - WARNING - Theme purple-dream not found, using night-blue
+2025-06-28 21:51:45,205 - INFO - Theme configuration saved to config/theme.json
+2025-06-28 21:51:45,340 - INFO - Applied theme: night-blue
+2025-06-28 21:51:45,347 - INFO - Theme preview: purple-dream
+2025-06-28 21:51:45,637 - INFO - Theme configuration saved to config/theme.json
+2025-06-28 21:51:45,769 - INFO - Applied theme: aurora
+2025-06-28 21:51:45,777 - INFO - Theme preview: aurora
+2025-06-28 21:51:46,134 - WARNING - Theme ocean not found, using night-blue
+2025-06-28 21:51:46,134 - INFO - Theme configuration saved to config/theme.json
+2025-06-28 21:51:46,265 - INFO - Applied theme: night-blue
+2025-06-28 21:51:46,273 - INFO - Theme preview: ocean
+2025-06-28 21:51:50,469 - WARNING - Theme mint not found, using night-blue
+2025-06-28 21:51:50,469 - INFO - Theme configuration saved to config/theme.json
+2025-06-28 21:51:50,603 - INFO - Applied theme: night-blue
+2025-06-28 21:51:50,611 - INFO - Theme preview: mint
+2025-06-28 21:51:50,997 - WARNING - Theme sunset not found, using night-blue
+2025-06-28 21:51:50,997 - INFO - Theme configuration saved to config/theme.json
+2025-06-28 21:51:51,127 - INFO - Applied theme: night-blue
+2025-06-28 21:51:51,134 - INFO - Theme preview: sunset
+2025-06-28 21:51:51,444 - WARNING - Theme ocean not found, using night-blue
+2025-06-28 21:51:51,445 - INFO - Theme configuration saved to config/theme.json
+2025-06-28 21:51:51,572 - INFO - Applied theme: night-blue
+2025-06-28 21:51:51,579 - INFO - Theme preview: ocean
+2025-06-28 21:51:51,829 - WARNING - Theme purple-dream not found, using night-blue
+2025-06-28 21:51:51,829 - INFO - Theme configuration saved to config/theme.json
+2025-06-28 21:51:51,961 - INFO - Applied theme: night-blue
+2025-06-28 21:51:51,968 - INFO - Theme preview: purple-dream
+2025-06-28 21:51:52,277 - INFO - Theme configuration saved to config/theme.json
+2025-06-28 21:51:52,408 - INFO - Applied theme: aurora
+2025-06-28 21:51:52,415 - INFO - Theme preview: aurora
+2025-06-28 21:51:52,741 - INFO - Theme configuration saved to config/theme.json
+2025-06-28 21:51:52,876 - INFO - Applied theme: carbon
+2025-06-28 21:51:52,883 - INFO - Theme preview: carbon
+2025-06-28 21:51:53,789 - INFO - Theme configuration saved to config/theme.json
+2025-06-28 21:51:53,917 - INFO - Applied theme: desert
+2025-06-28 21:51:53,923 - INFO - Theme preview: desert
+2025-06-28 21:51:57,253 - INFO - Theme configuration saved to config/theme.json
+2025-06-28 21:51:57,384 - INFO - Applied theme: cyber-punk
+2025-06-28 21:51:57,391 - INFO - Theme preview: cyber-punk
+2025-06-28 21:51:58,704 - INFO - Theme applied: cyber-punk
+2025-06-28 21:51:58,809 - WARNING - Translation key not found: Development
+2025-06-28 21:51:58,809 - WARNING - Translation key not found: Development
+2025-06-28 21:51:58,810 - WARNING - Translation key not found: Development
+2025-06-28 21:51:58,810 - WARNING - Translation key not found: Development
+2025-06-28 21:51:58,810 - WARNING - Translation key not found: Development
+2025-06-28 21:51:58,811 - WARNING - Translation key not found: Development
+2025-06-28 21:51:58,811 - WARNING - Translation key not found: Development
+2025-06-28 21:51:58,811 - WARNING - Translation key not found: Development
+2025-06-28 21:51:58,812 - INFO - Theme applied successfully: cyber-punk (dark)
+2025-06-28 21:51:58,812 - INFO - Theme updated successfully
+2025-06-28 21:52:00,407 - WARNING - Translation key not found: Browsers
+2025-06-28 21:52:00,490 - INFO - Category displayed: Browsers
+2025-06-28 21:52:00,885 - WARNING - Translation key not found: Development
+2025-06-28 21:52:01,060 - INFO - Category displayed: Development
+2025-06-28 21:52:16,032 - WARNING - Translation key not found: Games
+2025-06-28 21:52:16,156 - INFO - Category displayed: Games
+2025-06-28 21:52:18,175 - WARNING - Translation key not found: Graphics
+2025-06-28 21:52:18,293 - INFO - Category displayed: Graphics
+2025-06-28 21:52:18,758 - WARNING - Translation key not found: Games
+2025-06-28 21:52:18,880 - INFO - Category displayed: Games
+2025-06-28 21:52:20,030 - WARNING - Translation key not found: Graphics
+2025-06-28 21:52:20,151 - INFO - Category displayed: Graphics
+2025-06-28 21:52:24,099 - INFO - Selection display updated: 1 apps selected
+2025-06-28 21:52:24,100 - INFO - App toggled: org.blender.Blender
+2025-06-28 21:52:25,393 - WARNING - Translation key not found: installation_type
+2025-06-28 21:52:25,396 - WARNING - Translation key not found: installation_type
+2025-06-28 21:52:25,400 - WARNING - Translation key not found: user_only
+2025-06-28 21:52:25,408 - WARNING - Translation key not found: system_wide
+2025-06-28 21:52:25,432 - WARNING - Translation key not found: cancel
+2025-06-28 21:52:25,436 - WARNING - Translation key not found: proceed
+2025-06-28 21:52:25,458 - INFO - Installation dialog initialized successfully
+2025-06-28 21:52:29,842 - WARNING - Translation key not found: cancel_installation
+2025-06-28 21:52:30,172 - ERROR - Failed to install org.blender.Blender
+2025-06-28 21:52:30,173 - WARNING - Translation key not found: installation_failed
+2025-06-28 21:52:31,332 - INFO - Selection display updated: 0 apps selected
+2025-06-28 21:52:31,339 - WARNING - Translation key not found: Graphics
+2025-06-28 21:52:31,460 - INFO - Category displayed: Graphics
+2025-07-29 15:10:35,767 - INFO - Starting Nova Installer - Time: 2025-06-14 16:51:09 - User: Nixiews
+2025-07-29 15:10:35,806 - INFO - Starting Nova Installer - Time: 2025-06-15 09:03:46 - User: Nixiews
+2025-07-29 15:10:35,806 - INFO - Theme configuration loaded from config/theme.json
+2025-07-29 15:10:35,806 - INFO - Theme Manager initialized with theme: cyber-punk (dark)
+2025-07-29 15:10:35,806 - INFO - Successfully loaded languages from /home/Nixiews/Documents/GitHub/Nova-Installer/NOVA Installer Code/Nova-Linux-V8/data/Languages.json
+2025-07-29 15:10:35,806 - INFO - Language Manager initialized
+2025-07-29 15:10:35,806 - INFO - Icon Manager initialized
+2025-07-29 15:10:35,807 - INFO - Successfully loaded language: fr
+2025-07-29 15:10:35,807 - INFO - Language loaded successfully: fr
+2025-07-29 15:10:35,807 - INFO - Sample translations: file=Fichier, options=Options
+2025-07-29 15:10:35,807 - INFO - Applications data loaded successfully
+2025-07-29 15:10:35,858 - INFO - Menu buttons created successfully
+2025-07-29 15:10:35,925 - ERROR - Error setting window icon: 'IconManager' object has no attribute 'get_app_icon_path'
+2025-07-29 15:10:35,926 - WARNING - Translation key not found: Development
+2025-07-29 15:10:35,929 - WARNING - Translation key not found: Browsers
+2025-07-29 15:10:35,932 - WARNING - Translation key not found: Multimedia
+2025-07-29 15:10:35,935 - WARNING - Translation key not found: Utilities
+2025-07-29 15:10:35,938 - WARNING - Translation key not found: Office
+2025-07-29 15:10:35,941 - WARNING - Translation key not found: Games
+2025-07-29 15:10:35,945 - WARNING - Translation key not found: Graphics
+2025-07-29 15:10:35,948 - WARNING - Translation key not found: Education
+2025-07-29 15:10:35,951 - INFO - Categories created successfully
+2025-07-29 15:10:36,015 - INFO - Theme applied successfully: cyber-punk (dark)
+2025-07-29 15:10:36,018 - WARNING - Translation key not found: Development
+2025-07-29 15:10:36,181 - INFO - Category displayed: Development
