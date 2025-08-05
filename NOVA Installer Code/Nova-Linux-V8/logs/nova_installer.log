@@ -4373,3 +4373,538 @@
 2025-07-29 15:10:36,015 - INFO - Theme applied successfully: cyber-punk (dark)
 2025-07-29 15:10:36,018 - WARNING - Translation key not found: Development
 2025-07-29 15:10:36,181 - INFO - Category displayed: Development
+2025-07-29 15:14:50,131 - INFO - Showing file menu
+2025-07-29 15:14:50,137 - INFO - Showing menu at position x=3485, y=76
+2025-07-29 15:14:50,139 - INFO - Showing file menu
+2025-07-29 15:14:50,139 - INFO - Showing menu at position x=3485, y=76
+2025-07-29 15:14:51,211 - INFO - Showing options menu
+2025-07-29 15:14:51,213 - INFO - Showing menu at position x=3595, y=76
+2025-07-29 15:14:51,214 - INFO - Showing options menu
+2025-07-29 15:14:51,215 - INFO - Showing menu at position x=3595, y=76
+2025-07-29 15:14:52,196 - WARNING - Translation key not found: cancel
+2025-07-29 15:14:53,949 - INFO - Successfully loaded language: fr
+2025-07-29 15:14:55,043 - INFO - Language updated to: fr
+2025-07-29 15:14:55,811 - INFO - Showing options menu
+2025-07-29 15:14:55,811 - INFO - Showing menu at position x=3595, y=76
+2025-07-29 15:14:55,812 - INFO - Showing options menu
+2025-07-29 15:14:55,814 - INFO - Showing menu at position x=3595, y=76
+2025-07-29 15:14:56,750 - WARNING - Translation key not found: select_theme
+2025-07-29 15:14:56,757 - WARNING - Translation key not found: available_themes
+2025-07-29 15:14:56,906 - WARNING - Translation key not found: apply
+2025-07-29 15:14:56,910 - WARNING - Translation key not found: cancel
+2025-07-29 15:14:56,916 - INFO - Color dialog initialized with theme: cyber-punk
+2025-07-29 15:14:58,017 - INFO - Theme configuration saved to config/theme.json
+2025-07-29 15:14:58,162 - INFO - Applied theme: night-blue
+2025-07-29 15:14:58,170 - INFO - Theme preview: night-blue
+2025-07-29 15:14:58,761 - INFO - Theme configuration saved to config/theme.json
+2025-07-29 15:14:58,902 - INFO - Applied theme: cyber-punk
+2025-07-29 15:14:58,909 - INFO - Theme preview: cyber-punk
+2025-07-29 15:15:00,731 - INFO - Theme applied: cyber-punk
+2025-07-29 15:15:00,843 - WARNING - Translation key not found: Development
+2025-07-29 15:15:00,844 - WARNING - Translation key not found: Development
+2025-07-29 15:15:00,844 - WARNING - Translation key not found: Development
+2025-07-29 15:15:00,844 - WARNING - Translation key not found: Development
+2025-07-29 15:15:00,845 - WARNING - Translation key not found: Development
+2025-07-29 15:15:00,845 - WARNING - Translation key not found: Development
+2025-07-29 15:15:00,846 - WARNING - Translation key not found: Development
+2025-07-29 15:15:00,846 - WARNING - Translation key not found: Development
+2025-07-29 15:15:00,847 - INFO - Theme applied successfully: cyber-punk (dark)
+2025-07-29 15:15:00,847 - INFO - Theme updated successfully
+2025-07-29 15:15:47,007 - INFO - Selection display updated: 1 apps selected
+2025-07-29 15:15:47,007 - INFO - App toggled: org.geany.Geany
+2025-07-29 15:15:47,390 - INFO - Selection display updated: 0 apps selected
+2025-07-29 15:15:47,390 - INFO - App toggled: org.geany.Geany
+2025-07-29 15:15:47,743 - INFO - Selection display updated: 1 apps selected
+2025-07-29 15:15:47,743 - INFO - App toggled: org.geany.Geany
+2025-07-29 15:15:48,350 - INFO - Selection display updated: 0 apps selected
+2025-07-29 15:15:48,350 - INFO - App toggled: org.geany.Geany
+2025-07-29 15:15:48,591 - INFO - Selection display updated: 1 apps selected
+2025-07-29 15:15:48,591 - INFO - App toggled: org.geany.Geany
+2025-07-29 15:15:49,038 - INFO - Selection display updated: 2 apps selected
+2025-07-29 15:15:49,038 - INFO - App toggled: org.gnome.Builder
+2025-07-29 15:15:49,750 - INFO - Selection display updated: 1 apps selected
+2025-07-29 15:15:49,750 - INFO - App toggled: org.gnome.Builder
+2025-07-29 15:15:50,798 - INFO - Selection display updated: 0 apps selected
+2025-07-29 15:15:50,798 - INFO - App toggled: org.geany.Geany
+2025-07-29 15:22:47,145 - INFO - Showing help menu
+2025-07-29 15:22:47,146 - INFO - Showing menu at position x=3705, y=76
+2025-07-29 15:22:47,148 - INFO - Showing help menu
+2025-07-29 15:22:47,149 - INFO - Showing menu at position x=3705, y=76
+2025-07-29 15:22:47,983 - WARNING - Translation key not found: Close
+2025-07-29 15:23:02,473 - INFO - Showing help menu
+2025-07-29 15:23:02,474 - INFO - Showing menu at position x=3705, y=76
+2025-07-29 15:23:02,474 - INFO - Showing help menu
+2025-07-29 15:23:02,475 - INFO - Showing menu at position x=3705, y=76
+2025-07-29 15:23:10,377 - INFO - Showing file menu
+2025-07-29 15:23:10,378 - INFO - Showing menu at position x=3485, y=76
+2025-07-29 15:23:10,378 - INFO - Showing file menu
+2025-07-29 15:23:10,379 - INFO - Showing menu at position x=3485, y=76
+2025-07-29 15:23:12,682 - INFO - Showing file menu
+2025-07-29 15:23:12,682 - INFO - Showing menu at position x=3485, y=76
+2025-07-29 15:23:12,683 - INFO - Showing file menu
+2025-07-29 15:23:12,683 - INFO - Showing menu at position x=3485, y=76
+2025-07-29 15:25:20,604 - WARNING - Translation key not found: Education
+2025-07-29 15:25:20,676 - INFO - Category displayed: Education
+2025-07-29 15:25:21,115 - WARNING - Translation key not found: Graphics
+2025-07-29 15:25:21,197 - INFO - Category displayed: Graphics
+2025-07-29 15:25:21,491 - WARNING - Translation key not found: Graphics
+2025-07-29 15:25:21,567 - INFO - Category displayed: Graphics
+2025-07-29 15:25:22,179 - WARNING - Translation key not found: Education
+2025-07-29 15:25:22,250 - INFO - Category displayed: Education
+2025-07-29 15:25:25,602 - WARNING - Translation key not found: Games
+2025-07-29 15:25:25,685 - INFO - Category displayed: Games
+2025-07-29 15:25:32,963 - WARNING - Translation key not found: Office
+2025-07-29 15:25:33,033 - INFO - Category displayed: Office
+2025-07-29 15:25:34,379 - WARNING - Translation key not found: Utilities
+2025-07-29 15:25:34,477 - INFO - Category displayed: Utilities
+2025-07-29 15:25:35,332 - WARNING - Translation key not found: Multimedia
+2025-07-29 15:25:35,424 - INFO - Category displayed: Multimedia
+2025-07-29 15:25:35,843 - WARNING - Translation key not found: Browsers
+2025-07-29 15:25:35,899 - INFO - Category displayed: Browsers
+2025-07-29 15:25:36,450 - WARNING - Translation key not found: Development
+2025-07-29 15:25:36,564 - INFO - Category displayed: Development
+2025-07-29 15:42:55,943 - INFO - Starting Nova Installer - Time: 2025-06-14 16:51:09 - User: Nixiews
+2025-07-29 15:42:55,974 - INFO - Starting Nova Installer - Time: 2025-06-15 09:03:46 - User: Nixiews
+2025-07-29 15:42:55,975 - INFO - Theme configuration loaded from config/theme.json
+2025-07-29 15:42:55,975 - INFO - Theme Manager initialized with theme: cyber-punk (dark)
+2025-07-29 15:42:55,975 - INFO - Successfully loaded languages from /home/Nixiews/Documents/GitHub/Nova-Installer/NOVA Installer Code/Nova-Linux-V8/data/Languages.json
+2025-07-29 15:42:55,975 - INFO - Language Manager initialized
+2025-07-29 15:42:55,975 - INFO - Icon Manager initialized
+2025-07-29 15:42:55,975 - INFO - Successfully loaded language: fr
+2025-07-29 15:42:55,975 - INFO - Language loaded successfully: fr
+2025-07-29 15:42:55,975 - INFO - Sample translations: file=Fichier, options=Options
+2025-07-29 15:42:55,976 - INFO - Applications data loaded successfully
+2025-07-29 15:42:56,015 - ERROR - Error creating menu buttons: ThemeManager.get_theme_colors() takes 1 positional argument but 2 were given
+2025-07-29 15:42:56,068 - ERROR - Error setting window icon: 'IconManager' object has no attribute 'get_app_icon_path'
+2025-07-29 15:42:56,068 - ERROR - Error creating categories: ThemeManager.get_theme_colors() takes 1 positional argument but 2 were given
+2025-07-29 15:42:56,068 - ERROR - Error applying theme: ThemeManager.get_theme_colors() takes 1 positional argument but 2 were given
+2025-07-29 15:42:56,068 - ERROR - Error showing category: ThemeManager.get_theme_colors() takes 1 positional argument but 2 were given
+2025-07-29 15:44:49,587 - INFO - Starting Nova Installer - Time: 2025-06-14 16:51:09 - User: Nixiews
+2025-07-29 15:44:49,619 - INFO - Starting Nova Installer - Time: 2025-06-15 09:03:46 - User: Nixiews
+2025-07-29 15:44:49,619 - INFO - Theme configuration loaded from config/theme.json
+2025-07-29 15:44:49,619 - INFO - Theme Manager initialized with theme: cyber-punk (dark)
+2025-07-29 15:44:49,619 - INFO - Successfully loaded languages from /home/Nixiews/Documents/GitHub/Nova-Installer/NOVA Installer Code/Nova-Linux-V8/data/Languages.json
+2025-07-29 15:44:49,620 - INFO - Language Manager initialized
+2025-07-29 15:44:49,620 - INFO - Icon Manager initialized
+2025-07-29 15:44:49,620 - INFO - Successfully loaded language: fr
+2025-07-29 15:44:49,620 - INFO - Language loaded successfully: fr
+2025-07-29 15:44:49,620 - INFO - Sample translations: file=Fichier, options=Options
+2025-07-29 15:44:49,620 - INFO - Applications data loaded successfully
+2025-07-29 15:44:49,667 - INFO - Menu buttons created successfully
+2025-07-29 15:44:49,723 - ERROR - Error setting window icon: 'IconManager' object has no attribute 'get_app_icon_path'
+2025-07-29 15:44:49,723 - WARNING - Translation key not found: Development
+2025-07-29 15:44:49,726 - WARNING - Translation key not found: Browsers
+2025-07-29 15:44:49,729 - WARNING - Translation key not found: Multimedia
+2025-07-29 15:44:49,732 - WARNING - Translation key not found: Utilities
+2025-07-29 15:44:49,736 - WARNING - Translation key not found: Office
+2025-07-29 15:44:49,740 - WARNING - Translation key not found: Games
+2025-07-29 15:44:49,743 - WARNING - Translation key not found: Graphics
+2025-07-29 15:44:49,746 - WARNING - Translation key not found: Education
+2025-07-29 15:44:49,750 - INFO - Categories created successfully
+2025-07-29 15:44:49,819 - INFO - Theme applied successfully: cyber-punk (dark)
+2025-07-29 15:44:49,822 - WARNING - Translation key not found: Development
+2025-07-29 15:44:49,987 - INFO - Category displayed: Development
+2025-07-29 15:44:53,221 - WARNING - Translation key not found: Browsers
+2025-07-29 15:44:53,303 - INFO - Category displayed: Browsers
+2025-07-29 15:44:53,660 - WARNING - Translation key not found: Development
+2025-07-29 15:44:53,824 - INFO - Category displayed: Development
+2025-07-29 15:44:54,606 - WARNING - Translation key not found: Browsers
+2025-07-29 15:44:54,684 - INFO - Category displayed: Browsers
+2025-07-29 15:45:12,556 - WARNING - Translation key not found: Multimedia
+2025-07-29 15:45:12,689 - INFO - Category displayed: Multimedia
+2025-07-29 15:45:13,757 - WARNING - Translation key not found: Utilities
+2025-07-29 15:45:13,897 - INFO - Category displayed: Utilities
+2025-07-29 15:45:18,215 - WARNING - Translation key not found: Office
+2025-07-29 15:45:18,321 - INFO - Category displayed: Office
+2025-07-29 15:45:19,453 - WARNING - Translation key not found: Games
+2025-07-29 15:45:19,568 - INFO - Category displayed: Games
+2025-07-29 15:45:20,110 - WARNING - Translation key not found: Graphics
+2025-07-29 15:45:20,218 - INFO - Category displayed: Graphics
+2025-07-29 15:45:21,141 - WARNING - Translation key not found: Games
+2025-07-29 15:45:21,256 - INFO - Category displayed: Games
+2025-07-29 15:45:24,402 - INFO - Selection display updated: 1 apps selected
+2025-07-29 15:45:24,402 - INFO - App toggled: org.supertuxkart.SuperTuxKart
+2025-07-29 15:45:25,808 - WARNING - Translation key not found: installation_type
+2025-07-29 15:45:25,810 - WARNING - Translation key not found: installation_type
+2025-07-29 15:45:25,813 - WARNING - Translation key not found: user_only
+2025-07-29 15:45:25,821 - WARNING - Translation key not found: system_wide
+2025-07-29 15:45:25,843 - WARNING - Translation key not found: cancel
+2025-07-29 15:45:25,848 - WARNING - Translation key not found: proceed
+2025-07-29 15:45:25,871 - INFO - Installation dialog initialized successfully
+2025-07-29 15:45:27,728 - WARNING - Translation key not found: cancel_installation
+2025-07-29 15:45:27,871 - ERROR - Failed to install org.supertuxkart.SuperTuxKart
+2025-07-29 15:45:27,872 - WARNING - Translation key not found: installation_failed
+2025-07-29 15:45:32,091 - INFO - Selection display updated: 0 apps selected
+2025-07-29 15:45:32,098 - WARNING - Translation key not found: Games
+2025-07-29 15:45:32,220 - INFO - Category displayed: Games
+2025-07-29 15:47:17,682 - INFO - Starting Nova Installer - Time: 2025-06-14 16:51:09 - User: Nixiews
+2025-07-29 15:47:17,713 - INFO - Starting Nova Installer - Time: 2025-06-15 09:03:46 - User: Nixiews
+2025-07-29 15:47:17,714 - INFO - Theme configuration loaded from config/theme.json
+2025-07-29 15:47:17,714 - INFO - Theme Manager initialized with theme: cyber-punk (dark)
+2025-07-29 15:47:17,714 - INFO - Successfully loaded languages from /home/Nixiews/Documents/GitHub/Nova-Installer/NOVA Installer Code/Nova-Linux-V8/data/Languages.json
+2025-07-29 15:47:17,714 - INFO - Language Manager initialized
+2025-07-29 15:47:17,714 - INFO - Icon Manager initialized
+2025-07-29 15:47:17,715 - INFO - Successfully loaded language: fr
+2025-07-29 15:47:17,715 - INFO - Language loaded successfully: fr
+2025-07-29 15:47:17,715 - INFO - Sample translations: file=Fichier, options=Options
+2025-07-29 15:47:17,715 - INFO - Applications data loaded successfully
+2025-07-29 15:47:17,764 - INFO - Menu buttons created successfully
+2025-07-29 15:47:17,819 - ERROR - Error setting window icon: 'IconManager' object has no attribute 'get_app_icon_path'
+2025-07-29 15:47:17,819 - WARNING - Translation key not found: Development
+2025-07-29 15:47:17,823 - WARNING - Translation key not found: Browsers
+2025-07-29 15:47:17,826 - WARNING - Translation key not found: Multimedia
+2025-07-29 15:47:17,829 - WARNING - Translation key not found: Utilities
+2025-07-29 15:47:17,832 - WARNING - Translation key not found: Office
+2025-07-29 15:47:17,835 - WARNING - Translation key not found: Games
+2025-07-29 15:47:17,838 - WARNING - Translation key not found: Graphics
+2025-07-29 15:47:17,841 - WARNING - Translation key not found: Education
+2025-07-29 15:47:17,845 - INFO - Categories created successfully
+2025-07-29 15:47:17,912 - INFO - Theme applied successfully: cyber-punk (dark)
+2025-07-29 15:47:17,915 - WARNING - Translation key not found: Development
+2025-07-29 15:47:18,080 - INFO - Category displayed: Development
+2025-07-29 15:47:20,235 - INFO - Showing options menu
+2025-07-29 15:47:20,241 - INFO - Showing menu at position x=3595, y=76
+2025-07-29 15:47:20,243 - INFO - Showing options menu
+2025-07-29 15:47:20,244 - INFO - Showing menu at position x=3595, y=76
+2025-07-29 15:47:20,994 - WARNING - Translation key not found: cancel
+2025-07-29 15:47:22,852 - INFO - Successfully loaded language: en
+2025-07-29 15:47:23,771 - INFO - Language updated to: en
+2025-07-29 15:47:24,491 - INFO - Showing options menu
+2025-07-29 15:47:24,491 - INFO - Showing menu at position x=3595, y=76
+2025-07-29 15:47:24,492 - INFO - Showing options menu
+2025-07-29 15:47:24,493 - INFO - Showing menu at position x=3595, y=76
+2025-07-29 15:47:25,216 - WARNING - Translation key not found: cancel
+2025-07-29 15:47:26,724 - INFO - Successfully loaded language: fr
+2025-07-29 15:47:27,507 - INFO - Language updated to: fr
+2025-07-29 15:47:28,211 - INFO - Showing options menu
+2025-07-29 15:47:28,211 - INFO - Showing menu at position x=3595, y=76
+2025-07-29 15:47:28,212 - INFO - Showing options menu
+2025-07-29 15:47:28,213 - INFO - Showing menu at position x=3595, y=76
+2025-07-29 15:47:28,750 - WARNING - Translation key not found: select_theme
+2025-07-29 15:47:28,757 - WARNING - Translation key not found: available_themes
+2025-07-29 15:47:28,892 - WARNING - Translation key not found: apply
+2025-07-29 15:47:28,896 - WARNING - Translation key not found: cancel
+2025-07-29 15:47:28,903 - INFO - Color dialog initialized with theme: cyber-punk
+2025-07-29 15:47:29,936 - INFO - Theme configuration saved to config/theme.json
+2025-07-29 15:47:29,938 - ERROR - Error applying colors to CTkFrame: transparency is not allowed for this attribute
+2025-07-29 15:47:29,939 - ERROR - Error applying colors to CTkFrame: transparency is not allowed for this attribute
+2025-07-29 15:47:29,946 - ERROR - Error applying colors to CTkFrame: transparency is not allowed for this attribute
+2025-07-29 15:47:29,946 - ERROR - Error applying colors to CTkFrame: transparency is not allowed for this attribute
+2025-07-29 15:47:29,970 - ERROR - Error applying colors to CTkFrame: transparency is not allowed for this attribute
+2025-07-29 15:47:29,975 - ERROR - Error applying colors to CTkScrollableFrame: transparency is not allowed for this attribute
+2025-07-29 15:47:29,993 - ERROR - Error applying colors to CTkFrame: transparency is not allowed for this attribute
+2025-07-29 15:47:29,993 - ERROR - Error applying colors to CTkFrame: transparency is not allowed for this attribute
+2025-07-29 15:47:30,002 - ERROR - Error applying colors to CTkFrame: transparency is not allowed for this attribute
+2025-07-29 15:47:30,009 - ERROR - Error applying colors to CTkScrollableFrame: transparency is not allowed for this attribute
+2025-07-29 15:47:30,010 - ERROR - Error applying colors to CTkFrame: transparency is not allowed for this attribute
+2025-07-29 15:47:30,012 - ERROR - Error applying colors to CTkFrame: transparency is not allowed for this attribute
+2025-07-29 15:47:30,013 - ERROR - Error applying colors to CTkFrame: transparency is not allowed for this attribute
+2025-07-29 15:47:30,014 - ERROR - Error applying colors to CTkFrame: transparency is not allowed for this attribute
+2025-07-29 15:47:30,016 - ERROR - Error applying colors to CTkFrame: transparency is not allowed for this attribute
+2025-07-29 15:47:30,017 - ERROR - Error applying colors to CTkFrame: transparency is not allowed for this attribute
+2025-07-29 15:47:30,018 - ERROR - Error applying colors to CTkFrame: transparency is not allowed for this attribute
+2025-07-29 15:47:30,020 - ERROR - Error applying colors to CTkFrame: transparency is not allowed for this attribute
+2025-07-29 15:47:30,021 - ERROR - Error applying colors to CTkFrame: transparency is not allowed for this attribute
+2025-07-29 15:47:30,022 - ERROR - Error applying colors to CTkFrame: transparency is not allowed for this attribute
+2025-07-29 15:47:30,024 - ERROR - Error applying colors to CTkFrame: transparency is not allowed for this attribute
+2025-07-29 15:47:30,025 - ERROR - Error applying colors to CTkFrame: transparency is not allowed for this attribute
+2025-07-29 15:47:30,026 - ERROR - Error applying colors to CTkFrame: transparency is not allowed for this attribute
+2025-07-29 15:47:30,028 - ERROR - Error applying colors to CTkFrame: transparency is not allowed for this attribute
+2025-07-29 15:47:30,029 - ERROR - Error applying colors to CTkFrame: transparency is not allowed for this attribute
+2025-07-29 15:47:30,030 - ERROR - Error applying colors to CTkFrame: transparency is not allowed for this attribute
+2025-07-29 15:47:30,031 - ERROR - Error applying colors to CTkFrame: transparency is not allowed for this attribute
+2025-07-29 15:47:30,032 - ERROR - Error applying colors to CTkFrame: transparency is not allowed for this attribute
+2025-07-29 15:47:30,034 - ERROR - Error applying colors to CTkFrame: transparency is not allowed for this attribute
+2025-07-29 15:47:30,035 - ERROR - Error applying colors to CTkFrame: transparency is not allowed for this attribute
+2025-07-29 15:47:30,037 - ERROR - Error applying colors to CTkFrame: transparency is not allowed for this attribute
+2025-07-29 15:47:30,040 - ERROR - Error applying colors to CTkFrame: transparency is not allowed for this attribute
+2025-07-29 15:47:30,040 - ERROR - Error applying colors to CTkFrame: transparency is not allowed for this attribute
+2025-07-29 15:47:30,040 - ERROR - Error applying colors to CTkFrame: transparency is not allowed for this attribute
+2025-07-29 15:47:30,080 - ERROR - Error applying colors to CTkFrame: transparency is not allowed for this attribute
+2025-07-29 15:47:30,088 - ERROR - Error applying colors to CTkScrollableFrame: transparency is not allowed for this attribute
+2025-07-29 15:47:30,089 - ERROR - Error applying colors to CTkFrame: transparency is not allowed for this attribute
+2025-07-29 15:47:30,089 - ERROR - Error applying colors to CTkRadioButton: ['border_width'] are not supported arguments. Look at the documentation for supported arguments.
+2025-07-29 15:47:30,089 - ERROR - Error applying colors to CTkFrame: transparency is not allowed for this attribute
+2025-07-29 15:47:30,089 - ERROR - Error applying colors to CTkRadioButton: ['border_width'] are not supported arguments. Look at the documentation for supported arguments.
+2025-07-29 15:47:30,090 - ERROR - Error applying colors to CTkFrame: transparency is not allowed for this attribute
+2025-07-29 15:47:30,090 - ERROR - Error applying colors to CTkRadioButton: ['border_width'] are not supported arguments. Look at the documentation for supported arguments.
+2025-07-29 15:47:30,090 - ERROR - Error applying colors to CTkFrame: transparency is not allowed for this attribute
+2025-07-29 15:47:30,090 - ERROR - Error applying colors to CTkRadioButton: ['border_width'] are not supported arguments. Look at the documentation for supported arguments.
+2025-07-29 15:47:30,091 - ERROR - Error applying colors to CTkFrame: transparency is not allowed for this attribute
+2025-07-29 15:47:30,091 - ERROR - Error applying colors to CTkRadioButton: ['border_width'] are not supported arguments. Look at the documentation for supported arguments.
+2025-07-29 15:47:30,091 - ERROR - Error applying colors to CTkFrame: transparency is not allowed for this attribute
+2025-07-29 15:47:30,091 - ERROR - Error applying colors to CTkRadioButton: ['border_width'] are not supported arguments. Look at the documentation for supported arguments.
+2025-07-29 15:47:30,092 - ERROR - Error applying colors to CTkFrame: transparency is not allowed for this attribute
+2025-07-29 15:47:30,092 - ERROR - Error applying colors to CTkRadioButton: ['border_width'] are not supported arguments. Look at the documentation for supported arguments.
+2025-07-29 15:47:30,092 - ERROR - Error applying colors to CTkFrame: transparency is not allowed for this attribute
+2025-07-29 15:47:30,092 - ERROR - Error applying colors to CTkRadioButton: ['border_width'] are not supported arguments. Look at the documentation for supported arguments.
+2025-07-29 15:47:30,092 - ERROR - Error applying colors to CTkFrame: transparency is not allowed for this attribute
+2025-07-29 15:47:30,092 - ERROR - Error applying colors to CTkRadioButton: ['border_width'] are not supported arguments. Look at the documentation for supported arguments.
+2025-07-29 15:47:30,093 - ERROR - Error applying colors to CTkFrame: transparency is not allowed for this attribute
+2025-07-29 15:47:30,093 - ERROR - Error applying colors to CTkRadioButton: ['border_width'] are not supported arguments. Look at the documentation for supported arguments.
+2025-07-29 15:47:30,093 - ERROR - Error applying colors to CTkFrame: transparency is not allowed for this attribute
+2025-07-29 15:47:30,093 - ERROR - Error applying colors to CTkRadioButton: ['border_width'] are not supported arguments. Look at the documentation for supported arguments.
+2025-07-29 15:47:30,094 - ERROR - Error applying colors to CTkFrame: transparency is not allowed for this attribute
+2025-07-29 15:47:30,094 - ERROR - Error applying colors to CTkRadioButton: ['border_width'] are not supported arguments. Look at the documentation for supported arguments.
+2025-07-29 15:47:30,095 - ERROR - Error applying colors to CTkFrame: transparency is not allowed for this attribute
+2025-07-29 15:47:30,095 - ERROR - Error applying colors to CTkRadioButton: ['border_width'] are not supported arguments. Look at the documentation for supported arguments.
+2025-07-29 15:47:30,095 - ERROR - Error applying colors to CTkFrame: transparency is not allowed for this attribute
+2025-07-29 15:47:30,095 - ERROR - Error applying colors to CTkRadioButton: ['border_width'] are not supported arguments. Look at the documentation for supported arguments.
+2025-07-29 15:47:30,096 - ERROR - Error applying colors to CTkFrame: transparency is not allowed for this attribute
+2025-07-29 15:47:30,096 - ERROR - Error applying colors to CTkRadioButton: ['border_width'] are not supported arguments. Look at the documentation for supported arguments.
+2025-07-29 15:47:30,096 - ERROR - Error applying colors to CTkFrame: transparency is not allowed for this attribute
+2025-07-29 15:47:30,096 - ERROR - Error applying colors to CTkRadioButton: ['border_width'] are not supported arguments. Look at the documentation for supported arguments.
+2025-07-29 15:47:30,096 - ERROR - Error applying colors to CTkFrame: transparency is not allowed for this attribute
+2025-07-29 15:47:30,097 - ERROR - Error applying colors to CTkRadioButton: ['border_width'] are not supported arguments. Look at the documentation for supported arguments.
+2025-07-29 15:47:30,097 - ERROR - Error applying colors to CTkFrame: transparency is not allowed for this attribute
+2025-07-29 15:47:30,097 - ERROR - Error applying colors to CTkRadioButton: ['border_width'] are not supported arguments. Look at the documentation for supported arguments.
+2025-07-29 15:47:30,098 - ERROR - Error applying colors to CTkFrame: transparency is not allowed for this attribute
+2025-07-29 15:47:30,103 - INFO - Applied theme: night-blue
+2025-07-29 15:47:30,111 - INFO - Theme preview: night-blue
+2025-07-29 15:47:31,016 - INFO - Theme configuration saved to config/theme.json
+2025-07-29 15:47:31,018 - ERROR - Error applying colors to CTkFrame: transparency is not allowed for this attribute
+2025-07-29 15:47:31,020 - ERROR - Error applying colors to CTkFrame: transparency is not allowed for this attribute
+2025-07-29 15:47:31,022 - ERROR - Error applying colors to CTkFrame: transparency is not allowed for this attribute
+2025-07-29 15:47:31,022 - ERROR - Error applying colors to CTkFrame: transparency is not allowed for this attribute
+2025-07-29 15:47:31,043 - ERROR - Error applying colors to CTkFrame: transparency is not allowed for this attribute
+2025-07-29 15:47:31,049 - ERROR - Error applying colors to CTkScrollableFrame: transparency is not allowed for this attribute
+2025-07-29 15:47:31,054 - ERROR - Error applying colors to CTkFrame: transparency is not allowed for this attribute
+2025-07-29 15:47:31,054 - ERROR - Error applying colors to CTkFrame: transparency is not allowed for this attribute
+2025-07-29 15:47:31,062 - ERROR - Error applying colors to CTkFrame: transparency is not allowed for this attribute
+2025-07-29 15:47:31,070 - ERROR - Error applying colors to CTkScrollableFrame: transparency is not allowed for this attribute
+2025-07-29 15:47:31,070 - ERROR - Error applying colors to CTkFrame: transparency is not allowed for this attribute
+2025-07-29 15:47:31,072 - ERROR - Error applying colors to CTkFrame: transparency is not allowed for this attribute
+2025-07-29 15:47:31,073 - ERROR - Error applying colors to CTkFrame: transparency is not allowed for this attribute
+2025-07-29 15:47:31,074 - ERROR - Error applying colors to CTkFrame: transparency is not allowed for this attribute
+2025-07-29 15:47:31,075 - ERROR - Error applying colors to CTkFrame: transparency is not allowed for this attribute
+2025-07-29 15:47:31,077 - ERROR - Error applying colors to CTkFrame: transparency is not allowed for this attribute
+2025-07-29 15:47:31,078 - ERROR - Error applying colors to CTkFrame: transparency is not allowed for this attribute
+2025-07-29 15:47:31,080 - ERROR - Error applying colors to CTkFrame: transparency is not allowed for this attribute
+2025-07-29 15:47:31,081 - ERROR - Error applying colors to CTkFrame: transparency is not allowed for this attribute
+2025-07-29 15:47:31,082 - ERROR - Error applying colors to CTkFrame: transparency is not allowed for this attribute
+2025-07-29 15:47:31,083 - ERROR - Error applying colors to CTkFrame: transparency is not allowed for this attribute
+2025-07-29 15:47:31,085 - ERROR - Error applying colors to CTkFrame: transparency is not allowed for this attribute
+2025-07-29 15:47:31,086 - ERROR - Error applying colors to CTkFrame: transparency is not allowed for this attribute
+2025-07-29 15:47:31,087 - ERROR - Error applying colors to CTkFrame: transparency is not allowed for this attribute
+2025-07-29 15:47:31,089 - ERROR - Error applying colors to CTkFrame: transparency is not allowed for this attribute
+2025-07-29 15:47:31,090 - ERROR - Error applying colors to CTkFrame: transparency is not allowed for this attribute
+2025-07-29 15:47:31,091 - ERROR - Error applying colors to CTkFrame: transparency is not allowed for this attribute
+2025-07-29 15:47:31,093 - ERROR - Error applying colors to CTkFrame: transparency is not allowed for this attribute
+2025-07-29 15:47:31,094 - ERROR - Error applying colors to CTkFrame: transparency is not allowed for this attribute
+2025-07-29 15:47:31,095 - ERROR - Error applying colors to CTkFrame: transparency is not allowed for this attribute
+2025-07-29 15:47:31,097 - ERROR - Error applying colors to CTkFrame: transparency is not allowed for this attribute
+2025-07-29 15:47:31,098 - ERROR - Error applying colors to CTkFrame: transparency is not allowed for this attribute
+2025-07-29 15:47:31,098 - ERROR - Error applying colors to CTkFrame: transparency is not allowed for this attribute
+2025-07-29 15:47:31,099 - ERROR - Error applying colors to CTkFrame: transparency is not allowed for this attribute
+2025-07-29 15:47:31,139 - ERROR - Error applying colors to CTkFrame: transparency is not allowed for this attribute
+2025-07-29 15:47:31,146 - ERROR - Error applying colors to CTkScrollableFrame: transparency is not allowed for this attribute
+2025-07-29 15:47:31,147 - ERROR - Error applying colors to CTkFrame: transparency is not allowed for this attribute
+2025-07-29 15:47:31,147 - ERROR - Error applying colors to CTkRadioButton: ['border_width'] are not supported arguments. Look at the documentation for supported arguments.
+2025-07-29 15:47:31,147 - ERROR - Error applying colors to CTkFrame: transparency is not allowed for this attribute
+2025-07-29 15:47:31,147 - ERROR - Error applying colors to CTkRadioButton: ['border_width'] are not supported arguments. Look at the documentation for supported arguments.
+2025-07-29 15:47:31,148 - ERROR - Error applying colors to CTkFrame: transparency is not allowed for this attribute
+2025-07-29 15:47:31,148 - ERROR - Error applying colors to CTkRadioButton: ['border_width'] are not supported arguments. Look at the documentation for supported arguments.
+2025-07-29 15:47:31,148 - ERROR - Error applying colors to CTkFrame: transparency is not allowed for this attribute
+2025-07-29 15:47:31,148 - ERROR - Error applying colors to CTkRadioButton: ['border_width'] are not supported arguments. Look at the documentation for supported arguments.
+2025-07-29 15:47:31,149 - ERROR - Error applying colors to CTkFrame: transparency is not allowed for this attribute
+2025-07-29 15:47:31,149 - ERROR - Error applying colors to CTkRadioButton: ['border_width'] are not supported arguments. Look at the documentation for supported arguments.
+2025-07-29 15:47:31,149 - ERROR - Error applying colors to CTkFrame: transparency is not allowed for this attribute
+2025-07-29 15:47:31,149 - ERROR - Error applying colors to CTkRadioButton: ['border_width'] are not supported arguments. Look at the documentation for supported arguments.
+2025-07-29 15:47:31,150 - ERROR - Error applying colors to CTkFrame: transparency is not allowed for this attribute
+2025-07-29 15:47:31,150 - ERROR - Error applying colors to CTkRadioButton: ['border_width'] are not supported arguments. Look at the documentation for supported arguments.
+2025-07-29 15:47:31,150 - ERROR - Error applying colors to CTkFrame: transparency is not allowed for this attribute
+2025-07-29 15:47:31,150 - ERROR - Error applying colors to CTkRadioButton: ['border_width'] are not supported arguments. Look at the documentation for supported arguments.
+2025-07-29 15:47:31,151 - ERROR - Error applying colors to CTkFrame: transparency is not allowed for this attribute
+2025-07-29 15:47:31,151 - ERROR - Error applying colors to CTkRadioButton: ['border_width'] are not supported arguments. Look at the documentation for supported arguments.
+2025-07-29 15:47:31,151 - ERROR - Error applying colors to CTkFrame: transparency is not allowed for this attribute
+2025-07-29 15:47:31,151 - ERROR - Error applying colors to CTkRadioButton: ['border_width'] are not supported arguments. Look at the documentation for supported arguments.
+2025-07-29 15:47:31,151 - ERROR - Error applying colors to CTkFrame: transparency is not allowed for this attribute
+2025-07-29 15:47:31,151 - ERROR - Error applying colors to CTkRadioButton: ['border_width'] are not supported arguments. Look at the documentation for supported arguments.
+2025-07-29 15:47:31,152 - ERROR - Error applying colors to CTkFrame: transparency is not allowed for this attribute
+2025-07-29 15:47:31,152 - ERROR - Error applying colors to CTkRadioButton: ['border_width'] are not supported arguments. Look at the documentation for supported arguments.
+2025-07-29 15:47:31,152 - ERROR - Error applying colors to CTkFrame: transparency is not allowed for this attribute
+2025-07-29 15:47:31,152 - ERROR - Error applying colors to CTkRadioButton: ['border_width'] are not supported arguments. Look at the documentation for supported arguments.
+2025-07-29 15:47:31,153 - ERROR - Error applying colors to CTkFrame: transparency is not allowed for this attribute
+2025-07-29 15:47:31,153 - ERROR - Error applying colors to CTkRadioButton: ['border_width'] are not supported arguments. Look at the documentation for supported arguments.
+2025-07-29 15:47:31,153 - ERROR - Error applying colors to CTkFrame: transparency is not allowed for this attribute
+2025-07-29 15:47:31,153 - ERROR - Error applying colors to CTkRadioButton: ['border_width'] are not supported arguments. Look at the documentation for supported arguments.
+2025-07-29 15:47:31,154 - ERROR - Error applying colors to CTkFrame: transparency is not allowed for this attribute
+2025-07-29 15:47:31,154 - ERROR - Error applying colors to CTkRadioButton: ['border_width'] are not supported arguments. Look at the documentation for supported arguments.
+2025-07-29 15:47:31,155 - ERROR - Error applying colors to CTkFrame: transparency is not allowed for this attribute
+2025-07-29 15:47:31,155 - ERROR - Error applying colors to CTkRadioButton: ['border_width'] are not supported arguments. Look at the documentation for supported arguments.
+2025-07-29 15:47:31,155 - ERROR - Error applying colors to CTkFrame: transparency is not allowed for this attribute
+2025-07-29 15:47:31,155 - ERROR - Error applying colors to CTkRadioButton: ['border_width'] are not supported arguments. Look at the documentation for supported arguments.
+2025-07-29 15:47:31,156 - ERROR - Error applying colors to CTkFrame: transparency is not allowed for this attribute
+2025-07-29 15:47:31,158 - INFO - Applied theme: cyber-punk
+2025-07-29 15:47:31,166 - INFO - Theme preview: cyber-punk
+2025-07-29 15:47:31,968 - INFO - Theme configuration saved to config/theme.json
+2025-07-29 15:47:31,970 - ERROR - Error applying colors to CTkFrame: transparency is not allowed for this attribute
+2025-07-29 15:47:31,972 - ERROR - Error applying colors to CTkFrame: transparency is not allowed for this attribute
+2025-07-29 15:47:31,974 - ERROR - Error applying colors to CTkFrame: transparency is not allowed for this attribute
+2025-07-29 15:47:31,974 - ERROR - Error applying colors to CTkFrame: transparency is not allowed for this attribute
+2025-07-29 15:47:32,000 - ERROR - Error applying colors to CTkFrame: transparency is not allowed for this attribute
+2025-07-29 15:47:32,005 - ERROR - Error applying colors to CTkScrollableFrame: transparency is not allowed for this attribute
+2025-07-29 15:47:32,011 - ERROR - Error applying colors to CTkFrame: transparency is not allowed for this attribute
+2025-07-29 15:47:32,011 - ERROR - Error applying colors to CTkFrame: transparency is not allowed for this attribute
+2025-07-29 15:47:32,021 - ERROR - Error applying colors to CTkFrame: transparency is not allowed for this attribute
+2025-07-29 15:47:32,029 - ERROR - Error applying colors to CTkScrollableFrame: transparency is not allowed for this attribute
+2025-07-29 15:47:32,029 - ERROR - Error applying colors to CTkFrame: transparency is not allowed for this attribute
+2025-07-29 15:47:32,031 - ERROR - Error applying colors to CTkFrame: transparency is not allowed for this attribute
+2025-07-29 15:47:32,032 - ERROR - Error applying colors to CTkFrame: transparency is not allowed for this attribute
+2025-07-29 15:47:32,033 - ERROR - Error applying colors to CTkFrame: transparency is not allowed for this attribute
+2025-07-29 15:47:32,035 - ERROR - Error applying colors to CTkFrame: transparency is not allowed for this attribute
+2025-07-29 15:47:32,036 - ERROR - Error applying colors to CTkFrame: transparency is not allowed for this attribute
+2025-07-29 15:47:32,037 - ERROR - Error applying colors to CTkFrame: transparency is not allowed for this attribute
+2025-07-29 15:47:32,038 - ERROR - Error applying colors to CTkFrame: transparency is not allowed for this attribute
+2025-07-29 15:47:32,040 - ERROR - Error applying colors to CTkFrame: transparency is not allowed for this attribute
+2025-07-29 15:47:32,041 - ERROR - Error applying colors to CTkFrame: transparency is not allowed for this attribute
+2025-07-29 15:47:32,043 - ERROR - Error applying colors to CTkFrame: transparency is not allowed for this attribute
+2025-07-29 15:47:32,044 - ERROR - Error applying colors to CTkFrame: transparency is not allowed for this attribute
+2025-07-29 15:47:32,045 - ERROR - Error applying colors to CTkFrame: transparency is not allowed for this attribute
+2025-07-29 15:47:32,046 - ERROR - Error applying colors to CTkFrame: transparency is not allowed for this attribute
+2025-07-29 15:47:32,048 - ERROR - Error applying colors to CTkFrame: transparency is not allowed for this attribute
+2025-07-29 15:47:32,049 - ERROR - Error applying colors to CTkFrame: transparency is not allowed for this attribute
+2025-07-29 15:47:32,051 - ERROR - Error applying colors to CTkFrame: transparency is not allowed for this attribute
+2025-07-29 15:47:32,052 - ERROR - Error applying colors to CTkFrame: transparency is not allowed for this attribute
+2025-07-29 15:47:32,054 - ERROR - Error applying colors to CTkFrame: transparency is not allowed for this attribute
+2025-07-29 15:47:32,055 - ERROR - Error applying colors to CTkFrame: transparency is not allowed for this attribute
+2025-07-29 15:47:32,056 - ERROR - Error applying colors to CTkFrame: transparency is not allowed for this attribute
+2025-07-29 15:47:32,058 - ERROR - Error applying colors to CTkFrame: transparency is not allowed for this attribute
+2025-07-29 15:47:32,058 - ERROR - Error applying colors to CTkFrame: transparency is not allowed for this attribute
+2025-07-29 15:47:32,058 - ERROR - Error applying colors to CTkFrame: transparency is not allowed for this attribute
+2025-07-29 15:47:32,097 - ERROR - Error applying colors to CTkFrame: transparency is not allowed for this attribute
+2025-07-29 15:47:32,104 - ERROR - Error applying colors to CTkScrollableFrame: transparency is not allowed for this attribute
+2025-07-29 15:47:32,105 - ERROR - Error applying colors to CTkFrame: transparency is not allowed for this attribute
+2025-07-29 15:47:32,105 - ERROR - Error applying colors to CTkRadioButton: ['border_width'] are not supported arguments. Look at the documentation for supported arguments.
+2025-07-29 15:47:32,105 - ERROR - Error applying colors to CTkFrame: transparency is not allowed for this attribute
+2025-07-29 15:47:32,105 - ERROR - Error applying colors to CTkRadioButton: ['border_width'] are not supported arguments. Look at the documentation for supported arguments.
+2025-07-29 15:47:32,106 - ERROR - Error applying colors to CTkFrame: transparency is not allowed for this attribute
+2025-07-29 15:47:32,106 - ERROR - Error applying colors to CTkRadioButton: ['border_width'] are not supported arguments. Look at the documentation for supported arguments.
+2025-07-29 15:47:32,106 - ERROR - Error applying colors to CTkFrame: transparency is not allowed for this attribute
+2025-07-29 15:47:32,106 - ERROR - Error applying colors to CTkRadioButton: ['border_width'] are not supported arguments. Look at the documentation for supported arguments.
+2025-07-29 15:47:32,107 - ERROR - Error applying colors to CTkFrame: transparency is not allowed for this attribute
+2025-07-29 15:47:32,107 - ERROR - Error applying colors to CTkRadioButton: ['border_width'] are not supported arguments. Look at the documentation for supported arguments.
+2025-07-29 15:47:32,107 - ERROR - Error applying colors to CTkFrame: transparency is not allowed for this attribute
+2025-07-29 15:47:32,107 - ERROR - Error applying colors to CTkRadioButton: ['border_width'] are not supported arguments. Look at the documentation for supported arguments.
+2025-07-29 15:47:32,108 - ERROR - Error applying colors to CTkFrame: transparency is not allowed for this attribute
+2025-07-29 15:47:32,108 - ERROR - Error applying colors to CTkRadioButton: ['border_width'] are not supported arguments. Look at the documentation for supported arguments.
+2025-07-29 15:47:32,108 - ERROR - Error applying colors to CTkFrame: transparency is not allowed for this attribute
+2025-07-29 15:47:32,108 - ERROR - Error applying colors to CTkRadioButton: ['border_width'] are not supported arguments. Look at the documentation for supported arguments.
+2025-07-29 15:47:32,109 - ERROR - Error applying colors to CTkFrame: transparency is not allowed for this attribute
+2025-07-29 15:47:32,109 - ERROR - Error applying colors to CTkRadioButton: ['border_width'] are not supported arguments. Look at the documentation for supported arguments.
+2025-07-29 15:47:32,109 - ERROR - Error applying colors to CTkFrame: transparency is not allowed for this attribute
+2025-07-29 15:47:32,109 - ERROR - Error applying colors to CTkRadioButton: ['border_width'] are not supported arguments. Look at the documentation for supported arguments.
+2025-07-29 15:47:32,109 - ERROR - Error applying colors to CTkFrame: transparency is not allowed for this attribute
+2025-07-29 15:47:32,109 - ERROR - Error applying colors to CTkRadioButton: ['border_width'] are not supported arguments. Look at the documentation for supported arguments.
+2025-07-29 15:47:32,110 - ERROR - Error applying colors to CTkFrame: transparency is not allowed for this attribute
+2025-07-29 15:47:32,110 - ERROR - Error applying colors to CTkRadioButton: ['border_width'] are not supported arguments. Look at the documentation for supported arguments.
+2025-07-29 15:47:32,110 - ERROR - Error applying colors to CTkFrame: transparency is not allowed for this attribute
+2025-07-29 15:47:32,110 - ERROR - Error applying colors to CTkRadioButton: ['border_width'] are not supported arguments. Look at the documentation for supported arguments.
+2025-07-29 15:47:32,111 - ERROR - Error applying colors to CTkFrame: transparency is not allowed for this attribute
+2025-07-29 15:47:32,111 - ERROR - Error applying colors to CTkRadioButton: ['border_width'] are not supported arguments. Look at the documentation for supported arguments.
+2025-07-29 15:47:32,111 - ERROR - Error applying colors to CTkFrame: transparency is not allowed for this attribute
+2025-07-29 15:47:32,111 - ERROR - Error applying colors to CTkRadioButton: ['border_width'] are not supported arguments. Look at the documentation for supported arguments.
+2025-07-29 15:47:32,112 - ERROR - Error applying colors to CTkFrame: transparency is not allowed for this attribute
+2025-07-29 15:47:32,112 - ERROR - Error applying colors to CTkRadioButton: ['border_width'] are not supported arguments. Look at the documentation for supported arguments.
+2025-07-29 15:47:32,112 - ERROR - Error applying colors to CTkFrame: transparency is not allowed for this attribute
+2025-07-29 15:47:32,112 - ERROR - Error applying colors to CTkRadioButton: ['border_width'] are not supported arguments. Look at the documentation for supported arguments.
+2025-07-29 15:47:32,113 - ERROR - Error applying colors to CTkFrame: transparency is not allowed for this attribute
+2025-07-29 15:47:32,113 - ERROR - Error applying colors to CTkRadioButton: ['border_width'] are not supported arguments. Look at the documentation for supported arguments.
+2025-07-29 15:47:32,114 - ERROR - Error applying colors to CTkFrame: transparency is not allowed for this attribute
+2025-07-29 15:47:32,115 - INFO - Applied theme: forest
+2025-07-29 15:47:32,123 - INFO - Theme preview: forest
+2025-07-29 15:47:33,336 - INFO - Theme configuration saved to config/theme.json
+2025-07-29 15:47:33,338 - ERROR - Error applying colors to CTkFrame: transparency is not allowed for this attribute
+2025-07-29 15:47:33,339 - ERROR - Error applying colors to CTkFrame: transparency is not allowed for this attribute
+2025-07-29 15:47:33,342 - ERROR - Error applying colors to CTkFrame: transparency is not allowed for this attribute
+2025-07-29 15:47:33,342 - ERROR - Error applying colors to CTkFrame: transparency is not allowed for this attribute
+2025-07-29 15:47:33,367 - ERROR - Error applying colors to CTkFrame: transparency is not allowed for this attribute
+2025-07-29 15:47:33,373 - ERROR - Error applying colors to CTkScrollableFrame: transparency is not allowed for this attribute
+2025-07-29 15:47:33,379 - ERROR - Error applying colors to CTkFrame: transparency is not allowed for this attribute
+2025-07-29 15:47:33,380 - ERROR - Error applying colors to CTkFrame: transparency is not allowed for this attribute
+2025-07-29 15:47:33,389 - ERROR - Error applying colors to CTkFrame: transparency is not allowed for this attribute
+2025-07-29 15:47:33,396 - ERROR - Error applying colors to CTkScrollableFrame: transparency is not allowed for this attribute
+2025-07-29 15:47:33,397 - ERROR - Error applying colors to CTkFrame: transparency is not allowed for this attribute
+2025-07-29 15:47:33,399 - ERROR - Error applying colors to CTkFrame: transparency is not allowed for this attribute
+2025-07-29 15:47:33,400 - ERROR - Error applying colors to CTkFrame: transparency is not allowed for this attribute
+2025-07-29 15:47:33,402 - ERROR - Error applying colors to CTkFrame: transparency is not allowed for this attribute
+2025-07-29 15:47:33,403 - ERROR - Error applying colors to CTkFrame: transparency is not allowed for this attribute
+2025-07-29 15:47:33,404 - ERROR - Error applying colors to CTkFrame: transparency is not allowed for this attribute
+2025-07-29 15:47:33,406 - ERROR - Error applying colors to CTkFrame: transparency is not allowed for this attribute
+2025-07-29 15:47:33,407 - ERROR - Error applying colors to CTkFrame: transparency is not allowed for this attribute
+2025-07-29 15:47:33,408 - ERROR - Error applying colors to CTkFrame: transparency is not allowed for this attribute
+2025-07-29 15:47:33,410 - ERROR - Error applying colors to CTkFrame: transparency is not allowed for this attribute
+2025-07-29 15:47:33,411 - ERROR - Error applying colors to CTkFrame: transparency is not allowed for this attribute
+2025-07-29 15:47:33,412 - ERROR - Error applying colors to CTkFrame: transparency is not allowed for this attribute
+2025-07-29 15:47:33,414 - ERROR - Error applying colors to CTkFrame: transparency is not allowed for this attribute
+2025-07-29 15:47:33,415 - ERROR - Error applying colors to CTkFrame: transparency is not allowed for this attribute
+2025-07-29 15:47:33,416 - ERROR - Error applying colors to CTkFrame: transparency is not allowed for this attribute
+2025-07-29 15:47:33,418 - ERROR - Error applying colors to CTkFrame: transparency is not allowed for this attribute
+2025-07-29 15:47:33,419 - ERROR - Error applying colors to CTkFrame: transparency is not allowed for this attribute
+2025-07-29 15:47:33,420 - ERROR - Error applying colors to CTkFrame: transparency is not allowed for this attribute
+2025-07-29 15:47:33,421 - ERROR - Error applying colors to CTkFrame: transparency is not allowed for this attribute
+2025-07-29 15:47:33,423 - ERROR - Error applying colors to CTkFrame: transparency is not allowed for this attribute
+2025-07-29 15:47:33,424 - ERROR - Error applying colors to CTkFrame: transparency is not allowed for this attribute
+2025-07-29 15:47:33,425 - ERROR - Error applying colors to CTkFrame: transparency is not allowed for this attribute
+2025-07-29 15:47:33,426 - ERROR - Error applying colors to CTkFrame: transparency is not allowed for this attribute
+2025-07-29 15:47:33,426 - ERROR - Error applying colors to CTkFrame: transparency is not allowed for this attribute
+2025-07-29 15:47:33,467 - ERROR - Error applying colors to CTkFrame: transparency is not allowed for this attribute
+2025-07-29 15:47:33,475 - ERROR - Error applying colors to CTkScrollableFrame: transparency is not allowed for this attribute
+2025-07-29 15:47:33,476 - ERROR - Error applying colors to CTkFrame: transparency is not allowed for this attribute
+2025-07-29 15:47:33,476 - ERROR - Error applying colors to CTkRadioButton: ['border_width'] are not supported arguments. Look at the documentation for supported arguments.
+2025-07-29 15:47:33,476 - ERROR - Error applying colors to CTkFrame: transparency is not allowed for this attribute
+2025-07-29 15:47:33,477 - ERROR - Error applying colors to CTkRadioButton: ['border_width'] are not supported arguments. Look at the documentation for supported arguments.
+2025-07-29 15:47:33,477 - ERROR - Error applying colors to CTkFrame: transparency is not allowed for this attribute
+2025-07-29 15:47:33,477 - ERROR - Error applying colors to CTkRadioButton: ['border_width'] are not supported arguments. Look at the documentation for supported arguments.
+2025-07-29 15:47:33,477 - ERROR - Error applying colors to CTkFrame: transparency is not allowed for this attribute
+2025-07-29 15:47:33,478 - ERROR - Error applying colors to CTkRadioButton: ['border_width'] are not supported arguments. Look at the documentation for supported arguments.
+2025-07-29 15:47:33,478 - ERROR - Error applying colors to CTkFrame: transparency is not allowed for this attribute
+2025-07-29 15:47:33,478 - ERROR - Error applying colors to CTkRadioButton: ['border_width'] are not supported arguments. Look at the documentation for supported arguments.
+2025-07-29 15:47:33,479 - ERROR - Error applying colors to CTkFrame: transparency is not allowed for this attribute
+2025-07-29 15:47:33,479 - ERROR - Error applying colors to CTkRadioButton: ['border_width'] are not supported arguments. Look at the documentation for supported arguments.
+2025-07-29 15:47:33,479 - ERROR - Error applying colors to CTkFrame: transparency is not allowed for this attribute
+2025-07-29 15:47:33,479 - ERROR - Error applying colors to CTkRadioButton: ['border_width'] are not supported arguments. Look at the documentation for supported arguments.
+2025-07-29 15:47:33,480 - ERROR - Error applying colors to CTkFrame: transparency is not allowed for this attribute
+2025-07-29 15:47:33,480 - ERROR - Error applying colors to CTkRadioButton: ['border_width'] are not supported arguments. Look at the documentation for supported arguments.
+2025-07-29 15:47:33,480 - ERROR - Error applying colors to CTkFrame: transparency is not allowed for this attribute
+2025-07-29 15:47:33,480 - ERROR - Error applying colors to CTkRadioButton: ['border_width'] are not supported arguments. Look at the documentation for supported arguments.
+2025-07-29 15:47:33,481 - ERROR - Error applying colors to CTkFrame: transparency is not allowed for this attribute
+2025-07-29 15:47:33,481 - ERROR - Error applying colors to CTkRadioButton: ['border_width'] are not supported arguments. Look at the documentation for supported arguments.
+2025-07-29 15:47:33,481 - ERROR - Error applying colors to CTkFrame: transparency is not allowed for this attribute
+2025-07-29 15:47:33,481 - ERROR - Error applying colors to CTkRadioButton: ['border_width'] are not supported arguments. Look at the documentation for supported arguments.
+2025-07-29 15:47:33,482 - ERROR - Error applying colors to CTkFrame: transparency is not allowed for this attribute
+2025-07-29 15:47:33,482 - ERROR - Error applying colors to CTkRadioButton: ['border_width'] are not supported arguments. Look at the documentation for supported arguments.
+2025-07-29 15:47:33,482 - ERROR - Error applying colors to CTkFrame: transparency is not allowed for this attribute
+2025-07-29 15:47:33,482 - ERROR - Error applying colors to CTkRadioButton: ['border_width'] are not supported arguments. Look at the documentation for supported arguments.
+2025-07-29 15:47:33,483 - ERROR - Error applying colors to CTkFrame: transparency is not allowed for this attribute
+2025-07-29 15:47:33,483 - ERROR - Error applying colors to CTkRadioButton: ['border_width'] are not supported arguments. Look at the documentation for supported arguments.
+2025-07-29 15:47:33,483 - ERROR - Error applying colors to CTkFrame: transparency is not allowed for this attribute
+2025-07-29 15:47:33,483 - ERROR - Error applying colors to CTkRadioButton: ['border_width'] are not supported arguments. Look at the documentation for supported arguments.
+2025-07-29 15:47:33,483 - ERROR - Error applying colors to CTkFrame: transparency is not allowed for this attribute
+2025-07-29 15:47:33,484 - ERROR - Error applying colors to CTkRadioButton: ['border_width'] are not supported arguments. Look at the documentation for supported arguments.
+2025-07-29 15:47:33,484 - ERROR - Error applying colors to CTkFrame: transparency is not allowed for this attribute
+2025-07-29 15:47:33,484 - ERROR - Error applying colors to CTkRadioButton: ['border_width'] are not supported arguments. Look at the documentation for supported arguments.
+2025-07-29 15:47:33,484 - ERROR - Error applying colors to CTkFrame: transparency is not allowed for this attribute
+2025-07-29 15:47:33,484 - ERROR - Error applying colors to CTkRadioButton: ['border_width'] are not supported arguments. Look at the documentation for supported arguments.
+2025-07-29 15:47:33,486 - ERROR - Error applying colors to CTkFrame: transparency is not allowed for this attribute
+2025-07-29 15:47:33,487 - INFO - Applied theme: cyber-punk
+2025-07-29 15:47:33,495 - INFO - Theme preview: cyber-punk
+2025-07-29 15:47:35,148 - INFO - Theme applied: cyber-punk
+2025-07-29 15:47:35,271 - WARNING - Translation key not found: Development
+2025-07-29 15:47:35,272 - WARNING - Translation key not found: Development
+2025-07-29 15:47:35,273 - WARNING - Translation key not found: Development
+2025-07-29 15:47:35,273 - WARNING - Translation key not found: Development
+2025-07-29 15:47:35,274 - WARNING - Translation key not found: Development
+2025-07-29 15:47:35,274 - WARNING - Translation key not found: Development
+2025-07-29 15:47:35,275 - WARNING - Translation key not found: Development
+2025-07-29 15:47:35,275 - WARNING - Translation key not found: Development
+2025-07-29 15:47:35,276 - INFO - Theme applied successfully: cyber-punk (dark)
+2025-07-29 15:47:35,276 - INFO - Theme updated successfully
+2025-07-29 15:47:38,028 - INFO - Showing file menu
+2025-07-29 15:47:38,029 - INFO - Showing menu at position x=3485, y=76
+2025-07-29 15:47:38,031 - INFO - Showing file menu
+2025-07-29 15:47:38,032 - INFO - Showing menu at position x=3485, y=76
+2025-07-29 15:47:50,245 - WARNING - Translation key not found: Browsers
+2025-07-29 15:47:50,299 - INFO - Category displayed: Browsers
+2025-07-29 15:47:50,835 - WARNING - Translation key not found: Development
+2025-07-29 15:47:50,950 - INFO - Category displayed: Development

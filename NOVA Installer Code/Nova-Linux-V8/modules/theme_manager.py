@@ -299,7 +299,9 @@ class ThemeManager:
                 widget.configure(
                     fg_color=colors["button"],
                     hover_color=colors["button_hover"],
-                    text_color=colors["text"]
+                    text_color=colors["text"],
+                    border_width=1,
+                    border_color=colors["button_hover"]
                 )
 
             elif isinstance(widget, ctk.CTkLabel):
@@ -311,22 +313,60 @@ class ThemeManager:
             elif isinstance(widget, ctk.CTkFrame):
                 is_sidebar = any(x in str(widget).lower()
                                for x in ["sidebar", "side_panel", "leftpanel"])
-                widget.configure(
-                    fg_color=colors["sidebar"] if is_sidebar else colors["bg"]
-                )
+                is_app_item = "app_item" in str(widget).lower() or "application_frame" in str(widget).lower()
+
+                if is_app_item:
+                    # Special handling for application presentation frames
+                    widget.configure(
+                        fg_color=colors["sidebar"],  # Use sidebar color for better contrast
+                        border_width=1,
+                        border_color=colors["button"]
+                    )
+                else:
+                    widget.configure(
+                        fg_color=colors["sidebar"] if is_sidebar else colors["bg"],
+                        border_width=1 if is_sidebar else 0,
+                        border_color=colors["button"] if is_sidebar else "transparent"
+                    )
 
             elif isinstance(widget, ctk.CTkScrollableFrame):
                 is_sidebar = any(x in str(widget).lower()
                                for x in ["sidebar", "side_panel", "leftpanel"])
+                is_content = "content_frame" in str(widget).lower()
+
                 widget.configure(
-                    fg_color=colors["sidebar"] if is_sidebar else colors["bg"]
+                    fg_color=colors["sidebar"] if (is_sidebar or is_content) else colors["bg"],
+                    border_width=1 if (is_sidebar or is_content) else 0,
+                    border_color=colors["button"] if (is_sidebar or is_content) else "transparent"
                 )
+
+                # Fix for application items in content frame
+                if is_content:
+                    for child in widget.winfo_children():
+                        if isinstance(child, (ctk.CTkFrame, ctk.CTkButton)):
+                            # Apply theme colors to all application items
+                            child.configure(
+                                fg_color=colors["sidebar"],
+                                border_width=1,
+                                border_color=colors["button"]
+                            )
+                            # Recursively update any nested frames (app descriptions, etc.)
+                            if hasattr(child, 'winfo_children'):
+                                for grandchild in child.winfo_children():
+                                    if isinstance(grandchild, (ctk.CTkFrame, ctk.CTkButton)):
+                                        grandchild.configure(
+                                            fg_color=colors["sidebar"],
+                                            border_width=1,
+                                            border_color=colors["button"]
+                                        )
 
             elif isinstance(widget, (ctk.CTkRadioButton, ctk.CTkCheckBox)):
                 widget.configure(
                     fg_color=colors["button"],
                     text_color=colors["text"],
-                    hover_color=colors["button_hover"]
+                    hover_color=colors["button_hover"],
+                    border_color=colors["text"],
+                    border_width=2
                 )
 
             elif isinstance(widget, ctk.CTkOptionMenu):
@@ -334,7 +374,9 @@ class ThemeManager:
                     fg_color=colors["button"],
                     text_color=colors["text"],
                     button_color=colors["button_hover"],
-                    button_hover_color=colors["button"]
+                    button_hover_color=colors["button"],
+                    border_width=1,
+                    border_color=colors["button_hover"]
                 )
 
         except Exception as e:
