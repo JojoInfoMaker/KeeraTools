@@ -1,0 +1,181 @@
+{
+    "last_update": "2025-08-16T23:19:05.687534",
+    "apps": [
+        {
+            "name": "Brave",
+            "category": "Flatpak",
+            "description": "Flatpak application: Brave",
+            "command": "com.brave.Browser",
+            "package_manager": "flatpak",
+            "package_name": "com.brave.Browser"
+        },
+        {
+            "name": "Protontricks",
+            "category": "Flatpak",
+            "description": "Flatpak application: Protontricks",
+            "command": "com.github.Matoking.protontricks",
+            "package_manager": "flatpak",
+            "package_name": "com.github.Matoking.protontricks"
+        },
+        {
+            "name": "T\u00e9l\u00e9chargeur de vid\u00e9os",
+            "category": "Flatpak",
+            "description": "Flatpak application: T\u00e9l\u00e9chargeur de vid\u00e9os",
+            "command": "com.github.unrud.VideoDownloader",
+            "package_manager": "flatpak",
+            "package_name": "com.github.unrud.VideoDownloader"
+        },
+        {
+            "name": "Easy Effects",
+            "category": "Flatpak",
+            "description": "Flatpak application: Easy Effects",
+            "command": "com.github.wwmm.easyeffects",
+            "package_manager": "flatpak",
+            "package_name": "com.github.wwmm.easyeffects"
+        },
+        {
+            "name": "Android Studio",
+            "category": "Flatpak",
+            "description": "Flatpak application: Android Studio",
+            "command": "com.google.AndroidStudio",
+            "package_manager": "flatpak",
+            "package_name": "com.google.AndroidStudio"
+        },
+        {
+            "name": "OBS Studio",
+            "category": "Flatpak",
+            "description": "Flatpak application: OBS Studio",
+            "command": "com.obsproject.Studio",
+            "package_manager": "flatpak",
+            "package_name": "com.obsproject.Studio"
+        },
+        {
+            "name": "Parsec",
+            "category": "Flatpak",
+            "description": "Flatpak application: Parsec",
+            "command": "com.parsecgaming.parsec",
+            "package_manager": "flatpak",
+            "package_name": "com.parsecgaming.parsec"
+        },
+        {
+            "name": "Proton VPN",
+            "category": "Flatpak",
+            "description": "Flatpak application: Proton VPN",
+            "command": "com.protonvpn.www",
+            "package_manager": "flatpak",
+            "package_name": "com.protonvpn.www"
+        },
+        {
+            "name": "Bouteilles",
+            "category": "Flatpak",
+            "description": "Flatpak application: Bouteilles",
+            "command": "com.usebottles.bottles",
+            "package_manager": "flatpak",
+            "package_name": "com.usebottles.bottles"
+        },
+        {
+            "name": "ProtonPlus",
+            "category": "Flatpak",
+            "description": "Flatpak application: ProtonPlus",
+            "command": "com.vysp3r.ProtonPlus",
+            "package_manager": "flatpak",
+            "package_name": "com.vysp3r.ProtonPlus"
+        },
+        {
+            "name": "Cemu",
+            "category": "Flatpak",
+            "description": "Flatpak application: Cemu",
+            "command": "info.cemu.Cemu",
+            "package_manager": "flatpak",
+            "package_name": "info.cemu.Cemu"
+        },
+        {
+            "name": "AdwSteamGtk",
+            "category": "Flatpak",
+            "description": "Flatpak application: AdwSteamGtk",
+            "command": "io.github.Foldex.AdwSteamGtk",
+            "package_manager": "flatpak",
+            "package_name": "io.github.Foldex.AdwSteamGtk"
+        },
+        {
+            "name": "Soundux",
+            "category": "Flatpak",
+            "description": "Flatpak application: Soundux",
+            "command": "io.github.Soundux",
+            "package_manager": "flatpak",
+            "package_name": "io.github.Soundux"
+        },
+        {
+            "name": "WineZGUI",
+            "category": "Flatpak",
+            "description": "Flatpak application: WineZGUI",
+            "command": "io.github.fastrizwaan.WineZGUI",
+            "package_manager": "flatpak",
+            "package_name": "io.github.fastrizwaan.WineZGUI"
+        },
+        {
+            "name": "GitHub Desktop",
+            "category": "Flatpak",
+            "description": "Flatpak application: GitHub Desktop",
+            "command": "io.github.shiftey.Desktop",
+            "package_manager": "flatpak",
+            "package_name": "io.github.shiftey.Desktop"
+        },
+        {
+            "name": "Proton Pass",
+            "category": "Flatpak",
+            "description": "Flatpak application: Proton Pass",
+            "command": "me.proton.Pass",
+            "package_manager": "flatpak",
+            "package_name": "me.proton.Pass"
+        },
+        {
+            "name": "Ressources",
+            "category": "Flatpak",
+            "description": "Flatpak application: Ressources",
+            "command": "net.nokyan.Resources",
+            "package_manager": "flatpak",
+            "package_name": "net.nokyan.Resources"
+        },
+        {
+            "name": "Easy Flatpak",
+            "category": "Flatpak",
+            "description": "Flatpak application: Easy Flatpak",
+            "command": "org.dupot.easyflatpak",
+            "package_manager": "flatpak",
+            "package_name": "org.dupot.easyflatpak"
+        },
+        {
+            "name": "Machines",
+            "category": "Flatpak",
+            "description": "Flatpak application: Machines",
+            "command": "org.gnome.Boxes",
+            "package_manager": "flatpak",
+            "package_name": "org.gnome.Boxes"
+        },
+        {
+            "name": "Prism Launcher",
+            "category": "Flatpak",
+            "description": "Flatpak application: Prism Launcher",
+            "command": "org.prismlauncher.PrismLauncher",
+            "package_manager": "flatpak",
+            "package_name": "org.prismlauncher.PrismLauncher"
+        },
+        {
+            "name": "Signal Desktop",
+            "category": "Flatpak",
+            "description": "Flatpak application: Signal Desktop",
+            "command": "org.signal.Signal",
+            "package_manager": "flatpak",
+            "package_name": "org.signal.Signal"
+        },
+        {
+            "name": "VLC",
+            "category": "Flatpak",
+            "description": "Flatpak application: VLC",
+            "command": "org.videolan.VLC",
+            "package_manager": "flatpak",
+            "package_name": "org.videolan.VLC"
+        }
+    ]
+}
