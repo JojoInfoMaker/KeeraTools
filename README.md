@@ -1,7 +1,7 @@
 # Bienvenue sur Keera Tools 
 
 <p align="center">
-  <img src="https://github.com/Nixiews/Keera-Tools/blob/main/Keera%20Logo.png" alt="Logo Keera Tools" width="400"/>
+  <img src="https://github.com/Nixiews/Keera-Tools/blob/main/Keera%20Logo.png?raw=true" alt="Logo Keera Tools" width="400"/>
 </p>
 
 ## You are English ?
@@ -38,6 +38,13 @@ Il y a juste à double-cliquer dessus et puis à sélectionner les applications 
 Nous essayons de rendre ce logiciel le plus simple et rapide possible. Si vous avez un problème, faites-le nous savoir dans les commentaires GitHub, nous vous répondrons avec plaisir.
 
 Si vous voulez nous aider à évoluer notre projet, nous avions un Tepee où vous pouvez envoyer de l'argent et ça nous aidera à développer en plus gros notre application.
+
+## Beta Testeurs et Aides
+Nous remercions les personnes qui nous on aider a tester le logiciel, donner des conseils !
+- Nocxito
+- Ayka
+- Maria (Merci encore pour le logo)
+- Naocky
 
 ---------
 la Licence de Keera Tools juste ici -> [LICENSE](LICENSE.md)
