@@ -1,4 +1,4 @@
-# LICENSE FOR Nova Installer LICENCE POUR Nova Installer
+# LICENSE FOR Keera Tools / LICENCE POUR Keera Tools
 
 Copyright © Jojo - Infomaker and Nixiews 2025
 
