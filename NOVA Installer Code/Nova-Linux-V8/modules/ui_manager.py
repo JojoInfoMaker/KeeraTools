@@ -36,6 +36,38 @@ class UIManager:
         scroll.setWidget(self.category_container)
         layout.addWidget(scroll)
 
+    def setup_window(self):
+        """Setup main window layout"""
+        # Create main layout
+        main_widget = QWidget()
+        main_layout = QHBoxLayout(main_widget)
+        self.app.setCentralWidget(main_widget)
+
+        # Create sidebar
+        sidebar = self.create_sidebar()
+        main_layout.addWidget(sidebar)
+
+        # Create content area
+        content = self.create_content_area()
+        main_layout.addWidget(content, stretch=1)
+
+        # Create bottom bar with install button
+        self.create_bottom_bar()
+
+    def create_bottom_bar(self):
+        """Create bottom bar with install button"""
+        bottom_bar = QFrame(self.app)
+        bottom_layout = QHBoxLayout(bottom_bar)
+
+        # Create install button
+        self.app.install_button = QPushButton(self.app.tr("install"))
+        self.app.install_button.setEnabled(False)
+        self.app.install_button.clicked.connect(self.app.app_manager.install_selected_apps)
+        bottom_layout.addWidget(self.app.install_button)
+
+        # Add bottom bar to main window
+        self.app.main_layout.addWidget(bottom_bar)
+
     def setup_content_frame(self):
         """Setup the content frame"""
         layout = QVBoxLayout(self.app.content_frame)

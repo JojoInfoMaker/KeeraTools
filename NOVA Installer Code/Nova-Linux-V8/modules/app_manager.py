@@ -348,11 +348,10 @@ class AppManager(QObject):
 
         self.app.ui_manager.install_button.setEnabled(bool(self.selected_apps))
 
-    def install_selected(self):
-        """Install selected apps"""
+    def install_selected_apps(self):
+        """Install selected applications"""
         if not self.selected_apps:
-            QMessageBox.warning(self.app, "Warning", "No applications selected.")
             return
 
-        # TODO: Implement installation
-        QMessageBox.information(self.app, "Info", "Installation not yet implemented.")
+        dialog = InstallDialog(self.app, self.selected_apps)
+        dialog.exec_()
