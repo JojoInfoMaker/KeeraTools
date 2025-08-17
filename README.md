@@ -1,7 +1,7 @@
-# Bienvenue sur Nova Installer 
+# Bienvenue sur Keera Tools 
 
 <p align="center">
-  <img src="https://github.com/Nixiews/Nova-Installer/blob/main/NOVA%20Installer%20Logo.png?raw=true" alt="Logo Nova Installer" width="400"/>
+  <img src="" alt="Logo Keera Tools" width="400"/>
 </p>
 
 ## You are English ?
@@ -10,25 +10,25 @@ of course we had an English page for the software, which is also available in En
 ## Présentation
 Nous sommes deux lycéens qui à un moment voulaient créer un projet pour lutter contre les sites de téléchargement malveillants, après plusieurs temps de réflexion, nous avons commencé à créer le logiciel, nous avions passé beaucoup de temps sur ce logiciel pour savoir comment on pourrait faire son fonctionnement et on sait aider de l'outil internet et un très bons amis qui s'appellent ChatGPT.
 
-Nova Installer est une alternative à l'outil ChrisTiTus (Youtubeur) qui est facile d'accès et sans avoir à faire 50 mille manipulations pour installer une application.
+Keera Tools est une alternative à l'outil ChrisTiTus (Youtubeur) qui est facile d'accès et sans avoir à faire 50 mille manipulations pour installer une application.
 
 ## Pourquoi ce logiciel ?
-Nova Installer est là pour lutter des personnes malveillantes qui veulent récupérer vos données personnelles sans que vous le sachiez. Nova Installer est là pour vous accompagner dans votre PC. Il est là pour installer des applications que vous désirez. Il vous indique ce qui ne vas pas, il est là vraiment pour vous faciliter la tâche.
+Keera Tools est là pour lutter des personnes malveillantes qui veulent récupérer vos données personnelles sans que vous le sachiez. Keera Tools est là pour vous accompagner dans votre PC. Il est là pour installer des applications que vous désirez. Il vous indique ce qui ne vas pas, il est là vraiment pour vous faciliter la tâche.
 
 ## Le logiciel est fait comment ?
-Nova Installer est fait entièrement en Python, cela facilite la tâche pour nous et est ultra-facile grâce à son nombre incalculable de librairies disponibles dans ce langage.
+Keera Tools est fait entièrement en Python, cela facilite la tâche pour nous et est ultra-facile grâce à son nombre incalculable de librairies disponibles dans ce langage.
 
 Pour la version Windows, le logiciel utilise l'outil Winget pour installer des applications via Powershell (pour information, si vous venez d'installer Windows et que vous utilisez le logiciel, il vous demandera de le mettre à jour).
 Pour la version Linux, le logiciel utilise l'outil Flatpak pour installer les applications (bientôt, le logiciel s'installera avec les systèmes de paquet DNF (Fedora), APT (Debian), PACMAN (Arch), etc.)
 
 Le logiciel est fonctionnel, mais il reste quelques problèmes à régler comme l'interface graphique. Nous n'avons pas eu le temps (car nous sommes occupés en plus de faire ce projet) de finaliser l'interface graphique donc elle est différente entre celle de Windows et celle de Linux (Promis à la prochaine mise à jour, on règle ça 🙏🏻) Si vous avez n'importe quel problème avec le Logiciel nous sommes ouverts aux questions que ce soit ici sur GitHub.
 
-## Ou Installer Nova Installer ?
+## Ou Installer Keera Tools ?
 
-- Version Linux : [📦 Télécharger NOVA Installer Linux (Via script .sh)](https://github.com/Nixiews/Nova-Installer/tree/main/Install%20Nova/Install%20Linux)
+- Version Linux : [📦 Télécharger Keera Tools Linux (Via script .sh)](https://github.com/Nixiews/Keera-Tools/releases/tag/)
 .
 
-- Version Windows : [📦 Télécharger NOVA Installer Windows](https://github.com/Nixiews/Nova-Installer/releases/tag/V1W)
+- Version Windows : [📦 Télécharger Keera Tools Windows](https://github.com/Nixiews/Keera-Tools/releases/tag/)
 .
 
 ## Comment utiliser le logiciel ? 
@@ -40,5 +40,5 @@ Nous essayons de rendre ce logiciel le plus simple et rapide possible. Si vous a
 Si vous voulez nous aider à évoluer notre projet, nous avions un Tepee où vous pouvez envoyer de l'argent et ça nous aidera à développer en plus gros notre application.
 
 ---------
-la Licence de NOVA Installer juste ici -> [LICENSE](LICENSE.md)
+la Licence de Keera Tools juste ici -> [LICENSE](LICENSE.md)
 ---------
