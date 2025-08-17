@@ -44,7 +44,6 @@ Nous remercions les personnes qui nous on aider a tester le logiciel, donner des
 - Nocxito
 - Ayka
 - Maria (Merci encore pour le logo)
-- Naocky
 
 ---------
 la Licence de Keera Tools juste ici -> [LICENSE](LICENSE.md)
