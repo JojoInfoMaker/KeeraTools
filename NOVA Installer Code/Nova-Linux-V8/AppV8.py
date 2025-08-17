@@ -9,8 +9,9 @@ import sys
 import json
 import logging
 from PyQt5.QtWidgets import (QApplication, QMainWindow, QMessageBox,
-                            QFileDialog, QMenu, QAction, QWidget, QVBoxLayout,
-                            QStyleFactory, QScrollArea)
+                             QFileDialog, QMenu, QAction, QWidget,
+                             QVBoxLayout, QHBoxLayout, QSplitter,
+                             QStyleFactory, QScrollArea)
 from PyQt5.QtCore import Qt
 from PyQt5.QtGui import QIcon, QFont
 
@@ -25,6 +26,20 @@ from modules.dialogs.language_dialog import LanguageDialog
 
 logger = logging.getLogger(__name__)
 
+def load_config():
+    """Load main application configuration from config/config.json"""
+    config_path = os.path.join(os.path.dirname(__file__), "config", "config.json")
+    try:
+        with open(config_path, "r", encoding="utf-8") as f:
+            return json.load(f)
+    except FileNotFoundError:
+        logger.warning(f"Config file not found at {config_path}, using defaults.")
+        return {}
+    except json.JSONDecodeError as e:
+        logger.error(f"Error decoding config file: {e}")
+        return {}
+
+
 class NovaInstallerApp(QMainWindow):
     def __init__(self):
         super().__init__()
@@ -37,15 +52,12 @@ class NovaInstallerApp(QMainWindow):
         # Load configuration first
         self.config = load_config()
 
-        # Initialize managers
+        # Initialize managers that don’t depend on UI frames
         self.language_manager = LanguageManager()
         self.icon_manager = IconManager()
         self.menu_manager = MenuManager(self)
 
-        # Load settings
-        self.load_language()
-
-        # Setup UI basics
+        # Setup fonts
         self.setup_fonts()
 
         # Create central widget
@@ -53,16 +65,18 @@ class NovaInstallerApp(QMainWindow):
         self.setCentralWidget(central_widget)
         self.main_layout = QVBoxLayout(central_widget)
 
-        # Initialize UI manager first
-        self.ui_manager = UIManager(self)
-        # Setup window and UI (this creates categories_frame)
-        self.ui_manager.setup_window()
+        # Setup window and UI basics (creates category_frame & content_frame)
+        self.setup_window()
 
-        # Now initialize app manager after UI is set up
+        # Now initialize UI manager (safe because frames exist)
+        self.ui_manager = UIManager(self)
+
+        # Initialize app manager after UI is set up
         self.app_manager = AppManager(self)
 
         # Set window icon
-        self.set_window_icon()
+        icon_path = os.path.join(os.path.dirname(__file__), "data", "icon.png")
+        self.setWindowIcon(QIcon(icon_path))
 
         # Configure window
         self.setWindowTitle("Nova Installer")

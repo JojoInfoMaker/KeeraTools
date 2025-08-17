@@ -1,233 +1,109 @@
-"""
-Nova Installer Flathub Install Dialog
-Created by Nixiews
-Last updated: 2025-08-17 09:19:22 UTC
-"""
-
-import os
 import subprocess
 import logging
-from PyQt5.QtWidgets import (QDialog, QVBoxLayout, QLabel, QProgressBar,
-                            QPushButton, QTextEdit, QWidget, QHBoxLayout,
-                            QFrame, QScrollBar)
+from PyQt5.QtWidgets import QDialog, QVBoxLayout, QLabel, QProgressBar, QPushButton, QTextEdit, QHBoxLayout
 from PyQt5.QtCore import Qt, QThread, pyqtSignal
-from PyQt5.QtGui import QFont, QColor, QPalette, QTextCharFormat, QFontDatabase
+import xml.etree.ElementTree as ET
 
 logger = logging.getLogger(__name__)
 
 class TerminalWidget(QTextEdit):
-    """Custom widget to emulate terminal display"""
-
-    def __init__(self, parent=None):
-        super().__init__(parent)
-        self.setup_appearance()
-
-    def setup_appearance(self):
-        """Setup terminal-like appearance"""
-        # Use monospace font
-        font_id = QFontDatabase.addApplicationFont(":/fonts/JetBrainsMono-Regular.ttf")
-        if font_id != -1:
-            font_family = QFontDatabase.applicationFontFamilies(font_id)[0]
-        else:
-            font_family = "Monospace"
-
-        self.setFont(QFont(font_family, 10))
-
-        # Set colors
-        palette = self.palette()
-        palette.setColor(QPalette.Base, QColor("#1E1E1E"))
-        palette.setColor(QPalette.Text, QColor("#FFFFFF"))
-        self.setPalette(palette)
-
-        # Setup text edit properties
+    def __init__(self):
+        super().__init__()
         self.setReadOnly(True)
         self.setLineWrapMode(QTextEdit.NoWrap)
 
-        # Custom scrollbar styling
-        scrollbar = QScrollBar(Qt.Vertical, self)
-        scrollbar.setStyleSheet("""
-            QScrollBar:vertical {
-                border: none;
-                background: #2E2E2E;
-                width: 14px;
-                margin: 0px;
-            }
-            QScrollBar::handle:vertical {
-                background: #424242;
-                min-height: 30px;
-                border-radius: 7px;
-            }
-            QScrollBar::handle:vertical:hover {
-                background: #525252;
-            }
-            QScrollBar::add-line:vertical, QScrollBar::sub-line:vertical {
-                border: none;
-                background: none;
-            }
-        """)
-
     def append_message(self, message, color="#FFFFFF"):
-        """Append message with specified color"""
-        cursor = self.textCursor()
-        format = QTextCharFormat()
-        format.setForeground(QColor(color))
-        cursor.movePosition(cursor.End)
-        cursor.insertText(f"{message}\n", format)
-        self.setTextCursor(cursor)
-        self.ensureCursorVisible()
+        self.append(message)
 
-class FlathubInstallWorker(QThread):
-    progress = pyqtSignal(str, str)  # Message, Color
-    installation_complete = pyqtSignal(bool)  # Success status
+def parse_flatpak_xml(xml_file):
+    tree = ET.parse(xml_file)
+    root = tree.getroot()
+    apps = []
+    for component in root.findall("component"):
+        if component.get("type") != "desktop-application":
+            continue
+        app_id = component.find("id").text
+        name = component.find("name").text
+        apps.append({
+            "flatpak_id": app_id,  # store XML <id> here
+            "name": name,
+        })
+    return apps
 
-    def __init__(self, app_info):
+
+class FlatpakInstallWorker(QThread):
+    progress = pyqtSignal(str, bool)
+    finished = pyqtSignal(bool)
+
+    def __init__(self, app_id):
         super().__init__()
-        self.app_info = app_info
+        self.app_id = app_id
+        self._stop = False
 
     def run(self):
-        """Run Flathub installation process"""
+        if self._stop:
+            self.finished.emit(False)
+            return
         try:
-            package_name = self.app_info.get('package_name')
-
-            if not package_name:
-                self.progress.emit(
-                    f"Error: No package name for {self.app_info.get('name')}",
-                    "#FF5555"
-                )
-                self.installation_complete.emit(False)
-                return
-
-            # First, make sure Flathub is added as a remote
-            self.add_flathub_remote()
-
-            # Install the package
-            cmd = ['flatpak', 'install', 'flathub', package_name, '-y']
-
-            self.progress.emit(
-                f"Starting installation of {self.app_info.get('name')}...",
-                "#00FF00"
-            )
-
-            process = subprocess.Popen(
-                cmd,
-                stdout=subprocess.PIPE,
-                stderr=subprocess.PIPE,
-                universal_newlines=True
-            )
-
-            while True:
-                output = process.stdout.readline()
-                if output == '' and process.poll() is not None:
-                    break
-                if output:
-                    self.progress.emit(output.strip(), "#FFFFFF")
-
-            returncode = process.poll()
-
-            if returncode == 0:
-                self.progress.emit(
-                    f"Successfully installed {self.app_info.get('name')}",
-                    "#00FF00"
-                )
-                self.installation_complete.emit(True)
+            cmd = ["flatpak", "install", "-y", self.app_id]
+            result = subprocess.run(cmd, stdout=subprocess.PIPE, stderr=subprocess.PIPE, text=True, timeout=300)
+            if result.returncode == 0:
+                self.progress.emit(f"Installed {self.app_id}", True)
+                self.finished.emit(True)
             else:
-                error = process.stderr.read()
-                self.progress.emit(f"Installation failed: {error}", "#FF5555")
-                self.installation_complete.emit(False)
-
+                self.progress.emit(f"Failed: {result.stderr.strip()}", False)
+                self.finished.emit(False)
+        except subprocess.TimeoutExpired:
+            self.progress.emit("Install timed out", False)
+            self.finished.emit(False)
         except Exception as e:
-            self.progress.emit(f"Installation error: {str(e)}", "#FF5555")
-            self.installation_complete.emit(False)
+            self.progress.emit(f"Error: {e}", False)
+            self.finished.emit(False)
 
-    def add_flathub_remote(self):
-        """Add Flathub remote if not already added"""
-        try:
-            # Check if Flathub is already added
-            check_cmd = ['flatpak', 'remotes']
-            result = subprocess.run(check_cmd, capture_output=True, text=True)
-
-            if 'flathub' not in result.stdout.lower():
-                self.progress.emit("Adding Flathub remote...", "#FFFF00")
-                add_cmd = [
-                    'flatpak', 'remote-add', '--if-not-exists',
-                    'flathub', 'https://flathub.org/repo/flathub.flatpakrepo'
-                ]
-                subprocess.run(add_cmd, check=True)
-                self.progress.emit("Flathub remote added successfully", "#00FF00")
-
-        except Exception as e:
-            self.progress.emit(f"Error adding Flathub remote: {str(e)}", "#FF5555")
-            raise
+    def stop(self):
+        self._stop = True
 
 class FlathubInstallDialog(QDialog):
     def __init__(self, parent, app_info):
         super().__init__(parent)
-        self.parent = parent
         self.app_info = app_info
         self.success = False
-
-        self.setWindowTitle("Flathub Installation")
+        self.setWindowTitle(f"Installing {app_info['name']}")
         self.setup_ui()
         self.start_installation()
 
     def setup_ui(self):
-        """Setup dialog UI"""
         layout = QVBoxLayout(self)
-        layout.setSpacing(10)
-
-        # Title
-        title = QLabel(f"Installing {self.app_info.get('name')} from Flathub")
-        title.setFont(self.parent.fonts["header"])
+        title = QLabel(f"Installing {self.app_info['name']}")
         layout.addWidget(title)
-
-        # Terminal display
         self.terminal = TerminalWidget()
         layout.addWidget(self.terminal)
-
-        # Progress bar
         self.progress = QProgressBar()
-        self.progress.setRange(0, 0)  # Indeterminate progress
+        self.progress.setRange(0, 0)
         layout.addWidget(self.progress)
-
-        # Buttons
-        button_layout = QHBoxLayout()
-
-        self.cancel_button = QPushButton("Cancel")
-        self.cancel_button.clicked.connect(self.cancel_installation)
-        button_layout.addWidget(self.cancel_button)
-
-        layout.addLayout(button_layout)
-
-        # Set dialog size
+        self.cancel_btn = QPushButton("Cancel")
+        self.cancel_btn.clicked.connect(self.cancel_install)
+        layout.addWidget(self.cancel_btn)
         self.resize(600, 400)
 
     def start_installation(self):
-        """Start the installation process"""
-        self.worker = FlathubInstallWorker(self.app_info)
+        app_id = self.app_info.get("flatpak_id") or self.app_info.get("name")
+        self.worker = FlatpakInstallWorker(app_id)
         self.worker.progress.connect(self.update_progress)
-        self.worker.installation_complete.connect(self.installation_finished)
+        self.worker.finished.connect(self.installation_finished)
         self.worker.start()
 
-    def update_progress(self, message, color):
-        """Update terminal with new message"""
-        self.terminal.append_message(message, color)
+    def update_progress(self, msg, success=True):
+        self.terminal.append_message(msg)
 
-    def cancel_installation(self):
-        """Cancel the installation"""
-        if hasattr(self, 'worker') and self.worker.isRunning():
-            self.worker.terminate()
-            self.terminal.append_message("Installation cancelled by user", "#FF5555")
+    def cancel_install(self):
+        if hasattr(self, "worker") and self.worker.isRunning():
+            self.worker.stop()
+            self.terminal.append_message("Cancelled by user")
         self.close()
 
     def installation_finished(self, success):
-        """Handle installation completion"""
         self.success = success
         self.progress.setRange(0, 1)
         self.progress.setValue(1)
-        self.cancel_button.setText("Close")
-
-    def closeEvent(self, event):
-        """Handle dialog close"""
-        if hasattr(self, 'worker') and self.worker.isRunning():
-            self.worker.terminate()
-        event.accept()
+        self.cancel_btn.setText("Close")
