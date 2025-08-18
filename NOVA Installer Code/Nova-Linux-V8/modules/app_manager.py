@@ -26,7 +26,7 @@ class AppDataSignals(QObject):
     error_occurred = pyqtSignal(str)
 
 class AppManager(QObject):
-    APPSTREAM_URL = "https://dl.flathub.org/beta-repo/appstream/aarch64/appstream.xml.gz"
+    APPSTREAM_URL = "https://dl.flathub.org/repo/appstream/aarch64/appstream.xml.gz"
 
     def __init__(self, app):
         super().__init__()
