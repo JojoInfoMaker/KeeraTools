@@ -100,107 +100,116 @@ class AppManager(QObject):
 
     def _download_and_parse_appstream(self):
         """Download Flathub appstream XML and parse apps"""
-        temp_dir = os.path.join(tempfile.gettempdir(), "nova-installer")
-        os.makedirs(temp_dir, exist_ok=True)
-        gz_path = os.path.join(temp_dir, "appstream.xml.gz")
-        xml_path = os.path.join(temp_dir, "appstream.xml")
+        try:
+            temp_dir = os.path.join(tempfile.gettempdir(), "nova-installer")
+            os.makedirs(temp_dir, exist_ok=True)
+            gz_path = os.path.join(temp_dir, "appstream.xml.gz")
+            xml_path = os.path.join(temp_dir, "appstream.xml")
 
-        # Download
-        logger.info("Downloading appstream...")
-        r = requests.get(self.APPSTREAM_URL, stream=True, timeout=60)
-        r.raise_for_status()
-        with open(gz_path, "wb") as f:
-            for chunk in r.iter_content(chunk_size=8192):
-                if chunk:
-                    f.write(chunk)
+            # Download
+            logger.info("Downloading appstream...")
+            r = requests.get(self.APPSTREAM_URL, stream=True, timeout=60)
+            r.raise_for_status()
+            with open(gz_path, "wb") as f:
+                for chunk in r.iter_content(chunk_size=8192):
+                    if chunk:
+                        f.write(chunk)
 
-        # Decompress
-        logger.info("Decompressing appstream...")
-        with gzip.open(gz_path, "rb") as f_in, open(xml_path, "wb") as f_out:
-            f_out.write(f_in.read())
+            # Decompress
+            logger.info("Decompressing appstream...")
+            with gzip.open(gz_path, "rb") as f_in, open(xml_path, "wb") as f_out:
+                f_out.write(f_in.read())
 
-        # Parse XML
-        logger.info("Parsing appstream XML...")
-        tree = ET.parse(xml_path)
-        root = tree.getroot()
-        apps = []
+            # Parse XML
+            logger.info("Parsing appstream XML...")
+            tree = ET.parse(xml_path)
+            root = tree.getroot()
+            apps = []
 
-        for component in root.findall(".//component") + root.findall(".//{http://www.freedesktop.org/software/appstream/appdata}component"):
-            try:
-                if component.get("type") not in ["desktop", "desktop-application", "webapp"]:
-                    continue
+            for component in root.findall(".//component") + root.findall(".//{http://www.freedesktop.org/software/appstream/appdata}component"):
+                try:
+                    if component.get("type") not in ["desktop", "desktop-application", "webapp"]:
+                        continue
 
-                # App ID
-                app_id = None
-                for tag in ["id", "bundle", ".//id", ".//bundle"]:
-                    elem = component.find(tag)
-                    if elem is not None and elem.text:
-                        app_id = elem.text.strip()
-                        break
-                if not app_id:
-                    continue
-                app_id = app_id.replace("flatpak:", "")
-
-                # Name
-                name = None
-                for tag in ["name", ".//name", "summary", ".//summary"]:
-                    elem = component.find(tag)
-                    if elem is not None and elem.text:
-                        name = elem.text.strip()
-                        break
-                if not name:
-                    name = app_id
-
-                # Categories
-                categories = [self._normalize_category(c.text) for c in component.findall(".//category") if c.text]
-                if not categories:
-                    categories = ["Other"]
-
-                # Version
-                releases = component.findall(".//release")
-                version = releases[0].get("version", "latest") if releases else "latest"
-
-                # Summary & Description
-                summary = component.findtext(".//summary", default="")
-                description_elem = component.find(".//description")
-                description = ET.tostring(description_elem, encoding="unicode", method="xml") if description_elem is not None else ""
-
-                # Icons
-                icon_urls = [i.text for i in component.findall(".//icon") if i.get("type") == "remote"]
-
-                # Screenshots
-                screenshots = []
-                for shot in component.findall(".//screenshot"):
-                    for img in shot.findall(".//image"):
-                        if img.get("type") == "source":
-                            screenshots.append({"url": img.text})
+                    # App ID
+                    app_id = None
+                    for tag in ["id", "bundle", ".//id", ".//bundle"]:
+                        elem = component.find(tag)
+                        if elem is not None and elem.text:
+                            app_id = elem.text.strip()
                             break
+                    if not app_id:
+                        continue
+                    app_id = app_id.replace("flatpak:", "")
 
-                apps.append({
-                    "app_id": app_id,
-                    "name": name,
-                    "categories": list(set(categories)),
-                    "version": version,
-                    "summary": summary,
-                    "description": description,
-                    "icon_urls": icon_urls,
-                    "screenshots": screenshots,
-                    "bundle_type": "flatpak"
-                })
+                    # Name
+                    name = None
+                    for tag in ["name", ".//name", "summary", ".//summary"]:
+                        elem = component.find(tag)
+                        if elem is not None and elem.text:
+                            name = elem.text.strip()
+                            break
+                    if not name:
+                        name = app_id
 
-            except Exception as e:
-                logger.error(f"Failed to process component: {e}")
-                continue
+                    # Categories
+                    categories = [self._normalize_category(c.text) for c in component.findall(".//category") if c.text]
+                    if not categories:
+                        categories = ["Other"]
 
-        apps.sort(key=lambda a: a["name"].lower())
+                    # Version
+                    releases = component.findall(".//release")
+                    version = releases[0].get("version", "latest") if releases else "latest"
 
-        # Cleanup
-        for f in [gz_path, xml_path]:
-            try: os.remove(f)
-            except: pass
+                    # Summary & Description
+                    summary = component.findtext(".//summary", default="")
+                    description_elem = component.find(".//description")
+                    description = ET.tostring(description_elem, encoding="unicode", method="xml") if description_elem is not None else ""
 
-        logger.info(f"Processed {len(apps)} applications")
-        return apps
+                    # Icons
+                    icon_urls = [i.text for i in component.findall(".//icon") if i.get("type") == "remote"]
+
+                    # Screenshots
+                    screenshots = []
+                    for shot in component.findall(".//screenshot"):
+                        for img in shot.findall(".//image"):
+                            if img.get("type") == "source":
+                                screenshots.append({"url": img.text})
+                                break
+
+                    # Add app dict
+                    apps.append({
+                        "app_id": app_id,
+                        "flatpak_id": app_id,  # alias for dialogs
+                        "name": name,
+                        "categories": list(set(categories)),
+                        "version": version,
+                        "summary": summary,
+                        "description": description,
+                        "icon_urls": icon_urls,
+                        "screenshots": screenshots,
+                        "bundle_type": "flatpak"
+                    })
+
+                except Exception as e:
+                    logger.error(f"Failed to process component: {e}")
+                    continue
+
+            apps.sort(key=lambda a: a["name"].lower())
+
+            # Cleanup
+            for f in [gz_path, xml_path]:
+                try:
+                    os.remove(f)
+                except Exception:
+                    pass
+
+            logger.info(f"Processed {len(apps)} applications")
+            return apps
+
+        except Exception as e:
+            logger.error(f"Error in _download_and_parse_appstream: {e}")
+            raise
 
     def _normalize_category(self, cat):
         std = {
