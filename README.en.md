@@ -1,39 +1,48 @@
-# Welcome to KeeraTools Tools
+# Welcome to Keera Tools
 
 <p align="center">
-  <img src=https://github.com/Nixiews/Keera-Tools/blob/main/Keera%20Logo.png?raw=true" alt="Nova Installer Logo" width="400"/>
+  <img src="https://github.com/Nixiews/Keera-Tools/blob/main/Keera%20Logo.png?raw=true" alt="Keera Tools Logo" width="400"/>
 </p>
 
 ## Vous êtes français ?
 Bien sur notre page est disponible en français juste ici -> [Version Française](README.md)
 
 ## Introduction
-We are two high school students who once wanted to create a project to fight against malicious download websites. After some time thinking about it, we started developing the software. We spent a lot of time figuring out how it could work, using the internet as a resource — and with help from a great friend named ChatGPT.
-
-Keera Tools is an alternative to the tool made by Chris Titus (YouTuber). It's easy to use and doesn’t require tons of steps just to install an app.
+We are two high school students who wanted to create an application that integrates many tools for managing your PC, installing applications, updating or uninstalling them, and many other tools that we have in mind that will be added.
 
 ## Why this software?
-Keera Tools exists to fight against malicious actors who try to steal your personal data without your knowledge. Keera Tools is here to help you with your PC. It installs the applications you want, shows you what might be wrong, and is really designed to make your life easier.
+Keera Tools is designed to combine many uses into a single utility that is free and open-source.
 
 ## How is the software made?
-Keera Tools is entirely made with Python, which makes it easier for us and very practical thanks to the countless libraries available in the language.
+Keera Tools is made entirely in Python, which makes it easier for us and is extremely simple thanks to the countless libraries available in this language. Other languages may be used for future tools.
 
-For the Windows version, the software uses Winget to install applications via PowerShell (note: if you just installed Windows and you're using the software, it may ask to update first).  
-For the Linux version, the software uses Flatpak to install applications (soon, the software will also support DNF (Fedora), APT (Debian), PACMAN (Arch), etc.).
+For the Windows version, the software uses the Winget tool to install applications via Powershell (for your information, if you have just installed Windows and are using the software, it will ask you to update it). For customization, it mainly uses Powershell and Regedit.
 
-The software is functional, but there are still a few issues to be ironed out, such as the graphical interface. We haven't had time (because we're busy as well as doing this project) to finalize the GUI so it's different between Windows and Linux (I promise, next update we'll fix that 🙏🏻) If you have any problems with the Software we're open to questions either here on GitHub.
+The software is functional, but there are still a few issues with the graphics and use of the software. Patches will be released gradually, but in any case, if you find any bugs, instability, or features that don't work, let us know and we will send an update to fix them.
 
 ## Where to install Keera Tools?
 
-- Linux version: [📦 Download Keera Tools for Linux]()
+- Linux version: in development....
 
-- Windows version: [📦 Download Keera Tools for Windows]()
 
-## How to use the software?
-Just double-click on it, select the applications you want to install, click install, and then simply wait without doing anything. (If a program requires user actions, perform them, or it won’t be installed — but everything is mostly automated.)
+- Windows version: [📦 Download Keera Tools Windows](https://github.com/Nixiews/Keera-Tools/releases/tag/).
 
-We are trying to make this software as simple and fast as possible. If you have any issue, let us know in the GitHub comments — we’ll be happy to respond.
 
-If you want to help us grow the project, we have a Tepee (donation platform) where you can support us financially — it helps us develop a bigger, better version of the app.
+- Website: https://keeratools.jojoinfomaker.fr
+.
 
-Keera Tools license right here -> [LICENSE](LICENSE.md)
+## How to use the software? 
+You have two options:
+1. Install the software: Install the software and it will be available on your PC. Just search for KeeraTools in Windows Search and you'll find it.
+   
+2. Portable version: The software has a portable version that can be used anywhere, including on a USB drive. Just double-click on it and it will launch.
+
+## Beta Testers and Helpers
+We would like to thank the people who helped us test the software and gave us advice!
+- Nocxito
+- Ayka
+- xsryuuk (Thanks again for the logo)
+
+---------
+The Keera Tools license is right here -> [LICENSE](LICENSE.md)
+---------
