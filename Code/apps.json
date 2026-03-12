@@ -1,0 +1,401 @@
+{
+  "Navigateurs": {
+    "Brave": {
+      "id": "Brave.Brave",
+      "logo": "https://raw.githubusercontent.com/alrra/browser-logos/master/src/brave/brave_48x48.png"
+    },
+    "Firefox": {
+      "id": "Mozilla.Firefox.fr",
+      "logo": "https://raw.githubusercontent.com/alrra/browser-logos/master/src/firefox/firefox_48x48.png"
+    },
+    "Google Chrome": {
+      "id": "Google.Chrome",
+      "logo": "https://raw.githubusercontent.com/alrra/browser-logos/master/src/chrome/chrome_48x48.png"
+    },
+    "Chromium": {
+      "id": "Hibbiki.Chromium",
+      "logo": "https://raw.githubusercontent.com/alrra/browser-logos/master/src/chromium/chromium_48x48.png"
+    },
+    "Arc": {
+      "id": "TheBrowserCompany.Arc",
+      "logo": "https://imgs.search.brave.com/Zff8Ap4WtYYruFmgoFeJiZx2EwHVftjWu_rCJIpgyCM/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93cC5s/b2dvcy1kb3dubG9h/ZC5jb20vd3AtY29u/dGVudC91cGxvYWRz/LzIwMjQvMDkvQXJj/X0Jyb3dzZXJfTG9n/by0zMDAweDI1MTEu/cG5n"
+    },
+    "Tor Browser": {
+      "id": "TorProject.TorBrowser",
+      "logo": "https://imgs.search.brave.com/xRH77qodHHTgK2EeXcSHMOV7gT5HGdhSd7PrWYqz6Tw/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9jZG4u/ZHJpYmJibGUuY29t/L3VzZXJzLzQzODM3/ODIvc2NyZWVuc2hv/dHMvMTU5MTczOTEv/bWVkaWEvNGQ0NDc3/MmExZWYyZmE3MTk5/YzEzZGM1NTU3YWNi/NjcucG5nP3Jlc2l6/ZT00MDB4MzAwJnZl/cnRpY2FsPWNlbnRl/cg"
+    },
+    "Falkon": {
+      "id": "KDE.Falkon",
+      "logo": "https://imgs.search.brave.com/tJXX3zCjV6ReY-ckJ1R4UKZsU33hW5njRVZEWG1YxIE/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pbWFn/ZXMuaWNvbi1pY29u/cy5jb20vMjU1Mi9Q/TkcvNTEyL2ZhbGtv/bl9icm93c2VyX2xv/Z29faWNvbl8xNTI5/OTMucG5n"
+    },
+    "LibreWolf": {
+      "id": "LibreWolf.LibreWolf",
+      "logo": "https://raw.githubusercontent.com/alrra/browser-logos/master/src/firefox/firefox_48x48.png"
+    },
+    "Waterfox": {
+      "id": "Waterfox.Waterfox",
+      "logo": "https://imgs.search.brave.com/XT_JDM8h5n4_Ygbk0S9uB2cB12_6x0gV6ypWz6ADUDw/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9jZG4u/ZHJpYmJibGUuY29t/L3VzZXJ1cGxvYWQv/MjQ2NzY1MTgvZmls/ZS9vcmlnaW5hbC0y/NWJiZDJlYTI4MjI1/MDlmODY4NDIyMGI0/MzBiYzUwMy5wbmc_/Zm9ybWF0PXdlYnAm/cmVzaXplPTQwMHgz/MDAmdmVydGljYWw9/Y2VudGVy"
+    }
+  },
+  "Bureautique": {
+    "LibreOffice": {
+      "id": "TheDocumentFoundation.LibreOffice",
+      "logo": "https://wiki.documentfoundation.org/images/thumb/6/65/LibreOffice_Initial-Artwork-Logo_ColorLogoBasic_500px.png/300px-LibreOffice_Initial-Artwork-Logo_ColorLogoBasic_500px.png"
+    },
+    "Notepad++": {
+      "id": "Notepad++.Notepad++",
+      "logo": "https://imgs.search.brave.com/Js7u77NUcgy3KSbG-AtH7w-Y0XXWRrDmzDWBzT4fUYU/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9zdGF0/aWMuY2RubG9nby5j/b20vbG9nb3Mvbi8x/OS9ub3RlcGFkX3Ro/dW1iLnBuZw"
+    },
+    "Adobe Acrobat Reader": {
+      "id": "Adobe.Acrobat.Reader.64-bit",
+      "logo": "https://imgs.search.brave.com/v0FmKMojvbsPh9UFcwaPupHfGQYf_ID6YxH5gp_Cpm0/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9sb2dv/ZG93bmxvYWQub3Jn/L3dwLWNvbnRlbnQv/dXBsb2Fkcy8yMDIx/LzA1L2Fkb2JlLWFj/cm9iYXQtcmVhZGVy/LWxvZ28ucG5n"
+    },
+    "Obsidian": {
+      "id": "Obsidian.Obsidian",
+      "logo": "https://imgs.search.brave.com/QtISsszICBGh4nEFk06Xq3TqKWjMjdoknpI7k3iaDpY/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9vYnNp/ZGlhbi5tZC9pbWFn/ZXMvb2JzaWRpYW4t/bG9nby1ncmFkaWVu/dC5zdmc"
+    },
+    "KDE Okular": {
+      "id": "KDE.Okular",
+      "logo": "https://imgs.search.brave.com/_wRBhG2KbrpxmcqSNz2nfPB4IvmeP_xhBIXoSvrp2jE/rs:fit:0:180:1:0/g:ce/aHR0cHM6Ly9mcmFt/YWxpYnJlLm9yZy9p/bWFnZXMvbG9nby9P/a3VsYXIucG5n"
+    },
+    "Foxit PDF Reader": {
+      "id": "FoxitSoftware.FoxitPDFReader",
+      "logo": "https://imgs.search.brave.com/cOVbY1WJG17rxYb-0958oQgsShNb5bqyqHLJv_WX0OU/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9zdGF0/aWMubWFjdXBkYXRl/LmNvbS9wcm9kdWN0/cy81NTc3Mi9tL2Zv/eGl0LXBkZi1yZWFk/ZXItbG9nby5wbmc_/dj0xNjUwOTg2MjUw"
+    }
+  },
+  "Outils Multimédia": {
+    "VLC": {
+      "id": "VideoLAN.VLC",
+      "logo": "https://imgs.search.brave.com/QdEX_x42CaKWeR8Pf7AYkeAJxMV353ZAMSj7Cx70obM/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly91cGxv/YWQud2lraW1lZGlh/Lm9yZy93aWtpcGVk/aWEvY29tbW9ucy9l/L2U2L1ZMQ19JY29u/LnN2Zw"
+    },
+    "Krita": {
+      "id": "KDE.Krita",
+      "logo": "https://imgs.search.brave.com/o3hIxjdqS-eeeX9MmfQAtkQa8MB8Hh5Et4eT2BL5npQ/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9pbWFn/ZXMuc2Vla2xvZ28u/Y29tL2xvZ28tcG5n/LzUxLzIva3JpdGEt/bG9nby1wbmdfc2Vl/a2xvZ28tNTEwMjU4/LnBuZw"
+    },
+    "IMG Burn": {
+      "id": "LIGHTNINGUK.ImgBurn",
+      "logo": "https://imgs.search.brave.com/vR1Ff5xPEFZFuTWFFoVd0M1iT00_je5zrscbF46Gwmc/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly93ZWJh/cHByZW5kcmUuZnIv/bG9naWNpZWxzL3V0/aWxpdGFpcmVzL2lt/Zy9pbWdidXJuL0lt/Z0J1cm5fbG9nby5w/bmc"
+    },
+    "ImageGlass": {
+      "id": "DuongDieuPhap.ImageGlass",
+      "logo": "https://imageglass.org/img/iglogo.svg"
+    },
+    "OBS Studio": {
+      "id": "OBSProject.OBSStudio",
+      "logo": "https://imgs.search.brave.com/4UJqLMy1i6CnKs3xWeC_auVf0Q5NUNhOe84fePOcCOA/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly91cGxv/YWQud2lraW1lZGlh/Lm9yZy93aWtpcGVk/aWEvY29tbW9ucy9k/L2QzL09CU19TdHVk/aW9fTG9nby5zdmc"
+    },
+    "AIMP": {
+      "id": "AIMP.AIMP",
+      "logo": "https://imgs.search.brave.com/c7kUzATVC-3Pp2TDuilVo0gTvbhaZILYw-Eow43YWQE/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9pbWFn/ZXMuZnJlZWltYWdl/cy5jb20vZmljL2lt/YWdlcy9pY29ucy8x/NzgyL2NsYXNzaWNf/Ymx1ZS8yNTYvY2xh/c3NpY19ibHVlX2Fp/bXAucG5n"
+    },
+    "Paint.NET": {
+      "id": "dotPDN.PaintDotNet",
+      "logo": "https://imgs.search.brave.com/LBbi45Egmsg-NM-39Cm2C9cXxiA45bpHRsZSu80NJvc/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9pbWcu/aWNvbnM4LmNvbS8_/c2l6ZT0xMjAwJmlk/PVV4VHRGdHZiMUgx/ZiZmb3JtYXQ9cG5n"
+    },
+    "Blender": {
+      "id": "BlenderFoundation.Blender",
+      "logo": "https://imgs.search.brave.com/7_BuTYIajO3CYhmxh89v8FH7uEVVH2_REU8b4AdKaZU/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly91cGxv/YWQud2lraW1lZGlh/Lm9yZy93aWtpcGVk/aWEvY29tbW9ucy8w/LzBjL0JsZW5kZXJf/bG9nb19ub190ZXh0/LnN2Zw"
+    },
+    "iTunes": {
+      "id": "Apple.iTunes",
+      "logo": "https://imgs.search.brave.com/Ake1HRWzsqYaEfo8z7kfrxccM37jcXNnb-jvoy5uQCI/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly8xMDAw/bG9nb3MubmV0L3dw/LWNvbnRlbnQvdXBs/b2Fkcy8yMDE4LzA1/L0l0dW5lcy1sb2dv/LTUwMHgyODEucG5n"
+    },
+    "Jellyfin Server": {
+      "id": "Jellyfin.Server",
+      "logo": "https://imgs.search.brave.com/5HHECRoETCP7P5rjY9O58Gc2juUYlw9SFGvOuGwxKRQ/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9jZG4u/anNkZWxpdnIubmV0/L2doL2hvbWFyci1s/YWJzL2Rhc2hib2Fy/ZC1pY29ucy93ZWJw/L2plbGx5ZmluLndl/YnA"
+    },
+    "Jellyfin Media Player": {
+      "id": "Jellyfin.JellyfinMediaPlayer",
+      "logo": "https://imgs.search.brave.com/5HHECRoETCP7P5rjY9O58Gc2juUYlw9SFGvOuGwxKRQ/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9jZG4u/anNkZWxpdnIubmV0/L2doL2hvbWFyci1s/YWJzL2Rhc2hib2Fy/ZC1pY29ucy93ZWJw/L2plbGx5ZmluLndl/YnA"
+    },
+    "Audacity": {
+      "id": "Audacity.Audacity",
+      "logo": "https://imgs.search.brave.com/B6EkHYIBRSYCMinGOLvBBDFcv6HTVckVedt7QpeyfaA/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9mb3J1/bS5hdWRhY2l0eXRl/YW0ub3JnL3VwbG9h/ZHMvZGVmYXVsdC9v/cHRpbWl6ZWQvM1gv/Zi8zL2YzNGE5ODM2/YjhmYzc5NjI1MmIz/YzRiYjdkZmZjNTll/OWU5Mzk4NWFfMl81/MDB4NTAwLnBuZw"
+    },
+    "KiCad": {
+      "id": "KiCad.KiCad",
+      "logo": "https://imgs.search.brave.com/F27J_iSZ5CiRmJMmAgBY0hS6YDoIY88n6iP0LDmLlik/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly91cGxv/YWQud2lraW1lZGlh/Lm9yZy93aWtpcGVk/aWEvY29tbW9ucy90/aHVtYi81LzU5L0tp/Q2FkLUxvZ28uc3Zn/LzI1MHB4LUtpQ2Fk/LUxvZ28uc3ZnLnBu/Zw"
+    },
+    "FFMpeg": {
+      "id": "Gyan.FFmpeg",
+      "logo": "https://imgs.search.brave.com/q70IFsFEcBpJIi-_szSOdcbY6dpGEX4A21o7dGlmCN4/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pbWFn/ZXMuc2Vla2xvZ28u/Y29tL2xvZ28tcG5n/LzQ0LzMvZmZtcGVn/LWxvZ28tcG5nX3Nl/ZWtsb2dvLTQ0MTgw/My5wbmc"
+    }
+  },
+  "Outils Professionnel": {
+    "Advance IP Scanner": {
+      "id": "Famatech.AdvancedIPScanner",
+      "logo": "https://imgs.search.brave.com/gHuOTJQbGn0eKJo3UaleKv8xSVpBGLabp23PdK7J0ik/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93d3cu/Y2xpcGFydG1heC5j/b20vcG5nL21pZGRs/ZS8xOTgtMTk4NTgy/Ml9hZHZhbmNlZC1p/cC1zY2FubmVyLWxv/Z28tYWR2YW5jZWQt/aXAtc2Nhbm5lci1s/b2dvLnBuZw"
+    },
+    "WinSCP": {
+      "id": "WinSCP.WinSCP",
+      "logo": "https://imgs.search.brave.com/VW2zaOm34cNgXhTxV8C4w8_vowRqG8NsB-vNP_va0Ls/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9mcmFt/YWxpYnJlLm9yZy9p/bWFnZXMvbG9nby9X/aW5TQ1AucG5n"
+    },
+    "WireGuard": {
+      "id": "WireGuard.WireGuard",
+      "logo": "https://imgs.search.brave.com/ML6-5fVZ4GYiyEuLmIbJMq8Q-qc_Fa24-ifDP816MXU/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93d3cu/bG9nby53aW5lL2Ev/bG9nby9XaXJlR3Vh/cmQvV2lyZUd1YXJk/LUljb24tTG9nby53/aW5lLnN2Zw"
+    },
+    "Termius": {
+      "id": "Termius.Termius",
+      "logo": "https://imgs.search.brave.com/nIcLQq4csgaHd6dCP8drF7Na7oQS5id4V3J6nYKU5Co/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93d3cu/cG5na2V5LmNvbS9w/bmcvZnVsbC84MjMt/ODIzMTE5MF9zc2gt/Y2xpZW50LW9uLXRo/ZS1tYWMtYXBwLXN0/b3JlLXRlcm1pdXMu/cG5n"
+    },
+    "OpenVPN Connect": {
+      "id": "OpenVPNTechnologies.OpenVPNConnect",
+      "logo": "https://imgs.search.brave.com/HYtmdQzPR3KCM3OOw3jjd40wGOVji5BIJwpML_q1MXU/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9hbmlt/YS1leC1tYWNoaW5h/LmZyL3dwLWNvbnRl/bnQvdXBsb2Fkcy8y/MDE1LzA1L29wZW52/cG4tbG9nby0zMDB4/MzAwLnBuZw"
+    },
+    "WireShark": {
+      "id": "WiresharkFoundation.Wireshark",
+      "logo": "https://imgs.search.brave.com/xWzu4QstmPNmOdbjKHxd23yBhD-xIAdcqs3BVGCWdEw/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93d3cu/d2lyZXNoYXJrLm9y/Zy9fYXN0cm8vd2ly/ZXNoYXJrLWxvZ28t/YmlnLkNrUmpTT2FD/X3ZrcmVILnBuZw"
+    }
+  },
+  "Utilitaires Windows": {
+    "TeamViewer": {
+      "id": "TeamViewer.TeamViewer",
+      "logo": "https://imgs.search.brave.com/0xXrzuxc4M3mFLa5vdwcIqa6jiTXEYmVKekg9HhbsZE/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9jb21w/YW5pZXNsb2dvLmNv/bS9pbWcvb3JpZy9U/TVYuREUtMzQzODcw/OTQucG5nP3Q9MTcy/MDI0NDQ5NA"
+    },
+    "AnyDesk": {
+      "id": "AnyDesk.AnyDesk",
+      "logo": "https://imgs.search.brave.com/KnOahuIeHPIzJAdBBhRFj-3d0X1IqmRiHegl-xbZyRU/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93d3cu/ZnJlZWxvZ292ZWN0/b3JzLm5ldC9zdmcw/Ny9hbnlkZXNrLWxv/Z28uc3Zn"
+    },
+    "HWInfo": {
+      "id": "REALiX.HWiNFO",
+      "logo": "https://imgs.search.brave.com/DWsExLFsTxVQnyMJ54i5pIjiuW0LiA7HIVyypMjV_-0/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9jYW1v/LmdpdGh1YnVzZXJj/b250ZW50LmNvbS85/OTEzODg1OTQ0NDNk/MWZkZDU0NTdlZmY1/MGI3ZjU4ZmE3NmQ0/MzJkY2RiMmRiMjc2/N2VjOWRmN2M0NjE5/ZTdiLzY4NzQ3NDcw/NzMzYTJmMmY3Nzc3/NzcyZTc0NjU2MzY4/NzM3MDZmNzQyZTYz/NmY2ZDJmNjk2ZDYx/Njc2NTczMzIyZjY0/NmY3NzZlNmM2ZjYx/NjQ3MzJmNzQ2Zjcw/NjQ2Zjc3NmU2YzZm/NjE2NDJmMzIzMDMy/MzEyZjMwMzQyZjMy/MzAzMjMxMmQzMDM0/MmQzMDM2MmQ3NDcz/MzM1Zjc0Njg3NTZk/NjI3MzJkNjMzMzYz/MmU3MDZlNjc"
+    },
+    "HWMonitor": {
+      "id": "CPUID.HWMonitor",
+      "logo": "https://imgs.search.brave.com/CpjrMrHqyREayh3XRNQiXhK1Z3FAH0LhuyLZw2MZ6q0/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9pbWFn/ZXMuc2Vla2xvZ28u/Y29tL2xvZ28tcG5n/LzY1LzEvaHdtb25p/dG9yLWxvZ28tcG5n/X3NlZWtsb2dvLTY1/MjY4MS5wbmc_dj0x/OTY1MzE3MzYwNDI2/NjY2ODU2"
+    },
+    "SignalRGB": {
+      "id": "WhirlwindFX.SignalRgb",
+      "logo": "https://imgs.search.brave.com/UeL3X1dEPWvi30u-uDCTv-XtQE40S2a8pbuDfmcVGSI/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9tYXJr/ZXRwbGFjZS5zaWdu/YWxyZ2IuY29tL3Np/Z25hbHJnYi1sb2dv/LnN2Zw"
+    },
+    "KDE Connect": {
+      "id": "KDE.KDEConnect",
+      "logo": "https://imgs.search.brave.com/QxTUwQszrv0mViVzRCAGxhMy5uCDIz5tjhRKBoaFG8o/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly91cGxv/YWQud2lraW1lZGlh/Lm9yZy93aWtpcGVk/aWEvY29tbW9ucy9m/L2ZhL0tERV9Db25u/ZWN0X0xvZ28ucG5n"
+    },
+    "MSI AfterBurner": {
+      "id": "Guru3D.Afterburner",
+      "logo": "https://imgs.search.brave.com/cr0UOVJwmQWRiuxJvKK8hDsVQRrNeULA3AdCMR6K2ks/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93d3cu/a2luZHBuZy5jb20v/cGljYy9tLzczLTcz/NTk4OV9tc2ktYWZ0/ZXJidXJuZXItaGQt/bG9nby1oZC1wbmct/ZG93bmxvYWQucG5n"
+    },
+    "7-Zip": {
+      "id": "7zip.7zip",
+      "logo": "https://imgs.search.brave.com/Vn4FC0YS17TDD0H9sf9Fr9Q1KtpWOP16M4v1uNmu24M/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9sb2dv/ZGl4LmNvbS9sb2dv/LzE5NjYyNjAucG5n"
+    },
+    "Crystal Disk Info": {
+      "id": "CrystalDewWorld.CrystalDiskInfo",
+      "logo": "https://imgs.search.brave.com/RkMslZF8fR2D6faDAL5b7kPFWXZhp-NY4eCXc890Dn8/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9jZG4y/LnBvcnRhYmxlYXBw/cy5jb20vQ3J5c3Rh/bERpc2tJbmZvUG9y/dGFibGVfMTI4LnBu/Zw"
+    },
+    "Crystal Disk Mark": {
+      "id": "CrystalDewWorld.CrystalDiskMark",
+      "logo": "https://imgs.search.brave.com/Ru0dOykkBLe_7o0Rb5N6n9QsGDr0Ihv1Z6Fe7dwWvxc/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93d3cu/d2ludG90YWwuZGUv/bWVkaWEvMjAwOS8w/My9EaXNrTWFyazY0/LTEyMHgxMjAucG5n"
+    },
+    "GPU-Z": {
+      "id": "TechPowerUp.GPU-Z",
+      "logo": "https://imgs.search.brave.com/YSoeZso5tGCRNR51JT5wNwLshoEKocjN0TyrBOYaK0c/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9jZG4u/bmVvd2luLmNvbS9u/ZXdzL2ltYWdlcy91/cGxvYWRlZC8yMDI1/LzA4LzE3NTUxNDY2/OTNfZ3B1LXpfbWVk/aXVtLndlYnA"
+    },
+    "CPU-Z": {
+      "id": "CPUID.CPU-Z",
+      "logo": "https://imgs.search.brave.com/-mUELX9WWZe5tlfYGuyJvKfXHiE0Eo27k8oGhWAfy1M/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9zb2Z0/cmFkYXIuY29tL3N0/YXRpYy9wcm9kdWN0/cy9ncHUtei9ncHUt/ei1sb2dvLmpwZw"
+    },
+    "qBittorrent": {
+      "id": "qBittorrent.qBittorrent",
+      "logo": "https://imgs.search.brave.com/-rdzbtzMgcz6MKRzTBcYXvMfsuPQogM__sv-SZPOilg/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly91cGxv/YWQud2lraW1lZGlh/Lm9yZy93aWtpcGVk/aWEvY29tbW9ucy82/LzY2L05ld19xQml0/dG9ycmVudF9Mb2dv/LnN2Zw"
+    },
+    "Parsec": {
+      "id": "Parsec.Parsec",
+      "logo": "https://imgs.search.brave.com/KUqf_AXsxm0_YrYibfWa48-3goJHz8py1CE0uT7vru4/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9jZG4u/YnJhbmRmZXRjaC5p/by9pZHhudmpNVkU1/L3cvNjYzMC9oLzQ3/NzYvdGhlbWUvZGFy/ay9sb2dvLnBuZz9j/PTFieGlkNjRNdXA3/YWN6ZXdTQVlNWCZ0/PTE2Njc4MjAyODAw/MTQ"
+    },
+    "VirtualBox": {
+      "id": "Oracle.VirtualBox",
+      "logo": "https://imgs.search.brave.com/qt86yPRBJVjORDq_PFGw52WPXLiMCIiOi9WyTbgriHA/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pbWFn/ZXMuaWNvbi1pY29u/cy5jb20vMjY5OS9Q/TkcvNTEyL3ZpcnR1/YWxib3hfbG9nb19p/Y29uXzE2OTI1My5w/bmc"
+    },
+    "WinRar": {
+      "id": "RARLab.WinRAR",
+      "logo": "https://imgs.search.brave.com/J_Wz_hWK3TuEToKuKG0RJZ4Eocgdvek8ubVe6lKz8h4/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9sb2dv/ZG93bmxvYWQub3Jn/L3dwLWNvbnRlbnQv/dXBsb2Fkcy8yMDE4/LzAyL3dpbnJhci1s/b2dvLTEwLnBuZw"
+    },
+    "TeraCopy": {
+      "id": "CodeSector.TeraCopy",
+      "logo": "https://imgs.search.brave.com/Jl8zhslmxPowCO09Y4ZziYZjsR7owqPgwLJLN_YSKkM/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pbWcu/c29mdG9yYWdlLmNv/bS9zb2Z0d2FyZS1s/b2dvL3RlcmFjb3B5/LndlYnA"
+    },
+    "Revo Uninstaller": {
+      "id": "RevoUninstaller.RevoUninstaller",
+      "logo": "https://imgs.search.brave.com/ao5ChL9vxUi32dOw3NTw6wu4xT8A6JUoBan7YDaTjdE/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tYWx3/YXJldGlwcy5jb20v/YmxvZ3Mvd3AtY29u/dGVudC91cGxvYWRz/LzIwMjIvMDgvUmV2/by1Vbmluc3RhbGxl/ci0yMDIyLUxvZ28u/cG5n"
+    },
+    "Everything": {
+      "id": "VoidTools.Everything",
+      "logo": "https://www.voidtools.com/forum/styles/prosilver/theme/images/site_logo.gif"
+    },
+    "ShareX": {
+      "id": "ShareX.ShareX",
+      "logo": "https://imgs.search.brave.com/9LV485I7JGTsVnKamQWABqPTTFBURnQi9zFt5Q4O-Ao/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9jZG4u/YnJhbmRmZXRjaC5p/by9pZHoyZ3pFdGhU/L3cvNDAwL2gvNDAw/L3RoZW1lL2Rhcmsv/aWNvbi5wbmc_Yz0x/YnhpZDY0TXVwN2Fj/emV3U0FZTVgmdD0x/NzcyNDA4NzY2NTQw"
+    },
+    "1password": {
+      "id": "AgileBits.1Password",
+      "logo": "https://imgs.search.brave.com/ItUGtyH2-le4Rm_vk6c8Jog8JA7IgWrs7U97KqsbP5M/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93d3cu/ZnJlZWxvZ292ZWN0/b3JzLm5ldC93cC1j/b250ZW50L3VwbG9h/ZHMvMjAyMC8xMS8x/cGFzc3dvcmQtbG9n/by5wbmc"
+    },
+    "bitwarden": {
+      "id": "Bitwarden.Bitwarden",
+      "logo": "https://imgs.search.brave.com/EaGbkTHQqjwe4E_gADlRMXdCdBtSOlSLUrJ7CSXnbwc/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9sb2dv/dHlwLnVzL2ZpbGUv/Yml0d2FyZGVuLnN2/Zw"
+    },
+    "ChatGPT": {
+      "id": "OpenAI.ChatGPT",
+      "logo": "https://imgs.search.brave.com/gDtedIGIPlv_UXQ_FpsRy1NQ8YIgba6j9wrjE4y39nA/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9jaGF0/Z3B0YWlodWIuY29t/L3dwLWNvbnRlbnQv/dXBsb2Fkcy8yMDIz/LzA2L0NoYXRHUFQt/bG9nby13aXRoLWNv/bG9yLUJhY2tncm91/bmQtMTAyNHgxMDI0/LnBuZw"
+    },
+    "KeePass": {
+      "id": "KeePassXCTeam.KeePassXC",
+      "logo": "https://imgs.search.brave.com/DIdFOJARu3dcQp2Mki6HOXoQSJd0HW51DKvZdx3FVxI/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly91cGxv/YWQud2lraW1lZGlh/Lm9yZy93aWtpcGVk/aWEvY29tbW9ucy8w/LzA0L0tlZVBhc3Nf/aWNvbi5zdmc"
+    },
+    "Claude": {
+      "id": "Anthropic.Claude",
+      "logo": "https://imgs.search.brave.com/155mDrSiEzx3eMIXvacUT7NRPZ58VIET3JcaE2K-wBc/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9yYXcu/Z2l0aHVidXNlcmNv/bnRlbnQuY29tL2xv/YmVodWIvbG9iZS1p/Y29ucy9yZWZzL2hl/YWRzL21hc3Rlci9w/YWNrYWdlcy9zdGF0/aWMtcG5nL2xpZ2h0/L2NsYXVkZS1jb2xv/ci5wbmc"
+    },
+    "Claude Code": {
+      "id": "Anthropic.ClaudeCode",
+      "logo": "https://imgs.search.brave.com/155mDrSiEzx3eMIXvacUT7NRPZ58VIET3JcaE2K-wBc/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9yYXcu/Z2l0aHVidXNlcmNv/bnRlbnQuY29tL2xv/YmVodWIvbG9iZS1p/Y29ucy9yZWZzL2hl/YWRzL21hc3Rlci9w/YWNrYWdlcy9zdGF0/aWMtcG5nL2xpZ2h0/L2NsYXVkZS1jb2xv/ci5wbmc"
+    },
+    "VoiceMeeter": {
+      "id": "VB-Audio.Voicemeeter",
+      "logo": "https://imgs.search.brave.com/CiWjgtlNiUGGhBkBMyVfxVeVVO06EvSrTtSo7DNo3gg/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly92b2lj/ZW1lZXRlci5jb20v/d3AtY29udGVudC91/cGxvYWRzL1ZvaWNl/TWVldGVyLXNxdWFy/ZS1sb2dvLmpwZw"
+    },
+    "VoiceMeeter Banana": {
+      "id": "VB-Audio.Voicemeeter.Banana",
+      "logo": "https://imgs.search.brave.com/CiWjgtlNiUGGhBkBMyVfxVeVVO06EvSrTtSo7DNo3gg/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly92b2lj/ZW1lZXRlci5jb20v/d3AtY29udGVudC91/cGxvYWRzL1ZvaWNl/TWVldGVyLXNxdWFy/ZS1sb2dvLmpwZw"
+    },
+    "VoiceMeeter Potato": {
+      "id": "VB-Audio.Voicemeeter.Potato",
+      "logo": "https://imgs.search.brave.com/CiWjgtlNiUGGhBkBMyVfxVeVVO06EvSrTtSo7DNo3gg/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly92b2lj/ZW1lZXRlci5jb20v/d3AtY29udGVudC91/cGxvYWRzL1ZvaWNl/TWVldGVyLXNxdWFy/ZS1sb2dvLmpwZw"
+    }
+  },
+  "Outils Microsoft": {
+    ".NET Runtime 9": {
+      "id": "Microsoft.DotNet.DesktopRuntime.9",
+      "logo": "https://imgs.search.brave.com/6yU9MziSGPs82Y3iyMYvOFLUPMXNNSpYOAYzKRbnOIw/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly91cGxv/YWQud2lraW1lZGlh/Lm9yZy93aWtpcGVk/aWEvY29tbW9ucy83/LzdkL01pY3Jvc29m/dF8uTkVUX2xvZ28u/c3Zn"
+    },
+    ".NET Runtime 8": {
+      "id": "Microsoft.DotNet.DesktopRuntime.8",
+      "logo": "https://imgs.search.brave.com/6yU9MziSGPs82Y3iyMYvOFLUPMXNNSpYOAYzKRbnOIw/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly91cGxv/YWQud2lraW1lZGlh/Lm9yZy93aWtpcGVk/aWEvY29tbW9ucy83/LzdkL01pY3Jvc29m/dF8uTkVUX2xvZ28u/c3Zn"
+    },
+    ".NET Runtime 7": {
+      "id": "Microsoft.DotNet.DesktopRuntime.7",
+      "logo": "https://imgs.search.brave.com/6yU9MziSGPs82Y3iyMYvOFLUPMXNNSpYOAYzKRbnOIw/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly91cGxv/YWQud2lraW1lZGlh/Lm9yZy93aWtpcGVk/aWEvY29tbW9ucy83/LzdkL01pY3Jvc29m/dF8uTkVUX2xvZ28u/c3Zn"
+    },
+    ".NET Runtime 6": {
+      "id": "Microsoft.DotNet.DesktopRuntime.6",
+      "logo": "https://imgs.search.brave.com/6yU9MziSGPs82Y3iyMYvOFLUPMXNNSpYOAYzKRbnOIw/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly91cGxv/YWQud2lraW1lZGlh/Lm9yZy93aWtpcGVk/aWEvY29tbW9ucy83/LzdkL01pY3Jvc29m/dF8uTkVUX2xvZ28u/c3Zn"
+    },
+    ".NET Runtime 5": {
+      "id": "Microsoft.DotNet.DesktopRuntime.5",
+      "logo": "https://imgs.search.brave.com/6yU9MziSGPs82Y3iyMYvOFLUPMXNNSpYOAYzKRbnOIw/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly91cGxv/YWQud2lraW1lZGlh/Lm9yZy93aWtpcGVk/aWEvY29tbW9ucy83/LzdkL01pY3Jvc29m/dF8uTkVUX2xvZ28u/c3Zn"
+    },
+    ".NET Runtime 3.1": {
+      "id": "Microsoft.DotNet.DesktopRuntime.3_1",
+      "logo": "https://imgs.search.brave.com/6yU9MziSGPs82Y3iyMYvOFLUPMXNNSpYOAYzKRbnOIw/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly91cGxv/YWQud2lraW1lZGlh/Lm9yZy93aWtpcGVk/aWEvY29tbW9ucy83/LzdkL01pY3Jvc29m/dF8uTkVUX2xvZ28u/c3Zn"
+    },
+    "Power Automate Desktop": {
+      "id": "Microsoft.PowerAutomateDesktop",
+      "logo": "https://imgs.search.brave.com/-MAH7B3o8Y0-GKHdmgGWthsYu5XPNjKlJfT-OIxtxYM/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9jZG4u/anNkZWxpdnIubmV0/L2doL2hvbWFyci1s/YWJzL2Rhc2hib2Fy/ZC1pY29ucy9wbmcv/bWljcm9zb2Z0LXBv/d2VyLWF1dG9tYXRl/LnBuZw"
+    },
+    "Microsoft Visual C++ 2015-2022 32bit": {
+      "id": "Microsoft.VCRedist.2015+.x86",
+      "logo": "https://imgs.search.brave.com/EXzdpz0XLJitUFonBapiqMB0r1B_iMiVjlD3DOE--cU/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9sb2dv/cy13b3JsZC5uZXQv/d3AtY29udGVudC91/cGxvYWRzLzIwMjUv/MDQvVmlzdWFsLVN0/dWRpby1Mb2dvLTUw/MHgyODEucG5n"
+    },
+    "Microsoft Visual C++ 2015-2022 64bit": {
+      "id": "Microsoft.VCRedist.2015+.x64",
+      "logo": "https://imgs.search.brave.com/EXzdpz0XLJitUFonBapiqMB0r1B_iMiVjlD3DOE--cU/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9sb2dv/cy13b3JsZC5uZXQv/d3AtY29udGVudC91/cGxvYWRzLzIwMjUv/MDQvVmlzdWFsLVN0/dWRpby1Mb2dvLTUw/MHgyODEucG5n"
+    },
+    "OneDrive": {
+      "id": "Microsoft.OneDrive",
+      "logo": "https://imgs.search.brave.com/76G996BGawCKGxdOCQt6IZcgh-0SI5H3TLIooHX-_58/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9jZG4u/d29ybGR2ZWN0b3Js/b2dvLmNvbS9sb2dv/cy9taWNyb3NvZnQt/b2ZmaWNlLW9uZWRy/aXZlLTIwMTgtcHJl/c2VudC0uc3Zn"
+    },
+    "NuGet": {
+      "id": "Microsoft.NuGet",
+      "logo": "https://imgs.search.brave.com/kQgQ9FJvP9CI_QRhHLkGFDI8KKrSmHdeRi8BRXRLn64/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9jZG4u/aWNvbnNjb3V0LmNv/bS9pY29uL2ZyZWUv/cG5nLTI1Ni9mcmVl/LW51Z2V0LWxvZ28t/aWNvbi1kb3dubG9h/ZC1pbi1zdmctcG5n/LWdpZi1maWxlLWZv/cm1hdHMtLXRlY2hu/b2xvZ3ktc29jaWFs/LW1lZGlhLWNvbXBh/bnktYnJhbmQtdm9s/LTUtcGFjay1sb2dv/cy1pY29ucy0zMDMw/MTgzLnBuZz9mPXdl/YnAmdz0yNTY"
+    }
+  },
+  "Jeux": {
+    "Steam": {
+      "id": "Valve.Steam",
+      "logo": "https://imgs.search.brave.com/8FS-EOcfzbKoSQFbD9_T2sXMkbHQYFrPHxfpfPyPbys/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9sb2dv/LW1hcnF1ZS5jb20v/d3AtY29udGVudC91/cGxvYWRzLzIwMjAv/MTEvU3RlYW0tTG9n/by02NTB4MzY2LnBu/Zw"
+    },
+    "Epic Games Launcher": {
+      "id": "EpicGames.EpicGamesLauncher",
+      "logo": "https://imgs.search.brave.com/i3tMWZRWFXnTM0Mav7Y-mxOcdjFrhhW6NUAS-MG6-kY/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9hc3Nl/dHMuc3RpY2twbmcu/Y29tL2ltYWdlcy82/MTA2NzExZjM0YTdl/NTAwMDQzMzBlNTgu/cG5n"
+    },
+    "Ubisoft Connect": {
+      "id": "Ubisoft.Connect",
+      "logo": "https://imgs.search.brave.com/7B6yJyDJZEJXivWh-MY8P3gPR4U4VwlmJj8LJgXSIIs/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9jZG4u/d29ybGR2ZWN0b3Js/b2dvLmNvbS9sb2dv/cy91Ymlzb2Z0LWxv/Z28uc3Zn"
+    },
+    "GOG Galaxy": {
+      "id": "GOG.Galaxy",
+      "logo": "https://imgs.search.brave.com/de6T_zXIy4wxJhRfO3FTWsUrxUCIP42J0a7tzBiiRcg/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9jZG4u/cG5nZ2FsbGVyeS5j/b20vd3AtY29udGVu/dC91cGxvYWRzL2dv/Zy1nYWxheHktbG9n/by0wMS5wbmc"
+    },
+    "Nvidia GeForceNow": {
+      "id": "Nvidia.GeForceNow",
+      "logo": "https://imgs.search.brave.com/3xG8U5Yv3DkGZiejveXmnM9zkeJkCNgOayVmXN_LaHg/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pbWFn/ZXMuc2Vla2xvZ28u/Y29tL2xvZ28tcG5n/LzQ0LzIvbnZpZGlh/LWxvZ28tcG5nX3Nl/ZWtsb2dvLTQ0MzM2/My5wbmc"
+    },
+    "Prism Launcher": {
+      "id": "PrismLauncher.PrismLauncher",
+      "logo": "https://imgs.search.brave.com/Vpu-pVxZpvpcg4egUu5Z1b66T_9h36IxuxJZa1B5VuE/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9xdWls/dG1jLm9yZy9hc3Nl/dHMvaW1nL2xhdW5j/aGVycy9wcmlzbWxh/dW5jaGVyLnN2Zw"
+    },
+    "EA Desktop": {
+      "id": "ElectronicArts.EADesktop",
+      "logo": "https://imgs.search.brave.com/p7fHJpN2ev2OPET3ObVy0G13QLsTeWCT_OV39wP_ixM/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9jZG4u/d29ybGR2ZWN0b3Js/b2dvLmNvbS9sb2dv/cy9lYS1nYW1lcy1w/dXJlLWRlc2lnbi5z/dmc"
+    },
+    "PS Remote Play": {
+      "id": "PlayStation.PSRemotePlay",
+      "logo": "https://imgs.search.brave.com/HE78Xrk7mX1Jg9CqEneLNAz5uv9GudIoVJmv37eLLa8/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pbWFn/ZXMuaWNvbi1pY29u/cy5jb20vMzA1My9Q/TkcvNTEyL3BzX3Jl/bW90ZV9wbGF5X21h/Y29zX2JpZ3N1cl9p/Y29uXzE4OTg1NS5w/bmc"
+    }
+  },
+  "Developpements": {
+    "Visual Studio Code": {
+      "id": "Microsoft.VisualStudioCode",
+      "logo": "https://cdn.worldvectorlogo.com/logos/visual-studio-code-1.svg"
+    },
+    "Visual Studio 2022": {
+      "id": "Microsoft.VisualStudio.2022.Community",
+      "logo": "https://imgs.search.brave.com/EXzdpz0XLJitUFonBapiqMB0r1B_iMiVjlD3DOE--cU/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9sb2dv/cy13b3JsZC5uZXQv/d3AtY29udGVudC91/cGxvYWRzLzIwMjUv/MDQvVmlzdWFsLVN0/dWRpby1Mb2dvLTUw/MHgyODEucG5n"
+    },
+    "Github Desktop": {
+      "id": "GitHub.GitHubDesktop",
+      "logo": "https://cdn.worldvectorlogo.com/logos/github-icon-1.svg"
+    },
+    "NodeJS": {
+      "id": "OpenJS.NodeJS",
+      "logo": "https://cdn.worldvectorlogo.com/logos/nodejs-icon.svg"
+    },
+    "Python": {
+      "id": "Python.Python.3.12",
+      "logo": "https://cdn.worldvectorlogo.com/logos/python-5.svg"
+    },
+    "Rust": {
+      "id": "Rustlang.Rust.MSVC",
+      "logo": "https://cdn.worldvectorlogo.com/logos/rust.svg"
+    }
+  },
+  "Communication": {
+    "Discord": {
+      "id": "Discord.Discord",
+      "logo": "https://cdn.worldvectorlogo.com/logos/discord-6.svg"
+    },
+    "Vesktop": {
+      "id": "Vencord.Vesktop",
+      "logo": "https://imgs.search.brave.com/NNgJvrX4YiWAO0kHUitR3rC2sEkroalZEPE8Mq6an10/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly92ZXNr/dG9wLmRldi9fYXN0/cm8vdmVza3RvcC5C/QkNYMkRVOV9BMElJ/Zy5zdmc"
+    },
+    "Telegram": {
+      "id": "Telegram.TelegramDesktop",
+      "logo": "https://imgs.search.brave.com/12k_QwdCN3Rcbtp0vt9atu84e6WuIcyVn_3TYIEfF5o/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9sb2dv/LW1hcnF1ZS5jb20v/d3AtY29udGVudC91/cGxvYWRzLzIwMjEv/MDMvVGVsZWdyYW0t/TG9nby02NTB4MzY2/LnBuZw"
+    },
+    "Slack": {
+      "id": "SlackTechnologies.Slack",
+      "logo": "https://cdn.worldvectorlogo.com/logos/slack-new-logo.svg"
+    },
+    "Zoom": {
+      "id": "Zoom.Zoom",
+      "logo": "https://imgs.search.brave.com/Xrr59mXd-4FwUHNK5irxvNgy5k60-DnuWqkr35G0nUU/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9zdGF0/aWMudmVjdGVlenku/Y29tL3N5c3RlbS9y/ZXNvdXJjZXMvdGh1/bWJuYWlscy8wMTIv/ODcxLzM3Ni9zbWFs/bC96b29tLWxvZ28t/aW4tYmx1ZS1jb2xv/cnMtbWVldGluZ3Mt/YXBwLWxvZ290eXBl/LWlsbHVzdHJhdGlv/bi1mcmVlLXBuZy5w/bmc"
+    },
+    "Teams": {
+      "id": "Microsoft.Teams",
+      "logo": "https://imgs.search.brave.com/ZWB92IBEVQ4JdAY0Rt55imf5hndh6p3Vw8Sf12_aQ0I/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9zdGF0/aWMud2lraWEubm9j/b29raWUubmV0L2xv/Z29wZWRpYS9pbWFn/ZXMvMi8yNC9NaWNy/b3NvZnRfVGVhbXNf/MjAyNS5zdmcvcmV2/aXNpb24vbGF0ZXN0/L3NjYWxlLXRvLXdp/ZHRoLWRvd24vMjAw/P2NiPTIwMjUxMDAy/MjEyNjA1"
+    }
+  }
+}
+
