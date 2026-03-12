@@ -26,7 +26,7 @@ Le logiciel est fonctionnel, mais il reste quelques soucis côté graphique ou u
 - Version Linux : En developpement...
 .
 
-- Version Windows : [📦 Télécharger Keera Tools Windows](https://github.com/Nixiews/Keera-Tools/releases/tag/)
+- Version Windows : [📦 Télécharger Keera Tools Windows](https://github.com/JojoInfoMaker/KeeraTools/releases/)
 .
 
 - Site internet : https://keeratools.jojoinfomaker.fr
