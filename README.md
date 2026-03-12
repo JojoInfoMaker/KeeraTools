@@ -1,7 +1,7 @@
 # Bienvenue sur KeeraTools 
 
 <p align="center">
-  <img src="https://github.com/Nixiews/Keera-Tools/blob/main/Keera%20Logo.png?raw=true" alt="Logo Keera Tools" width="400"/>
+  <img src="https://github.com/JojoInfoMaker/Keera-Tools/blob/main/Keera%20Logo.png?raw=true" alt="Logo Keera Tools" width="400"/>
 </p>
 
 ## You are English ?
@@ -40,9 +40,9 @@ Vous avez deux option :
 
 ## Beta Testeurs et Aides
 Nous remercions les personnes qui nous on aider a tester le logiciel, donner des conseils !
-- Nocxito
-- Ayka
-- xsryuuk (Merci encore pour le logo)
+- NocxComputer (Site Internet -> https://nocxcomputer.fr)
+- AykaDev
+- Xsryuuk (logo)
 
 ---------
 la Licence de Keera Tools juste ici -> [LICENSE](LICENSE.md)
