@@ -1,6 +1,6 @@
 # LICENSE FOR Keera Tools / LICENCE POUR Keera Tools
 
-Copyright © Jojo - Infomaker and Nixiews 2025
+Creator : Jojo - Infomaker and Nixiews 2026
 
 ## ENGLISH VERSION
 This software is released under a non-commercial open source license.
