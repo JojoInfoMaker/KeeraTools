@@ -25,7 +25,7 @@ The software is functional, but there are still a few issues with the graphics a
 - Linux version: in development....
 
 
-- Windows version: [📦 Download Keera Tools Windows](https://github.com/Nixiews/Keera-Tools/releases/tag/).
+- Windows version: [📦 Download Keera Tools Windows](https://github.com/JojoInfoMaker/KeeraTools/releases/tag/).
 
 
 - Website: https://keeratools.jojoinfomaker.fr
