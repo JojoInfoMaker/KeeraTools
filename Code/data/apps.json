@@ -35,8 +35,16 @@
     "Waterfox": {
       "id": "Waterfox.Waterfox",
       "logo": "https://imgs.search.brave.com/XT_JDM8h5n4_Ygbk0S9uB2cB12_6x0gV6ypWz6ADUDw/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9jZG4u/ZHJpYmJibGUuY29t/L3VzZXJ1cGxvYWQv/MjQ2NzY1MTgvZmls/ZS9vcmlnaW5hbC0y/NWJiZDJlYTI4MjI1/MDlmODY4NDIyMGI0/MzBiYzUwMy5wbmc_/Zm9ybWF0PXdlYnAm/cmVzaXplPTQwMHgz/MDAmdmVydGljYWw9/Y2VudGVy"
+    },
+    "Vivaldi Browser": {
+      "id": "Vivaldi.Vivaldi",
+      "logo": "https://imgs.search.brave.com/_BiGLvO7q7Mk955v_Vh_3k4NfoFgYG8LVWB7hnDArWM/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93cC5s/b2dvcy1kb3dubG9h/ZC5jb20vd3AtY29u/dGVudC91cGxvYWRz/LzIwMTkvMDYvVml2/YWxkaV9Mb2dvX29s/ZC03MDB4NzAwLnBu/Zw"
+    },
+    "Zen Browser": {
+      "id": "Zen-Team.Zen-Browser",
+      "logo": "https://imgs.search.brave.com/_82xJpi_zNiuLXy9GerKQNOus3HAwJR7vOcUY8wNhyw/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9jZG4u/anNkZWxpdnIubmV0/L2doL2hvbWFyci1s/YWJzL2Rhc2hib2Fy/ZC1pY29ucy93ZWJw/L3plbi1icm93c2Vy/LWRhcmsud2VicA"
     }
-  },
+   },
   "Bureautique": {
     "LibreOffice": {
       "id": "TheDocumentFoundation.LibreOffice",
@@ -100,10 +108,6 @@
       "id": "Apple.iTunes",
       "logo": "https://imgs.search.brave.com/Ake1HRWzsqYaEfo8z7kfrxccM37jcXNnb-jvoy5uQCI/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly8xMDAw/bG9nb3MubmV0L3dw/LWNvbnRlbnQvdXBs/b2Fkcy8yMDE4LzA1/L0l0dW5lcy1sb2dv/LTUwMHgyODEucG5n"
     },
-    "Jellyfin Server": {
-      "id": "Jellyfin.Server",
-      "logo": "https://imgs.search.brave.com/5HHECRoETCP7P5rjY9O58Gc2juUYlw9SFGvOuGwxKRQ/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9jZG4u/anNkZWxpdnIubmV0/L2doL2hvbWFyci1s/YWJzL2Rhc2hib2Fy/ZC1pY29ucy93ZWJw/L2plbGx5ZmluLndl/YnA"
-    },
     "Jellyfin Media Player": {
       "id": "Jellyfin.JellyfinMediaPlayer",
       "logo": "https://imgs.search.brave.com/5HHECRoETCP7P5rjY9O58Gc2juUYlw9SFGvOuGwxKRQ/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9jZG4u/anNkZWxpdnIubmV0/L2doL2hvbWFyci1s/YWJzL2Rhc2hib2Fy/ZC1pY29ucy93ZWJw/L2plbGx5ZmluLndl/YnA"
@@ -119,6 +123,18 @@
     "FFMpeg": {
       "id": "Gyan.FFmpeg",
       "logo": "https://imgs.search.brave.com/q70IFsFEcBpJIi-_szSOdcbY6dpGEX4A21o7dGlmCN4/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pbWFn/ZXMuc2Vla2xvZ28u/Y29tL2xvZ28tcG5n/LzQ0LzMvZmZtcGVn/LWxvZ28tcG5nX3Nl/ZWtsb2dvLTQ0MTgw/My5wbmc"
+    },
+    "GIMP": {
+      "id": "GIMP.GIMP.2",
+      "logo": "https://imgs.search.brave.com/IJx1E4Fq2e6G7tq6NYdh8-86vaZuDoeEryTyXEWwHZg/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pbWFn/ZXMuaWNvbi1pY29u/cy5jb20vMjY5OS9Q/TkcvNTEyL2dpbXBf/bG9nb19pY29uXzE2/ODE3OS5wbmc"
+    },
+    "Mp3Tag": {
+      "id": "FlorianHeidenreich.Mp3tag",
+      "logo": "https://imgs.search.brave.com/ZbUHdBu_C06L6kkgtQoc-uj0mL-3_fflNdlOYhVlZ8A/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pbWFn/ZXMuc2Z0Y2RuLm5l/dC9pbWFnZXMvdF9h/cHAtaWNvbi1zL3Av/NTMxMDg5ODYtOTZk/MS0xMWU2LTg5OWMt/MDAxNjNlYzlmNWZh/LzQyNjk2MjIxNjkv/bXAzdGFnLWxvZ28u/cG5n"
+    },
+    "Plex Media": {
+      "id": "Plex.Plex",
+      "logo": "https://imgs.search.brave.com/PKAMu_9K2tSGrCTHuDNmnd-IvE4A1rd7aX5bKo6qKa8/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pY29u/bG9nb3ZlY3Rvci5j/b20vdXBsb2Fkcy9p/bWFnZXMvMjAyNC8w/My9sZy02NWU0ZTdi/MWU3MjAyLVBsZXgu/d2VicA"
     }
   },
   "Outils Professionnel": {
@@ -145,6 +161,26 @@
     "WireShark": {
       "id": "WiresharkFoundation.Wireshark",
       "logo": "https://imgs.search.brave.com/xWzu4QstmPNmOdbjKHxd23yBhD-xIAdcqs3BVGCWdEw/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93d3cu/d2lyZXNoYXJrLm9y/Zy9fYXN0cm8vd2ly/ZXNoYXJrLWxvZ28t/YmlnLkNrUmpTT2FD/X3ZrcmVILnBuZw"
+    },
+    "Angry IP Scanner": {
+      "id": "angryziber.AngryIPScanner",
+      "logo": "https://imgs.search.brave.com/OJOrbOnsVN4a8UHcXsQGFbDnBEpdOgiwNhUDyvzGF5s/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pbWcu/c29mdG9yYWdlLmNv/bS9zb2Z0d2FyZS1s/b2dvL2FuZ3J5LWlw/LXNjYW5uZXIuc3Zn"
+    },
+    "PuTTY": {
+      "id": "PuTTY.PuTTY",
+      "logo": "https://imgs.search.brave.com/gzw2vXePG_Mn_yHGAQD-1UqX7VERlzabHqMHqwpwWDo/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9mcmVl/c3ZnLm9yZy9pbWcv/MTY2MTQwNzQ1NnB1/dHR5LnBuZw"
+    },
+    "RustDesk": {
+      "id": "RustDesk.RustDesk",
+      "logo": "https://imgs.search.brave.com/A9rIKhHxP8uJ1slQ-jjsWDzO_Y1utwvkqk42HGV9UHE/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93d3cu/bW91c2VtdXguY29t/L3BhZ2VzL2FwcHMv/cnVzdGRlc2svaWNv/bi5wbmc"
+    },
+    "Nmap": {
+      "id": "Insecure.Nmap",
+      "logo": "https://imgs.search.brave.com/PfMmlMDZE3UtNB-6h7D-7DqTdUbLfJEmvvr16bI3f_4/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9zZWVs/YS5pby93cC1jb250/ZW50L3VwbG9hZHMv/MjAyMi8xMS9ubWFw/LWxvZ28tMjU2eDI1/Ni0xLnBuZw"
+    },
+    "mRemoteNG": {
+      "id": "mRemoteNG.mRemoteNG",
+      "logo": "https://imgs.search.brave.com/PSCqgRIOItqeHV2P7eDXv--hsBvINGvDRjhWm5Q05wA/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93aW5h/cHBhY2suZnIvaW1h/Z2VzL3NvZnR3YXJl/X3N2Z18xODB4MTgw/L21SZW1vdGVORy5z/dmc"
     }
   },
   "Utilitaires Windows": {
@@ -263,6 +299,10 @@
     "VoiceMeeter Potato": {
       "id": "VB-Audio.Voicemeeter.Potato",
       "logo": "https://imgs.search.brave.com/CiWjgtlNiUGGhBkBMyVfxVeVVO06EvSrTtSo7DNo3gg/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly92b2lj/ZW1lZXRlci5jb20v/d3AtY29udGVudC91/cGxvYWRzL1ZvaWNl/TWVldGVyLXNxdWFy/ZS1sb2dvLmpwZw"
+    },
+    "Jellyfin Server": {
+      "id": "Jellyfin.Server",
+      "logo": "https://imgs.search.brave.com/5HHECRoETCP7P5rjY9O58Gc2juUYlw9SFGvOuGwxKRQ/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9jZG4u/anNkZWxpdnIubmV0/L2doL2hvbWFyci1s/YWJzL2Rhc2hib2Fy/ZC1pY29ucy93ZWJw/L2plbGx5ZmluLndl/YnA"
     }
   },
   "Outils Microsoft": {
@@ -309,6 +349,34 @@
     "NuGet": {
       "id": "Microsoft.NuGet",
       "logo": "https://imgs.search.brave.com/kQgQ9FJvP9CI_QRhHLkGFDI8KKrSmHdeRi8BRXRLn64/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9jZG4u/aWNvbnNjb3V0LmNv/bS9pY29uL2ZyZWUv/cG5nLTI1Ni9mcmVl/LW51Z2V0LWxvZ28t/aWNvbi1kb3dubG9h/ZC1pbi1zdmctcG5n/LWdpZi1maWxlLWZv/cm1hdHMtLXRlY2hu/b2xvZ3ktc29jaWFs/LW1lZGlhLWNvbXBh/bnktYnJhbmQtdm9s/LTUtcGFjay1sb2dv/cy1pY29ucy0zMDMw/MTgzLnBuZz9mPXdl/YnAmdz0yNTY"
+    },
+    "NTLite": {
+      "id": "Nlitesoft.NTLite",
+      "logo": "https://imgs.search.brave.com/ToNc_w0bc9xqHv6kOboarfbdR0l5cQ0xS9w1Oy3ODJA/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9jaHJp/c3RpdHVzLmNvbS9p/bWFnZXMvMjAyMi9u/dGxpdGUvbnRsaXRl/LndlYnA"
+    },
+    "Autoruns": {
+      "id": "Microsoft.Sysinternals.Autoruns",
+      "logo": "https://imgs.search.brave.com/3m7K6OfkWg8S0nlqdVoI8DlJIwhsBzNTe1AFBCuyeBc/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9jZG4t/dGxjLjAxbmV0LmNv/bS9vN1R4YWdMdVl5/T3haUlZqWUVSejdM/bGROdnVqTmpsam93/VFE5VFdJLnBuZw"
+    },
+    "PowerToys": {
+      "id": "Microsoft.PowerToys",
+      "logo": "https://imgs.search.brave.com/DDRlv15wB8-L1KgPvBZV1tFbucJ8oR-xVovvRl0q1Bg/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9zdGF0/aWMud2lraWEubm9j/b29raWUubmV0L2xv/Z29wZWRpYS9pbWFn/ZXMvYS9hYi9Qb3dl/clRveXMuc3ZnL3Jl/dmlzaW9uL2xhdGVz/dC9zY2FsZS10by13/aWR0aC1kb3duLzIw/MD9jYj0yMDI1MDEx/ODA2NDk1Nw"
+    },
+    "Microsoft Terminal": {
+      "id": "Microsoft.WindowsTerminal",
+      "logo": "https://imgs.search.brave.com/GPuxqAIUxnNyU5iFJZW0R5XXsN8Z5gM_xlwUqZTub1Q/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9zdGF0/aWMud2lraWEubm9j/b29raWUubmV0L2xv/Z29wZWRpYS9pbWFn/ZXMvNC80Ny9XaW5k/b3dzX1Rlcm1pbmFs/LnN2Zy9yZXZpc2lv/bi9sYXRlc3Q_Y2I9/MjAyMTA3MzEyMDEw/MTU"
+    },
+    "Power Automate": {
+      "id": "Microsoft.PowerAutomateDesktop",
+      "logo": "https://imgs.search.brave.com/3BPQZe22M6uugkzShTjzVnhk9fWekQRqb_DeNYONdIE/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly91cGxv/YWQud2lraW1lZGlh/Lm9yZy93aWtpcGVk/aWEvY29tbW9ucy80/LzRkL01pY3Jvc29m/dF9Qb3dlcl9BdXRv/bWF0ZS5zdmc"
+    },
+    "Windows Subsystem for Linux": {
+      "id": "Microsoft.WSL",
+      "logo": "https://imgs.search.brave.com/SXPZfTGlhdCIC2ANdy_hcKHUtB01JAGiUZw579IqG_w/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93d3cu/bGludXhmb3VuZGF0/aW9uLm9yZy9odWJm/cy9UdXgtZmxhdC12/ZXJzaW9uLnN2Zw"
+    },
+    "SQL Server Management Studio": {
+      "id": "Microsoft.SQLServerManagementStudio",
+      "logo": "https://imgs.search.brave.com/CSHOjs84Kl4mWx_Aj2Lr-og7LQJ2vjNVrS3HbwlPrbg/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9sb2dv/ZGl4LmNvbS9sb2dv/LzY5NjQzMi5wbmc"
     }
   },
   "Jeux": {
@@ -369,6 +437,22 @@
     "Rust": {
       "id": "Rustlang.Rust.MSVC",
       "logo": "https://cdn.worldvectorlogo.com/logos/rust.svg"
+    },
+    "Godot Engine": {
+      "id": "GodotEngine.GodotEngine",
+      "logo": "https://imgs.search.brave.com/Wy8FKTiQ8dWKx8UfDrStWG-ORSGGgI2tO-EtCxTAz00/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9nb2Rv/dGVuZ2luZS5vcmcv/YXNzZXRzL3ByZXNz/L2xvZ29fbGFyZ2Vf/Y29sb3JfbGlnaHQu/cG5n"
+    },
+    "Docker Desktop": {
+      "id": "Docker.DockerDesktop",
+      "logo": "https://imgs.search.brave.com/suLDD0zCc57p-dxoysPJb-PyGJR6HIGymD6B06QFDcM/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93d3cu/ZG9ja2VyLmNvbS9h/cHAvdXBsb2Fkcy8y/MDI1LzA3L2xvZ28t/ZG9ja2VyLW1hcmst/ZGVlcC1ibHVlLnN2/Zw"
+    },
+    "Git": {
+      "id": "Microsoft.Git",
+      "logo": "https://imgs.search.brave.com/MEQDe4Za8XXJAKyQA4C9cccYgPKMlDZQM47VF8oxWJQ/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly91cGxv/YWQud2lraW1lZGlh/Lm9yZy93aWtpcGVk/aWEvY29tbW9ucy82/LzYyL0dpdC1sb2dv/LW9yYW5nZS5zdmc"
+    },
+    "Anaconda": {
+      "id": "Anaconda.Anaconda3",
+      "logo": "https://imgs.search.brave.com/PaUauV8ddiiEYocrp00Ozv8mal8-YtaGVNkSw6fB4Xo/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9taW50/Y2RuLmNvbS9hbmFj/b25kYS0yOTY4M2M2/Ny90MlhKeUQ1MkxN/X3ZUMG04L2xvZ28v/bGlnaHQuc3ZnP2Zp/dD1tYXgmYXV0bz1m/b3JtYXQmbj10MlhK/eUQ1MkxNX3ZUMG04/JnE9ODUmcz04ZDZk/MDQ3NWQ2NGNkNjBk/ZDJhOGRlNjk2NTYy/M2NiMQ"
     }
   },
   "Communication": {
